@@ -4,17 +4,41 @@
     <meta charset="utf-8" />
     <title></title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="Test.js"></script>
+    <script type="text/javascript" src="Main.js"></script>
 </head>
 <body>
-<select id="demon" name="demon"></select>
+
+<div id="demon1">
+    <img id="demon1image" />
+    <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)"></select>
+    <div id="demomStats1">
+        <br/>
+        <select id="demon1archtype" onchange="ChangeDemon(demonSel1)">
+            <option value="clear">Clear</option>
+            <option value="red">Red</option>
+            <option value="teal">Teal</option>
+            <option value="purple">Purple</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <br/>
+        Skills:
+        <br/>
+        <span id="demon1skill1"></span> <br/>
+        <span id="demon1skill2"></span> <br/>
+        <span id="demon1skill3"></span> <br/>
+        <span id="demon1awakenskill1"></span> <br/>
+        <select id="demon1customskill1"></select>
+        <select id="demon1customskill2"></select>
+    </div>
+</div>
+
+    
+    
+    
+    
 
 <script type="text/javascript">
     LoadData();
 </script>
-
-
-
-
 </body>
 </html>
