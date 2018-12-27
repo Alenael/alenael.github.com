@@ -1,3 +1,8 @@
+<html>
+<head>
+<style>
+td { width:100px; border:1px solid black; }
+</style>
 <script>
 function doit1() {
 var file = document.getElementById('fileid').files[0]; // selected file
@@ -16,3 +21,10 @@ var file = document.getElementById('fileid').files[0]; // selected file
   reader.readAsText(file); // readAsText
 }
 </script>
+</head>
+<body>
+<input type="file" id="fileid" onchange="doit1();" />
+<div id="tbldiv">
+</div>
+</body>
+</html>
