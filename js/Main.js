@@ -270,8 +270,8 @@ function CalculateTotalSpeed() {
     var demon2Speed = GetDemonSpeed(2);
     var demon3Speed = GetDemonSpeed(3);
     var demon4Speed = GetDemonSpeed(4);
-
-    var totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) / 4);
+    var count = Math.min(demon1Speed, 1) + Math.min(demon2Speed, 1) + Math.min(demon3Speed, 1) + Math.min(demon4Speed, 1);
+    var totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) * (100/count));
     
     document.getElementById("totalspeed").innerHTML = "Total Speed: " + totalSpeed;
 }
@@ -283,38 +283,39 @@ function GetDemonSpeed(num) {
     var extraAgi = 0;
     var extraPercent = 1;
 
-    //Calculate Extra Agi
-    if (demon["Skill 1"] == "Agility Amp I" ||
-        demon["Skill 2"] == "Agility Amp I" ||
-        demon["Skill 3"] == "Agility Amp I" ||
-        $('#demon' + num + "customskill1").val() == "Agility Amp I" ||
-        $('#demon' + num + "customskill2").val() == "Agility Amp I")
-        extraAgi += 5;
+    if (demon != null) {
+        //Calculate Extra Agi
+        if (demon["Skill 1"] == "Agility Amp I" ||
+            demon["Skill 2"] == "Agility Amp I" ||
+            demon["Skill 3"] == "Agility Amp I" ||
+            $('#demon' + num + "customskill1").val() == "Agility Amp I" ||
+            $('#demon' + num + "customskill2").val() == "Agility Amp I")
+            extraAgi += 5;
 
-    if (demon["Skill 1"] == "Agility Amp II" ||
-        demon["Skill 2"] == "Agility Amp II" ||
-        demon["Skill 3"] == "Agility Amp II" ||
-        $('#demon' + num + "customskill1").val() == "Agility Amp II" ||
-        $('#demon' + num + "customskill2").val() == "Agility Amp II")
-        extraAgi += 10;
+        if (demon["Skill 1"] == "Agility Amp II" ||
+            demon["Skill 2"] == "Agility Amp II" ||
+            demon["Skill 3"] == "Agility Amp II" ||
+            $('#demon' + num + "customskill1").val() == "Agility Amp II" ||
+            $('#demon' + num + "customskill2").val() == "Agility Amp II")
+            extraAgi += 10;
 
-    if (demon["Skill 1"] == "Agility Amp III" ||
-        demon["Skill 2"] == "Agility Amp III" ||
-        demon["Skill 3"] == "Agility Amp III" ||
-        $('#demon' + num + "customskill1").val() == "Agility Amp III" ||
-        $('#demon' + num + "customskill2").val() == "Agility Amp III")
-        extraAgi += 15;
+        if (demon["Skill 1"] == "Agility Amp III" ||
+            demon["Skill 2"] == "Agility Amp III" ||
+            demon["Skill 3"] == "Agility Amp III" ||
+            $('#demon' + num + "customskill1").val() == "Agility Amp III" ||
+            $('#demon' + num + "customskill2").val() == "Agility Amp III")
+            extraAgi += 15;
 
-    //Calculate extra percent
-    if (demon["Skill 1"] == "Speedster" ||
-        demon["Skill 2"] == "Speedster" ||
-        demon["Skill 3"] == "Speedster" ||
-        $('#demon' + num + "customskill1").val() == "Speedster" ||
-        $('#demon' + num + "customskill2").val() == "Speedster")
-        extraPercent += .5;
+        //Calculate extra percent
+        if (demon["Skill 1"] == "Speedster" ||
+            demon["Skill 2"] == "Speedster" ||
+            demon["Skill 3"] == "Speedster" ||
+            $('#demon' + num + "customskill1").val() == "Speedster" ||
+            $('#demon' + num + "customskill2").val() == "Speedster")
+            extraPercent += .5;
 
-    if (demon != null)
-        speed = Math.floor(((demon["6★ Agility"] + extraAgi) * 100) * extraPercent);
+        speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
+    }
 
     return speed;
 }
