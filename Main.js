@@ -105,9 +105,9 @@ function CreateURL() {
             parameters += "demon2archtype=" + $('#demon2archtype').val() + "&";
 
             if ($('#demon2customskill1').val() != nullText)
-                parameters += "demon1skill1=" + $('#demon2customskill1').val() + "&";
+                parameters += "demon2skill1=" + $('#demon2customskill1').val() + "&";
             if ($('#demon2customskill2').val() != nullText)
-                parameters += "demon1skill2=" + $('#demon2customskill2').val() + "&";
+                parameters += "demon2skill2=" + $('#demon2customskill2').val() + "&";
         }
         if ($('#demonSel3').val() != nullText) {
             parameters += "demon3=" + $('#demonSel3').val() + "&";
