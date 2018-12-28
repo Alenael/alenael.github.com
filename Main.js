@@ -237,8 +237,10 @@ function ChangeDemon(control) {
 
 function SetupDemonControls(controlNum) {
     var sel = $('#demonSel' + controlNum).val();
-    demonData.forEach(function (demon) {
+    demonData.forEach(function(demon) {
         if (demon.Name == sel) {
+            document.getElementById("demon" + controlNum + "image").style.visibility = 'visible';
+            document.getElementById("demon" + controlNum + "image").src = "/Images/Demons/" + demon.Name + ".jpg";
             document.getElementById("demon" + controlNum + "skill1").innerHTML = demon["Skill 1"];
             document.getElementById("demon" + controlNum + "skill1").title = GetSkillInfo(demon["Skill 1"]);
             document.getElementById("demon" + controlNum + "skill2").innerHTML = demon["Skill 2"];
@@ -253,13 +255,8 @@ function SetupDemonControls(controlNum) {
                 document.getElementById("demon" + controlNum + "customskill1").value =
                     GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
             }
-
-            //Does not appear to be working?
-            //document.getElementById("demon" + controlNum + "customskill1").title =
-            //    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
-
-            //document.getElementById("demon" + controlNum + "customskill2").title =
-            //    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
+        } else if (nullText == sel) {
+            document.getElementById("demon" + controlNum + "image").style.visibility = 'hidden';
         }
     });
 }
