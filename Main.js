@@ -1,11 +1,149 @@
 ﻿var demonData;
 var skillData;
 var nullText = "-----------";
+var baseUrl = "https://alenael.github.io/TeamBuilder/Index.html";
 
 function LoadData() {
 
+    $.when(JsonLoader1(), JsonLoader2()).done(function (a1, a2) {
+        ReadURL();
+    });
+}
+
+//Reads the URl upon load to see if we have a special build being loaded
+function ReadURL() {
+    if (window.location.href.includes("?")) {
+        var result = window.atob(window.location.href.split('?')[1]);
+        
+        var url = new URL(decodeURI(baseUrl + "?" + result));
+
+        var demon1 = url.searchParams.get("demon1");
+        var demon1Archtype = url.searchParams.get("demon1archtype");
+        var demon1Skill1 = url.searchParams.get("demon1skill1");
+        var demon1Skill2 = url.searchParams.get("demon1skill2");
+        var demon2 = url.searchParams.get("demon2");
+        var demon2Archtype = url.searchParams.get("demon2archtype");
+        var demon2Skill1 = url.searchParams.get("demon2skill1");
+        var demon2Skill2 = url.searchParams.get("demon2skill2");
+        var demon3 = url.searchParams.get("demon3");
+        var demon3Archtype = url.searchParams.get("demon3archtype");
+        var demon3Skill1 = url.searchParams.get("demon3skill1");
+        var demon3Skill2 = url.searchParams.get("demon3skill2");
+        var demon4 = url.searchParams.get("demon4");
+        var demon4Archtype = url.searchParams.get("demon4archtype");
+        var demon4Skill1 = url.searchParams.get("demon4skill1");
+        var demon4Skill2 = url.searchParams.get("demon4skill2");
+
+        if (demon1 != null) {
+            document.getElementById("demonSel1").value = demon1;
+            document.getElementById("demon1archtype").value = demon1Archtype;
+
+            if (demon1Skill1 != null) {
+                document.getElementById("demon1gachalock").checked = true;
+                document.getElementById("demon1customskill1").value = demon1Skill1;
+            }
+            if (demon1Skill2 != null)
+                document.getElementById("demon1customskill2").value = demon1Skill2;
+        }
+
+        if (demon2 != null) {
+            document.getElementById("demonSel2").value = demon2;
+            document.getElementById("demon2archtype").value = demon2Archtype;
+
+            if (demon2Skill1 != null) {
+                document.getElementById("demon2gachalock").checked = true;
+                document.getElementById("demon2customskill1").value = demon2Skill1;
+            }
+            if (demon2Skill2 != null)
+                document.getElementById("demon2customskill2").value = demon2Skill2;
+        }
+
+        if (demon3 != null) {
+            document.getElementById("demonSel3").value = demon3;
+            document.getElementById("demon3archtype").value = demon3Archtype;
+
+            if (demon3Skill1 != null) {
+                document.getElementById("demon3gachalock").checked = true;
+                document.getElementById("demon3customskill1").value = demon3Skill1;
+            }
+            if (demon3Skill2 != null)
+                document.getElementById("demon3customskill2").value = demon3Skill2;
+        }
+        if (demon4 != null) {
+            document.getElementById("demonSel4").value = demon4;
+            document.getElementById("demon4archtype").value = demon4Archtype;
+
+            if (demon4Skill1 != null) {
+                document.getElementById("demon4gachalock").checked = true;
+                document.getElementById("demon4customskill1").value = demon4Skill1;
+            }
+            if (demon4Skill2 != null)
+                document.getElementById("demon4customskill2").value = demon4Skill2;
+        }
+
+        ReloadAll();
+    }
+}
+
+
+//Generates our URl on button press
+function CreateURL() {
+
+        var parameters = "";
+
+        if ($('#demonSel1').val() != nullText) {
+            parameters += "demon1=" + $('#demonSel1').val() + "&";
+            parameters += "demon1archtype=" + $('#demon1archtype').val() + "&";
+
+            if ($('#demon1customskill1').val() != nullText)
+                parameters += "demon1skill1=" + $('#demon1customskill1').val() + "&";
+            if ($('#demon1customskill2').val() != nullText)
+                parameters += "demon1skill2=" + $('#demon1customskill2').val() + "&";
+        }
+        if ($('#demonSel2').val() != nullText) {
+            parameters += "demon2=" + $('#demonSel2').val() + "&";
+            parameters += "demon2archtype=" + $('#demon2archtype').val() + "&";
+
+            if ($('#demon2customskill1').val() != nullText)
+                parameters += "demon1skill1=" + $('#demon2customskill1').val() + "&";
+            if ($('#demon2customskill2').val() != nullText)
+                parameters += "demon1skill2=" + $('#demon2customskill2').val() + "&";
+        }
+        if ($('#demonSel3').val() != nullText) {
+            parameters += "demon3=" + $('#demonSel3').val() + "&";
+            parameters += "demon3archtype=" + $('#demon3archtype').val() + "&";
+
+            if ($('#demon1customskill1').val() != nullText)
+                parameters += "demon3skill1=" + $('#demon3customskill1').val() + "&";
+            if ($('#demon1customskill2').val() != nullText)
+                parameters += "demon3skill2=" + $('#demon3customskill2').val() + "&";
+        }
+        if ($('#demonSel4').val() != nullText) {
+            parameters += "demon4=" + $('#demonSel4').val() + "&";
+            parameters += "demon4archtype=" + $('#demon4archtype').val() + "&";
+
+            if ($('#demon1customskill1').val() != nullText)
+                parameters += "demon4skill1=" + $('#demon4customskill1').val() + "&";
+            if ($('#demon1customskill2').val() != nullText)
+                parameters += "demon4skill2=" + $('#demon4customskill2').val() + "&";
+        }
+
+
+        document.getElementById("urlLbl").innerHTML =
+            baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
+
+        //var lzma = new LZMA("../src/lzma_worker.js");
+        //lzma.compress(parameters.substring(0, parameters.length - 1),
+        //    1,
+        //    function on_compress_complete(result) {
+        //        document.getElementById("urlLbl").innerHTML = baseUrl + "?" + result;
+        //    });
+    
+}
+
+function JsonLoader1() {
     //Load Skills
-    $.getJSON("https://alenael.github.io/TeamBuilder/Data/Skills.json", function (skills) {
+    return $.getJSON("https://alenael.github.io/TeamBuilder/Data/Skills.json", function (skills) {
         skillData = skills;
 
         LoadSkillControl("demon1customskill1");
@@ -20,9 +158,11 @@ function LoadData() {
         LoadSkillControl("demon4customskill1");
         LoadSkillControl("demon4customskill2");
     });
+}
 
+function JsonLoader2() {
     //Load Demons
-    $.getJSON("https://alenael.github.io/TeamBuilder/Data/Demons.json", function(demons) {
+    return $.getJSON("https://alenael.github.io/TeamBuilder/Data/Demons.json", function (demons) {
         demonData = demons;
 
         LoadDemonControl("demonSel1");
@@ -37,12 +177,14 @@ function LoadSkillControl(control) {
     var select = document.getElementById(control);
     var option = document.createElement('option');
     option.text = nullText;
+    option.value = nullText;
     select.add(option, 0);
 
     for (var i = 0; i <= skillData.length - 1; i++) {
         //Load all the demons and add them to our list
         var option = document.createElement('option');
         option.text = skillData[i].Name;
+        option.value = skillData[i].Name;
         select.add(option, 0);
     }
 
@@ -54,12 +196,14 @@ function LoadDemonControl(control) {
     var select = document.getElementById(control);
     var option = document.createElement('option');
     option.text = nullText;
+    option.value = nullText;
     select.add(option, 0);
 
     for (var i = 0; i <= demonData.length - 1; i++) {
         //Load all the demons and add them to our list
         var option = document.createElement('option');
         option.text = demonData[i].Name;
+        option.value = demonData[i].Name;
         select.add(option, 0);
     }
 
@@ -72,6 +216,13 @@ function SortByABC(control) {
     var opts_list = sel.find('option');
     opts_list.sort(function (a, b) { return $(a).text() > $(b).text() ? 1 : -1; });
     sel.html('').append(opts_list);
+}
+
+function ReloadAll() {
+    ChangeDemon(document.getElementById("demonSel1"));
+    ChangeDemon(document.getElementById("demonSel2"));
+    ChangeDemon(document.getElementById("demonSel3"));
+    ChangeDemon(document.getElementById("demonSel4"));
 }
 
 function ChangeDemon(control) {
@@ -104,8 +255,6 @@ function SetupDemonControls(controlNum) {
                 document.getElementById("demon" + controlNum + "customskill1").value =
                     GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
             }
-
-            //demon1customskill1
         }
     });
 }
