@@ -10,16 +10,16 @@
 </head>
 <body>
 <div id="content" align="center">
-    <h1>Dx2 Team Builder</h1>
-    <br/>
+    <h2>Dx2 Team Builder</h2>
     <table>
         <tr>
+            <h4 id="totalspeed">Total Speed: 0</h4>
             <td>
-                <div id="demon1">
+                <div id="demon1" align="center">
                     <img id="demon1image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats1">
-                        <br/>
+                        <br />
                         <select id="demon1archtype" onchange="ChangeDemon(demonSel1)" class="element">
                             <option value="clear">Clear</option>
                             <option value="red">Red</option>
@@ -27,20 +27,22 @@
                             <option value="purple">Purple</option>
                             <option value="yellow">Yellow</option>
                         </select>
-                        <br/>
+                        <br />
                         Skills:
-                        <br/>
-                        <span id="demon1skill1" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <span id="demon1skill2" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <span id="demon1skill3" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <span id="demon1awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <select id="demon1customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon1gachalock" class="element">Lock <br/>
-                        <select id="demon1customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        <br />
+                        <span id="demon1skill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                        <span id="demon1skill2" data-toggle="tooltip" title="" class="element"></span> <br />
+                        <span id="demon1skill3" data-toggle="tooltip" title="" class="element"></span> <br />
+                        <span id="demon1awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                        <div id="demon1customskills" align="left">
+                            <select id="demon1customskill1" data-toggle="tooltip" title="" class="element" onchange="CalculateTotalSpeed();"></select> <input type="checkbox" id="demon1gachalock" class="element">Lock <br />
+                            <select id="demon1customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
+                        </div>
                     </div>
                 </div>
             </td>
             <td>
-                <div id="demon2">
+                <div id="demon2" align="center">
                     <img id="demon2image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel2" name="demonSel2" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats2">
@@ -59,13 +61,15 @@
                         <span id="demon2skill2" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon2skill3" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon2awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <select id="demon2customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon2gachalock" class="element">Lock <br/>
-                        <select id="demon2customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        <div id="demon2customskills" align="left">
+                            <select id="demon2customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon2gachalock" class="element">Lock <br/>
+                            <select id="demon2customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        </div>
                     </div>
                 </div>
             </td>
             <td>
-                <div id="demon3">
+                <div id="demon3" align="center">
                     <img id="demon3image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats3">
@@ -84,13 +88,15 @@
                         <span id="demon3skill2" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon3skill3" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon3awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <select id="demon3customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon3gachalock" class="element">Lock <br/>
-                        <select id="demon3customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        <div id="demon3customskills" align="left">
+                            <select id="demon3customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon3gachalock" class="element">Lock <br/>
+                            <select id="demon3customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        </div>
                     </div>
                 </div>
             </td>
             <td>
-                <div id="demon4">
+                <div id="demon4" align="center">
                     <img id="demon4image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats4">
@@ -109,8 +115,11 @@
                         <span id="demon4skill2" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon4skill3" data-toggle="tooltip" title="" class="element"></span> <br/>
                         <span id="demon4awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br/>
-                        <select id="demon4customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon4gachalock" class="element">Lock <br/>
-                        <select id="demon4customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        <div id="demon4customskills" align="left">
+                            <select id="demon4customskill1" data-toggle="tooltip" title="" class="element"></select>
+                            <input type="checkbox" id="demon4gachalock" class="element">Lock <br/>
+                            <select id="demon4customskill2" data-toggle="tooltip" title="" class="element"></select> <br/>
+                        </div>
                     </div>
                 </div>
             </td>

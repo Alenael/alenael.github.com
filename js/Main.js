@@ -216,6 +216,7 @@ function ReloadAll() {
     ChangeDemon(document.getElementById("demonSel2"));
     ChangeDemon(document.getElementById("demonSel3"));
     ChangeDemon(document.getElementById("demonSel4"));
+    CalculateTotalSpeed();
 }
 
 function ChangeDemon(control) {
@@ -255,10 +256,79 @@ function SetupDemonControls(controlNum) {
                 document.getElementById("demon" + controlNum + "customskill1").value =
                     GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
             }
+            CalculateTotalSpeed();
         } else if (nullText == sel) {
             document.getElementById("demon" + controlNum + "image").style.visibility = 'hidden';
         }
     });
+}
+
+//Calculate team speed
+function CalculateTotalSpeed() {
+
+    var demon1Speed = GetDemonSpeed(1);
+    var demon2Speed = GetDemonSpeed(2);
+    var demon3Speed = GetDemonSpeed(3);
+    var demon4Speed = GetDemonSpeed(4);
+
+    var totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) / 4);
+    
+    document.getElementById("totalspeed").innerHTML = "Total Speed: " + totalSpeed;
+}
+
+//Returns a demons speed value
+function GetDemonSpeed(num) {
+    var demon = GetDemon(num);
+    var speed = 0;
+    var extraAgi = 0;
+    var extraPercent = 1;
+
+    //Calculate Extra Agi
+    if (demon["Skill 1"] == "Agility Amp I" ||
+        demon["Skill 2"] == "Agility Amp I" ||
+        demon["Skill 3"] == "Agility Amp I" ||
+        $('#demon' + num + "customskill1").val() == "Agility Amp I" ||
+        $('#demon' + num + "customskill2").val() == "Agility Amp I")
+        extraAgi += 5;
+
+    if (demon["Skill 1"] == "Agility Amp II" ||
+        demon["Skill 2"] == "Agility Amp II" ||
+        demon["Skill 3"] == "Agility Amp II" ||
+        $('#demon' + num + "customskill1").val() == "Agility Amp II" ||
+        $('#demon' + num + "customskill2").val() == "Agility Amp II")
+        extraAgi += 10;
+
+    if (demon["Skill 1"] == "Agility Amp III" ||
+        demon["Skill 2"] == "Agility Amp III" ||
+        demon["Skill 3"] == "Agility Amp III" ||
+        $('#demon' + num + "customskill1").val() == "Agility Amp III" ||
+        $('#demon' + num + "customskill2").val() == "Agility Amp III")
+        extraAgi += 15;
+
+    //Calculate extra percent
+    if (demon["Skill 1"] == "Speedster" ||
+        demon["Skill 2"] == "Speedster" ||
+        demon["Skill 3"] == "Speedster" ||
+        $('#demon' + num + "customskill1").val() == "Speedster" ||
+        $('#demon' + num + "customskill2").val() == "Speedster")
+        extraPercent += .5;
+
+    if (demon != null)
+        speed = Math.floor(((demon["6★ Agility"] + extraAgi) * 100) * extraPercent);
+
+    return speed;
+}
+
+//Gets demon by name
+function GetDemon(controlNum) {
+    var foundDemon = null;
+    demonData.forEach(function (demon) {
+        if (demon.Name == $('#demonSel' + controlNum).val()) {
+            foundDemon = demon;
+        }
+    });
+
+    return foundDemon;
 }
 
 function GetSkillInfo(skillName) {
