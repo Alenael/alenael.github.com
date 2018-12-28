@@ -7,35 +7,111 @@
     <script type="text/javascript" src="Main.js"></script>
 </head>
 <body>
+<table>
+    <tr>
+        <td>
+            <div id="demon1">
+                <img id="demon1image"/>
+                <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)"></select>
+                <div id="demomStats1">
+                    <br/>
+                    <select id="demon1archtype" onchange="ChangeDemon(demonSel1)">
+                        <option value="clear">Clear</option>
+                        <option value="red">Red</option>
+                        <option value="teal">Teal</option>
+                        <option value="purple">Purple</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                    <br/>
+                    Skills:
+                    <br/>
+                    <span id="demon1skill1"></span> <br/>
+                    <span id="demon1skill2"></span> <br/>
+                    <span id="demon1skill3"></span> <br/>
+                    <span id="demon1awakenskill1"></span> <br/>
+                    <select id="demon1customskill1"></select> <input type="checkbox" id="demon1gachalock">Lock <br/>
+                    <select id="demon1customskill2"></select> <br/>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div id="demon2">
+                <img id="demon2image"/>
+                <select id="demonSel2" name="demonSel2" onchange="ChangeDemon(this)"></select>
+                <div id="demomStats2">
+                    <br/>
+                    <select id="demon2archtype" onchange="ChangeDemon(demonSel2)">
+                        <option value="clear">Clear</option>
+                        <option value="red">Red</option>
+                        <option value="teal">Teal</option>
+                        <option value="purple">Purple</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                    <br/>
+                    Skills:
+                    <br/>
+                    <span id="demon2skill1"></span> <br/>
+                    <span id="demon2skill2"></span> <br/>
+                    <span id="demon2skill3"></span> <br/>
+                    <span id="demon2awakenskill1"></span> <br/>
+                    <select id="demon2customskill1"></select> <input type="checkbox" id="demon2gachalock">Lock <br/>
+                    <select id="demon2customskill2"></select> <br/>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div id="demon3">
+                <img id="demon3image"/>
+                <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)"></select>
+                <div id="demomStats3">
+                    <br/>
+                    <select id="demon3archtype" onchange="ChangeDemon(demonSel3)">
+                        <option value="clear">Clear</option>
+                        <option value="red">Red</option>
+                        <option value="teal">Teal</option>
+                        <option value="purple">Purple</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                    <br/>
+                    Skills:
+                    <br/>
+                    <span id="demon3skill1"></span> <br/>
+                    <span id="demon3skill2"></span> <br/>
+                    <span id="demon3skill3"></span> <br/>
+                    <span id="demon3awakenskill1"></span> <br/>
+                    <select id="demon3customskill1"></select> <input type="checkbox" id="demon3gachalock">Lock <br/>
+                    <select id="demon3customskill2"></select> <br/>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div id="demon4">
+                <img id="demon4image"/>
+                <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)"></select>
+                <div id="demomStats4">
+                    <br/>
+                    <select id="demon4archtype" onchange="ChangeDemon(demonSel4)">
+                        <option value="clear">Clear</option>
+                        <option value="red">Red</option>
+                        <option value="teal">Teal</option>
+                        <option value="purple">Purple</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                    <br/>
+                    Skills:
+                    <br/>
+                    <span id="demon4skill1"></span> <br/>
+                    <span id="demon4skill2"></span> <br/>
+                    <span id="demon4skill3"></span> <br/>
+                    <span id="demon4awakenskill1"></span> <br/>
+                    <select id="demon4customskill1"></select> <input type="checkbox" id="demon4gachalock">Lock <br/>
+                    <select id="demon4customskill2"></select> <br/>
+                </div>
+            </div>
+        </td>
 
-<div id="demon1">
-    <img id="demon1image" />
-    <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)"></select>
-    <div id="demomStats1">
-        <br/>
-        <select id="demon1archtype" onchange="ChangeDemon(demonSel1)">
-            <option value="clear">Clear</option>
-            <option value="red">Red</option>
-            <option value="teal">Teal</option>
-            <option value="purple">Purple</option>
-            <option value="yellow">Yellow</option>
-        </select>
-        <br/>
-        Skills:
-        <br/>
-        <span id="demon1skill1"></span> <br/>
-        <span id="demon1skill2"></span> <br/>
-        <span id="demon1skill3"></span> <br/>
-        <span id="demon1awakenskill1"></span> <br/>
-        <select id="demon1customskill1"></select>
-        <select id="demon1customskill2"></select>
-    </div>
-</div>
-
-    
-    
-    
-    
+    </tr>
+</table>
 
 <script type="text/javascript">
     LoadData();
