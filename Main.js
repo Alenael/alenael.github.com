@@ -8,6 +8,8 @@ function LoadData() {
     $.when(JsonLoader1(), JsonLoader2()).done(function (a1, a2) {
         ReadURL();
     });
+
+    ShowTooltip();
 }
 
 //Reads the URl upon load to see if we have a special build being loaded
@@ -247,16 +249,31 @@ function SetupDemonControls(controlNum) {
     demonData.forEach(function (demon) {
         if (demon.Name == sel) {
             document.getElementById("demon" + controlNum + "skill1").innerHTML = demon["Skill 1"];
+            document.getElementById("demon" + controlNum + "skill1").title = GetSkillInfo(demon["Skill 1"]);
             document.getElementById("demon" + controlNum + "skill2").innerHTML = demon["Skill 2"];
+            document.getElementById("demon" + controlNum + "skill2").title = GetSkillInfo(demon["Skill 2"]);
             document.getElementById("demon" + controlNum + "skill3").innerHTML = demon["Skill 3"];
+            document.getElementById("demon" + controlNum + "skill3").title = GetSkillInfo(demon["Skill 3"]);
             document.getElementById("demon" + controlNum + "awakenskill1").innerHTML =
                 GetSkillByArchtype(demon, $('#demon1archtype').val());
+            document.getElementById("demon" + controlNum + "awakenskill1").title =
+                GetSkillInfo(GetSkillByArchtype(demon, $('#demon1archtype').val()));
             if (document.getElementById("demon" + controlNum + "gachalock").checked == false) {
                 document.getElementById("demon" + controlNum + "customskill1").value =
                     GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
+                document.getElementById("demon" + controlNum + "customskill1").title =
+                    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
             }
         }
     });
+}
+
+function GetSkillInfo(skillName) {
+    for (var i = 0; i <= skillData.length; i++) {
+        if (skillData[i].Name == skillName) {
+            return skillData[i].Description;
+        }
+    }
 }
 
 function GetSkillByArchtype(demon, archtype) {
@@ -295,4 +312,14 @@ function SwapNullText(text) {
         return nullText;
     else
         return text;
+}
+
+function ShowTooltip() {
+    //$("#demon1skill1").hover(
+    //    function(e) {
+    //        $("#tooltip").show();
+    //    },
+    //    function(e) {
+    //        $("#tooltip").hide();
+    //    });
 }
