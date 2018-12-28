@@ -1,130 +1,130 @@
 ﻿<!DOCTYPE html>
 <html>
-<head><meta charset="utf-8" />
+<head>
+    <meta charset="utf-8" />
     <title></title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <link rel="stylesheet" src="style.css">
+    <link href="style.css" rel="stylesheet" />
     <script type="text/javascript" src="Main.js"></script>
 </head>
 <body>
-<h1 align="center">Dx2 Team Builder</h1>
-<br />
-<div id="content" align="center">
-    <table>
-        <tr>
-            <td>
-                <div id="demon1">
-                    <img id="demon1image" width="115" height="155" /> <br />
-                    <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)"></select>
-                    <div id="demomStats1">
-                        <br />
-                        <select id="demon1archtype" onchange="ChangeDemon(demonSel1)">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon1skill1" data-toggle="tooltip" title="" class="tooltip"></span> <br />
-                        <span id="demon1skill2" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon1skill3" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon1awakenskill1" data-toggle="tooltip" title=""></span> <br />
-                        <select id="demon1customskill1" data-toggle="tooltip" title=""></select> <input type="checkbox" id="demon1gachalock">Lock <br />
-                        <select id="demon1customskill2" data-toggle="tooltip" title=""></select> <br />
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div id="demon2">
-                    <img id="demon2image" width="115" height="155" /> <br />
-                    <select id="demonSel2" name="demonSel2" onchange="ChangeDemon(this)"></select>
-                    <div id="demomStats2">
-                        <br />
-                        <select id="demon2archtype" onchange="ChangeDemon(demonSel2)">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon2skill1" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon2skill2" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon2skill3" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon2awakenskill1" data-toggle="tooltip" title=""></span> <br />
-                        <select id="demon2customskill1" data-toggle="tooltip" title=""></select> <input type="checkbox" id="demon2gachalock">Lock <br />
-                        <select id="demon2customskill2" data-toggle="tooltip" title=""></select> <br />
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div id="demon3">
-                    <img id="demon3image" width="115" height="155" /> <br />
-                    <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)"></select>
-                    <div id="demomStats3">
-                        <br />
-                        <select id="demon3archtype" onchange="ChangeDemon(demonSel3)">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon3skill1" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon3skill2" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon3skill3" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon3awakenskill1" data-toggle="tooltip" title=""></span> <br />
-                        <select id="demon3customskill1" data-toggle="tooltip" title=""></select> <input type="checkbox" id="demon3gachalock">Lock <br />
-                        <select id="demon3customskill2" data-toggle="tooltip" title=""></select> <br />
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div id="demon4">
-                    <img id="demon4image" width="115" height="155" /> <br />
-                    <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)"></select>
-                    <div id="demomStats4">
-                        <br />
-                        <select id="demon4archtype" onchange="ChangeDemon(demonSel4)">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon4skill1" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon4skill2" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon4skill3" data-toggle="tooltip" title=""></span> <br />
-                        <span id="demon4awakenskill1" data-toggle="tooltip" title=""></span> <br />
-                        <select id="demon4customskill1" data-toggle="tooltip" title=""></select> <input type="checkbox" id="demon4gachalock">Lock <br />
-                        <select id="demon4customskill2" data-toggle="tooltip" title=""></select> <br />
-                    </div>
-                </div>
-            </td>
-
-        </tr>
-    </table>
+    <h1 align="center">Dx2 Team Builder</h1>
     <br />
-    <button id="generateUrlBtn" name="generateUrlBtn" onclick="CreateURL()">Generate Link</button> <br />
-    <textarea id="urlLbl" rows="10" cols="100" onclick="this.select()"></textarea>
-</div>
-<br />
-<p  align="right">Created by <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></p>
+    <div id="content" align="center">
+        <table>
+            <tr>
+                <td>
+                    <div id="demon1">
+                        <img id="demon1image" width="115" height="155" visibility="hidden"/> <br />
+                        <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)" class="element"></select>
+                        <div id="demomStats1">
+                            <br />
+                            <select id="demon1archtype" onchange="ChangeDemon(demonSel1)" class="element">
+                                <option value="clear">Clear</option>
+                                <option value="red">Red</option>
+                                <option value="teal">Teal</option>
+                                <option value="purple">Purple</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                            <br />
+                            Skills:
+                            <br />
+                            <span id="demon1skill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon1skill2" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon1skill3" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon1awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <select id="demon1customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon1gachalock" class="element">Lock <br />
+                            <select id="demon1customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="demon2">
+                        <img id="demon2image" width="115" height="155" visibility="hidden"/> <br />
+                        <select id="demonSel2" name="demonSel2" onchange="ChangeDemon(this)" class="element"></select>
+                        <div id="demomStats2">
+                            <br />
+                            <select id="demon2archtype" onchange="ChangeDemon(demonSel2)" class="element">
+                                <option value="clear">Clear</option>
+                                <option value="red">Red</option>
+                                <option value="teal">Teal</option>
+                                <option value="purple">Purple</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                            <br />
+                            Skills:
+                            <br />
+                            <span id="demon2skill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon2skill2" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon2skill3" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon2awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <select id="demon2customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon2gachalock" class="element">Lock <br />
+                            <select id="demon2customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="demon3">
+                        <img id="demon3image" width="115" height="155" visibility="hidden"/> <br />
+                        <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)" class="element"></select>
+                        <div id="demomStats3">
+                            <br />
+                            <select id="demon3archtype" onchange="ChangeDemon(demonSel3)" class="element">
+                                <option value="clear">Clear</option>
+                                <option value="red">Red</option>
+                                <option value="teal">Teal</option>
+                                <option value="purple">Purple</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                            <br />
+                            Skills:
+                            <br />
+                            <span id="demon3skill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon3skill2" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon3skill3" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon3awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <select id="demon3customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon3gachalock" class="element">Lock <br />
+                            <select id="demon3customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="demon4">
+                        <img id="demon4image" width="115" height="155" visibility="hidden"/> <br />
+                        <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)" class="element"></select>
+                        <div id="demomStats4">
+                            <br />
+                            <select id="demon4archtype" onchange="ChangeDemon(demonSel4)" class="element">
+                                <option value="clear">Clear</option>
+                                <option value="red">Red</option>
+                                <option value="teal">Teal</option>
+                                <option value="purple">Purple</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                            <br />
+                            Skills:
+                            <br />
+                            <span id="demon4skill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon4skill2" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon4skill3" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <span id="demon4awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
+                            <select id="demon4customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon4gachalock" class="element">Lock <br />
+                            <select id="demon4customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
+                        </div>
+                    </div>
+                </td>
 
-<script type="text/javascript">
-    LoadData();
-</script>
+            </tr>
+        </table>
+        <br />
+        <button id="generateUrlBtn" name="generateUrlBtn" onclick="CreateURL()" class="element">Generate Link</button> <br />
+        <textarea id="urlLbl" rows="2" cols="100" onclick="this.select()"></textarea>
+    </div>
+    <p align="right">Created by <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></p>
+
+    <script type="text/javascript">
+        LoadData();
+    </script>
 </body>
 </html>
