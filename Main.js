@@ -8,8 +8,6 @@ function LoadData() {
     $.when(JsonLoader1(), JsonLoader2()).done(function (a1, a2) {
         ReadURL();
     });
-
-    ShowTooltip();
 }
 
 //Reads the URl upon load to see if we have a special build being loaded
@@ -130,17 +128,8 @@ function CreateURL() {
                 parameters += "demon4skill2=" + $('#demon4customskill2').val() + "&";
         }
 
-
         document.getElementById("urlLbl").innerHTML =
             baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
-
-        //var lzma = new LZMA("../src/lzma_worker.js");
-        //lzma.compress(parameters.substring(0, parameters.length - 1),
-        //    1,
-        //    function on_compress_complete(result) {
-        //        document.getElementById("urlLbl").innerHTML = baseUrl + "?" + result;
-        //    });
-    
 }
 
 function JsonLoader1() {
@@ -180,6 +169,7 @@ function LoadSkillControl(control) {
     var option = document.createElement('option');
     option.text = nullText;
     option.value = nullText;
+    option.title = "";
     select.add(option, 0);
 
     for (var i = 0; i <= skillData.length - 1; i++) {
@@ -187,6 +177,7 @@ function LoadSkillControl(control) {
         var option = document.createElement('option');
         option.text = skillData[i].Name;
         option.value = skillData[i].Name;
+        option.title = skillData[i].Description;
         select.add(option, 0);
     }
 
@@ -231,13 +222,13 @@ function ChangeDemon(control) {
     switch (control.id) {
     case "demonSel1":
         SetupDemonControls(1);
-            break;
+        break;
     case "demonSel2":
         SetupDemonControls(2);
-            break;
+        break;
     case "demonSel3":
         SetupDemonControls(3);
-            break;
+        break;
     case "demonSel4":
         SetupDemonControls(4);
         break;
@@ -261,18 +252,24 @@ function SetupDemonControls(controlNum) {
             if (document.getElementById("demon" + controlNum + "gachalock").checked == false) {
                 document.getElementById("demon" + controlNum + "customskill1").value =
                     GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
-                document.getElementById("demon" + controlNum + "customskill1").title =
-                    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
             }
+
+            //Does not appear to be working?
+            //document.getElementById("demon" + controlNum + "customskill1").title =
+            //    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
+
+            //document.getElementById("demon" + controlNum + "customskill2").title =
+            //    GetSkillInfo(GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val()));
         }
     });
 }
 
 function GetSkillInfo(skillName) {
     for (var i = 0; i <= skillData.length; i++) {
-        if (skillData[i].Name == skillName) {
+        if (skillName == nullText)
+            return "";
+        else (skillData[i].Name == skillName)
             return skillData[i].Description;
-        }
     }
 }
 
@@ -312,14 +309,4 @@ function SwapNullText(text) {
         return nullText;
     else
         return text;
-}
-
-function ShowTooltip() {
-    //$("#demon1skill1").hover(
-    //    function(e) {
-    //        $("#tooltip").show();
-    //    },
-    //    function(e) {
-    //        $("#tooltip").hide();
-    //    });
 }
