@@ -240,7 +240,8 @@ function SetupDemonControls(controlNum) {
     demonData.forEach(function(demon) {
         if (demon.Name == sel) {
             document.getElementById("demon" + controlNum + "image").style.visibility = 'visible';
-            document.getElementById("demon" + controlNum + "image").src = "/Images/Demons/" + demon.Name + ".jpg";
+            document.getElementById("demon" + controlNum + "image").src =
+                "{{ site.baseUrl }}/Images/Demons/" + demon.Name + ".jpg";
             document.getElementById("demon" + controlNum + "skill1").innerHTML = demon["Skill 1"];
             document.getElementById("demon" + controlNum + "skill1").title = GetSkillInfo(demon["Skill 1"]);
             document.getElementById("demon" + controlNum + "skill2").innerHTML = demon["Skill 2"];
