@@ -134,7 +134,7 @@ function CreateURL() {
 
 function JsonLoader1() {
     //Load Skills
-    return $.getJSON("/Data/Skills.json", function (skills) {
+    return $.getJSON("Data/Skills.json", function (skills) {
         skillData = skills;
 
         LoadSkillControl("demon1customskill1");
@@ -153,7 +153,7 @@ function JsonLoader1() {
 
 function JsonLoader2() {
     //Load Demons
-    return $.getJSON("/Data/Demons.json", function (demons) {
+    return $.getJSON("Data/Demons.json", function (demons) {
         demonData = demons;
 
         LoadDemonControl("demonSel1");
