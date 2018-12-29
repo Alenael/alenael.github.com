@@ -2,7 +2,7 @@
 var skillData;
 var liberatorData;
 var nullText = "-----------";
-var baseUrl = "https://alenael.github.io/TeamBuilder/Index.html";
+var baseUrl = "https://alenael.github.io/Dx2-TeamBuilder/Index.html";
 
 function LoadData() {
 
