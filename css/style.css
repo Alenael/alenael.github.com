@@ -6,3 +6,32 @@
     background-color: transparent;
 }
 
+.tab {
+    overflow: hidden;
+    border: 1px solid #000000;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent1, .tabcontent2, .tabcontent3, .tabcontent4 {
+    display: none;
+    padding: 3px 6px;
+    height: 350px;
+    width: 250px;
+}
