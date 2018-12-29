@@ -68,8 +68,16 @@
                     </div>
                 </div>
             </td>
+            <td style="vertical-align:top">
+                <div id="demonbuffer" align="center">
+                    <button id="resetBtn" onclick="Reset()">Reset</button> <br /> <br />
+                    <img id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
+                    <select id="liberators" onchange="ChangeLiberator()" class="element">
+                    </select>
+                </div>
+            </td>
             <td>
-                <div id="demon3" align="left">
+                <div id="demon3" align="right">
                     <img id="demon3image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats3">
@@ -96,7 +104,7 @@
                 </div>
             </td>
             <td>
-                <div id="demon4" align="left">
+                <div id="demon4" align="right">
                     <img id="demon4image" width="115" height="155" visibility="hidden"/> <br/>
                     <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)" class="element"></select>
                     <div id="demomStats4">

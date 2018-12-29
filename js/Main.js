@@ -1,11 +1,12 @@
 ﻿var demonData;
 var skillData;
+var liberatorData;
 var nullText = "-----------";
 var baseUrl = "https://alenael.github.io/TeamBuilder/Index.html";
 
 function LoadData() {
 
-    $.when(JsonLoader1(), JsonLoader2()).done(function (a1, a2) {
+    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
         ReadURL();
     });
 }
@@ -33,6 +34,10 @@ function ReadURL() {
         var demon4Archtype = url.searchParams.get("demon4archtype");
         var demon4Skill1 = url.searchParams.get("demon4skill1");
         var demon4Skill2 = url.searchParams.get("demon4skill2");
+        var liberator = url.searchParams.get("liberator");
+
+        if (liberator != null)
+            document.getElementById("liberators").value = liberator;
 
         if (demon1 != null) {
             document.getElementById("demonSel1").value = demon1;
@@ -89,47 +94,50 @@ function ReadURL() {
 //Generates our URl on button press
 function CreateURL() {
 
-        var parameters = "";
+    var parameters = "";
 
-        if ($('#demonSel1').val() != nullText) {
-            parameters += "demon1=" + $('#demonSel1').val() + "&";
-            parameters += "demon1archtype=" + $('#demon1archtype').val() + "&";
+    if ($('#liberator').val() != nullText) {
+        parameters += "liberator=" + $('#liberators').val() + "&";
+    }
+    if ($('#demonSel1').val() != nullText) {
+        parameters += "demon1=" + $('#demonSel1').val() + "&";
+        parameters += "demon1archtype=" + $('#demon1archtype').val() + "&";
 
-            if ($('#demon1customskill1').val() != nullText)
-                parameters += "demon1skill1=" + $('#demon1customskill1').val() + "&";
-            if ($('#demon1customskill2').val() != nullText)
-                parameters += "demon1skill2=" + $('#demon1customskill2').val() + "&";
-        }
-        if ($('#demonSel2').val() != nullText) {
-            parameters += "demon2=" + $('#demonSel2').val() + "&";
-            parameters += "demon2archtype=" + $('#demon2archtype').val() + "&";
+        if ($('#demon1customskill1').val() != nullText)
+            parameters += "demon1skill1=" + $('#demon1customskill1').val() + "&";
+        if ($('#demon1customskill2').val() != nullText)
+            parameters += "demon1skill2=" + $('#demon1customskill2').val() + "&";
+    }
+    if ($('#demonSel2').val() != nullText) {
+        parameters += "demon2=" + $('#demonSel2').val() + "&";
+        parameters += "demon2archtype=" + $('#demon2archtype').val() + "&";
 
-            if ($('#demon2customskill1').val() != nullText)
-                parameters += "demon2skill1=" + $('#demon2customskill1').val() + "&";
-            if ($('#demon2customskill2').val() != nullText)
-                parameters += "demon2skill2=" + $('#demon2customskill2').val() + "&";
-        }
-        if ($('#demonSel3').val() != nullText) {
-            parameters += "demon3=" + $('#demonSel3').val() + "&";
-            parameters += "demon3archtype=" + $('#demon3archtype').val() + "&";
+        if ($('#demon2customskill1').val() != nullText)
+            parameters += "demon2skill1=" + $('#demon2customskill1').val() + "&";
+        if ($('#demon2customskill2').val() != nullText)
+            parameters += "demon2skill2=" + $('#demon2customskill2').val() + "&";
+    }
+    if ($('#demonSel3').val() != nullText) {
+        parameters += "demon3=" + $('#demonSel3').val() + "&";
+        parameters += "demon3archtype=" + $('#demon3archtype').val() + "&";
 
-            if ($('#demon1customskill1').val() != nullText)
-                parameters += "demon3skill1=" + $('#demon3customskill1').val() + "&";
-            if ($('#demon1customskill2').val() != nullText)
-                parameters += "demon3skill2=" + $('#demon3customskill2').val() + "&";
-        }
-        if ($('#demonSel4').val() != nullText) {
-            parameters += "demon4=" + $('#demonSel4').val() + "&";
-            parameters += "demon4archtype=" + $('#demon4archtype').val() + "&";
+        if ($('#demon1customskill1').val() != nullText)
+            parameters += "demon3skill1=" + $('#demon3customskill1').val() + "&";
+        if ($('#demon1customskill2').val() != nullText)
+            parameters += "demon3skill2=" + $('#demon3customskill2').val() + "&";
+    }
+    if ($('#demonSel4').val() != nullText) {
+        parameters += "demon4=" + $('#demonSel4').val() + "&";
+        parameters += "demon4archtype=" + $('#demon4archtype').val() + "&";
 
-            if ($('#demon1customskill1').val() != nullText)
-                parameters += "demon4skill1=" + $('#demon4customskill1').val() + "&";
-            if ($('#demon1customskill2').val() != nullText)
-                parameters += "demon4skill2=" + $('#demon4customskill2').val() + "&";
-        }
+        if ($('#demon1customskill1').val() != nullText)
+            parameters += "demon4skill1=" + $('#demon4customskill1').val() + "&";
+        if ($('#demon1customskill2').val() != nullText)
+            parameters += "demon4skill2=" + $('#demon4customskill2').val() + "&";
+    }
 
-        document.getElementById("urlLbl").innerHTML =
-            baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
+    document.getElementById("urlLbl").innerHTML =
+        baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
 }
 
 function JsonLoader1() {
@@ -161,6 +169,28 @@ function JsonLoader2() {
         LoadDemonControl("demonSel3");
         LoadDemonControl("demonSel4");
     });
+}
+
+
+function JsonLoader3() {
+    //Load Liberators
+    return $.getJSON("Data/Liberators.json", function(liberators) {
+            liberatorData = liberators;
+
+            var select = document.getElementById("liberators");
+            var option = document.createElement('option');
+            option.text = nullText;
+            option.value = nullText;
+            select.add(option, 0);
+
+            for (var i = 0; i <= liberatorData.length - 1; i++) {
+                //Load all the demons and add them to our list
+                var option = document.createElement('option');
+                option.text = liberatorData[i].Name;
+                option.value = liberatorData[i].Name;
+                select.add(option, 0);
+            }
+        });
 }
 
 //Loads up a control with skills
@@ -212,6 +242,7 @@ function SortByABC(control) {
 }
 
 function ReloadAll() {
+    ChangeLiberator();
     ChangeDemon(document.getElementById("demonSel1"));
     ChangeDemon(document.getElementById("demonSel2"));
     ChangeDemon(document.getElementById("demonSel3"));
@@ -271,7 +302,10 @@ function CalculateTotalSpeed() {
     var demon3Speed = GetDemonSpeed(3);
     var demon4Speed = GetDemonSpeed(4);
     var count = Math.min(demon1Speed, 1) + Math.min(demon2Speed, 1) + Math.min(demon3Speed, 1) + Math.min(demon4Speed, 1);
-    var totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) * (100/count));
+
+    var totalSpeed = 0;
+    if (count != 0)
+        totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) * (100 / count));
     
     document.getElementById("totalspeed").innerHTML = "Total Speed: " + totalSpeed;
 }
@@ -279,6 +313,7 @@ function CalculateTotalSpeed() {
 //Returns a demons speed value
 function GetDemonSpeed(num) {
     var demon = GetDemon(num);
+    var liberator = GetLiberator();
     var speed = 0;
     var extraAgi = 0;
     var extraPercent = 1;
@@ -306,6 +341,10 @@ function GetDemonSpeed(num) {
             $('#demon' + num + "customskill2").val() == "Agility Amp III")
             extraAgi += 15;
 
+        //Add Ag from Liberator
+        if (liberator != null && liberator != nullText && liberator.Ag != "")
+            extraAgi += liberator.Ag;
+
         //Calculate extra percent
         if (demon["Skill 1"] == "Speedster" ||
             demon["Skill 2"] == "Speedster" ||
@@ -330,6 +369,18 @@ function GetDemon(controlNum) {
     });
 
     return foundDemon;
+}
+
+//Get Liberator by name
+function GetLiberator() {
+    var foundLiberator = null;
+    liberatorData.forEach(function (liberator) {
+        if (liberator.Name == document.getElementById("liberators").value) {
+            foundLiberator = liberator;
+        }
+    });
+
+    return foundLiberator;
 }
 
 function GetSkillInfo(skillName) {
@@ -377,4 +428,34 @@ function SwapNullText(text) {
         return nullText;
     else
         return text;
+}
+
+
+function Reset() {
+    //Set our null values
+    document.getElementById("demonSel1").value = nullText;
+    document.getElementById("demonSel2").value = nullText;
+    document.getElementById("demonSel3").value = nullText;
+    document.getElementById("demonSel4").value = nullText;
+        
+    //Reset Artypes
+    document.getElementById("demon1archtype").value = "Clear";
+    document.getElementById("demon2archtype").value = "Clear";
+    document.getElementById("demon3archtype").value = "Clear";
+    document.getElementById("demon4archtype").value = "Clear";
+
+    ReloadAll();
+}
+
+function ChangeLiberator() {
+    var liberator = $('#liberators').val();
+
+    if (liberator == nullText)
+        document.getElementById("liberatorimage").style.visibility = 'hidden';
+    else {
+        document.getElementById("liberatorimage").style.visibility = 'visible';
+        document.getElementById("liberatorimage").src = "Images/Liberators/" + liberator + ".png";
+    }
+
+    CalculateTotalSpeed();
 }
