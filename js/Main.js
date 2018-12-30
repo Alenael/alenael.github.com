@@ -63,7 +63,7 @@ function LoadData() {
 
 //Reads the URl upon load to see if we have a special build being loaded
 function ReadURL() {
-    if (window.location.href.includes("?")) {
+    if (window.location.href.indexOf("?") >= 0) {
         var result = window.atob(window.location.href.split('?')[1]);
 
         var url = new URL(decodeURI(baseUrl + "?" + result));
@@ -251,7 +251,7 @@ function SetupDemonControls() {
             demonSkill3[i].innerHTML = demon["Skill 3"];
             demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());;
 
-            if (demonGachaLock[i].checked == false) {
+            if (demonGachaLock[i].checked === false) {
                 demonCustomSkill1[i].value = GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val());
             }
 
@@ -328,37 +328,41 @@ function GetDemonSpeed(name, num) {
 
     if (demon != null) {
         //Calculate Extra Agi
-        if (demon["Skill 1"] == "Agility Amp I" ||
-            demon["Skill 2"] == "Agility Amp I" ||
-            demon["Skill 3"] == "Agility Amp I" ||
-            demonCustomSkill1[num] == "Agility Amp I" ||
-            demonCustomSkill2[num] == "Agility Amp I")
+        if (demon["Skill 1"] === "Agility Amp I" ||
+            demon["Skill 2"] === "Agility Amp I" ||
+            demon["Skill 3"] === "Agility Amp I" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp I" ||
+            demonCustomSkill1[num].value === "Agility Amp I" ||
+            demonCustomSkill2[num].value === "Agility Amp I")
             extraAgi += 5;
 
-        if (demon["Skill 1"] == "Agility Amp II" ||
-            demon["Skill 2"] == "Agility Amp II" ||
-            demon["Skill 3"] == "Agility Amp II" ||
-            demonCustomSkill1[num] == "Agility Amp II" ||
-            demonCustomSkill2[num] == "Agility Amp II")
+        if (demon["Skill 1"] === "Agility Amp II" ||
+            demon["Skill 2"] === "Agility Amp II" ||
+            demon["Skill 3"] === "Agility Amp II" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp II" ||
+            demonCustomSkill1[num].value === "Agility Amp II" ||
+            demonCustomSkill2[num].value === "Agility Amp II")
             extraAgi += 10;
 
-        if (demon["Skill 1"] == "Agility Amp III" ||
-            demon["Skill 2"] == "Agility Amp III" ||
-            demon["Skill 3"] == "Agility Amp III" ||
-            demonCustomSkill1[num] == "Agility Amp III" ||
-            demonCustomSkill2[num] == "Agility Amp III")
+        if (demon["Skill 1"] === "Agility Amp III" ||
+            demon["Skill 2"] === "Agility Amp III" ||
+            demon["Skill 3"] === "Agility Amp III" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp III" ||
+            demonCustomSkill1[num].value === "Agility Amp III" ||
+            demonCustomSkill2[num].value === "Agility Amp III")
             extraAgi += 15;
 
         //Add Ag from Liberator
-        if (liberator != null && liberator != nullText && liberator.Ag != "")
+        if (liberator != null && liberator !== nullText && liberator.Ag != "")
             extraAgi += liberator.Ag;
 
         //Calculate extra percent
-        if (demon["Skill 1"] == "Speedster" ||
-            demon["Skill 2"] == "Speedster" ||
-            demon["Skill 3"] == "Speedster" ||
-            demonCustomSkill1[num] == "Speedster" ||
-            demonCustomSkill2[num] == "Speedster")
+        if (demon["Skill 1"] === "Speedster" ||
+            demon["Skill 2"] === "Speedster" ||
+            demon["Skill 3"] === "Speedster" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Speedster" ||
+            demonCustomSkill1[num].value === "Speedster" ||
+            demonCustomSkill2[num].value === "Speedster")
             extraPercent += .5;
         
         speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
@@ -398,68 +402,68 @@ function BuildResists() {
             ];
 
             for (var x = 0; x < skills.length; x++) {
-                if (skills[x].includes("Phys"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Phys") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         physResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         physResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         physResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         physResist = "Rs";
-                if (skills[x].includes("Fire"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Fire") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         fireResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         fireResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         fireResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         fireResist = "Rs";
-                if (skills[x].includes("Ice"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Ice") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         iceResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         iceResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         iceResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         iceResist = "Rs";
-                if (skills[x].includes("Elec"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Elec") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         elecResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         elecResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].includes("Null") >= 0)
                         elecResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].includes("Resist") >= 0)
                         elecResist = "Rs";
-                if (skills[x].includes("Force"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Force") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         forceResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         forceResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         forceResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         forceResist = "Rs";
-                if (skills[x].includes("Light"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Light") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         lightResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         lightResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         lightResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         lightResist = "Rs";
-                if (skills[x].includes("Dark"))
-                    if (skills[x].includes("Drain"))
+                if (skills[x].indexOf("Dark") >= 0)
+                    if (skills[x].indexOf("Drain") >= 0)
                         darkResist = "Dr";
-                    else if (skills[x].includes("Repel"))
+                    else if (skills[x].indexOf("Repel") >= 0)
                         darkResist = "Rp";
-                    else if (skills[x].includes("Null"))
+                    else if (skills[x].indexOf("Null") >= 0)
                         darkResist = "Nu";
-                    else if (skills[x].includes("Resist"))
+                    else if (skills[x].indexOf("Resist") >= 0)
                         darkResist = "Rs";
             }
 
@@ -582,7 +586,6 @@ function ChangeLiberator() {
     }
 
     $('#liberators').blur();
-    CalculateTotalSpeed();
 }
 
 function OpenTab(event, tab, tabControlClass, tabContentClass) {
