@@ -65,7 +65,8 @@ p {
 }
 
 .tooltip-inner {
-    white-space: pre-wrap;
+    white-space: pre;
+    max-width: none;
 }
 
 .btn-xs {
