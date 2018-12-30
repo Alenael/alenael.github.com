@@ -2,7 +2,7 @@
 var skillData;
 var liberatorData;
 var nullText = "-----------";
-var baseUrl = "https://alenael.github.io/Dx2-TeamBuilder/";
+var baseUrl = "https://alenael.github.io/Dx2-TeamBuilder";
 
 //Our Controls
 var demonsSel;
@@ -109,6 +109,7 @@ function ReadURL() {
             demonGachaLock[i].checked = true;
         }
     }
+
     ReloadAll();
 }
 
@@ -134,7 +135,7 @@ function CreateURL() {
         }
     }
 
-    window.location.href =baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
+    window.location.href = baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
 }
 
 function JsonLoader1() {
@@ -265,6 +266,8 @@ function SetupDemonControls() {
             demonsSel[i].blur();
             demonArchtype[i].blur();
         } else {
+            demonsSel[i].value = nullText;
+            demonArchtype[i].value = nullText;
             demonSkill1[i].innerHTML = "";
             demonSkill2[i].innerHTML = "";
             demonSkill3[i].innerHTML = "";
