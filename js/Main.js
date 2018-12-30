@@ -13,6 +13,9 @@ var demonGachaLock;
 var demonImages;
 var demonImgArchtype;
 var demonImgAI;
+var demonImgStar;
+var demonRace;
+var demonGrade;
 var demonSkill1;
 var demonSkill2;
 var demonSkill3;
@@ -47,6 +50,9 @@ function LoadData() {
         demonImages = document.getElementsByName("demonImage");
         demonImgArchtype = document.getElementsByName("demonImgArchtype");
         demonImgAI = document.getElementsByName("demonImgAI");
+        demonImgStar = document.getElementsByName("demonImgStar");
+        demonRace = document.getElementsByName("demonRace");
+        demonGrade = document.getElementsByName("demonGrade");
         demonSkill1 = document.getElementsByName("demonSkill1");
         demonSkill2 = document.getElementsByName("demonSkill2");
         demonSkill3 = document.getElementsByName("demonSkill3");
@@ -251,6 +257,15 @@ function SetupDemonControls() {
             demonImgAI[i].src = "Images/AI/" + demon.Type + ".png";
             demonImgAI[i].style.visibility = 'visible';
 
+            demonImgStar[i].src = "Images/Stars/" + demon.Rarity + ".png";
+            demonImgStar[i].style.visibility = 'visible';
+
+            demonRace[i].innerHTML = "Race: " + demon.Race;
+            demonRace[i].style.visibility = 'visible';
+
+            demonGrade[i].innerHTML = "Grade: " + demon.Grade;
+            demonGrade[i].style.visibility = 'visible';
+
             demonSkill1[i].innerHTML = demon["Skill 1"];
             demonSkill2[i].innerHTML = demon["Skill 2"];
             demonSkill3[i].innerHTML = demon["Skill 3"];
@@ -280,6 +295,9 @@ function SetupDemonControls() {
             demonImages[i].style.visibility = 'hidden';
             demonImgArchtype[i].style.visibility = 'hidden';
             demonImgAI[i].style.visibility = 'hidden';
+            demonImgStar[i].style.visibility = 'hidden';
+            demonGrade[i].style.visibility = 'hidden';
+            demonRace[i].style.visibility = 'hidden';
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
