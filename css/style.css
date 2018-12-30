@@ -2,9 +2,6 @@
     background: url(../Images/Theme/diagonal-squares.png) repeat 0 0;
     color: whitesmoke;
 }
-.tab {
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Droid Serif', Georgia, Times, serif;
 }
@@ -54,6 +51,7 @@ p {
 .col, .col-2 {
     color: whitesmoke;
     max-width: 270px;
+    margin-bottom: 8px;
 }
 
 .border {

@@ -426,69 +426,13 @@ function BuildResists() {
             ];
 
             for (var x = 0; x < skills.length; x++) {
-                if (skills[x].indexOf("Phys") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        physResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        physResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        physResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        physResist = "Rs";
-                if (skills[x].indexOf("Fire") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        fireResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        fireResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        fireResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        fireResist = "Rs";
-                if (skills[x].indexOf("Ice") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        iceResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        iceResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        iceResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        iceResist = "Rs";
-                if (skills[x].indexOf("Elec") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        elecResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        elecResist = "Rp";
-                    else if (skills[x].includes("Null") >= 0)
-                        elecResist = "Nu";
-                    else if (skills[x].includes("Resist") >= 0)
-                        elecResist = "Rs";
-                if (skills[x].indexOf("Force") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        forceResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        forceResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        forceResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        forceResist = "Rs";
-                if (skills[x].indexOf("Light") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        lightResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        lightResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        lightResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        lightResist = "Rs";
-                if (skills[x].indexOf("Dark") >= 0)
-                    if (skills[x].indexOf("Drain") >= 0)
-                        darkResist = "Dr";
-                    else if (skills[x].indexOf("Repel") >= 0)
-                        darkResist = "Rp";
-                    else if (skills[x].indexOf("Null") >= 0)
-                        darkResist = "Nu";
-                    else if (skills[x].indexOf("Resist") >= 0)
-                        darkResist = "Rs";
+                physResist = FixResist(skills[x], physResist, "Phys");
+                fireResist = FixResist(skills[x], fireResist, "Fire");
+                iceResist = FixResist(skills[x], iceResist, "Ice");
+                elecResist = FixResist(skills[x], elecResist, "Elec");
+                forceResist = FixResist(skills[x], forceResist, "Force");
+                lightResist = FixResist(skills[x], lightResist, "Light");
+                darkResist = FixResist(skills[x], darkResist, "Dark");
             }
 
             //Finally set our resists
@@ -501,6 +445,20 @@ function BuildResists() {
             demonDark[i].innerHTML = darkResist;
         }
     }
+}
+
+function FixResist(skillName, resistFinal, actualResist) {
+    if (skillName.indexOf(actualResist) >= 0)
+        if (skillName.indexOf("Drain") >= 0)
+            resistFinal = "Ab";
+        else if (skillName.indexOf("Repel") >= 0 && resistFinal !== "Ab")
+            resistFinal = "Rp";
+        else if (skillName.indexOf("Null") >= 0 && resistFinal !== "Rp" && resistFinal !== "Ab")
+            resistFinal = "Nu";
+        else if (skillName.indexOf("Resist") >= 0 && resistFinal !== "Rp" && resistFinal !== "Ab" && resistFinal !== "Nu")
+            resistFinal = "Rs";
+
+    return resistFinal;
 }
 
 //Makes text look nicer for resists
