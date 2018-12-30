@@ -565,6 +565,7 @@ function Reset() {
         demonCustomSkill1[i].value = nullText;
         demonCustomSkill2[i].value = nullText;
         demonArchtype[i].value = "Clear";
+        demonGachaLock[i].checked = false;
     }
 
     ReloadAll();
