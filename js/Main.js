@@ -267,7 +267,7 @@ function SetupDemonControls() {
             demonArchtype[i].blur();
         } else {
             demonsSel[i].value = nullText;
-            demonArchtype[i].value = nullText;
+            demonArchtype[i].value = "clear";
             demonSkill1[i].innerHTML = "";
             demonSkill2[i].innerHTML = "";
             demonSkill3[i].innerHTML = "";
