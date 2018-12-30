@@ -4,14 +4,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script type="text/javascript" src="js/Main.js"></script>
@@ -35,8 +33,8 @@
                     <div name="demonRace" visibility="hidden"></div>
                     <div name="demonGrade" visibility="hidden"></div><br />
                     <div class="btn-group">
-                        <select name="demonSel" class="selectpicker" data-live-search="true" data-style="btn-sm btn-info" onchange="ReloadAll();"></select>
-                        <select name="demonArchtype" class="selectpicker" data-style="btn-sm btn-warning" align="right" onchange="ReloadAll()">
+                        <select name="demonSel" class="btn btn-info btn-sm" onchange="ReloadAll();"></select>
+                        <select name="demonArchtype" class="btn btn-warning btn-sm" align="right" onchange="ReloadAll()">
                             <option value="clear">Clear</option>
                             <option value="red">Red</option>
                             <option value="teal">Teal</option>
@@ -54,8 +52,8 @@
                         <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                     </div>
                     <div class="btn-group">
-                        <select name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="Lock(this);ReloadAll();"></select>
-                        <select name="demonCustomSkill2" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="ReloadAll();"></select>
+                        <select name="demonCustomSkill1" class="btn btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="Lock(this);ReloadAll();"></select>
+                        <select name="demonCustomSkill2" class="btn btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="ReloadAll();"></select>
                     </div>
                     <div id="tooltip_container"></div>
                     <input type="checkbox" name="demonGachaLock">Lock<br />
@@ -101,7 +99,7 @@
                         <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL();">Generate Link</button> <br /><br />
                         <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset();">Reset</button> <br /> <br />
                         <img class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
-                        <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
+                        <select class="btn btn-info btn-sm" id="liberators" onchange="ReloadAll();"></select>
                         <p></p>
                         <h4 id="totalspeed">Total Speed: 0</h4>
                     </div>
@@ -113,6 +111,8 @@
         </p>
     </div>
     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script type="text/javascript">
     LoadData();
 </script>

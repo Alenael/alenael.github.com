@@ -76,27 +76,3 @@ p {
 .container-fluid {
     max-width: 1300px;
 }
-
-.dropdown-item.checked, .dropdown-item.active{
-    color:black;
-}
-
-.text-muted {
-    color: whitesmoke !important;
-}
-
-.dropdown-menu {
-    font-size: .875rem;
-}
-
-.archtype-dropdown {
-    background-color: #ffc107;
-}
-
-.skill-dropdown {
-    background-color: #6c757d;
-}
-
-.demon-dropdown {
-    background-color: #17a2b8;
-}

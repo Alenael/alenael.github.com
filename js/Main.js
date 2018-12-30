@@ -27,7 +27,6 @@ var demonElec;
 var demonForce;
 var demonLight;
 var demonDark;
-var dropDownMenus;
 
 function LoadData() {
     
@@ -65,19 +64,6 @@ function LoadData() {
         demonForce = document.getElementsByName("demonForce");
         demonLight = document.getElementsByName("demonLight");
         demonDark = document.getElementsByName("demonDark");
-        dropDownMenus = document.getElementsByClassName("dropdown-menu");
-
-        //Setup some custom CSS for our select controls
-        for (var i = 0; i <= demonsSel.length * 8 - 1; i=i+8) {
-            dropDownMenus[i + 0].className += " demon-dropdown";
-            dropDownMenus[i + 1].className += " demon-dropdown";
-            dropDownMenus[i + 2].className += " archtype-dropdown";
-            dropDownMenus[i + 3].className += " archtype-dropdown";
-            dropDownMenus[i + 4].className += " skill-dropdown";
-            dropDownMenus[i + 5].className += " skill-dropdown";
-            dropDownMenus[i + 6].className += " skill-dropdown";
-            dropDownMenus[i + 7].className += " skill-dropdown";
-        }
 
         ReadURL();
     });
@@ -211,21 +197,17 @@ function LoadSkillControls() {
             option.text = skillData[i].Name;
             option.value = skillData[i].Name;
             option.title = skillData[i].Description;
-            option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
-            option.setAttribute("data-subtext", skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
             select[x].add(option, 0);
         }
 
         SortByABC(select[x]);
-
-        $(select[x]).selectpicker("refresh");
     }
 }
 
 //Loads up a control with our demon info
 function LoadDemonControls() {
     var select = document.getElementsByName("demonSel");
-
+    
     for (var x = 0; x < select.length; x++) {
         var option = document.createElement('option');
         option.text = nullText;
@@ -236,14 +218,10 @@ function LoadDemonControls() {
             option = document.createElement('option');
             option.text = demonData[i].Name;
             option.value = demonData[i].Name;
-            option.setAttribute("data-tokens", demonData[i].Type + " " + demonData[i].Race);
-            option.setAttribute("data-subtext", demonData[i].Race);
             select[x].add(option, 0);
         }
 
         SortByABC(select[x]);
-        
-        $(select[x]).selectpicker("refresh");
     }
 }
 
