@@ -274,6 +274,8 @@ function SetupDemonControls() {
             demonAwakenSkill[i].innerHTML = "";
             demonImages[i].style.visibility = 'hidden';
             demonImgArchtype[i].style.visibility = 'hidden';
+            demonCustomSkill1[i].value = nullText;
+            demonCustomSkill2[i].value = nullText;
         }
 
         //Set the tooltips
