@@ -1,12 +1,20 @@
 ﻿body {
+    background: url(/Images/Theme/diagonal-squares.png) repeat 0 0;
+    color: whitesmoke;
 }
-
-.element {
-}
-
 .tab {
-    overflow: hidden;
-    border: 1px solid #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+}
+
+p, div {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 10px;
 }
 
 .tab button {
@@ -15,21 +23,52 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     transition: 0.3s;
+    color: whitesmoke;
+}
+
+.page-header {
+    text-align: center;    
 }
 
 .tab button:hover {
     background-color: #ddd;
+    color: black;
 }
 
 .tab button.active {
     background-color: #ccc;
+    color: black;
 }
 
 .tabcontent1, .tabcontent2, .tabcontent3, .tabcontent4 {
     display: none;
-    padding: 3px 6px;
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 100px;
+}
+
+.wgtmsr {
+   width: 115px;
+}
+
+.col {
+    color: whitesmoke;
+}
+
+.border {
+    background: url(/Images/Theme/prism.png) repeat 0 0;
+}
+
+.btn-group {
+    width: 230px;
+}
+
+.btn-xs {
+    height: 40px;
+    width: 115px;
+    font-size: 12px;
+}
+
+.container-fluid {
+    width:1300px;
 }

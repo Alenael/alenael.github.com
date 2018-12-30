@@ -2,179 +2,111 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" />
     <script type="text/javascript" src="js/Main.js"></script>
+    <title>Dx2 - Team Builder</title>
 </head>
 <body>
-<div id="content" align="center">
-    <h2>Dx2 Team Builder</h2>
-    <table>
-        <tr>
+    <div class="container-fluid">
+        <div class="page-header">
+            <img class="img" src="Images/Theme/Logo.png" width="150px" height="150px" />
+            <h2>Dx2 Team Builder</h2>
             <h4 id="totalspeed">Total Speed: 0</h4>
-            <td>
-                <div id="demomSkills1" class="tabcontent1" style="display:block">
-                    <div id="demon1" class="demon">
-                        <img id="demon1image" width="115" height="155" visibility="hidden" /> <br />
-                        <select id="demonSel1" name="demonSel1" onchange="ChangeDemon(this)">
-                        </select>
+        </div>
 
-                        <br />
-                        <select id="demon1archtype" onchange="ChangeDemon(demonSel1)" class="element">
+        <div id="demoncontent" class="row">
+            <br />
+            <div id="demon" name="demon" class="col border border-dark rounded">
+                <div id="demomSkills1" class="tabcontent1" style="display: inline">
+                    <img name="demonImage" class="img" width="100" height="100" visibility="hidden" />
+                    <img name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden" /><br />
+                    <div class="btn-group">
+                        <select name="demonSel" class="btn btn-info btn-sm" onchange="ReloadAll();"></select>
+                        <select name="demonArchtype" class="btn btn-warning btn-sm" align="right" onchange="ReloadAll()">
                             <option value="clear">Clear</option>
                             <option value="red">Red</option>
                             <option value="teal">Teal</option>
                             <option value="purple">Purple</option>
                             <option value="yellow">Yellow</option>
                         </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon1skill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon1skill2" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon1skill3" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon1awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <div id="demon1customskills" align="left">
-                            <select id="demon1customskill1" data-toggle="tooltip" title="" class="element" onchange="CalculateTotalSpeed();"></select> <input type="checkbox" id="demon1gachalock" class="element">Lock <br />
-                            <select id="demon1customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
-                        </div>
                     </div>
+                    <p></p>
+                    <div class="btn-group">
+                        <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                        <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                    </div>
+                    <div class="btn-group">
+                        <span name="demonSkill3" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                        <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                    </div>
+                    <div class="btn-group">
+                        <select name="demonCustomSkill1" class="btn btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="Lock(this);ReloadAll();"></select>
+                        <select name="demonCustomSkill2" class="btn btn-secondary btn-xs" data-toggle="tooltip" title="" onchange="ReloadAll();"></select>
+                    </div>
+                    <div id="tooltip_container"></div>
+                    <input type="checkbox" name="demonGachaLock">Lock<br />
+                    <table class="table table-borderless table-sm">
+                        <thead>
+                            <tr>
+                                <td scope="row"><img src="Images/Theme/Physical.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Fire.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Ice.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Elec.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Force.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Light.png" /></td>
+                                <td scope="row"><img src="Images/Theme/Dark.png" /></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td name="demonPhys">-</td>
+                                <td name="demonFire">-</td>
+                                <td name="demonIce">-</td>
+                                <td name="demonElec">-</td>
+                                <td name="demonForce">-</td>
+                                <td name="demonLight">-</td>
+                                <td name="demonDark">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div id="demomBrands1" class="tabcontent1">
                 </div>
                 <div id="demomStats1" class="tabcontent1">
                 </div>
-                <div class="tab">
-                    <button class="tab1 active" onclick="OpenTab(event, 'demomSkills1', 'tab1', 'tabcontent1')">Skills</button>
-                    <button class="tab1" onclick="OpenTab(event, 'demomBrands1', 'tab1', 'tabcontent1')">Brands</button>
-                    <button class="tab1" onclick="OpenTab(event, 'demomStats1', 'tab1', 'tabcontent1')">Stats</button>
+                <div class="tab btn-group text-center">
+                    <button class="tab1 active" onclick="">Skills</button>
+                    <button class="tab1" onclick="">Brands</button>
+                    <button class="tab1" onclick="">Stats</button>
                 </div>
-
-            </td>
-            <td>
-                <div id="demomSkills2" class="tabcontent2" style="display:block">
-                    <div id="demon2" align="left">
-                        <img id="demon2image" width="115" height="155" visibility="hidden" /> <br />
-                        <select id="demonSel2" name="demonSel2" onchange="ChangeDemon(this)" class="element"></select>
+            </div>
+            <div class="col-2 border border-dark rounded order-3">
+                <td style="vertical-align: top">
+                    <div id="demonbuffer" align="center">
                         <br />
-                        <select id="demon2archtype" onchange="ChangeDemon(demonSel2)" class="element">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select> <br />
-                        Skills: <br />
-                        <span id="demon2skill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon2skill2" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon2skill3" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon2awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <div id="demon2customskills" align="left">
-                            <select id="demon2customskill1" data-toggle="tooltip" title="" class="element"></select> <input type="checkbox" id="demon2gachalock" class="element">Lock <br />
-                            <select id="demon2customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
-                        </div>
+                        <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL()">Generate Link</button> <br /><br />
+                        <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset()">Reset</button> <br /> <br />
+                        <img class="img" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
+                        <select class="btn btn-info btn-sm" id="liberators" onchange="ChangeLiberator()"></select>
                     </div>
-                </div>
-                <div id="demomBrands2" class="tabcontent2">
-                </div>
-                <div id="demomStats2" class="tabcontent2">
-                </div>
-                <div class="tab">
-                    <button class="tab2 active" onclick="OpenTab(event, 'demomSkills2', 'tab2', 'tabcontent2')">Skills</button>
-                    <button class="tab2" onclick="OpenTab(event, 'demomBrands2', 'tab2', 'tabcontent2')">Brands</button>
-                    <button class="tab2" onclick="OpenTab(event, 'demomStats2', 'tab2', 'tabcontent2')">Stats</button>
-                </div>
-            </td>
-            <td style="vertical-align:top">
-                <div id="demonbuffer" align="center">
-                    <button id="generateUrlBtn" name="generateUrlBtn" onclick="CreateURL()" class="element">Generate Link</button> <br/><br />
-                    <button id="resetBtn" onclick="Reset()">Reset</button> <br/> <br/>
-                    <img id="liberatorimage" width="115" height="155" visibility="hidden"/> <br/>
-                    <select id="liberators" onchange="ChangeLiberator()" class="element">
-                    </select>
-                </div>
-            </td>
-            <td>
-                <div id="demomSkills3" class="tabcontent3" style="display:block">
-                    <div id="demon3" align="right">
-                        <img id="demon3image" width="115" height="155" visibility="hidden" /> <br />
-                        <select id="demonSel3" name="demonSel3" onchange="ChangeDemon(this)" class="element"></select>
-                        <br />
-                        <select id="demon3archtype" onchange="ChangeDemon(demonSel3)" class="element">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon3skill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon3skill2" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon3skill3" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon3awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <div id="demon3customskills">
-                            Lock<input type="checkbox" id="demon3gachalock" class="element">
-                            <select id="demon3customskill1" data-toggle="tooltip" title="" class="element"></select> <br />
-                            <select id="demon3customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
-                        </div>
-                    </div>
-                </div>
-                <div id="demomBrands3" class="tabcontent3">
-                </div>
-                <div id="demomStats3" class="tabcontent3">
-                </div>
-                <div class="tab">
-                    <button class="tab3 active" onclick="OpenTab(event, 'demomSkills3', 'tab3', 'tabcontent3')">Skills</button>
-                    <button class="tab3" onclick="OpenTab(event, 'demomBrands3', 'tab3', 'tabcontent3')">Brands</button>
-                    <button class="tab3" onclick="OpenTab(event, 'demomStats3', 'tab3', 'tabcontent3')">Stats</button>
-                </div>
-            </td>
-            <td>
-                <div id="demomSkills4" class="tabcontent4" style="display:block">
-                    <div id="demon4" align="right">
-                        <img id="demon4image" width="115" height="155" visibility="hidden" /> <br />
-                        <select id="demonSel4" name="demonSel4" onchange="ChangeDemon(this)" class="element"></select>
-                        <br />
-                        <select id="demon4archtype" onchange="ChangeDemon(demonSel4)" class="element">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                        <br />
-                        Skills:
-                        <br />
-                        <span id="demon4skill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon4skill2" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon4skill3" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <span id="demon4awakenskill1" data-toggle="tooltip" title="" class="element"></span> <br />
-                        <div id="demon4customskills">
-                            Lock<input type="checkbox" id="demon4gachalock" class="element">
-                            <select id="demon4customskill1" data-toggle="tooltip" title="" class="element"></select> <br />
-                            <select id="demon4customskill2" data-toggle="tooltip" title="" class="element"></select> <br />
-                        </div>
-                    </div>
-                </div>
-                <div id="demomBrands4" class="tabcontent4">
-                </div>
-                <div id="demomStats4" class="tabcontent4">
-                </div>
-                <div class="tab">
-                    <button class="tab4 active" onclick="OpenTab(event, 'demomSkills4', 'tab4', 'tabcontent4')">Skills</button>
-                    <button class="tab4" onclick="OpenTab(event, 'demomBrands4', 'tab4', 'tabcontent4')">Brands</button>
-                    <button class="tab4" onclick="OpenTab(event, 'demomStats4', 'tab4', 'tabcontent4')">Stats</button>
-                </div>
-            </td>
-        </tr>
-    </table>
-    <p>Created by: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></p>
-</div>
-
+            </div>
+        </div>
+        <p align="right">
+                Version 0.2<br />
+                Created by: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a>
+        </p>
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script type="text/javascript">
     LoadData();
 </script>

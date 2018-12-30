@@ -4,9 +4,59 @@ var liberatorData;
 var nullText = "-----------";
 var baseUrl = "https://alenael.github.io/Dx2-TeamBuilder/Index.html";
 
-function LoadData() {
+//Our Controls
+var demonsSel;
+var demonArchtype;
+var demonCustomSkill1;
+var demonCustomSkill2;
+var demonGachaLock;
+var demonImages;
+var demonImgArchtype;
+var demonSkill1;
+var demonSkill2;
+var demonSkill3;
+var demonAwakenSkill;
+var demonPhys;
+var demonFire;
+var demonIce;
+var demonElec;
+var demonForce;
+var demonLight;
+var demonDark;
 
+function LoadData() {
+    
+    //Create some additional demons
+    $('#demon').clone().attr("id", "demon2").addClass("order-1").appendTo('#demoncontent');
+    $('#demon').clone().attr("id", "demon3").addClass("order-3").appendTo('#demoncontent');
+    $('#demon').clone().attr("id", "demon4").addClass("order-3").appendTo('#demoncontent');
+
+    //Enable Tooltips
+    $("[data-toggle=tooltip]").tooltip();
+
+    //Load our json
     $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
+
+        //Grab reference to all our controls
+        demonsSel = document.getElementsByName("demonSel");
+        demonArchtype = document.getElementsByName("demonArchtype");
+        demonCustomSkill1 = document.getElementsByName("demonCustomSkill1");
+        demonCustomSkill2 = document.getElementsByName("demonCustomSkill2");
+        demonGachaLock = document.getElementsByName("demonGachaLock");
+        demonImages = document.getElementsByName("demonImage");
+        demonImgArchtype = document.getElementsByName("demonImgArchtype");
+        demonSkill1 = document.getElementsByName("demonSkill1");
+        demonSkill2 = document.getElementsByName("demonSkill2");
+        demonSkill3 = document.getElementsByName("demonSkill3");
+        demonAwakenSkill = document.getElementsByName("demonAwakenSkill");
+        demonPhys = document.getElementsByName("demonPhys");
+        demonFire = document.getElementsByName("demonFire");
+        demonIce = document.getElementsByName("demonIce");
+        demonElec = document.getElementsByName("demonElec");
+        demonForce = document.getElementsByName("demonForce");
+        demonLight = document.getElementsByName("demonLight");
+        demonDark = document.getElementsByName("demonDark");
+
         ReadURL();
     });
 }
@@ -15,79 +65,51 @@ function LoadData() {
 function ReadURL() {
     if (window.location.href.includes("?")) {
         var result = window.atob(window.location.href.split('?')[1]);
-        
+
         var url = new URL(decodeURI(baseUrl + "?" + result));
 
-        var demon1 = url.searchParams.get("demon1");
-        var demon1Archtype = url.searchParams.get("demon1archtype");
-        var demon1Skill1 = url.searchParams.get("demon1skill1");
-        var demon1Skill2 = url.searchParams.get("demon1skill2");
-        var demon2 = url.searchParams.get("demon2");
-        var demon2Archtype = url.searchParams.get("demon2archtype");
-        var demon2Skill1 = url.searchParams.get("demon2skill1");
-        var demon2Skill2 = url.searchParams.get("demon2skill2");
-        var demon3 = url.searchParams.get("demon3");
-        var demon3Archtype = url.searchParams.get("demon3archtype");
-        var demon3Skill1 = url.searchParams.get("demon3skill1");
-        var demon3Skill2 = url.searchParams.get("demon3skill2");
-        var demon4 = url.searchParams.get("demon4");
-        var demon4Archtype = url.searchParams.get("demon4archtype");
-        var demon4Skill1 = url.searchParams.get("demon4skill1");
-        var demon4Skill2 = url.searchParams.get("demon4skill2");
         var liberator = url.searchParams.get("liberator");
 
-        if (liberator != null)
-            document.getElementById("liberators").value = liberator;
+         if (liberator != null)
+             document.getElementById("liberators").value = liberator;
 
-        if (demon1 != null) {
-            document.getElementById("demonSel1").value = demon1;
-            document.getElementById("demon1archtype").value = demon1Archtype;
+        var demons = [
+            url.searchParams.get("demon1"),
+            url.searchParams.get("demon2"),
+            url.searchParams.get("demon3"),
+            url.searchParams.get("demon4")
+        ];
 
-            if (demon1Skill1 != null) {
-                document.getElementById("demon1gachalock").checked = true;
-                document.getElementById("demon1customskill1").value = demon1Skill1;
-            }
-            if (demon1Skill2 != null)
-                document.getElementById("demon1customskill2").value = demon1Skill2;
+        var archtpes = [
+            url.searchParams.get("demon1archtype"),
+            url.searchParams.get("demon2archtype"),
+            url.searchParams.get("demon3archtype"),
+            url.searchParams.get("demon4archtype")
+        ];
+
+        var customSkills1 = [
+            url.searchParams.get("demon1skill1"),
+            url.searchParams.get("demon2skill1"),
+            url.searchParams.get("demon3skill1"),
+            url.searchParams.get("demon4skill1")
+        ];
+
+        var customSkills2 = [
+            url.searchParams.get("demon1skill2"),
+            url.searchParams.get("demon2skill2"),
+            url.searchParams.get("demon3skill2"),
+            url.searchParams.get("demon4skill2")
+        ];
+
+        for (var i = 0; i < demons.length; i++) {
+            demonsSel[i].value = demons[i];
+            demonArchtype[i].value = archtpes[i];
+            demonCustomSkill1[i].value = customSkills1[i];
+            demonCustomSkill2[i].value = customSkills2[i];
+            demonGachaLock[i].checked = true;
         }
-
-        if (demon2 != null) {
-            document.getElementById("demonSel2").value = demon2;
-            document.getElementById("demon2archtype").value = demon2Archtype;
-
-            if (demon2Skill1 != null) {
-                document.getElementById("demon2gachalock").checked = true;
-                document.getElementById("demon2customskill1").value = demon2Skill1;
-            }
-            if (demon2Skill2 != null)
-                document.getElementById("demon2customskill2").value = demon2Skill2;
-        }
-
-        if (demon3 != null) {
-            document.getElementById("demonSel3").value = demon3;
-            document.getElementById("demon3archtype").value = demon3Archtype;
-
-            if (demon3Skill1 != null) {
-                document.getElementById("demon3gachalock").checked = true;
-                document.getElementById("demon3customskill1").value = demon3Skill1;
-            }
-            if (demon3Skill2 != null)
-                document.getElementById("demon3customskill2").value = demon3Skill2;
-        }
-        if (demon4 != null) {
-            document.getElementById("demonSel4").value = demon4;
-            document.getElementById("demon4archtype").value = demon4Archtype;
-
-            if (demon4Skill1 != null) {
-                document.getElementById("demon4gachalock").checked = true;
-                document.getElementById("demon4customskill1").value = demon4Skill1;
-            }
-            if (demon4Skill2 != null)
-                document.getElementById("demon4customskill2").value = demon4Skill2;
-        }
-
-        ReloadAll();
     }
+    ReloadAll();
 }
 
 
@@ -99,41 +121,17 @@ function CreateURL() {
     if ($('#liberator').val() != nullText) {
         parameters += "liberator=" + $('#liberators').val() + "&";
     }
-    if ($('#demonSel1').val() != nullText) {
-        parameters += "demon1=" + $('#demonSel1').val() + "&";
-        parameters += "demon1archtype=" + $('#demon1archtype').val() + "&";
 
-        if ($('#demon1customskill1').val() != nullText)
-            parameters += "demon1skill1=" + $('#demon1customskill1').val() + "&";
-        if ($('#demon1customskill2').val() != nullText)
-            parameters += "demon1skill2=" + $('#demon1customskill2').val() + "&";
-    }
-    if ($('#demonSel2').val() != nullText) {
-        parameters += "demon2=" + $('#demonSel2').val() + "&";
-        parameters += "demon2archtype=" + $('#demon2archtype').val() + "&";
+    for (var i = 0; i < demonsSel.length; i++) {
+        if (demonsSel[i].value !== nullText) {
+            parameters += "demon" + (i+1) + "=" + demonsSel[i].value + "&";
+            parameters += "demon" + (i+1) + "archtype=" + demonArchtype[i].value + "&";
 
-        if ($('#demon2customskill1').val() != nullText)
-            parameters += "demon2skill1=" + $('#demon2customskill1').val() + "&";
-        if ($('#demon2customskill2').val() != nullText)
-            parameters += "demon2skill2=" + $('#demon2customskill2').val() + "&";
-    }
-    if ($('#demonSel3').val() != nullText) {
-        parameters += "demon3=" + $('#demonSel3').val() + "&";
-        parameters += "demon3archtype=" + $('#demon3archtype').val() + "&";
-
-        if ($('#demon1customskill1').val() != nullText)
-            parameters += "demon3skill1=" + $('#demon3customskill1').val() + "&";
-        if ($('#demon1customskill2').val() != nullText)
-            parameters += "demon3skill2=" + $('#demon3customskill2').val() + "&";
-    }
-    if ($('#demonSel4').val() != nullText) {
-        parameters += "demon4=" + $('#demonSel4').val() + "&";
-        parameters += "demon4archtype=" + $('#demon4archtype').val() + "&";
-
-        if ($('#demon1customskill1').val() != nullText)
-            parameters += "demon4skill1=" + $('#demon4customskill1').val() + "&";
-        if ($('#demon1customskill2').val() != nullText)
-            parameters += "demon4skill2=" + $('#demon4customskill2').val() + "&";
+            if (demonCustomSkill1[i].value !== nullText)
+                parameters += "demon" + (i+1) + "skill1=" + demonCustomSkill1[i].value + "&";
+            if (demonCustomSkill2[i].value !== nullText)
+                parameters += "demon" + (i+1) + "skill2=" + demonCustomSkill2[i].value + "&";
+        }
     }
 
     window.location.href =baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
@@ -144,17 +142,7 @@ function JsonLoader1() {
     return $.getJSON("Data/Skills.json", function (skills) {
         skillData = skills;
 
-        LoadSkillControl("demon1customskill1");
-        LoadSkillControl("demon1customskill2");
-
-        LoadSkillControl("demon2customskill1");
-        LoadSkillControl("demon2customskill2");
-
-        LoadSkillControl("demon3customskill1");
-        LoadSkillControl("demon3customskill2");
-
-        LoadSkillControl("demon4customskill1");
-        LoadSkillControl("demon4customskill2");
+        LoadSkillControls();
     });
 }
 
@@ -163,155 +151,171 @@ function JsonLoader2() {
     return $.getJSON("Data/Demons.json", function (demons) {
         demonData = demons;
 
-        LoadDemonControl("demonSel1");
-        LoadDemonControl("demonSel2");
-        LoadDemonControl("demonSel3");
-        LoadDemonControl("demonSel4");
+        LoadDemonControls();
     });
 }
 
-
+//Load Liberators
 function JsonLoader3() {
-    //Load Liberators
-    return $.getJSON("Data/Liberators.json", function(liberators) {
+    return $.getJSON("Data/Liberators.json",
+        function(liberators) {
             liberatorData = liberators;
 
             var select = document.getElementById("liberators");
-            var option = document.createElement('option');
-            option.text = nullText;
-            option.value = nullText;
-            select.add(option, 0);
 
             for (var i = 0; i <= liberatorData.length - 1; i++) {
-                //Load all the demons and add them to our list
-                var option = document.createElement('option');
+                var option = document.createElement("option");
                 option.text = liberatorData[i].Name;
                 option.value = liberatorData[i].Name;
                 select.add(option, 0);
             }
+            SortByABC(select);
         });
 }
 
 //Loads up a control with skills
-function LoadSkillControl(control) {
-    var select = document.getElementById(control);
-    var option = document.createElement('option');
-    option.text = nullText;
-    option.value = nullText;
-    option.title = "";
-    select.add(option, 0);
+function LoadSkillControls() {
+    var select = document.querySelectorAll('[name="demonCustomSkill1"], [name="demonCustomSkill2"]'); 
 
-    for (var i = 0; i <= skillData.length - 1; i++) {
-        //Load all the demons and add them to our list
+    for (var x = 0; x < select.length; x++) {
         var option = document.createElement('option');
-        option.text = skillData[i].Name;
-        option.value = skillData[i].Name;
-        option.title = skillData[i].Description;
-        select.add(option, 0);
-    }
+        option.text = nullText;
+        option.value = nullText;
+        select[x].add(option, 0);
 
-    SortByABC(control);
+        for (var i = 0; i < skillData.length; i++) {
+            var option = document.createElement('option');
+            option.text = skillData[i].Name;
+            option.value = skillData[i].Name;
+            option.title = skillData[i].Description;
+            select[x].add(option, 0);
+        }
+
+        SortByABC(select[x]);
+    }
 }
 
 //Loads up a control with our demon info
-function LoadDemonControl(control) {
-    var select = document.getElementById(control);
-    var option = document.createElement('option');
-    option.text = nullText;
-    option.value = nullText;
-    select.add(option, 0);
-
-    for (var i = 0; i <= demonData.length - 1; i++) {
-        //Load all the demons and add them to our list
+function LoadDemonControls() {
+    var select = document.getElementsByName("demonSel");
+    
+    for (var x = 0; x < select.length; x++) {
         var option = document.createElement('option');
-        option.text = demonData[i].Name;
-        option.value = demonData[i].Name;
-        select.add(option, 0);
-    }
+        option.text = nullText;
+        option.value = nullText;
+        select[x].add(option, 0);
 
-    SortByABC(control);
+        for (var i = 0; i < demonData.length; i++) {
+            option = document.createElement('option');
+            option.text = demonData[i].Name;
+            option.value = demonData[i].Name;
+            select[x].add(option, 0);
+        }
+
+        SortByABC(select[x]);
+    }
 }
 
 //Sorts a Drop Down into ABC
 function SortByABC(control) {
-    var sel = $('#' + control);
-    var opts_list = sel.find('option');
-    opts_list.sort(function (a, b) { return $(a).text() > $(b).text() ? 1 : -1; });
-    sel.html('').append(opts_list);
+    var sel = $(control);
+    var optsList = sel.find('option');
+    optsList.sort(function (a, b) { return $(a).text() > $(b).text() ? 1 : -1; });
+    sel.html('').append(optsList);
 }
 
+//Reloads all our data on the form
 function ReloadAll() {
     ChangeLiberator();
-    ChangeDemon(document.getElementById("demonSel1"));
-    ChangeDemon(document.getElementById("demonSel2"));
-    ChangeDemon(document.getElementById("demonSel3"));
-    ChangeDemon(document.getElementById("demonSel4"));
+    SetupDemonControls();
     CalculateTotalSpeed();
+    BuildResists();
 }
 
-function ChangeDemon(control) {
-    switch (control.id) {
-    case "demonSel1":
-        SetupDemonControls(1);
-        break;
-    case "demonSel2":
-        SetupDemonControls(2);
-        break;
-    case "demonSel3":
-        SetupDemonControls(3);
-        break;
-    case "demonSel4":
-        SetupDemonControls(4);
-        break;
+//Sets up our demon controls
+function SetupDemonControls() {
+    for (var i = 0; i < demonsSel.length; i++) {
+
+        var demon = GetDemon(demonsSel[i].value);
+
+        if (demon != null) {
+            demonImages[i].src = "Images/Demons/" + demon.Name + ".jpg";
+            demonImages[i].style.visibility = 'visible';
+
+            demonImgArchtype[i].src = "Images/Archtypes/" + $(demonArchtype[i]).val() + ".png";
+            demonImgArchtype[i].style.visibility = 'visible';
+
+            demonSkill1[i].innerHTML = demon["Skill 1"];
+            demonSkill2[i].innerHTML = demon["Skill 2"];
+            demonSkill3[i].innerHTML = demon["Skill 3"];
+            demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());;
+
+            if (demonGachaLock[i].checked == false) {
+                demonCustomSkill1[i].value = GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val());
+            }
+
+            //Update Tooltips
+            $(demonSkill1[i]).attr('data-original-title', GetSkillInfo(demon["Skill 1"]));
+            $(demonSkill2[i]).attr('data-original-title', GetSkillInfo(demon["Skill 2"]));
+            $(demonSkill3[i]).attr('data-original-title', GetSkillInfo(demon["Skill 3"]));
+            $(demonAwakenSkill[i]).attr('data-original-title',
+                GetSkillInfo(GetSkillByArchtype(demon, $(demonArchtype[i]).val())));
+
+            //Remove focus from any control
+            demonsSel[i].blur();
+            demonArchtype[i].blur();
+        } else {
+            demonSkill1[i].innerHTML = "";
+            demonSkill2[i].innerHTML = "";
+            demonSkill3[i].innerHTML = "";
+            demonAwakenSkill[i].innerHTML = "";
+            demonImages[i].style.visibility = 'hidden';
+            demonImgArchtype[i].style.visibility = 'hidden';
+        }
+
+        //Set the tooltips
+        $(demonCustomSkill1[i]).attr('data-original-title', GetSkillInfo(demonCustomSkill1[i].value));
+        $(demonCustomSkill2[i]).attr('data-original-title', GetSkillInfo(demonCustomSkill2[i].value));
+
+        //Remove focus from any control
+        demonCustomSkill1[i].blur();
+        demonCustomSkill2[i].blur();
     }
 }
 
-function SetupDemonControls(controlNum) {
-    var sel = $('#demonSel' + controlNum).val();
-    demonData.forEach(function(demon) {
-        if (demon.Name == sel) {
-            document.getElementById("demon" + controlNum + "image").style.visibility = 'visible';
-            document.getElementById("demon" + controlNum + "image").src = "Images/Demons/" + demon.Name + ".png";
-            document.getElementById("demon" + controlNum + "skill1").innerHTML = demon["Skill 1"];
-            document.getElementById("demon" + controlNum + "skill1").title = GetSkillInfo(demon["Skill 1"]);
-            document.getElementById("demon" + controlNum + "skill2").innerHTML = demon["Skill 2"];
-            document.getElementById("demon" + controlNum + "skill2").title = GetSkillInfo(demon["Skill 2"]);
-            document.getElementById("demon" + controlNum + "skill3").innerHTML = demon["Skill 3"];
-            document.getElementById("demon" + controlNum + "skill3").title = GetSkillInfo(demon["Skill 3"]);
-            document.getElementById("demon" + controlNum + "awakenskill1").innerHTML =
-                GetSkillByArchtype(demon, $('#demon1archtype').val());
-            document.getElementById("demon" + controlNum + "awakenskill1").title =
-                GetSkillInfo(GetSkillByArchtype(demon, $('#demon1archtype').val()));
-            if (document.getElementById("demon" + controlNum + "gachalock").checked == false) {
-                document.getElementById("demon" + controlNum + "customskill1").value =
-                    GetGachaSkillByArchtype(demon, $('#demon' + controlNum + 'archtype').val());
-            }
-            CalculateTotalSpeed();
-        } else if (nullText == sel) {
-            document.getElementById("demon" + controlNum + "image").style.visibility = 'hidden';
+
+//Locks our Custom Skill 1
+function Lock(control) {
+    var demonCustomSkill1 = document.getElementsByName("demonCustomSkill1");
+    var demonGachaLock = document.getElementsByName("demonGachaLock");
+
+    for (var i = 0; i < demonCustomSkill1.length; i++) {
+        if (demonCustomSkill1[i] == control) {
+            demonGachaLock[i].checked = true;
         }
-    });
+    }
 }
 
 //Calculate team speed
 function CalculateTotalSpeed() {
 
-    var demon1Speed = GetDemonSpeed(1);
-    var demon2Speed = GetDemonSpeed(2);
-    var demon3Speed = GetDemonSpeed(3);
-    var demon4Speed = GetDemonSpeed(4);
-    var count = Math.min(demon1Speed, 1) + Math.min(demon2Speed, 1) + Math.min(demon3Speed, 1) + Math.min(demon4Speed, 1);
+    var demonSpeed = [0, 0, 0, 0];
+
+    for (var i = 0; i < demonsSel.length; i++) {
+        demonSpeed[i] = GetDemonSpeed(demonsSel[i].value, i);
+    }
+    var count = Math.min(demonSpeed[0], 1) + Math.min(demonSpeed[1], 1) + Math.min(demonSpeed[2], 1) + Math.min(demonSpeed[3], 1);
 
     var totalSpeed = 0;
     if (count != 0)
-        totalSpeed = Math.floor((demon1Speed + demon2Speed + demon3Speed + demon4Speed) * (100 / count));
+        totalSpeed = Math.floor((demonSpeed[0] + demonSpeed[1] + demonSpeed[2] + demonSpeed[3]) * (100 / count));
     
     document.getElementById("totalspeed").innerHTML = "Total Speed: " + totalSpeed;
 }
 
 //Returns a demons speed value
-function GetDemonSpeed(num) {
-    var demon = GetDemon(num);
+function GetDemonSpeed(name, num) {
+    var demon = GetDemon(name);
     var liberator = GetLiberator();
     var speed = 0;
     var extraAgi = 0;
@@ -322,22 +326,22 @@ function GetDemonSpeed(num) {
         if (demon["Skill 1"] == "Agility Amp I" ||
             demon["Skill 2"] == "Agility Amp I" ||
             demon["Skill 3"] == "Agility Amp I" ||
-            $('#demon' + num + "customskill1").val() == "Agility Amp I" ||
-            $('#demon' + num + "customskill2").val() == "Agility Amp I")
+            demonCustomSkill1[num] == "Agility Amp I" ||
+            demonCustomSkill2[num] == "Agility Amp I")
             extraAgi += 5;
 
         if (demon["Skill 1"] == "Agility Amp II" ||
             demon["Skill 2"] == "Agility Amp II" ||
             demon["Skill 3"] == "Agility Amp II" ||
-            $('#demon' + num + "customskill1").val() == "Agility Amp II" ||
-            $('#demon' + num + "customskill2").val() == "Agility Amp II")
+            demonCustomSkill1[num] == "Agility Amp II" ||
+            demonCustomSkill2[num] == "Agility Amp II")
             extraAgi += 10;
 
         if (demon["Skill 1"] == "Agility Amp III" ||
             demon["Skill 2"] == "Agility Amp III" ||
             demon["Skill 3"] == "Agility Amp III" ||
-            $('#demon' + num + "customskill1").val() == "Agility Amp III" ||
-            $('#demon' + num + "customskill2").val() == "Agility Amp III")
+            demonCustomSkill1[num] == "Agility Amp III" ||
+            demonCustomSkill2[num] == "Agility Amp III")
             extraAgi += 15;
 
         //Add Ag from Liberator
@@ -348,21 +352,139 @@ function GetDemonSpeed(num) {
         if (demon["Skill 1"] == "Speedster" ||
             demon["Skill 2"] == "Speedster" ||
             demon["Skill 3"] == "Speedster" ||
-            $('#demon' + num + "customskill1").val() == "Speedster" ||
-            $('#demon' + num + "customskill2").val() == "Speedster")
+            demonCustomSkill1[num] == "Speedster" ||
+            demonCustomSkill2[num] == "Speedster")
             extraPercent += .5;
-
+        
         speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
     }
 
     return speed;
 }
 
+//Builds resists for each demon
+function BuildResists() {
+
+    for (var i = 0; i < demonsSel.length; i++) {
+        var demon = GetDemon(demonsSel[i].value);
+
+        if (demon == null) {
+            demonPhys[i].innerHTML = "-";
+            demonFire[i].innerHTML = "-";
+            demonIce[i].innerHTML = "-";
+            demonElec[i].innerHTML = "-";
+            demonForce[i].innerHTML = "-";
+            demonLight[i].innerHTML = "-";
+            demonDark[i].innerHTML = "-";
+        } else {
+            //Load base Resists Data in
+            var physResist = SwapResistText(demon.Phys);
+            var fireResist = SwapResistText(demon.Fire);
+            var iceResist = SwapResistText(demon.Ice);
+            var elecResist= SwapResistText(demon.Elec);
+            var forceResist= SwapResistText(demon.Force);
+            var lightResist= SwapResistText(demon.Light);
+            var darkResist= SwapResistText(demon.Dark);
+
+            //Now lets check if we have any resist skills that override the base
+            var skills = [
+                demon["Skill 3"], GetSkillByArchtype(demon, $(demonArchtype[i]).val()), demonCustomSkill1[i].value,
+                demonCustomSkill2[i].value
+            ];
+
+            for (var x = 0; x < skills.length; x++) {
+                if (skills[x].includes("Phys"))
+                    if (skills[x].includes("Drain"))
+                        physResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        physResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        physResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        physResist = "Rs";
+                if (skills[x].includes("Fire"))
+                    if (skills[x].includes("Drain"))
+                        fireResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        fireResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        fireResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        fireResist = "Rs";
+                if (skills[x].includes("Ice"))
+                    if (skills[x].includes("Drain"))
+                        iceResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        iceResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        iceResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        iceResist = "Rs";
+                if (skills[x].includes("Elec"))
+                    if (skills[x].includes("Drain"))
+                        elecResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        elecResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        elecResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        elecResist = "Rs";
+                if (skills[x].includes("Force"))
+                    if (skills[x].includes("Drain"))
+                        forceResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        forceResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        forceResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        forceResist = "Rs";
+                if (skills[x].includes("Light"))
+                    if (skills[x].includes("Drain"))
+                        lightResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        lightResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        lightResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        lightResist = "Rs";
+                if (skills[x].includes("Dark"))
+                    if (skills[x].includes("Drain"))
+                        darkResist = "Dr";
+                    else if (skills[x].includes("Repel"))
+                        darkResist = "Rp";
+                    else if (skills[x].includes("Null"))
+                        darkResist = "Nu";
+                    else if (skills[x].includes("Resist"))
+                        darkResist = "Rs";
+            }
+
+            //Finally set our resists
+            demonPhys[i].innerHTML = physResist;
+            demonFire[i].innerHTML = fireResist;
+            demonIce[i].innerHTML = iceResist;
+            demonElec[i].innerHTML = elecResist;
+            demonForce[i].innerHTML = forceResist;
+            demonLight[i].innerHTML = lightResist;
+            demonDark[i].innerHTML = darkResist;
+        }
+    }
+}
+
+//Makes text look nicer for resists
+function SwapResistText(text) {
+    var result = text;
+
+    if (result == "")
+        result = "-";
+
+    return result.charAt(0).toUpperCase() + result.slice(1);
+}
+
 //Gets demon by name
-function GetDemon(controlNum) {
+function GetDemon(name) {
     var foundDemon = null;
     demonData.forEach(function (demon) {
-        if (demon.Name == $('#demonSel' + controlNum).val()) {
+        if (demon.Name == name) {
             foundDemon = demon;
         }
     });
@@ -382,11 +504,12 @@ function GetLiberator() {
     return foundLiberator;
 }
 
+//Returns skill descriptions by skill name
 function GetSkillInfo(skillName) {
-    for (var i = 0; i <= skillData.length; i++) {
+    for (var i = 0; i < skillData.length; i++) {
         if (skillName == nullText)
             return "";
-        else (skillData[i].Name == skillName)
+        else if (skillData[i].Name == skillName)
             return skillData[i].Description;
     }
 }
@@ -432,16 +555,12 @@ function SwapNullText(text) {
 
 function Reset() {
     //Set our null values
-    document.getElementById("demonSel1").value = nullText;
-    document.getElementById("demonSel2").value = nullText;
-    document.getElementById("demonSel3").value = nullText;
-    document.getElementById("demonSel4").value = nullText;
-        
-    //Reset Artypes
-    document.getElementById("demon1archtype").value = "Clear";
-    document.getElementById("demon2archtype").value = "Clear";
-    document.getElementById("demon3archtype").value = "Clear";
-    document.getElementById("demon4archtype").value = "Clear";
+    for (var i = 0; i < demonsSel.length; i++) {
+        demonsSel[i].value = nullText;
+        demonCustomSkill1[i].value = nullText;
+        demonCustomSkill2[i].value = nullText;
+        demonArchtype[i].value = "Clear";
+    }
 
     ReloadAll();
 }
@@ -456,6 +575,7 @@ function ChangeLiberator() {
         document.getElementById("liberatorimage").src = "Images/Liberators/" + liberator + ".png";
     }
 
+    $('#liberators').blur();
     CalculateTotalSpeed();
 }
 
