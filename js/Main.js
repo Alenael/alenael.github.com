@@ -12,6 +12,7 @@ var demonCustomSkill2;
 var demonGachaLock;
 var demonImages;
 var demonImgArchtype;
+var demonImgAI;
 var demonSkill1;
 var demonSkill2;
 var demonSkill3;
@@ -45,6 +46,7 @@ function LoadData() {
         demonGachaLock = document.getElementsByName("demonGachaLock");
         demonImages = document.getElementsByName("demonImage");
         demonImgArchtype = document.getElementsByName("demonImgArchtype");
+        demonImgAI = document.getElementsByName("demonImgAI");
         demonSkill1 = document.getElementsByName("demonSkill1");
         demonSkill2 = document.getElementsByName("demonSkill2");
         demonSkill3 = document.getElementsByName("demonSkill3");
@@ -246,6 +248,9 @@ function SetupDemonControls() {
             demonImgArchtype[i].src = "Images/Archtypes/" + $(demonArchtype[i]).val() + ".png";
             demonImgArchtype[i].style.visibility = 'visible';
 
+            demonImgAI[i].src = "Images/AI/" + demon.Type + ".png";
+            demonImgAI[i].style.visibility = 'visible';
+
             demonSkill1[i].innerHTML = demon["Skill 1"];
             demonSkill2[i].innerHTML = demon["Skill 2"];
             demonSkill3[i].innerHTML = demon["Skill 3"];
@@ -274,6 +279,7 @@ function SetupDemonControls() {
             demonAwakenSkill[i].innerHTML = "";
             demonImages[i].style.visibility = 'hidden';
             demonImgArchtype[i].style.visibility = 'hidden';
+            demonImgAI[i].style.visibility = 'hidden';
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
