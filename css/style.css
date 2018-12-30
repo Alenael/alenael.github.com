@@ -64,6 +64,10 @@ p {
     width: 230px;
 }
 
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+
 .btn-xs {
     height: 40px;
     width: 115px;
