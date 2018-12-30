@@ -4255,5 +4255,27 @@
     "Skill Points": 6,
     "Learned By": "",
     "Transferable From": ""
+  },
+  {
+    "Element": "fire",
+    "Name": "MahaLantine",
+    "JP Name": "",
+    "Cost": 7,
+    "Description": "Inflicts Fire (Magic) damage with 50 power on All Enemies twice.\n\nLv2: +5% to all damage.\nLv3: +10% to all damage.\nLv4:+15% to all damage.\nLv5: +20% to all damage.\nLv6: +20% to all damage. MP cost -1.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "ice",
+    "Name": "MahaFrosty",
+    "JP Name": "",
+    "Cost": 7,
+    "Description": "Inflicts Ice (Magic) damage with 50 power on All Enemies twice.\n\nLv2: +5% to all damage.\nLv3: +10% to all damage.\nLv4:+15% to all damage.\nLv5: +20% to all damage.\nLv6: +20% to all damage. MP cost -1.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
   }
 ]
