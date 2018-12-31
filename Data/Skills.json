@@ -4277,5 +4277,49 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": ""
+  },
+  {
+    "Element": "almighty",
+    "Name": "Necro Dogma",
+    "JP Name": "",
+    "Cost": 9,
+    "Description": "Inflicts Almighty (Magic) damage on all enemies with 100 power and increases own parties DEF by 20%. (3 turns)",
+    "Target": "All Enemies",
+    "Skill Points": 12,
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "almighty",
+    "Name": "Demon Birth Cry",
+    "JP Name": "",
+    "Cost": 9,
+    "Description": "Inflicts Almighty (Magic) damage on all enemies with 100 power and reduces all enemy ATK by 20%. (3 turns)",
+    "Target": "All Enemies",
+    "Skill Points": 12,
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "phys",
+    "Name": "Bleeder",
+    "JP Name": "",
+    "Cost": 6,
+    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy and reduces MP by 2.",
+    "Target": "Single Enemy",
+    "Skill Points": 8,
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Arcane Ritual",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "While the demon with this skill is alive, all party members gain +20% increase in status ailment auto cure rate.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
   }
 ]
