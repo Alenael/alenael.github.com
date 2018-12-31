@@ -111,7 +111,7 @@ function ReadURL() {
     if (window.location.href.indexOf("?") >= 0) {
         var result = window.atob(window.location.href.split('?')[1]);
 
-        var url = new URL(decodeURI(baseUrl + "?" + result));
+        var url = new URL(decodeURI(baseUrl + "?" + result.replace("#", "")));
 
         var liberator = url.searchParams.get("liberator");
 
