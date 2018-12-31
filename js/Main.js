@@ -9,7 +9,6 @@ var demonsSel;
 var demonArchtype;
 var demonCustomSkill1;
 var demonCustomSkill2;
-var demonGachaLock;
 var demonImages;
 var demonImgArchtype;
 var demonImgAI;
@@ -50,7 +49,6 @@ function LoadData() {
         demonArchtype = document.getElementsByName("demonArchtype");
         demonCustomSkill1 = document.getElementsByName("demonCustomSkill1");
         demonCustomSkill2 = document.getElementsByName("demonCustomSkill2");
-        demonGachaLock = document.getElementsByName("demonGachaLock");
         demonImages = document.getElementsByName("demonImage");
         demonImgArchtype = document.getElementsByName("demonImgArchtype");
         demonImgAI = document.getElementsByName("demonImgAI");
@@ -138,7 +136,6 @@ function ReadURL() {
             $(demonArchtype[i]).selectpicker('val', archtpes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
-            demonGachaLock[i].checked = true;
         }
     }
 
@@ -278,6 +275,7 @@ function SetupDemonControls() {
         var demon = GetDemon(demonsSel[i].value);
 
         if (demon != null) {
+
             demonImages[i].src = "Images/Demons/" + demon.Name + ".jpg";
             demonImages[i].style.visibility = 'visible';
 
@@ -301,8 +299,9 @@ function SetupDemonControls() {
             demonSkill3[i].innerHTML = demon["Skill 3"];
             demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());;
 
-            if (demonGachaLock[i].checked === false) {
-                $(demonCustomSkill1[i]).selectpicker('val', GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val()));
+            var gachaSkill = GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val());
+            if (!lock[i] && (gachaSkill !== nullText || $(demonArchtype[i]).val() === "clear")) {
+                $(demonCustomSkill1[i]).selectpicker('val', gachaSkill);
             }
 
             //Update Tooltips
@@ -331,7 +330,7 @@ function SetupDemonControls() {
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
-        
+
         //Remove focus from any control
         demonCustomSkill1[i].blur();
         demonCustomSkill2[i].blur();
@@ -343,16 +342,15 @@ function SetupDemonControls() {
     }
 }
 
+var lock = [false, false, false, false, false];
 
-//Locks our Custom Skill 1
+//Keeps track if we are locked or not
 function Lock(control) {
-    var demonCustomSkill1 = document.getElementsByName("demonCustomSkill1");
-    var demonGachaLock = document.getElementsByName("demonGachaLock");
-
-    for (var i = 0; i < demonCustomSkill1.length; i++) {
-        if (demonCustomSkill1[i] === control) {
-            demonGachaLock[i].checked = true;
-        }
+    for (var i = 0; i < demonsSel.length; i++) {
+        if (demonsSel[i] === control || demonArchtype[i] === control)
+            lock[i] = false;
+        else if (demonCustomSkill2[i] === control)
+            lock[i] = true;
     }
 }
 
@@ -570,7 +568,7 @@ function GetGachaSkillByArchtype(demon, archtype) {
 
 //Swaps our text if its null
 function SwapNullText(text) {
-    if (text == null)
+    if (text == null || text === "")
         return nullText;
     else
         return text;
@@ -584,7 +582,6 @@ function Reset() {
         $(demonCustomSkill1[i]).selectpicker('val', nullText);
         $(demonCustomSkill2[i]).selectpicker('val', nullText);
         $(demonArchtype[i]).selectpicker('val', "Clear");
-        demonGachaLock[i].checked = false;
     }
 
     ReloadAll();

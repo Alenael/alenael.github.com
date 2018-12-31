@@ -112,3 +112,7 @@ p {
 .demonInfo {
     min-height:120px;
 }
+
+.img {
+    border: none;
+}
