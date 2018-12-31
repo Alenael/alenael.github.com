@@ -30,7 +30,7 @@ var dropDownMenus;
 
 function LoadData() {
     
-    $(document).ready(function() {
+    $(document).ready(function () {
         $("body").tooltip({
             selector: '[data-toggle="tooltip"]'
         });
@@ -88,6 +88,8 @@ function LoadData() {
 
         ReadURL();
         TurnOrder();
+        $('div#demoncontent').removeClass("hidden");
+        $('div#loading').addClass("hidden");
     });
 }
 

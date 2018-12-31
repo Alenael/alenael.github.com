@@ -14,6 +14,31 @@ p {
     font-size: 11px;
 }
 
+.loader {
+    border: 8px solid whitesmoke;
+    border-top: 8px solid #17a2b8;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading {
+    height: 400px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+div.hidden {
+    display: none;
+}
+
 .tab button {
     background-color: inherit;
     float: left;
