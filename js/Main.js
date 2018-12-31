@@ -29,12 +29,7 @@ var demonDark;
 var dropDownMenus;
 
 function LoadData() {
-
-    //Create some additional demons
-    $('#demon').clone().attr("id", "demon2").addClass("order-2").appendTo('#demoncontent');
-    $('#demon').clone().attr("id", "demon3").addClass("order-3").appendTo('#demoncontent');
-    $('#demon').clone().attr("id", "demon4").addClass("order-4").appendTo('#demoncontent');
-
+    
     $(document).ready(function() {
         $("body").tooltip({
             selector: '[data-toggle="tooltip"]'
@@ -44,6 +39,10 @@ function LoadData() {
     //Load our json
     $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function(a1, a2) {
 
+        Clone($('#demon'), 2);
+        Clone($('#demon'), 3);
+        Clone($('#demon'), 4);
+        
         //Grab reference to all our controls
         demonsSel = document.getElementsByName("demonSel");
         demonArchtype = document.getElementsByName("demonArchtype");
@@ -90,6 +89,19 @@ function LoadData() {
         ReadURL();
         TurnOrder();
     });
+}
+
+//Clones our Demon
+function Clone(object, num) {
+
+    var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
+    var select = $(newClone).find('select').clone(true);
+    var boostrap = $(newClone).find('.bootstrap-select');
+
+    for (var i = 0; i < select.length; i++) {
+        boostrap[i].replaceWith(select[i]);
+        $(select[i]).selectpicker();    
+    }
 }
 
 //Reads the URl upon load to see if we have a special build being loaded
@@ -206,7 +218,7 @@ function JsonLoader3() {
 
 //Loads up a control with skills
 function LoadSkillControls() {
-    var select = document.querySelectorAll('[name="demonCustomSkill1"], [name="demonCustomSkill2"]');
+    var select = document.getElementsByName('demonCustomSkill1');
 
     for (var x = 0; x < select.length; x++) {
         var option = document.createElement('option');
@@ -219,13 +231,16 @@ function LoadSkillControls() {
             option.text = skillData[i].Name;
             option.value = skillData[i].Name;
             option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
-            option.setAttribute("data-subtext", skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
+            option.setAttribute("data-subtext",
+                skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
             select[x].add(option, 0);
         }
 
         SortByABC(select[x]);
         $(select[x]).selectpicker("refresh");
     }
+    
+    $('#demonCustomSkill1').clone().attr("name", "demonCustomSkill2").appendTo($('#customSkillGroup')).selectpicker();
 }
 
 //Loads up a control with our demon info
@@ -267,6 +282,7 @@ function ReloadAll() {
     SetupDemonControls();
     CalculateTotalSpeed();
     BuildResists();
+    FilterDemons();
 }
 
 //Sets up our demon controls
@@ -678,5 +694,19 @@ function TurnOrder() {
                 }
             }
         }
+    }
+}
+
+//Removes demons already selected from the list
+function FilterDemons() {
+
+    for (var x = 0; x < demonsSel.length; x++) {
+        var object = $(demonsSel[x]).find("option");
+
+        //Disable uneeded demons
+
+
+
+        $(demonsSel[x]).selectpicker('render');
     }
 }
