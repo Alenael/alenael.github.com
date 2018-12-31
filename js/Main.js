@@ -31,9 +31,9 @@ var dropDownMenus;
 function LoadData() {
 
     //Create some additional demons
-    $('#demon').clone().attr("id", "demon2").addClass("order-1").appendTo('#demoncontent');
+    $('#demon').clone().attr("id", "demon2").addClass("order-2").appendTo('#demoncontent');
     $('#demon').clone().attr("id", "demon3").addClass("order-3").appendTo('#demoncontent');
-    $('#demon').clone().attr("id", "demon4").addClass("order-3").appendTo('#demoncontent');
+    $('#demon').clone().attr("id", "demon4").addClass("order-4").appendTo('#demoncontent');
 
     $(document).ready(function() {
         $("body").tooltip({
@@ -88,6 +88,7 @@ function LoadData() {
         }
 
         ReadURL();
+        TurnOrder();
     });
 }
 
@@ -362,6 +363,7 @@ function CalculateTotalSpeed() {
     for (var i = 0; i < demonsSel.length; i++) {
         demonSpeed[i] = GetDemonSpeed(demonsSel[i].value, i);
     }
+
     var count = Math.min(demonSpeed[0], 1) + Math.min(demonSpeed[1], 1) + Math.min(demonSpeed[2], 1) + Math.min(demonSpeed[3], 1);
 
     var totalSpeed = 0;
@@ -619,4 +621,62 @@ function OpenTab(event, tab, tabControlClass, tabContentClass) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tab).style.display = "block";
     event.currentTarget.className += " active";
+}
+
+//Swaps demons by turn order
+function TurnOrder() {
+
+    var cols = document.getElementsByName("demon");
+    var demons = [];
+
+    for (var i = 0; i < demonsSel.length; i++) {
+        demons.push(GetDemon(demonsSel[i].value));
+    }
+
+    //Sorts our demons by agi only (Lead brands will be added later for this)
+    var sorter = function() {
+        return function (a, b) {
+            if (a == null) {
+                return 1;
+            } else if (b == null) {
+                return -1;
+            } else if (a === b) {
+                return 0;
+            }
+            if (a === b) {
+                return 0;
+            } 
+            else {
+                return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;
+            }
+        }
+    };
+
+    var newTurnOrder = demons.slice().sort(sorter());
+
+    //Move everything to end
+    for (var x = 0; x < newTurnOrder.length; x++) {
+        cols[x].classList.remove("order-1");
+        cols[x].classList.remove("order-2");
+        cols[x].classList.remove("order-3");
+        cols[x].classList.remove("order-4");
+        cols[x].classList.add("order-4");
+    }
+
+    //Now fix non null items to be in correct spot
+    if (newTurnOrder.some(function(i) { return i !== null; })) {
+        for (var j = 0; j < newTurnOrder.length; j++) {
+            for (var k = 0; k < newTurnOrder.length; k++) {
+                if (demons[k] !== null && demons[k] === newTurnOrder[j]) {
+                    cols[k].classList.remove("order-1");
+                    cols[k].classList.remove("order-2");
+                    cols[k].classList.remove("order-3");
+                    cols[k].classList.remove("order-4");
+
+                    cols[k].classList.add("order-" + j);
+                    break;
+                }
+            }
+        }
+    }
 }
