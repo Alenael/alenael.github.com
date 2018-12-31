@@ -100,3 +100,15 @@ p {
 .demon-dropdown {
     background-color: #17a2b8;
 }
+
+.bootstrap-select, .filter-option {
+    text-align: center !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.demonInfo {
+    min-height:120px;
+}

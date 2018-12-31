@@ -30,17 +30,20 @@ var demonDark;
 var dropDownMenus;
 
 function LoadData() {
-    
+
     //Create some additional demons
     $('#demon').clone().attr("id", "demon2").addClass("order-1").appendTo('#demoncontent');
     $('#demon').clone().attr("id", "demon3").addClass("order-3").appendTo('#demoncontent');
     $('#demon').clone().attr("id", "demon4").addClass("order-3").appendTo('#demoncontent');
 
-    //Enable Tooltips
-    $("[data-toggle=tooltip]").tooltip();
+    $(document).ready(function() {
+        $("body").tooltip({
+            selector: '[data-toggle="tooltip"]'
+        });
+    });
 
     //Load our json
-    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
+    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function(a1, a2) {
 
         //Grab reference to all our controls
         demonsSel = document.getElementsByName("demonSel");
@@ -68,7 +71,7 @@ function LoadData() {
         dropDownMenus = document.getElementsByClassName("dropdown-menu");
 
         //Setup some custom CSS for our select controls
-        for (var i = 0; i <= demonsSel.length * 8 - 1; i=i+8) {
+        for (var i = 0; i <= demonsSel.length * (demonsSel.length * 2) - 1; i = i + 8) {
             dropDownMenus[i + 0].className += " demon-dropdown";
             dropDownMenus[i + 1].className += " demon-dropdown";
             dropDownMenus[i + 2].className += " archtype-dropdown";
@@ -77,6 +80,13 @@ function LoadData() {
             dropDownMenus[i + 5].className += " skill-dropdown";
             dropDownMenus[i + 6].className += " skill-dropdown";
             dropDownMenus[i + 7].className += " skill-dropdown";
+        }
+
+        for (var l = 0; l < demonsSel.length; l++) {
+            var el = $(demonCustomSkill1[l]).next().find("div")[0];
+            el.setAttribute('data-toggle', "tooltip");            
+            var el = $(demonCustomSkill2[l]).next().find("div")[0];
+            el.setAttribute('data-toggle', "tooltip");            
         }
 
         ReadURL();
@@ -124,10 +134,10 @@ function ReadURL() {
         ];
 
         for (var i = 0; i < demons.length; i++) {
-            demonsSel[i].value = demons[i];
-            demonArchtype[i].value = archtpes[i];
-            demonCustomSkill1[i].value = customSkills1[i];
-            demonCustomSkill2[i].value = customSkills2[i];
+            $(demonsSel[i]).selectpicker('val', demons[i]);
+            $(demonArchtype[i]).selectpicker('val', archtpes[i]);
+            $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
+            $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
             demonGachaLock[i].checked = true;
         }
     }
@@ -198,7 +208,7 @@ function JsonLoader3() {
 
 //Loads up a control with skills
 function LoadSkillControls() {
-    var select = document.querySelectorAll('[name="demonCustomSkill1"], [name="demonCustomSkill2"]'); 
+    var select = document.querySelectorAll('[name="demonCustomSkill1"], [name="demonCustomSkill2"]');
 
     for (var x = 0; x < select.length; x++) {
         var option = document.createElement('option');
@@ -210,14 +220,12 @@ function LoadSkillControls() {
             var option = document.createElement('option');
             option.text = skillData[i].Name;
             option.value = skillData[i].Name;
-            option.title = skillData[i].Description;
             option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
             option.setAttribute("data-subtext", skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
             select[x].add(option, 0);
         }
 
         SortByABC(select[x]);
-
         $(select[x]).selectpicker("refresh");
     }
 }
@@ -294,7 +302,7 @@ function SetupDemonControls() {
             demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());;
 
             if (demonGachaLock[i].checked === false) {
-                demonCustomSkill1[i].value = GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val());
+                $(demonCustomSkill1[i]).selectpicker('val', GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val()));
             }
 
             //Update Tooltips
@@ -323,14 +331,15 @@ function SetupDemonControls() {
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
-
-        //Set the tooltips
-        $(demonCustomSkill1[i]).attr('data-original-title', GetSkillInfo(demonCustomSkill1[i].value));
-        $(demonCustomSkill2[i]).attr('data-original-title', GetSkillInfo(demonCustomSkill2[i].value));
-
+        
         //Remove focus from any control
         demonCustomSkill1[i].blur();
         demonCustomSkill2[i].blur();
+
+        $(demonCustomSkill1[i]).next().find("div")[0].setAttribute('data-original-title',
+            GetSkillInfo($(demonCustomSkill1[i]).val()));
+        $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
+            GetSkillInfo($(demonCustomSkill2[i]).val()));
     }
 }
 
@@ -341,7 +350,7 @@ function Lock(control) {
     var demonGachaLock = document.getElementsByName("demonGachaLock");
 
     for (var i = 0; i < demonCustomSkill1.length; i++) {
-        if (demonCustomSkill1[i] == control) {
+        if (demonCustomSkill1[i] === control) {
             demonGachaLock[i].checked = true;
         }
     }
@@ -358,7 +367,7 @@ function CalculateTotalSpeed() {
     var count = Math.min(demonSpeed[0], 1) + Math.min(demonSpeed[1], 1) + Math.min(demonSpeed[2], 1) + Math.min(demonSpeed[3], 1);
 
     var totalSpeed = 0;
-    if (count != 0)
+    if (count !== 0)
         totalSpeed = Math.floor((demonSpeed[0] + demonSpeed[1] + demonSpeed[2] + demonSpeed[3]) * (100 / count));
     
     document.getElementById("totalspeed").innerHTML = "Total Speed: " + totalSpeed;
@@ -497,7 +506,7 @@ function SwapResistText(text) {
 function GetDemon(name) {
     var foundDemon = null;
     demonData.forEach(function (demon) {
-        if (demon.Name == name) {
+        if (demon.Name === name) {
             foundDemon = demon;
         }
     });
@@ -509,7 +518,7 @@ function GetDemon(name) {
 function GetLiberator() {
     var foundLiberator = null;
     liberatorData.forEach(function (liberator) {
-        if (liberator.Name == document.getElementById("liberators").value) {
+        if (liberator.Name === document.getElementById("liberators").value) {
             foundLiberator = liberator;
         }
     });
@@ -520,11 +529,13 @@ function GetLiberator() {
 //Returns skill descriptions by skill name
 function GetSkillInfo(skillName) {
     for (var i = 0; i < skillData.length; i++) {
-        if (skillName == nullText)
+        if (skillName === nullText)
             return "";
-        else if (skillData[i].Name == skillName)
+        else if (skillData[i].Name === skillName)
             return skillData[i].Description;
     }
+
+    return "";
 }
 
 function GetSkillByArchtype(demon, archtype) {
@@ -569,10 +580,10 @@ function SwapNullText(text) {
 function Reset() {
     //Set our null values
     for (var i = 0; i < demonsSel.length; i++) {
-        demonsSel[i].value = nullText;
-        demonCustomSkill1[i].value = nullText;
-        demonCustomSkill2[i].value = nullText;
-        demonArchtype[i].value = "Clear";
+        $(demonsSel[i]).selectpicker('val', nullText);
+        $(demonCustomSkill1[i]).selectpicker('val', nullText);
+        $(demonCustomSkill2[i]).selectpicker('val', nullText);
+        $(demonArchtype[i]).selectpicker('val', "Clear");
         demonGachaLock[i].checked = false;
     }
 
@@ -582,7 +593,7 @@ function Reset() {
 function ChangeLiberator() {
     var liberator = $('#liberators').val();
 
-    if (liberator == nullText)
+    if (liberator === nullText)
         document.getElementById("liberatorimage").style.visibility = 'hidden';
     else {
         document.getElementById("liberatorimage").style.visibility = 'visible';
