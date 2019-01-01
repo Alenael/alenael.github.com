@@ -58,7 +58,7 @@
                         <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                     </div>
                     <div class="btn-group" id="customSkillGroup">
-                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); CalculateTotalSpeed(); FilterDemons(); BuildResists();"></select>
+                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); UpdateTooltips(); CalculateTotalSpeed(); FilterDemons(); FilterSkills(); BuildResists();"></select>
                     </div>
                     <div id="tooltip_container"></div>
                     <table class="table table-borderless table-sm">

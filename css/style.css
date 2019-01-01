@@ -39,6 +39,8 @@ div.hidden {
     display: none;
 }
 
+
+
 .tab button {
     background-color: inherit;
     float: left;
@@ -128,6 +130,10 @@ div.hidden {
 
 .bootstrap-select, .filter-option {
     text-align: center !important;
+}
+
+.dropdown-item.disabled {
+    color: #a7a7a7;
 }
 
 .center {

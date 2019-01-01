@@ -286,6 +286,7 @@ function SortByABC(control) {
 function ReloadAll() {
     ChangeLiberator();
     SetupDemonControls();
+    UpdateTooltips();
     CalculateTotalSpeed();
     BuildResists();
     FilterDemons();
@@ -354,15 +355,6 @@ function SetupDemonControls() {
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
-
-        //Remove focus from any control
-        demonCustomSkill1[i].blur();
-        demonCustomSkill2[i].blur();
-
-        $(demonCustomSkill1[i]).next().find("div")[0].setAttribute('data-original-title',
-            GetSkillInfo($(demonCustomSkill1[i]).val()));
-        $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
-            GetSkillInfo($(demonCustomSkill2[i]).val()));
     }
 }
 
@@ -371,10 +363,10 @@ var lock = [false, false, false, false, false];
 //Keeps track if we are locked or not
 function Lock(control) {
     for (var i = 0; i < demonsSel.length; i++) {
+        lock[i] = true;
+
         if (demonsSel[i] === control || demonArchtype[i] === control)
             lock[i] = false;
-        else if (demonCustomSkill2[i] === control)
-            lock[i] = true;
     }
 }
 
@@ -738,27 +730,62 @@ function FilterDemons() {
 //Removes demons already selected from the list
 function FilterSkills() {
 
-    //var disabledDemons = [];
 
-    //for (var d = 0; d < demonsSel.length; d++) {
-    //    disabledDemons.push(demonsSel[d]());
-    //}
+    for (var d = 0; d < demonsSel.length; d++) {
 
-    //if (disabledDemons.some(function (i) { return i !== null; })) {
-    //    for (var x = 0; x < demonsSel.length; x++) {
-    //        if ($(demonsSel).val() != nullText) {
-    //            var object = $(demonsSel[x]).find("option");
+        var disabledSkills = [];
 
-    //            for (var j = 0; j < object.length; j++) {
-    //                if (object[j].value === nullText)
-    //                    $(object[j]).prop('disabled', false);
-    //                else if (disabledDemons.indexOf(object[j].value) >= 0)
-    //                    $(object[j]).prop('disabled', true);
-    //                else
-    //                    $(object[j]).prop('disabled', false);
-    //            }
-    //        }
-    //        $(demonsSel[x]).selectpicker('render');
-    //    }
-    //}
+        var demon = GetDemon(demonsSel[d].value);
+
+        var object = $(demonCustomSkill1[d]).find("option");
+        var object2 = $(demonCustomSkill2[d]).find("option");
+
+        if (demon != null) {
+
+            disabledSkills.push(demon["Skill 1"]);
+            disabledSkills.push(demon["Skill 2"]);
+            disabledSkills.push(demon["Skill 3"]);
+            disabledSkills.push(demon["Skill 1"]);
+            disabledSkills.push(GetSkillByArchtype(demon, $(demonArchtype[d]).val()));
+            disabledSkills.push(demonCustomSkill1[d].value);
+            disabledSkills.push(demonCustomSkill2[d].value);
+
+            for (var i = 0; i < object.length; i++) {
+                if (disabledSkills[i] !== nullText) {
+                    if (i === 0) {
+                        $(object[i]).prop('disabled', false);
+                        $(object2[i]).prop('disabled', false);
+                    } else if (disabledSkills.indexOf(object[i].value) >= 0) {
+                        $(object[i]).prop('disabled', true);
+                        $(object2[i]).prop('disabled', true);
+                    } else {
+                        $(object[i]).prop('disabled', false);
+                        $(object2[i]).prop('disabled', false);
+                    }
+                }
+            }
+        } else {
+            for (var i = 0; i < object.length; i++) {
+                $(object[i]).prop('disabled', false);
+                $(object2[i]).prop('disabled', false);
+            }
+        }
+
+        $(demonCustomSkill1[d]).selectpicker('render');
+        $(demonCustomSkill2[d]).selectpicker('render');
+    }
+}
+
+//Update tooltips.. done separtly to avoid issues
+function UpdateTooltips() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        //Remove focus from any control
+        demonCustomSkill1[i].blur();
+        demonCustomSkill2[i].blur();
+
+        $(demonCustomSkill1[i]).next().find("div")[0].setAttribute('data-original-title',
+            GetSkillInfo($(demonCustomSkill1[i]).val()));
+        $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
+            GetSkillInfo($(demonCustomSkill2[i]).val()));
+    }
 }
