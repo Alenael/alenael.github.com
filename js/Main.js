@@ -709,6 +709,8 @@ function TurnOrder() {
 //Removes demons already selected from the list
 function FilterDemons() {
 
+    var disabledDemons = [];
+
     for (var x = 0; x < demonsSel.length; x++) {
         var object = $(demonsSel[x]).find("option");
 
