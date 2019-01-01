@@ -289,6 +289,7 @@ function ReloadAll() {
     CalculateTotalSpeed();
     BuildResists();
     FilterDemons();
+    FilterSkills();
 }
 
 //Sets up our demon controls
@@ -711,13 +712,53 @@ function FilterDemons() {
 
     var disabledDemons = [];
 
-    for (var x = 0; x < demonsSel.length; x++) {
-        var object = $(demonsSel[x]).find("option");
-
-        //Disable uneeded demons
-
-
-        
-        $(demonsSel[x]).selectpicker('render');
+    for (var d = 0; d < demonsSel.length; d++) {
+        disabledDemons.push(demonsSel[d].value);
     }
+
+    if (disabledDemons.some(function(i) { return i !== null; })) {
+        for (var x = 0; x < demonsSel.length; x++) {
+            if ($(demonsSel).val() != nullText) {
+                var object = $(demonsSel[x]).find("option");
+
+                for (var j = 0; j < object.length; j++) {
+                    if (object[j].value === nullText)
+                        $(object[j]).prop('disabled', false);
+                    else if (disabledDemons.indexOf(object[j].value) >= 0)
+                        $(object[j]).prop('disabled', true);
+                    else
+                        $(object[j]).prop('disabled', false);
+                }
+            }
+            $(demonsSel[x]).selectpicker('render');
+        }
+    }
+}
+
+//Removes demons already selected from the list
+function FilterSkills() {
+
+    //var disabledDemons = [];
+
+    //for (var d = 0; d < demonsSel.length; d++) {
+    //    disabledDemons.push(demonsSel[d]());
+    //}
+
+    //if (disabledDemons.some(function (i) { return i !== null; })) {
+    //    for (var x = 0; x < demonsSel.length; x++) {
+    //        if ($(demonsSel).val() != nullText) {
+    //            var object = $(demonsSel[x]).find("option");
+
+    //            for (var j = 0; j < object.length; j++) {
+    //                if (object[j].value === nullText)
+    //                    $(object[j]).prop('disabled', false);
+    //                else if (disabledDemons.indexOf(object[j].value) >= 0)
+    //                    $(object[j]).prop('disabled', true);
+    //                else
+    //                    $(object[j]).prop('disabled', false);
+    //            }
+    //        }
+    //        $(demonsSel[x]).selectpicker('render');
+    //    }
+    //}
 }
