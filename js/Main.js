@@ -95,9 +95,8 @@ function LoadData() {
 
 //Clones our Demon
 function Clone(object, num) {
-
     var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
-    var select = $(newClone).find('select').clone(true);
+    var select = $(newClone).find('select').clone(true, true);
     var boostrap = $(newClone).find('.bootstrap-select');
 
     for (var i = 0; i < select.length; i++) {
@@ -243,6 +242,11 @@ function LoadSkillControls() {
     }
     
     $('#demonCustomSkill1').clone().attr("name", "demonCustomSkill2").appendTo($('#customSkillGroup')).selectpicker();
+    document.getElementsByName("demonCustomSkill2")[0].addEventListener("onchange",
+        function() {
+            Lock(this);
+            ReloadAll();
+        });
 }
 
 //Loads up a control with our demon info
@@ -697,6 +701,9 @@ function TurnOrder() {
             }
         }
     }
+
+    //Deslect our button
+    $('speedButton').blur();
 }
 
 //Removes demons already selected from the list
@@ -708,7 +715,7 @@ function FilterDemons() {
         //Disable uneeded demons
 
 
-
+        
         $(demonsSel[x]).selectpicker('render');
     }
 }

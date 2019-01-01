@@ -58,7 +58,7 @@
                         <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                     </div>
                     <div class="btn-group" id="customSkillGroup">
-                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);"></select>
+                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); CalculateTotalSpeed(); FilterDemons();"></select>
                         <!--<select name="demonCustomSkill2" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);ReloadAll();"></select>-->
                     </div>
                     <div id="tooltip_container"></div>
@@ -106,7 +106,7 @@
                         <img class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
                         <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
                         <p></p>
-                        <div class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
+                        <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
                     </div>
             </div>
         </div>
