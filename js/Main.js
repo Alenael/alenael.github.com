@@ -125,7 +125,7 @@ function ReadURL() {
             url.searchParams.get("demon4")
         ];
 
-        var archtpes = [
+        var archtypes = [
             url.searchParams.get("demon1archtype"),
             url.searchParams.get("demon2archtype"),
             url.searchParams.get("demon3archtype"),
@@ -147,14 +147,12 @@ function ReadURL() {
         ];
 
         for (var i = 0; i < demons.length; i++) {
-            $(demonsSel[i]).selectpicker('val', demons[i]);
-            $(demonArchtype[i]).selectpicker('val', archtpes[i]);
+            $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i]);
+            $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
         }
     }
-
-    //ReloadAll(All);
 }
 
 
