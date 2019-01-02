@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# Jan 1, 2019
+
+CACHE:
+/favicon.ico
+index.html
+css/style.css
+js/Main.js
+
+NETWORK:
+*
