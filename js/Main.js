@@ -154,7 +154,7 @@ function ReadURL() {
         }
     }
 
-    ReloadAll();
+    //ReloadAll(All);
 }
 
 
@@ -246,7 +246,7 @@ function LoadSkillControls() {
     document.getElementsByName("demonCustomSkill2")[0].addEventListener("onchange",
         function() {
             Lock(this);
-            ReloadAll();
+            ReloadAll("All");
         });
 }
 
@@ -284,9 +284,9 @@ function SortByABC(control) {
 }
 
 //Reloads all our data on the form
-function ReloadAll() {
+function ReloadAll(control) {
     ChangeLiberator();
-    SetupDemonControls();
+    SetupDemonControls(control);
     UpdateTooltips();
     CalculateTotalSpeed();
     BuildResists();
@@ -295,8 +295,11 @@ function ReloadAll() {
 }
 
 //Sets up our demon controls
-function SetupDemonControls() {
+function SetupDemonControls(control) {
     for (var i = 0; i < demonsSel.length; i++) {
+
+        if (control !== "All" && control !== demonsSel[i])
+            continue;
 
         var demon = GetDemon(demonsSel[i].value);
 
@@ -594,15 +597,7 @@ function SwapNullText(text) {
 
 
 function Reset() {
-    //Set our null values
-    for (var i = 0; i < demonsSel.length; i++) {
-        $(demonsSel[i]).selectpicker('val', nullText);
-        $(demonCustomSkill1[i]).selectpicker('val', nullText);
-        $(demonCustomSkill2[i]).selectpicker('val', nullText);
-        $(demonArchtype[i]).selectpicker('val', "Clear");
-    }
-
-    ReloadAll();
+    window.location.href = baseUrl;
 }
 
 function ChangeLiberator() {
