@@ -153,6 +153,8 @@ function ReadURL() {
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
         }
     }
+
+    ReloadAll("All");
 }
 
 
