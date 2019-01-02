@@ -38,6 +38,9 @@ function LoadData() {
 
     //Load our json
     $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function(a1, a2) {
+        
+        $('div#demoncontent').removeClass("hidden");
+        $('div#loading').addClass("hidden");
 
         Clone($('#demon'), 2);
         Clone($('#demon'), 3);
@@ -88,8 +91,6 @@ function LoadData() {
 
         ReadURL();
         TurnOrder();
-        $('div#demoncontent').removeClass("hidden");
-        $('div#loading').addClass("hidden");
     });
 }
 
