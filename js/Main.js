@@ -36,16 +36,16 @@ function LoadData() {
         });
     });
 
-    //Load our json
-    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function(a1, a2) {
-        
-        $('div#demoncontent').removeClass("hidden");
-        $('div#loading').addClass("hidden");
 
+    //Load our json
+    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
+
+        $('.selectpicker').selectpicker();
         Clone($('#demon'), 2);
         Clone($('#demon'), 3);
         Clone($('#demon'), 4);
-        
+        $('.selectpicker').selectpicker();
+
         //Grab reference to all our controls
         demonsSel = document.getElementsByName("demonSel");
         demonArchtype = document.getElementsByName("demonArchtype");
@@ -84,13 +84,16 @@ function LoadData() {
 
         for (var l = 0; l < demonsSel.length; l++) {
             var el = $(demonCustomSkill1[l]).next().find("div")[0];
-            el.setAttribute('data-toggle', "tooltip");            
+            el.setAttribute('data-toggle', "tooltip");
             var el = $(demonCustomSkill2[l]).next().find("div")[0];
-            el.setAttribute('data-toggle', "tooltip");            
+            el.setAttribute('data-toggle', "tooltip");
         }
 
         ReadURL();
         TurnOrder();
+
+        $('div#demoncontent').removeClass("hidden");
+        $('div#loading').addClass("hidden");
     });
 }
 
@@ -102,8 +105,8 @@ function Clone(object, num) {
 
     for (var i = 0; i < select.length; i++) {
         boostrap[i].replaceWith(select[i]);
-        $(select[i]).selectpicker();    
     }
+
 }
 
 //Reads the URl upon load to see if we have a special build being loaded
@@ -697,7 +700,6 @@ function TurnOrder() {
 
 //Removes demons already selected from the list
 function FilterDemons() {
-
     var disabledDemons = [];
 
     for (var d = 0; d < demonsSel.length; d++) {
@@ -725,8 +727,6 @@ function FilterDemons() {
 
 //Removes demons already selected from the list
 function FilterSkills() {
-
-
     for (var d = 0; d < demonsSel.length; d++) {
 
         var disabledSkills = [];
