@@ -780,8 +780,8 @@ function UpdateTooltips() {
         demonCustomSkill2[i].blur();
 
         $(demonCustomSkill1[i]).next().find("div")[0].setAttribute('data-original-title',
-            GetSkillInfo($(demonCustomSkill1[i]).val()));
+            GetSkillInfo(demonCustomSkill1[i].value));
         $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
-            GetSkillInfo($(demonCustomSkill2[i]).val()));
+            GetSkillInfo(demonCustomSkill2[i].value));
     }
 }
