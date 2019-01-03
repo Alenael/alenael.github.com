@@ -301,7 +301,7 @@ function ReloadAll(control) {
 function SetupDemonControls(control) {
     for (var i = 0; i < demonsSel.length; i++) {
 
-        if (control !== "All" && control !== demonsSel[i])
+        if (control !== "All" && (control !== demonsSel[i] && control !== demonArchtype[i]))
             continue;
 
         var demon = GetDemon(demonsSel[i].value);
