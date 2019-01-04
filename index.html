@@ -18,157 +18,164 @@
     <title>Dx2 - Team Builder</title>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="page-header">
-        <img class="img headerimage" src="Images/Theme/Logo.png" width="150px" height="150px" />
-        <br />
-        <br />
-        <h1>Dx2 Team Builder</h1>
-    </div>
-    <div id="loading" class="loading">
-        <br /><br /><br /><br /><br /><br /><br /><div class="loader center"></div>
-    </div>
-    <div id="demoncontent" class="row hidden" style="float: none; margin: 5px auto;">
-        <br />
-        <div id="demon" name="demon" class="col border border-dark rounded order-1">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Build</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#demonStats1">Stats</a>
-                </li>
-            </ul>  
-            <p></p>
-            <div class="demonInfo">
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImage" class="img rounded float-left" width="100" height="100" visibility="hidden" />
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgStar" class="img float-none" width="50" height="25" visibility="hidden" />
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden" />
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgAI" class="img" width="50" height="40" visibility="hidden" />
-                <div class="center" name="demonRace" visibility="hidden"></div>
-                <div class="center" name="demonGrade" visibility="hidden"></div><br />
-            </div>
-            <div class="btn-group">
-                <select name="demonSel" class="selectpicker" data-live-search="true" data-style="btn-sm btn-info" onchange="Lock(this);ReloadAll(this);"></select>
-                <select name="demonArchtype" class="selectpicker" data-style="btn-sm btn-warning" align="right" onchange="Lock(this);ReloadAll(this);">
-                    <option value="clear">Clear</option>
-                    <option value="red">Red</option>
-                    <option value="teal">Teal</option>
-                    <option value="purple">Purple</option>
-                    <option value="yellow">Yellow</option>
-                </select>
-            </div>
-            <p></p>
-            <div class="tab-content">
-                <div id="demomSkills1" class="tab-pane fade show active center">
-                    <div class="btn-group">
-                        <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                        <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                    </div>
-                    <div class="btn-group">
-                        <span name="demonSkill3" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                        <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                    </div>
-                    <div class="btn-group" id="customSkillGroup">
-                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);UpdateTooltips();CalculateTotalSpeed();FilterDemons();FilterSkills();BuildResists();"></select>
-                    </div>
-                    <p></p>
-                    <h6>Brands:</h6>
-                    <select class="selectpicker" id="demonBrandPicker" name="demonBrandPicker" multiple data-live-search="true" data-style="btn-secondary btn-xs" onchange="UpdateBrandInfo();" title="None"><optgroup label="2x Slots">
-                            <option value="aim" title="Aim" data-subtext="+10% Phys Accuracy" onchange="UpdateBrandInfo();">Aim</option>
-                            <option value="dodge" title="Dodge" data-subtext="+10% Phys Evasion" onchange="UpdateBrandInfo();">Dodge</option>
-                            <option value="guard" title="Guard" data-subtext="+30% Phys Def" onchange="UpdateBrandInfo();">Guard</option>
-                            <option value="heal" title="Heal" data-subtext="+30% Heal" onchange="UpdateBrandInfo();">Heal</option>
-                            <option value="lead" title="Lead" data-subtext="+1 Turn Order" onchange="UpdateBrandInfo();">Lead</option>
-                            <option value="shield" title="Shield" data-subtext="+30% Mag Def" onchange="UpdateBrandInfo();">Shield</option>
-                            <option value="speed" title="Speed" data-subtext="+25% Speed" onchange="UpdateBrandInfo();">Speed</option>
-                            <option value="ward" title="Ward" data-subtext="Auto Barrier" onchange="UpdateBrandInfo();">Ward</option>
-                        </optgroup>
-                        <optgroup label="3x Slots">
-
-                            <option value="divine" title="Divine" data-subtext="MP Auto Recover +1" onchange="UpdateBrandInfo();">Divine</option>
-                            <option value="life" title="Life" data-subtext="+50% HP" onchange="UpdateBrandInfo();">Life</option>
-                            <option value="sick" title="Sick" data-subtext="+20% Ailment Infliction" onchange="UpdateBrandInfo();">Sick</option>
-                            <option value="spell" title="Spell" data-subtext="+20% Mag Atk" onchange="UpdateBrandInfo();">Spell</option>
-                            <option value="war" title="War" data-subtext="+20% Phys Atk" onchange="UpdateBrandInfo();">War</option>
-                        </optgroup>
-                        <optgroup label="4x Slots">
-                            <option value="aim2" title="Aim 2x" data-subtext="+20% Phys Accuracy" onchange="UpdateBrandInfo();">Aim 2x</option>
-                            <option value="dodge2" title="Dodge 2x" data-subtext="+20% Phys Evasion" onchange="UpdateBrandInfo();">Dodge 2x</option>
-                            <option value="guard2" title="Guard 2x" data-subtext=" +60% Phys Def" onchange="UpdateBrandInfo();">Guard 2x</option>
-                            <option value="heal2" title="Heal 2x" data-subtext="+60% Heal" onchange="UpdateBrandInfo();">Heal 2x</option>
-                            <option value="shield2" title="Shield 2x" data-subtext="+60% Mag Def" onchange="UpdateBrandInfo();">Shield 2x</option>
-                            <option value="speed2" title="Speed 2x" data-subtext="+50% Speed" onchange="UpdateBrandInfo();">Speed 2x</option>
-                        </optgroup>
+    <div class="container-fluid">
+        <div class="page-header">
+            <img class="img headerimage" src="Images/Theme/Logo.png" width="150px" height="150px" />
+            <br />
+            <br />
+            <h1>Dx2 Team Builder</h1>
+        </div>
+        <div id="loading" class="loading">
+            <br /><br /><br /><br /><br /><br /><br /><div class="loader center"></div>
+        </div>
+        <div id="demoncontent" class="row hidden" style="float: none; margin: 5px auto;">
+            <br />
+            <div id="demon" name="demon" class="col border border-dark rounded order-1">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Build</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#demonStats1">Stats</a>
+                    </li>
+                </ul>
+                <p></p>
+                <div class="demonInfo">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImage" class="img rounded float-left" width="100" height="100" visibility="hidden" />
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgStar" class="img float-none" width="50" height="25" visibility="hidden" />
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden" />
+                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgAI" class="img" width="50" height="40" visibility="hidden" />
+                    <div class="center" name="demonRace" visibility="hidden"></div>
+                    <div class="center" name="demonGrade" visibility="hidden"></div><br />
+                </div>
+                <div class="btn-group">
+                    <select name="demonSel" class="selectpicker" data-live-search="true" data-style="btn-sm btn-info" onchange="Lock(this);ReloadAll(this);"></select>
+                    <select name="demonArchtype" class="selectpicker" data-style="btn-sm btn-warning" align="right" onchange="Lock(this);ReloadAll(this);">
+                        <option value="clear">Clear</option>
+                        <option value="red">Red</option>
+                        <option value="teal">Teal</option>
+                        <option value="purple">Purple</option>
+                        <option value="yellow">Yellow</option>
                     </select>
                 </div>
-                <div id="demonStats1" class="tab-pane fade">
-                    <div class="btn-group" id="firstGroup">
-                        <span name="hpBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">HP: 0</span>
-                        <span name="vitBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Vitality: 0</span>
+                <p></p>
+                <div class="tab-content">
+                    <div id="demomSkills1" class="tab-pane fade show active center">
+                        <div class="btn-group">
+                            <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                        </div>
+                        <div class="btn-group">
+                            <span name="demonSkill3" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                        </div>
+                        <div class="btn-group" id="customSkillGroup">
+                            <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);UpdateTooltips();CalculateTotalSpeed();FilterDemons();FilterSkills();BuildResists();"></select>
+                        </div>
+                        <p></p>
+                        <h6>Brands:</h6>
+                        <select class="selectpicker" id="demonBrandPicker" name="demonBrandPicker" multiple data-live-search="true" data-style="btn-secondary btn-xs" onchange="UpdateBrandInfo();" title="None">
+                            <optgroup label="2x Slots">
+                                <option value="aim" title="Aim" data-subtext="+10% Phys Accuracy" onchange="UpdateBrandInfo();">Aim</option>
+                                <option value="dodge" title="Dodge" data-subtext="+10% Phys Evasion" onchange="UpdateBrandInfo();">Dodge</option>
+                                <option value="guard" title="Guard" data-subtext="+30% Phys Def" onchange="UpdateBrandInfo();">Guard</option>
+                                <option value="heal" title="Heal" data-subtext="+30% Heal" onchange="UpdateBrandInfo();">Heal</option>
+                                <option value="lead" title="Lead" data-subtext="+1 Turn Order" onchange="UpdateBrandInfo();">Lead</option>
+                                <option value="shield" title="Shield" data-subtext="+30% Mag Def" onchange="UpdateBrandInfo();">Shield</option>
+                                <option value="speed" title="Speed" data-subtext="+25% Speed" onchange="UpdateBrandInfo();">Speed</option>
+                                <option value="ward" title="Ward" data-subtext="Auto Barrier" onchange="UpdateBrandInfo();">Ward</option>
+                            </optgroup>
+                            <optgroup label="3x Slots">
+
+                                <option value="divine" title="Divine" data-subtext="MP Auto Recover +1" onchange="UpdateBrandInfo();">Divine</option>
+                                <option value="life" title="Life" data-subtext="+50% HP" onchange="UpdateBrandInfo();">Life</option>
+                                <option value="sick" title="Sick" data-subtext="+20% Ailment Infliction" onchange="UpdateBrandInfo();">Sick</option>
+                                <option value="spell" title="Spell" data-subtext="+20% Mag Atk" onchange="UpdateBrandInfo();">Spell</option>
+                                <option value="war" title="War" data-subtext="+20% Phys Atk" onchange="UpdateBrandInfo();">War</option>
+                            </optgroup>
+                            <optgroup label="4x Slots">
+                                <option value="aim2" title="Aim 2x" data-subtext="+20% Phys Accuracy" onchange="UpdateBrandInfo();">Aim 2x</option>
+                                <option value="dodge2" title="Dodge 2x" data-subtext="+20% Phys Evasion" onchange="UpdateBrandInfo();">Dodge 2x</option>
+                                <option value="guard2" title="Guard 2x" data-subtext=" +60% Phys Def" onchange="UpdateBrandInfo();">Guard 2x</option>
+                                <option value="heal2" title="Heal 2x" data-subtext="+60% Heal" onchange="UpdateBrandInfo();">Heal 2x</option>
+                                <option value="shield2" title="Shield 2x" data-subtext="+60% Mag Def" onchange="UpdateBrandInfo();">Shield 2x</option>
+                                <option value="speed2" title="Speed 2x" data-subtext="+50% Speed" onchange="UpdateBrandInfo();">Speed 2x</option>
+                            </optgroup>
+                        </select>
                     </div>
-                    <div class="btn-group" id="secondGroup">
-                        <span name="strBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Strength: 0</span>
-                        <span name="agiBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Agility: 0</span>
-                    </div>
-                    <div class="btn-group" id="thirdGroup">
-                        <span name="magBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Magic: 0</span>
-                        <span name="luBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Luck: 0</span>
-                    </div>
-                    <div class="btn-group" id="fourthGroup">
-                        <span name="patkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PAtk: 0</span>
-                        <span name="pdefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PDef: 0</span>
-                    </div>
-                    <div class="btn-group" id="fifthGroup">
-                        <span name="maatkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MAtk: 0</span>
-                        <span name="madefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MDef: 0</span>
+                    <div id="demonStats1" class="tab-pane fade">
+                        <div class="btn-group" id="firstGroup">
+                            <span name="hpBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">HP: 0</span>
+                            <span name="vitBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Vitality: 0</span>
+                        </div>
+                        <div class="btn-group" id="secondGroup">
+                            <span name="strBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Strength: 0</span>
+                            <span name="agiBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Agility: 0</span>
+                        </div>
+                        <div class="btn-group" id="thirdGroup">
+                            <span name="magBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Magic: 0</span>
+                            <span name="luBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Luck: 0</span>
+                        </div>
+                        <div class="btn-group" id="fourthGroup">
+                            <span name="patkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PAtk: 0</span>
+                            <span name="pdefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PDef: 0</span>
+                        </div>
+                        <div class="btn-group" id="fifthGroup">
+                            <span name="maatkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MAtk: 0</span>
+                            <span name="madefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MDef: 0</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <br />
-            <table class="table table-borderless table-sm align-bottom">
-                <thead>
-                <tr>
-                    <td scope="row"><img src="Images/Spells/Physical.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Fire.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Ice.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Elec.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Force.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Light.png" /></td>
-                    <td scope="row"><img src="Images/Spells/Dark.png" /></td>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td name="demonPhys">-</td>
-                    <td name="demonFire">-</td>
-                    <td name="demonIce">-</td>
-                    <td name="demonElec">-</td>
-                    <td name="demonForce">-</td>
-                    <td name="demonLight">-</td>
-                    <td name="demonDark">-</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-                
-        <div class="col-2 border border-dark rounded order-5">
-            <td style="vertical-align: top">
-            <div id="demonbuffer" align="center">
                 <br />
-                <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL();">Generate Link</button> <br /><br />
-                <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset();">Reset</button> <br /> <br />
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
-                <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
-                <p></p>
-                <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
+                <table class="table table-borderless table-sm align-bottom">
+                    <thead>
+                        <tr>
+                            <td scope="row"><img src="Images/Spells/Physical.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Fire.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Ice.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Elec.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Force.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Light.png" /></td>
+                            <td scope="row"><img src="Images/Spells/Dark.png" /></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td name="demonPhys">-</td>
+                            <td name="demonFire">-</td>
+                            <td name="demonIce">-</td>
+                            <td name="demonElec">-</td>
+                            <td name="demonForce">-</td>
+                            <td name="demonLight">-</td>
+                            <td name="demonDark">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-2 border border-dark rounded order-5">
+                <td style="vertical-align: top">
+                    <div id="demonbuffer" align="center">
+                        <br />
+                        <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL();">Generate Link</button> <br /><br />
+                        <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset();">Reset</button> <br /> <br />
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
+                        <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
+                        <p></p>
+                        <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="align-center">Created By: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></span>
+                    </div>
             </div>
         </div>
+        <button class="btn btn-warning btn-sm align-left">Help?</button>
+        <button class="btn btn-info btn-sm align-right">Recent Changes</button><br />
     </div>
-    <button class="btn btn-warning btn-sm align-left">Help?</button>
-    <button class="btn btn-info btn-sm align-right">Recent Changes</button><br />
-    <span class="align-center">Created By: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></span>
-</div>
     
 <script type="text/javascript">
     LoadData();
