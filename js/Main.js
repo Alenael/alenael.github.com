@@ -27,6 +27,7 @@ var demonForce;
 var demonLight;
 var demonDark;
 var dropDownMenus;
+var demonBrands;
 
 function LoadData() {
     
@@ -69,9 +70,10 @@ function LoadData() {
         demonLight = document.getElementsByName("demonLight");
         demonDark = document.getElementsByName("demonDark");
         dropDownMenus = document.getElementsByClassName("dropdown-menu");
+        demonBrands = document.getElementsByClassName("demonBrandPicker");
 
         //Setup some custom CSS for our select controls
-        for (var i = 0; i <= demonsSel.length * (demonsSel.length * 2) - 1; i = i + 8) {
+        for (var i = 0; i <= 39; i = i + 10) {
             dropDownMenus[i + 0].className += " demon-dropdown";
             dropDownMenus[i + 1].className += " demon-dropdown";
             dropDownMenus[i + 2].className += " archtype-dropdown";
@@ -80,6 +82,8 @@ function LoadData() {
             dropDownMenus[i + 5].className += " skill-dropdown";
             dropDownMenus[i + 6].className += " skill-dropdown";
             dropDownMenus[i + 7].className += " skill-dropdown";
+            dropDownMenus[i + 8].className += " skill-dropdown";
+            dropDownMenus[i + 9].className += " skill-dropdown";
         }
 
         for (var l = 0; l < demonsSel.length; l++) {
@@ -157,11 +161,19 @@ function ReadURL() {
             url.searchParams.get("demon4skill2")
         ];
 
+        var brands = [
+            url.searchParams.get("demon1Brands"),
+            url.searchParams.get("demon2Brands"),
+            url.searchParams.get("demon3Brands"),
+            url.searchParams.get("demon4Brands")
+        ];
+
         for (var i = 0; i < demons.length; i++) {
             $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i]);
             $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
+            $(demonBrands[i]).selectpicker('val', brands[i]);
         }
     }
 
@@ -186,7 +198,8 @@ function CreateURL() {
             if (demonCustomSkill1[i].value !== nullText)
                 parameters += "demon" + (i+1) + "skill1=" + demonCustomSkill1[i].value + "&";
             if (demonCustomSkill2[i].value !== nullText)
-                parameters += "demon" + (i+1) + "skill2=" + demonCustomSkill2[i].value + "&";
+                parameters += "demon" + (i + 1) + "skill2=" + demonCustomSkill2[i].value + "&";
+            parameters += "demon" + (i + 1) + "=" + demonBrands[i].value + "&";
         }
     }
 

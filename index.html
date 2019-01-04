@@ -31,11 +31,7 @@
         <div id="demon" name="demon" class="col border border-dark rounded order-1">
             <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Skills</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#demonBrands1">Brands</a>
+                    <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Build</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="pill" href="#demonStats1">Stats</a>
@@ -62,7 +58,7 @@
             </div>
             <p></p>
             <div class="tab-content">
-                <div id="demomSkills1" class="tab-pane fade show active">
+                <div id="demomSkills1" class="tab-pane fade show active center">
                     <div class="btn-group">
                         <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                         <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
@@ -74,8 +70,35 @@
                     <div class="btn-group" id="customSkillGroup">
                         <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);UpdateTooltips();CalculateTotalSpeed();FilterDemons();FilterSkills();BuildResists();"></select>
                     </div>
-                </div>
-                <div id="demonBrands1" class="tab-pane fade">
+                    <p></p>
+                    <h6>Brands:</h6>
+                    <select class="selectpicker demonBrandPicker" id="demonBrandPicker" multiple data-live-search="true" data-style="btn-secondary btn-xs" width="100%">
+                        <optgroup label="2x Brands">
+                            <option value="ward" title="Ward">Ward: Auto Barrier</option>
+                            <option value="shield" title="Shield">Shield: +30% Mag Def</option>
+                            <option value="guard" title="Guard">Guard: +30% Phys Def</option>
+                            <option value="speed" title="Speed">Speed: +25% Speed</option>
+                            <option value="dodge" title="Dodge">Dodge: +10% Phys Evasion</option>
+                            <option value="lead" title="Lead">Lead: +1 Turn Order</option>
+                            <option value="aim" title="Aim">Aim: +10% Phys Accuracy</option>
+                            <option value="heal" title="Heal">Heal: +30% Heal</option>
+                        </optgroup>
+                        <optgroup label="3x Brands">
+                            <option value="life" title="Life">Life: +50% HP</option>
+                            <option value="divine" title="Divine">Divine: MP Auto Recover +1</option>
+                            <option value="war" title="War">War: +20% Phys Atk</option>
+                            <option value="spell" title="Spell">Spell: +20% Mag Atk</option>
+                            <option value="sick" title="Sick">Sick: +20% Ailment Infliction</option>
+                        </optgroup>
+                        <optgroup label="4x Brands">
+                            <option value="shield2" title="Shield x2">Shield x2: +60% Mag Def</option>
+                            <option value="guard2" title="Guard 2x">Guard 2x: +60% Phys Def</option>
+                            <option value="speed2" title="Speed x2">Speed x2: +50% Speed</option>
+                            <option value="dodge2" title="Dodge x2">Dodge x2: +20% Phys Evasion</option>
+                            <option value="aim2" title="Aim x2">Aim x2: +20% Phys Accuracy</option>
+                            <option value="heal2" title="Heal x2">Heal x2: +60% Heal</option>
+                        </optgroup>
+                    </select>
                 </div>
                 <div id="demonStats1" class="tab-pane fade">
                     <div class="btn-group" id="firstGroup">
