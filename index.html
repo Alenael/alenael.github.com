@@ -18,37 +18,51 @@
     <title>Dx2 - Team Builder</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="page-header">
-            <img class="img" src="Images/Theme/Logo.png" width="150px" height="150px" />
-            <h2>Dx2 Team Builder</h2>
-        </div>
-        <div id="loading" class="loading">
-            <br /><br /><br /><br /><br /><br /><br /><div class="loader center"></div>
-        </div>
-        <div id="demoncontent" class="row hidden" style="float: none; margin: 5px auto;">
-            <br />
-            <div id="demon" name="demon" class="col border border-dark rounded order-1">
-                <div id="demomSkills1" class="tabcontent1" style="display: inline">
-                    <div class="demonInfo">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImage" class="img rounded float-left" width="100" height="100" visibility="hidden"/>
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgStar" class="img float-none" width="50" height="25" visibility="hidden"/>
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden"/>
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgAI" class="img" width="50" height="40" visibility="hidden"/>
-                        <div class="center" name="demonRace" visibility="hidden"></div>
-                        <div class="center" name="demonGrade" visibility="hidden"></div><br/>
-                    </div>
-                    <div class="btn-group">
-                        <select name="demonSel" class="selectpicker" data-live-search="true" data-style="btn-sm btn-info" onchange="Lock(this);ReloadAll(this);"></select>
-                        <select name="demonArchtype" class="selectpicker" data-style="btn-sm btn-warning" align="right" onchange="Lock(this); ReloadAll(this);">
-                            <option value="clear">Clear</option>
-                            <option value="red">Red</option>
-                            <option value="teal">Teal</option>
-                            <option value="purple">Purple</option>
-                            <option value="yellow">Yellow</option>
-                        </select>
-                    </div>
-                    <p></p>
+<div class="container-fluid">
+    <div class="page-header">
+        <img class="img" src="Images/Theme/Logo.png" width="150px" height="150px" />
+        <h2>Dx2 Team Builder</h2>
+    </div>
+    <div id="loading" class="loading">
+        <br /><br /><br /><br /><br /><br /><br /><div class="loader center"></div>
+    </div>
+    <div id="demoncontent" class="row hidden" style="float: none; margin: 5px auto;">
+        <br />
+        <div id="demon" name="demon" class="col border border-dark rounded order-1">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#demonBrands1">Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#demonStats1">Stats</a>
+                </li>
+            </ul>  
+            <p></p>
+            <div class="demonInfo">
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImage" class="img rounded float-left" width="100" height="100" visibility="hidden" />
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgStar" class="img float-none" width="50" height="25" visibility="hidden" />
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden" />
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgAI" class="img" width="50" height="40" visibility="hidden" />
+                <div class="center" name="demonRace" visibility="hidden"></div>
+                <div class="center" name="demonGrade" visibility="hidden"></div><br />
+            </div>
+            <div class="btn-group">
+                <select name="demonSel" class="selectpicker" data-live-search="true" data-style="btn-sm btn-info" onchange="Lock(this);ReloadAll(this);"></select>
+                <select name="demonArchtype" class="selectpicker" data-style="btn-sm btn-warning" align="right" onchange="Lock(this);ReloadAll(this);">
+                    <option value="clear">Clear</option>
+                    <option value="red">Red</option>
+                    <option value="teal">Teal</option>
+                    <option value="purple">Purple</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+            </div>
+            <p></p>
+            <div class="tab-content">
+                <div id="demomSkills1" class="tab-pane fade show active">
                     <div class="btn-group">
                         <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                         <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
@@ -58,62 +72,78 @@
                         <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                     </div>
                     <div class="btn-group" id="customSkillGroup">
-                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); UpdateTooltips(); CalculateTotalSpeed(); FilterDemons(); FilterSkills(); BuildResists();"></select>
+                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);UpdateTooltips();CalculateTotalSpeed();FilterDemons();FilterSkills();BuildResists();"></select>
                     </div>
-                    <div id="tooltip_container"></div>
-                    <table class="table table-borderless table-sm">
-                        <thead>
-                        <tr>
-                            <td scope="row"><img src="Images/Spells/Physical.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Fire.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Ice.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Elec.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Force.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Light.png"/></td>
-                            <td scope="row"><img src="Images/Spells/Dark.png"/></td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td name="demonPhys">-</td>
-                            <td name="demonFire">-</td>
-                            <td name="demonIce">-</td>
-                            <td name="demonElec">-</td>
-                            <td name="demonForce">-</td>
-                            <td name="demonLight">-</td>
-                            <td name="demonDark">-</td>
-                        </tr>
-                        </tbody>
-                    </table>
                 </div>
-                <div id="demomBrands1" class="tabcontent1">
+                <div id="demonBrands1" class="tab-pane fade">
                 </div>
-                <div id="demomStats1" class="tabcontent1">
-                </div>
-                <div class="tab btn-group text-center">
-                    <button class="tab1 active" onclick="">Skills</button>
-                    <button class="tab1" onclick="">Brands</button>
-                    <button class="tab1" onclick="">Stats</button>
+                <div id="demonStats1" class="tab-pane fade">
+                    <div class="btn-group" id="firstGroup">
+                        <span name="hpBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">HP: 0</span>
+                        <span name="vitBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Vitality: 0</span>
+                    </div>
+                    <div class="btn-group" id="secondGroup">
+                        <span name="strBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Strength: 0</span>
+                        <span name="agiBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Agility: 0</span>
+                    </div>
+                    <div class="btn-group" id="thirdGroup">
+                        <span name="magBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Magic: 0</span>
+                        <span name="luBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Luck: 0</span>
+                    </div>
+                    <div class="btn-group" id="fourthGroup">
+                        <span name="patkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PAtk: 0</span>
+                        <span name="pdefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PDef: 0</span>
+                    </div>
+                    <div class="btn-group" id="fifthGroup">
+                        <span name="maatkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MAtk: 0</span>
+                        <span name="madefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MDef: 0</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-2 border border-dark rounded order-5">
-                <td style="vertical-align: top">
-                    <div id="demonbuffer" align="center">
-                        <br />
-                        <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL();">Generate Link</button> <br /><br />
-                        <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset();">Reset</button> <br /> <br />
-                        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
-                        <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
-                        <p></p>
-                        <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
-                    </div>
+            <br />
+            <table class="table table-borderless table-sm align-bottom">
+                <thead>
+                <tr>
+                    <td scope="row"><img src="Images/Spells/Physical.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Fire.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Ice.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Elec.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Force.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Light.png" /></td>
+                    <td scope="row"><img src="Images/Spells/Dark.png" /></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td name="demonPhys">-</td>
+                    <td name="demonFire">-</td>
+                    <td name="demonIce">-</td>
+                    <td name="demonElec">-</td>
+                    <td name="demonForce">-</td>
+                    <td name="demonLight">-</td>
+                    <td name="demonDark">-</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+                
+        <div class="col-2 border border-dark rounded order-5">
+            <td style="vertical-align: top">
+            <div id="demonbuffer" align="center">
+                <br />
+                <button id="generateUrlBtn" class="btn btn-success btn-sm" name="generateUrlBtn" onclick="CreateURL();">Generate Link</button> <br /><br />
+                <button id="resetBtn" class="btn btn-danger btn-sm" onclick="Reset();">Reset</button> <br /> <br />
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img rounded-circle" id="liberatorimage" width="115" height="155" visibility="hidden" /> <br />
+                <select class="btn btn-warning btn-sm" id="liberators" onchange="ReloadAll();"></select>
+                <p></p>
+                <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
             </div>
         </div>
-        <p align="right">
-            <button class="btn btn-info btn-sm">Recent Changes</button><br />
-                Created By: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a>
-        </p>
     </div>
+    <button class="btn btn-warning btn-sm align-left">Help?</button>
+    <button class="btn btn-info btn-sm align-right">Recent Changes</button><br />
+    <span class="align-center">Created By: <a href="https://www.reddit.com/user/AlenaelReal">Alenael</a></span>
+</div>
     
 <script type="text/javascript">
     LoadData();

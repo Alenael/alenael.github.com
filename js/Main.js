@@ -107,6 +107,14 @@ function Clone(object, num) {
         boostrap[i].replaceWith(select[i]);
     }
 
+    var nav = $(newClone).find('a');
+    var tabs = $(newClone).find('.tab-pane');
+
+    for (var j = 0; j < nav.length; j++) {
+        var name = $(nav[j]).attr("href").replace("#", "").replace("1", "");
+        $(nav[j]).attr("href", "#" + name + num);
+        $(tabs[j]).attr("id", name + num);
+    }
 }
 
 //Reads the URl upon load to see if we have a special build being loaded
