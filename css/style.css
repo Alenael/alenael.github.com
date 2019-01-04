@@ -15,6 +15,14 @@ p {
     font-size: 11px;
 }
 
+.headerimage {
+    position: absolute;
+    z-index: -1;
+    margin-left: -75px;
+    margin-bottom: -75px;
+    margin-top: -25px;
+}
+
 .loader {
     border: 8px solid whitesmoke;
     border-top: 8px solid #17a2b8;
@@ -58,7 +66,7 @@ div.hidden {
     color: whitesmoke;
     margin-bottom: 8px;
     margin-right: 8px;
-    max-width: 260px;
+    max-width: 262px;
     height: 520px;
 }
 
