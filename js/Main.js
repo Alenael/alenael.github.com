@@ -1,4 +1,6 @@
-﻿var demonData;
+﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
+
+var demonData;
 var skillData;
 var liberatorData;
 var nullText = "-----------";
@@ -28,6 +30,16 @@ var demonLight;
 var demonDark;
 var dropDownMenus;
 var demonBrands;
+var demonHP;
+var demonVit;
+var demonStr;
+var demonAgi;
+var demonMag;
+var demonLu;
+var demonPAtk;
+var demonMAtk;
+var demonPDef;
+var demonMDef;
 
 function LoadData() {
     
@@ -70,7 +82,17 @@ function LoadData() {
         demonLight = document.getElementsByName("demonLight");
         demonDark = document.getElementsByName("demonDark");
         dropDownMenus = document.getElementsByClassName("dropdown-menu");
-        demonBrands = document.getElementsByClassName("demonBrandPicker");
+        demonBrands = document.getElementsByName("demonBrandPicker");
+        demonHP = document.getElementsByName("hpBtn");
+        demonVit = document.getElementsByName("vitBtn");
+        demonStr = document.getElementsByName("strBtn");
+        demonAgi = document.getElementsByName("agiBtn");
+        demonMag = document.getElementsByName("magBtn");
+        demonLu = document.getElementsByName("luBtn");
+        demonPAtk = document.getElementsByName("patkBtn");
+        demonMAtk = document.getElementsByName("pdefBtn");
+        demonPDef = document.getElementsByName("maatkBtn");
+        demonMDef = document.getElementsByName("madefBtn");
 
         //Setup some custom CSS for our select controls
         for (var i = 0; i <= 39; i = i + 10) {
@@ -162,10 +184,10 @@ function ReadURL() {
         ];
 
         var brands = [
-            url.searchParams.get("demon1Brands"),
-            url.searchParams.get("demon2Brands"),
-            url.searchParams.get("demon3Brands"),
-            url.searchParams.get("demon4Brands")
+            url.searchParams.get("demon1brands"),
+            url.searchParams.get("demon2brands"),
+            url.searchParams.get("demon3brands"),
+            url.searchParams.get("demon4brands")
         ];
 
         for (var i = 0; i < demons.length; i++) {
@@ -173,7 +195,12 @@ function ReadURL() {
             $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
-            $(demonBrands[i]).selectpicker('val', brands[i]);
+
+            if (brands[i] != null) {
+                var values = brands[i].split(",");
+                $(demonBrands[i]).val(values);
+                $(demonBrands[i]).selectpicker('refresh');
+            }
         }
     }
 
@@ -199,7 +226,15 @@ function CreateURL() {
                 parameters += "demon" + (i+1) + "skill1=" + demonCustomSkill1[i].value + "&";
             if (demonCustomSkill2[i].value !== nullText)
                 parameters += "demon" + (i + 1) + "skill2=" + demonCustomSkill2[i].value + "&";
-            parameters += "demon" + (i + 1) + "=" + demonBrands[i].value + "&";
+
+            var values = $(demonBrands[i]).val();
+            var valuesStr = "";
+
+            for (var j = 0; j < values.length; j++) 
+                valuesStr += values[j] + ",";
+
+            if (valuesStr !== "") 
+                parameters += "demon" + (i + 1) + "brands=" + valuesStr.substring(0, valuesStr.length-1) + "&";
         }
     }
 
@@ -316,6 +351,8 @@ function ReloadAll(control) {
     BuildResists();
     FilterDemons();
     FilterSkills();
+    FilterBrands();
+    UpdateStatInfo();
 }
 
 //Sets up our demon controls
@@ -462,11 +499,30 @@ function GetDemonSpeed(name, num) {
             demonCustomSkill1[num].value === "Speedster" ||
             demonCustomSkill2[num].value === "Speedster")
             extraPercent += .5;
-        
+
+        //Check Brands for speed brands
+        var brands = $(demonBrands[num]).val();
+
+        if (brands !== null) {
+            for (var i = 0; i < brands.length; i++) {
+                if (brands[i] === "speed2")
+                    extraPercent += .5;
+                else if (brands[i] === "speed")
+                    extraPercent += .25;
+            }
+        }
+
         speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
     }
 
     return speed;
+}
+
+//Updates all places that need brand info 
+function UpdateBrandInfo() {
+    CalculateTotalSpeed();
+    FilterBrands();
+    UpdateStatInfo();
 }
 
 //Builds resists for each demon
@@ -804,5 +860,113 @@ function UpdateTooltips() {
             GetSkillInfo(demonCustomSkill1[i].value));
         $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
             GetSkillInfo(demonCustomSkill2[i].value));
+    }
+}
+
+//Updates our Stats
+function UpdateStatInfo() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        var demon = GetDemon(demonsSel[i].value);
+
+        if (demon !== null) {
+            demonHP[i].innerHTML = "HP: " + demon["6★ HP"];
+            demonVit[i].innerHTML = "Vitality: " + demon["6★ Vitality"];
+            demonStr[i].innerHTML = "Strength: " + demon["6★ Strength"];
+            demonAgi[i].innerHTML = "Agility: " + demon["6★ Agility"];
+            demonMag[i].innerHTML = "Magic: " + demon["6★ Magic"];
+            demonLu[i].innerHTML = "Luck: " + demon["6★ Luck"];
+            demonPAtk[i].innerHTML = "Phys Atk: " + demon["PATK"];
+            demonMAtk[i].innerHTML = "Magic Atk: " + demon["MATK"];
+            demonPDef[i].innerHTML = "Phys Def: " + demon["PDEF"];
+            demonMDef[i].innerHTML = "Magic Atk: " + demon["MDEF"];
+        } else {
+            demonHP[i].innerHTML = "HP:";
+            demonVit[i].innerHTML = "Vitality:";
+            demonStr[i].innerHTML = "Strength:";
+            demonAgi[i].innerHTML = "Agility:";
+            demonMag[i].innerHTML = "Magic:";
+            demonLu[i].innerHTML = "Luck:";
+            demonPAtk[i].innerHTML = "Phys Atk:";
+            demonMAtk[i].innerHTML = "Magic Atk:";
+            demonPDef[i].innerHTML = "Phys Def:";
+            demonMDef[i].innerHTML = "Magic Def:";
+        }
+    }
+}
+
+//Disables brands we cant use
+function FilterBrands() {
+    for (var j = 0; j < demonsSel.length; j++) {
+        var brands = $(demonBrands[j]).val();
+        var options = $(demonBrands[j]).find('option');
+
+        if (brands !== null) {
+            var totalCost = 0;
+
+            for (var i = 0; i < brands.length; i++) {
+                totalCost += GetBrandCost(brands[i]);
+            }
+
+            for (var l = 0; l < options.length; l++) {
+                //Skip thhis brand if its checked
+                if (brands.indexOf(options[l].value) >= 0)
+                    continue;
+
+                var cost = GetBrandCost(options[l].value);
+
+                //Disable everything over 2 cost
+                if (totalCost === 2) {
+                    if (cost === 4)
+                        $(options[l]).attr('disabled', true);
+                    else
+                        $(options[l]).attr('disabled', false);
+                } else if (totalCost === 3) { //Disable any 4 cost
+                    if (cost >= 3)
+                        $(options[l]).attr('disabled', true);
+                    else
+                        $(options[l]).attr('disabled', false);
+                } else { //Disable everything else
+                    $(options[l]).attr('disabled', true);
+                }
+            }
+        } else { //Else enable all none are selected
+            for (var l = 0; l < options.length; l++) {
+                $(options[l]).attr('disabled', false);
+            }
+
+        }
+
+        $(demonBrands[j]).selectpicker('refresh');
+    }
+}
+
+//Returns cost of brands by name
+function GetBrandCost(brandName)
+{
+    switch (brandName) {
+        case "ward":
+        case "shield":
+        case "guard":
+        case "speed":
+        case "dodge":
+        case "lead":
+        case "aim":
+        case "heal":
+            return 2;
+        case "life":
+        case "divine":
+        case "war":
+        case "spell":
+        case "sick":
+            return 3;
+        case "shield2":
+        case "guard2":
+        case "speed2":
+        case "dodge2":
+        case "aim2":
+        case "heal2":
+            return 4;
+        default:
+            return 0;
     }
 }

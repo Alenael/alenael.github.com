@@ -72,31 +72,31 @@
                     </div>
                     <p></p>
                     <h6>Brands:</h6>
-                    <select class="selectpicker demonBrandPicker" id="demonBrandPicker" multiple data-live-search="true" data-style="btn-secondary btn-xs" width="100%">
-                        <optgroup label="2x Brands">
-                            <option value="ward" title="Ward">Ward: Auto Barrier</option>
-                            <option value="shield" title="Shield">Shield: +30% Mag Def</option>
-                            <option value="guard" title="Guard">Guard: +30% Phys Def</option>
-                            <option value="speed" title="Speed">Speed: +25% Speed</option>
-                            <option value="dodge" title="Dodge">Dodge: +10% Phys Evasion</option>
-                            <option value="lead" title="Lead">Lead: +1 Turn Order</option>
-                            <option value="aim" title="Aim">Aim: +10% Phys Accuracy</option>
-                            <option value="heal" title="Heal">Heal: +30% Heal</option>
+                    <select class="selectpicker" id="demonBrandPicker" name="demonBrandPicker" multiple data-live-search="true" data-style="btn-secondary btn-xs" onchange="UpdateBrandInfo();" title="None"><optgroup label="2x Slots">
+                            <option value="aim" title="Aim" data-subtext="+10% Phys Accuracy" onchange="UpdateBrandInfo();">Aim</option>
+                            <option value="dodge" title="Dodge" data-subtext="+10% Phys Evasion" onchange="UpdateBrandInfo();">Dodge</option>
+                            <option value="guard" title="Guard" data-subtext="+30% Phys Def" onchange="UpdateBrandInfo();">Guard</option>
+                            <option value="heal" title="Heal" data-subtext="+30% Heal" onchange="UpdateBrandInfo();">Heal</option>
+                            <option value="lead" title="Lead" data-subtext="+1 Turn Order" onchange="UpdateBrandInfo();">Lead</option>
+                            <option value="shield" title="Shield" data-subtext="+30% Mag Def" onchange="UpdateBrandInfo();">Shield</option>
+                            <option value="speed" title="Speed" data-subtext="+25% Speed" onchange="UpdateBrandInfo();">Speed</option>
+                            <option value="ward" title="Ward" data-subtext="Auto Barrier" onchange="UpdateBrandInfo();">Ward</option>
                         </optgroup>
-                        <optgroup label="3x Brands">
-                            <option value="life" title="Life">Life: +50% HP</option>
-                            <option value="divine" title="Divine">Divine: MP Auto Recover +1</option>
-                            <option value="war" title="War">War: +20% Phys Atk</option>
-                            <option value="spell" title="Spell">Spell: +20% Mag Atk</option>
-                            <option value="sick" title="Sick">Sick: +20% Ailment Infliction</option>
+                        <optgroup label="3x Slots">
+
+                            <option value="divine" title="Divine" data-subtext="MP Auto Recover +1" onchange="UpdateBrandInfo();">Divine</option>
+                            <option value="life" title="Life" data-subtext="+50% HP" onchange="UpdateBrandInfo();">Life</option>
+                            <option value="sick" title="Sick" data-subtext="+20% Ailment Infliction" onchange="UpdateBrandInfo();">Sick</option>
+                            <option value="spell" title="Spell" data-subtext="+20% Mag Atk" onchange="UpdateBrandInfo();">Spell</option>
+                            <option value="war" title="War" data-subtext="+20% Phys Atk" onchange="UpdateBrandInfo();">War</option>
                         </optgroup>
-                        <optgroup label="4x Brands">
-                            <option value="shield2" title="Shield x2">Shield x2: +60% Mag Def</option>
-                            <option value="guard2" title="Guard 2x">Guard 2x: +60% Phys Def</option>
-                            <option value="speed2" title="Speed x2">Speed x2: +50% Speed</option>
-                            <option value="dodge2" title="Dodge x2">Dodge x2: +20% Phys Evasion</option>
-                            <option value="aim2" title="Aim x2">Aim x2: +20% Phys Accuracy</option>
-                            <option value="heal2" title="Heal x2">Heal x2: +60% Heal</option>
+                        <optgroup label="4x Slots">
+                            <option value="aim2" title="Aim 2x" data-subtext="+20% Phys Accuracy" onchange="UpdateBrandInfo();">Aim 2x</option>
+                            <option value="dodge2" title="Dodge 2x" data-subtext="+20% Phys Evasion" onchange="UpdateBrandInfo();">Dodge 2x</option>
+                            <option value="guard2" title="Guard 2x" data-subtext=" +60% Phys Def" onchange="UpdateBrandInfo();">Guard 2x</option>
+                            <option value="heal2" title="Heal 2x" data-subtext="+60% Heal" onchange="UpdateBrandInfo();">Heal 2x</option>
+                            <option value="shield2" title="Shield 2x" data-subtext="+60% Mag Def" onchange="UpdateBrandInfo();">Shield 2x</option>
+                            <option value="speed2" title="Speed 2x" data-subtext="+50% Speed" onchange="UpdateBrandInfo();">Speed 2x</option>
                         </optgroup>
                     </select>
                 </div>
