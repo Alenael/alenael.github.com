@@ -153,11 +153,17 @@ div.hidden {
 }
 
 .align-left {
-    float: left;
+    left:10%;
+    bottom: -5px;
+    position: fixed;
+    z-index:1;
 }
 
 .align-right {
-    float: right;
+    right:10%;
+    bottom: -5px;
+    position: fixed;
+    z-index:1;
 }
 
 .align-center {
@@ -181,4 +187,16 @@ a {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background: #17a2b8;
+}
+
+.help {
+    color: black;
+}
+
+.help-header {
+    border-bottom: 1px solid black;
+}
+
+.recentChanges-header {
+    border-bottom: 1px solid whiteSmoke;
 }

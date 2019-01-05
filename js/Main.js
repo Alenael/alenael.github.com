@@ -1,5 +1,9 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
+var majorVer = 0;
+var minorVer = .4;
+
+
 var demonData;
 var skillData;
 var liberatorData;
@@ -42,7 +46,9 @@ var demonPDef;
 var demonMDef;
 
 function LoadData() {
-    
+
+    document.getElementById("versionLbl").innerHTML = "Version: " + (majorVer + minorVer);
+
     $(document).ready(function () {
         $("body").tooltip({
             selector: '[data-toggle="tooltip"]'
@@ -120,6 +126,16 @@ function LoadData() {
 
         $('div#demoncontent').removeClass("hidden");
         $('div#loading').addClass("hidden");
+
+        //Show help if first time on site
+        if (!localStorage.noFirstVisit) {
+            $('#helpModal').modal('show');
+            localStorage.noFirstVisit = true;
+        } else if (localStorage.lastUpdate < majorVer + minorVer) { //Show recent change if version changed
+            $('#newChangesModal').modal('show');
+        }
+
+        localStorage.lastUpdate = majorVer + minorVer;
     });
 }
 
@@ -273,6 +289,7 @@ function JsonLoader3() {
                 option.value = liberatorData[i].Name;
                 select.add(option, 0);
             }
+
             SortByABC(select);
         });
 }
@@ -285,6 +302,7 @@ function LoadSkillControls() {
         var option = document.createElement('option');
         option.text = nullText;
         option.value = nullText;
+        option.title = "Select A Skill..";
         select[x].add(option, 0);
 
         for (var i = 0; i < skillData.length; i++) {
@@ -317,6 +335,7 @@ function LoadDemonControls() {
         var option = document.createElement('option');
         option.text = nullText;
         option.value = nullText;
+        option.title = "Select A Demon..";
         select[x].add(option, 0);
 
         for (var i = 0; i < demonData.length; i++) {
@@ -329,7 +348,6 @@ function LoadDemonControls() {
         }
 
         SortByABC(select[x]);
-        
         $(select[x]).selectpicker("refresh");
     }
 }
@@ -933,7 +951,6 @@ function FilterBrands() {
             for (var l = 0; l < options.length; l++) {
                 $(options[l]).attr('disabled', false);
             }
-
         }
 
         $(demonBrands[j]).selectpicker('refresh');
