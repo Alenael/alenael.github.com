@@ -8,7 +8,7 @@ var demonData;
 var skillData;
 var liberatorData;
 var nullText = "-----------";
-var baseUrl = "https://alenael.github.io/Dx2-TeamBuilder";
+var baseUrl = "https://alenael.github.io/";
 
 //Our Controls
 var demonsSel;
