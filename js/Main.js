@@ -8,7 +8,7 @@ var demonData;
 var skillData;
 var liberatorData;
 var nullText = "-----------";
-var baseUrl = "https://alenael.github.io/";
+var baseUrl = "https://alenael.github.io";
 
 //Our Controls
 var demonsSel;
@@ -246,11 +246,13 @@ function CreateURL() {
             var values = $(demonBrands[i]).val();
             var valuesStr = "";
 
-            for (var j = 0; j < values.length; j++) 
-                valuesStr += values[j] + ",";
+            if (values != null) {
+                for (var j = 0; j < values.length; j++)
+                    valuesStr += values[j] + ",";
 
-            if (valuesStr !== "") 
-                parameters += "demon" + (i + 1) + "brands=" + valuesStr.substring(0, valuesStr.length-1) + "&";
+                if (valuesStr !== "")
+                    parameters += "demon" + (i + 1) + "brands=" + valuesStr.substring(0, valuesStr.length - 1) + "&";
+            }
         }
     }
 
