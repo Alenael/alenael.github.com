@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 0;
-var minorVer = .5;
+var minorVer = .6;
 
 
 var demonData;
@@ -44,6 +44,15 @@ var demonPAtk;
 var demonMAtk;
 var demonPDef;
 var demonMDef;
+var demonSP;
+var aether1;
+var aether2;
+var aether3;
+var aether4;
+var aether1Img;
+var aether2Img;
+var aether3Img;
+var aether4Img;
 
 function LoadData() {
 
@@ -99,6 +108,15 @@ function LoadData() {
         demonMAtk = document.getElementsByName("pdefBtn");
         demonPDef = document.getElementsByName("maatkBtn");
         demonMDef = document.getElementsByName("madefBtn");
+        demonSP = document.getElementsByName("demonSP");
+        aether1 = document.getElementsByName("aether1");
+        aether2 = document.getElementsByName("aether2");
+        aether3 = document.getElementsByName("aether3");
+        aether4 = document.getElementsByName("aether4");
+        aether1Img = document.getElementsByName("aether1Img");
+        aether2Img = document.getElementsByName("aether2Img");
+        aether3Img = document.getElementsByName("aether3Img");
+        aether4Img = document.getElementsByName("aether4Img");
 
         //Setup some custom CSS for our select controls
         for (var i = 0; i <= 39; i = i + 10) {
@@ -375,15 +393,41 @@ function SortByABC(control) {
 //Reloads all our data on the form
 function ReloadAll(control) {
     ChangeLiberator();
-    SetupDemonControls(control);    
+    SetupDemonControls(control);
+    UpdateAether();
     UpdateTooltips();
     CalculateTotalSpeed();
+    CalculateSP();
     BuildResists();
     FilterDemons();
     FilterSkills();
     FilterBrands();
     PruneArchetypes();
     UpdateStatInfo();
+}
+
+//Calculates and sets our Total SP
+function CalculateSP() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        var demon = GetDemon(demonsSel[i].value);
+        var sp = 0;
+
+        if (demon != null && demon !== nullText) {
+            var skill1 = GetSkill(demonCustomSkill1[i].value);
+            var skill2 = GetSkill(demonCustomSkill2[i].value);
+
+            if (skill1 != null)
+                sp += skill1["Skill Points"];
+
+            if (skill2 != null)
+                sp += skill2["Skill Points"];
+
+            demonSP[i].style.visibility = 'visible';
+            demonSP[i].innerHTML = "SP Required: " + sp;
+        } else {
+            demonSP[i].style.visibility = 'hidden';
+        }
+    }
 }
 
 //Prunes archetypes not needed from our demons and sets them to first available
@@ -487,6 +531,81 @@ function SetupDemonControls(control) {
             demonCustomSkill1[i].value = nullText;
             demonCustomSkill2[i].value = nullText;
         }
+    }
+}
+
+//Update Aether Cost
+function UpdateAether() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        var demon = GetDemon(demonsSel[i].value);
+        if (demon != null) {
+
+            var aether = [];
+            var aetherTypes = [];
+
+            AddAether(demon, aether, aetherTypes, "Light");
+            AddAether(demon, aether, aetherTypes, "Lawful");
+            AddAether(demon, aether, aetherTypes, "Neutral");
+            AddAether(demon, aether, aetherTypes, "Dark");
+            AddAether(demon, aether, aetherTypes, "Chaotic");
+
+            if (aether[0] != null) {
+                aether1Img[i].src = "Images/Awakening/" + aetherTypes[0] + ".jpg";
+                aether1[i].innerHTML = demon[aetherTypes[0]];
+                aether1Img[i].setAttribute('data-original-title', aetherTypes[0]);
+                aether1[i].style.visibility = 'visible';
+            } else {
+                aether1[i].style.visibility = 'hidden';
+            }
+
+            if (aether[1] != null) {
+                aether2Img[i].src = "Images/Awakening/" + aetherTypes[1] + ".jpg";
+                aether2[i].innerHTML = demon[aetherTypes[1]];
+                aether2Img[i].setAttribute('data-original-title', aetherTypes[1]);
+                aether2[i].style.visibility = 'visible';
+            } else {
+                aether1[i].style.visibility = 'hidden';
+            }
+
+            if (aether[2] != null) {
+                aether3Img[i].src = "Images/Awakening/" + aetherTypes[2] + ".jpg";
+                aether3[i].innerHTML = demon[aetherTypes[2]];
+                aether3Img[i].setAttribute('data-original-title', aetherTypes[2]);
+                aether3[i].style.visibility = 'visible';
+            } else {
+                aether1[i].style.visibility = 'hidden';
+            }
+
+            if (aether[3] != null) {
+                aether4Img[i].src = "Images/Awakening/" + aetherTypes[3] + ".jpg";
+                aether4[i].innerHTML = demon[aetherTypes[3]];
+                aether4Img[i].setAttribute('data-original-title', aetherTypes[3]);
+                aether4[i].style.visibility = 'visible';
+            } else {
+                aether1[i].style.visibility = 'hidden';
+            }
+        } else {
+            aether1[i].style.visibility = 'hidden';
+            aether2[i].style.visibility = 'hidden';
+            aether3[i].style.visibility = 'hidden';
+            aether4[i].style.visibility = 'hidden';
+        }
+    }
+}
+
+//Checks if Aether is null or not and adds whats needed to our array
+function AddAether(demon, aether, aetherTypes, name) {
+    if (demon["S " + name] !== "") {
+        aether.push(demon["S " + name]);
+        aetherTypes.push("S " + name);
+    }
+    if (demon["M " + name] !== "") {
+        aether.push(demon["M " + name]);
+        aetherTypes.push("M " + name);
+    }
+    if (demon["L " + name] !== "") {
+        aether.push(demon["L " + name]);
+        aetherTypes.push("L " + name);
     }
 }
 
@@ -662,7 +781,7 @@ function FixResist(skillName, resistFinal, actualResist) {
 function SwapResistText(text) {
     var result = text;
 
-    if (result == "")
+    if (result === "")
         result = "-";
 
     return result.charAt(0).toUpperCase() + result.slice(1);
@@ -690,6 +809,18 @@ function GetLiberator() {
     });
 
     return foundLiberator;
+}
+
+//Get Skill by name
+function GetSkill(name) {
+    var foundSkill = null;
+    skillData.forEach(function (skill) {
+        if (skill.Name === name) {
+            foundSkill = skill;
+        }
+    });
+
+    return foundSkill;
 }
 
 //Returns skill descriptions by skill name
@@ -742,11 +873,12 @@ function SwapNullText(text) {
         return text;
 }
 
-
+//Reset our page by loading our base url
 function Reset() {
     window.location.href = baseUrl;
 }
 
+//Swap our Liberator info out
 function ChangeLiberator() {
     var liberator = $('#liberators').val();
 
@@ -762,27 +894,6 @@ function ChangeLiberator() {
     }
 
     $('#liberators').blur();
-}
-
-function OpenTab(event, tab, tabControlClass, tabContentClass) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName(tabContentClass);
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName(tabControlClass);
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(tab).style.display = "block";
-    event.currentTarget.className += " active";
 }
 
 //Swaps demons by turn order

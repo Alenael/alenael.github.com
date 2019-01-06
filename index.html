@@ -46,7 +46,19 @@
                 <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgArchtype" class="img" width="20" height="46" visibility="hidden" />
                 <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" name="demonImgAI" class="img" width="50" height="40" visibility="hidden" />
                 <div class="center" name="demonRace" visibility="hidden"></div>
-                <div class="center" name="demonGrade" visibility="hidden"></div><br />
+                <div class="center" name="demonGrade" visibility="hidden"></div>
+                <div class="center" name="demonSP" visibility="hidden"></div> 
+                <p></p>
+                <table class="table table-borderless table-sm">
+                    <tbody>
+                        <tr>
+                            <td scope="row"><img name="aether1Img" class="img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" visibility="hidden" data-placement="top" data-toggle="tooltip" title=""/><span name="aether1"></span></td>
+                            <td scope="row"><img name="aether2Img" class="img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" visibility="hidden" data-placement="top" data-toggle="tooltip" title=""/><span name="aether2"></span></td>
+                            <td scope="row"><img name="aether3Img" class="img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" visibility="hidden" data-placement="top" data-toggle="tooltip" title=""/><span name="aether3"></span></td>
+                            <td scope="row"><img name="aether4Img" class="img" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" visibility="hidden" data-placement="top" data-toggle="tooltip" title=""/><span name="aether4"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="btn-group">
                 <select name="demonSel" class="selectpicker" data-live-search="true" 
@@ -73,7 +85,7 @@
                         <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
                     </div>
                     <div class="btn-group" id="customSkillGroup">
-                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this);UpdateTooltips();CalculateTotalSpeed();FilterDemons();FilterSkills();BuildResists();"></select>
+                        <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); UpdateTooltips(); CalculateTotalSpeed(); FilterDemons(); CalculateSP();FilterSkills();BuildResists();"></select>
                     </div>
                     <p></p>
                     <h6>Brands:</h6>
@@ -222,27 +234,26 @@
                 </button>
             </div>
             <div class="modal-body">
-                <!-- Format
-    <h6>.? Changes</h6>
-    <ul stype="list-style: decimal inside;">
-        <il></il>
-        <il></il>
-        <il></il>
-    </ul>
-    -->
+                <h6>0.6 Changes:</h6>
+                <ul stype="list-style: decimal inside;">
+                    <li>Added Aether Costs for Demons (Demons will slowly be added to DB over next few updates)</li>
+                    <li>Added SP Requirment caculator</li>
+                    <li>Added MP/SP costs to the Skill Selections</li>
+                </ul>
+                <br/>
                 <h6>0.5 Changes:</h6>
                 <ul stype="list-style: decimal inside;">
                     <li>Pruned Unique and Un-transferable Skills from Skill Lists</li>
                     <li>Added Liberator Skills to On Hover of their image</li>
                     <li>Remove archetypes not available for certain demons.</li>
                 </ul>
-                <br />
+                <br/>
                 <h6>0.4 Changes:</h6>
                 <ul stype="list-style: decimal inside;">
                     <li>UI Updates along with 'Help' and 'Recent Changes' section</li>
                     <li>URL Update</li>
                 </ul>
-                <br />
+                <br/>
                 <h6>0.3 Changes</h6>
                 <ul stype="list-style: decimal inside;">
                     <li>Searchable Dropdown Menus</li>
@@ -252,7 +263,7 @@
                     <li>Performance Fixes</li>
                     <li>UI Updates</li>
                 </ul>
-                <br />
+                <br/>
                 <h6>0.2 Changes</h6>
                 <ul stype="list-style: decimal inside;">
                     <li>Initial Release</li>

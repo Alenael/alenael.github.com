@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, div {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 p {
@@ -67,7 +68,7 @@ div.hidden {
     margin-bottom: 8px;
     margin-right: 8px;
     max-width: 262px;
-    height: 520px;
+    height: 540px;
 }
 
 @media only screen and (max-width: 600px){
@@ -141,7 +142,7 @@ div.hidden {
 }
 
 .demonInfo {
-    min-height:120px;
+    min-height:152px;
 }
 
 .dropdown-header {
