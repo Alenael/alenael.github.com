@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 0;
-var minorVer = .4;
+var minorVer = .5;
 
 
 var demonData;
@@ -369,6 +369,7 @@ function SortByABC(control) {
 function ReloadAll(control) {
     ChangeLiberator();
     SetupDemonControls(control);
+    PruneArchetypes();
     UpdateTooltips();
     CalculateTotalSpeed();
     BuildResists();
@@ -376,6 +377,42 @@ function ReloadAll(control) {
     FilterSkills();
     FilterBrands();
     UpdateStatInfo();
+}
+
+//Prunes archetypes not needed from our demons and sets them to first available
+function PruneArchetypes() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        var demon = GetDemon(demonsSel[i].value);
+
+        if (demon != null) {
+            $(demonArchtype[i]).prop('disabled', false);
+            var options = $(demonArchtype[i]).find("option");
+            for (var i = 0; i < options.length; i++) {
+                $(options[i]).prop('disabled', false);
+                switch (demon.Race) {
+                    case "Enigma":
+                    case "Zealot":
+                    case "Entity":
+                    case "UMA":
+                    case "Rumor":
+                        if (options[i].value === "yellow" || 
+                            options[i].value === "purple" || 
+                            options[i].value === "teal" ||
+                            options[i].value === "red")
+                            $(options[i]).prop('disabled', true);
+                        break;
+                    case "Fiend":
+                    case "Hero":
+                    case "Reaper":
+                        if (options[i].value === "clear")
+                            $(options[i]).prop('disabled', true);
+                        break;
+                }
+            }
+        } else {
+            $(demonArchtype[i]).prop('disabled', true);
+        }
+    }
 }
 
 //Sets up our demon controls
@@ -812,9 +849,7 @@ function FilterDemons() {
 
     if (disabledDemons.some(function(i) { return i !== null; })) {
         for (var x = 0; x < demonsSel.length; x++) {
-            if ($(demonsSel).val() != nullText) {
-                var object = $(demonsSel[x]).find("option");
-
+            var object = $(demonsSel[x]).find("option");
                 for (var j = 0; j < object.length; j++) {
                     if (object[j].value === nullText)
                         $(object[j]).prop('disabled', false);
@@ -823,7 +858,6 @@ function FilterDemons() {
                     else
                         $(object[j]).prop('disabled', false);
                 }
-            }
             $(demonsSel[x]).selectpicker('render');
         }
     }
