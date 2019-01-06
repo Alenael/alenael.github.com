@@ -314,8 +314,15 @@ function LoadSkillControls() {
                 option.text = skillData[i].Name;
                 option.value = skillData[i].Name;
                 option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
-                option.setAttribute("data-subtext",
-                    skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
+                var subText = skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1);
+
+                if (skillData[i].Cost !== "Passive")
+                    subText += " | MP: " + skillData[i].Cost;
+
+                subText += " | SP: " + skillData[i]["Skill Points"];
+
+                option.setAttribute("data-subtext", subText);
+
                 select[x].add(option, 0);
             }
         }
