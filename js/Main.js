@@ -706,8 +706,12 @@ function ChangeLiberator() {
     if (liberator === nullText)
         document.getElementById("liberatorimage").style.visibility = 'hidden';
     else {
+        var lib = GetLiberator(liberator);
+
+        document.getElementById("liberatorimage").setAttribute('data-original-title', lib["Skills"]);
         document.getElementById("liberatorimage").style.visibility = 'visible';
         document.getElementById("liberatorimage").src = "Images/Liberators/" + liberator + ".png";
+
     }
 
     $('#liberators').blur();
