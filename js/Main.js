@@ -308,13 +308,16 @@ function LoadSkillControls() {
         select[x].add(option, 0);
 
         for (var i = 0; i < skillData.length; i++) {
-            var option = document.createElement('option');
-            option.text = skillData[i].Name;
-            option.value = skillData[i].Name;
-            option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
-            option.setAttribute("data-subtext",
-                skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
-            select[x].add(option, 0);
+
+            if (skillData[i]["Unique"] !== 1) {
+                var option = document.createElement('option');
+                option.text = skillData[i].Name;
+                option.value = skillData[i].Name;
+                option.setAttribute("data-tokens", skillData[i].Element + " " + skillData[i].Target);
+                option.setAttribute("data-subtext",
+                    skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1));
+                select[x].add(option, 0);
+            }
         }
 
         SortByABC(select[x]);
