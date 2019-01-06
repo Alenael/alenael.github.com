@@ -368,14 +368,14 @@ function SortByABC(control) {
 //Reloads all our data on the form
 function ReloadAll(control) {
     ChangeLiberator();
-    SetupDemonControls(control);
-    PruneArchetypes();
+    SetupDemonControls(control);    
     UpdateTooltips();
     CalculateTotalSpeed();
     BuildResists();
     FilterDemons();
     FilterSkills();
     FilterBrands();
+    PruneArchetypes();
     UpdateStatInfo();
 }
 

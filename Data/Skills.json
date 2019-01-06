@@ -309,7 +309,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "phys",
@@ -393,7 +393,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "phys",
@@ -405,7 +405,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "phys",
@@ -417,7 +417,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "phys",
@@ -573,7 +573,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "ice",
@@ -693,7 +693,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "elec",
@@ -1197,7 +1197,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "dark",
@@ -1233,7 +1233,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "almighty",
@@ -2205,7 +2205,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "support",
@@ -2313,7 +2313,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "support",
@@ -2817,7 +2817,7 @@
     "Skill Points": 32,
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "passive",
@@ -2841,7 +2841,7 @@
     "Skill Points": 32,
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "passive",
@@ -2853,7 +2853,7 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "passive",
@@ -2865,7 +2865,7 @@
     "Skill Points": 32,
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "passive",
@@ -2877,7 +2877,7 @@
     "Skill Points": 32,
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
   },
   {
     "Element": "passive",
@@ -4585,7 +4585,7 @@
   },
   {
     "Element": "dark",
-    "Name": "Madoon L",
+    "Name": "Mudoon L",
     "JP Name": "",
     "Cost": 4,
     "Description": "Inflicts Dark (Magic) damage with 140 power on Single Enemy.\n\nLv2: +4% to damage.\nLv3: +6% to damage.\nLv4: +8% to damage.\nLv5: +10% to damage.",
