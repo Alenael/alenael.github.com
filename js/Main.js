@@ -65,8 +65,7 @@ function LoadData() {
             selector: '[data-toggle="tooltip"]'
         });
     });
-
-
+    
     //Load our json
     $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
 
@@ -406,8 +405,8 @@ function ReloadAll(control) {
         FilterDemons();
         FilterSkills();
         FilterBrands();
-        PruneArchetypes();
         UpdateStatInfo();
+        PruneArchetypes();
     }
 }
 
@@ -443,31 +442,49 @@ function PruneArchetypes() {
         if (demon != null) {
             $(demonArchtype[i]).prop('disabled', false);
             var options = $(demonArchtype[i]).find("option");
-            for (var i = 0; i < options.length; i++) {
-                $(options[i]).prop('disabled', false);
+            for (var x = 0; x < options.length; x++) {
                 switch (demon.Race) {
                     case "Enigma":
                     case "Zealot":
                     case "Entity":
                     case "UMA":
                     case "Rumor":
-                        if (options[i].value === "yellow" || 
-                            options[i].value === "purple" || 
-                            options[i].value === "teal" ||
-                            options[i].value === "red")
-                            $(options[i]).prop('disabled', true);
+                        if (options[x].value === "yellow" ||
+                            options[x].value === "purple" ||
+                            options[x].value === "teal" ||
+                            options[x].value === "red") {
+                            $(options[x]).prop('disabled', true);
+                            if (demonArchtype[i].value !== 'clear') {
+                                blockUpdating = true;
+                                $(demonArchtype[i]).selectpicker('val', 'clear');
+                                blockUpdating = false;
+                            }
+                        } else {
+                            $(options[x]).prop('disabled', false);
+                        }
                         break;
                     case "Fiend":
                     case "Hero":
                     case "Reaper":
-                        if (options[i].value === "clear")
-                            $(options[i]).prop('disabled', true);
+                        if (options[x].value === "clear") {
+                            $(options[x]).prop('disabled', true);
+                            if (demonArchtype[i].value === 'clear') {
+                                blockUpdating = true;
+                                $(demonArchtype[i]).selectpicker('val', 'red');
+                                blockUpdating = false;
+                            }
+                        }
+                        break;
+                    default:
+                        $(options[x]).prop('disabled', false);
                         break;
                 }
             }
         } else {
             $(demonArchtype[i]).prop('disabled', true);
         }
+
+        $(demonArchtype[i]).selectpicker('refresh');
     }
 }
 
@@ -742,7 +759,7 @@ function BuildResists() {
 
             //Now lets check if we have any resist skills that override the base
             var skills = [
-                demon["Skill 3"], GetSkillByArchtype(demon, $(demonArchtype[i]).val()), demonCustomSkill1[i].value,
+                demon["Skill 3"], GetSkillByArchtype(demon, demonArchtype[i].value, demonCustomSkill1[i].value),
                 demonCustomSkill2[i].value
             ];
 
