@@ -466,6 +466,7 @@ function PruneArchetypes() {
                     case "Fiend":
                     case "Hero":
                     case "Reaper":
+                        $(options[x]).prop('disabled', false);
                         if (options[x].value === "clear") {
                             $(options[x]).prop('disabled', true);
                             if (demonArchtype[i].value === 'clear') {
