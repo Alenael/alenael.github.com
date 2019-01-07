@@ -87,8 +87,9 @@ div.hidden {
 }
 
 .tooltip-inner {
-    white-space: pre;
-    max-width: none;
+    white-space: pre-line;
+    word-wrap: break-word;
+    max-width: 450px;
 }
 
 .btn-xs {

@@ -7,6 +7,7 @@ var minorVer = .6;
 var demonData;
 var skillData;
 var liberatorData;
+var demonInfoData;
 var nullText = "-----------";
 var baseUrl = "https://alenael.github.io";
 
@@ -67,7 +68,7 @@ function LoadData() {
     });
     
     //Load our json
-    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3()).done(function (a1, a2) {
+    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3(), JsonLoader4()).done(function (a1, a2) {
 
         $('.selectpicker').selectpicker();
         Clone($('#demon'), 2);
@@ -316,6 +317,13 @@ function JsonLoader3() {
         });
 }
 
+function JsonLoader4() {
+    //Load Demons Info
+    return $.getJSON("Data/DemonInfo.json", function (info) {
+        demonInfoData = info;
+    });
+}
+
 //Loads up a control with skills
 function LoadSkillControls() {
     var select = document.getElementsByName('demonCustomSkill1');
@@ -502,6 +510,17 @@ function SetupDemonControls(control) {
 
             demonImages[i].src = "Images/Demons/" + demon.Name + ".jpg";
             demonImages[i].style.visibility = 'visible';
+
+            var di = GetDemonInfo(demon.Name);
+
+            if (di != null) {
+                $(demonImages[i]).attr('data-original-title', di.Description);
+                $(demonImgArchtype[i]).attr('data-original-title', GetDemonInfoByAchtype(di, $(demonArchtype[i]).val()));
+            }
+            else {
+                $(demonImages[i]).attr('data-original-title', "");
+                $(demonImgArchtype[i]).attr('data-original-title', "");
+            }
 
             demonImgArchtype[i].src = "Images/Archtypes/" + $(demonArchtype[i]).val() + ".png";
             demonImgArchtype[i].style.visibility = 'visible';
@@ -822,6 +841,18 @@ function GetDemon(name) {
     return foundDemon;
 }
 
+//Gets demon infoby name
+function GetDemonInfo(name) {
+    var foundDemon = null;
+    demonInfoData.forEach(function (info) {
+        if (info.Name === name) {
+            foundDemon = info;
+        }
+    });
+
+    return foundDemon;
+}
+
 //Get Liberator by name
 function GetLiberator() {
     var foundLiberator = null;
@@ -856,6 +887,21 @@ function GetSkillInfo(skillName) {
     }
 
     return "";
+}
+
+function GetDemonInfoByAchtype(demon, archtype) {
+    switch (archtype) {
+        case "clear":
+            return demon["Common"];
+        case "red":
+            return demon["Red"];
+        case "teal":
+            return demon["Teal"];
+        case "purple":
+            return demon["Purple"];
+        case "yellow":
+            return demon["Yellow"];
+    }
 }
 
 function GetSkillByArchtype(demon, archtype) {
