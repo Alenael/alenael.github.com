@@ -54,6 +54,8 @@ var aether2Img;
 var aether3Img;
 var aether4Img;
 
+var blockUpdating = true;
+
 function LoadData() {
 
     document.getElementById("versionLbl").innerHTML = "Version: " + (majorVer + minorVer);
@@ -238,6 +240,7 @@ function ReadURL() {
         }
     }
 
+    blockUpdating = false;
     ReloadAll("All");
 }
 
@@ -392,18 +395,20 @@ function SortByABC(control) {
 
 //Reloads all our data on the form
 function ReloadAll(control) {
-    ChangeLiberator();
-    SetupDemonControls(control);
-    UpdateAether();
-    UpdateTooltips();
-    CalculateTotalSpeed();
-    CalculateSP();
-    BuildResists();
-    FilterDemons();
-    FilterSkills();
-    FilterBrands();
-    PruneArchetypes();
-    UpdateStatInfo();
+    if (!blockUpdating) {
+        ChangeLiberator();
+        SetupDemonControls(control);
+        UpdateAether();
+        UpdateTooltips();
+        CalculateTotalSpeed();
+        CalculateSP();
+        BuildResists();
+        FilterDemons();
+        FilterSkills();
+        FilterBrands();
+        PruneArchetypes();
+        UpdateStatInfo();
+    }
 }
 
 //Calculates and sets our Total SP
@@ -564,7 +569,7 @@ function UpdateAether() {
                 aether2Img[i].setAttribute('data-original-title', aetherTypes[1]);
                 aether2[i].style.visibility = 'visible';
             } else {
-                aether1[i].style.visibility = 'hidden';
+                aether2[i].style.visibility = 'hidden';
             }
 
             if (aether[2] != null) {
@@ -573,7 +578,7 @@ function UpdateAether() {
                 aether3Img[i].setAttribute('data-original-title', aetherTypes[2]);
                 aether3[i].style.visibility = 'visible';
             } else {
-                aether1[i].style.visibility = 'hidden';
+                aether3[i].style.visibility = 'hidden';
             }
 
             if (aether[3] != null) {
@@ -582,7 +587,7 @@ function UpdateAether() {
                 aether4Img[i].setAttribute('data-original-title', aetherTypes[3]);
                 aether4[i].style.visibility = 'visible';
             } else {
-                aether1[i].style.visibility = 'hidden';
+                aether4[i].style.visibility = 'hidden';
             }
         } else {
             aether1[i].style.visibility = 'hidden';
