@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
-var majorVer = 0;
-var minorVer = .7;
+var majorVer = 1;
+var minorVer = 0;
 
 
 var demonData;
@@ -54,6 +54,15 @@ var aether1Img;
 var aether2Img;
 var aether3Img;
 var aether4Img;
+var demonEdit1;
+var demonEdit2;
+var demonEdit3;
+var demonEdit4;
+var demonEdit5;
+var demonEdit6;
+var demonEditNumber;
+var demonEditPercent;
+
 
 var blockUpdating = true;
 
@@ -68,7 +77,7 @@ function LoadData() {
     });
     
     //Load our json
-    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3(), JsonLoader4()).done(function (a1, a2) {
+    $.when(JsonLoader1(), JsonLoader2(), JsonLoader3(), JsonLoader4()).done(function (){
 
         $('.selectpicker').selectpicker();
         Clone($('#demon'), 2);
@@ -119,9 +128,18 @@ function LoadData() {
         aether2Img = document.getElementsByName("aether2Img");
         aether3Img = document.getElementsByName("aether3Img");
         aether4Img = document.getElementsByName("aether4Img");
+        aether1Img = document.getElementsByName("aether1Img");
+        demonEdit1 = document.getElementsByName("demonEdit1");
+        demonEdit2 = document.getElementsByName("demonEdit2");
+        demonEdit3 = document.getElementsByName("demonEdit3");
+        demonEdit4 = document.getElementsByName("demonEdit4");
+        demonEdit5 = document.getElementsByName("demonEdit5");
+        demonEdit6 = document.getElementsByName("demonEdit6");
+        demonEditNumber = document.getElementsByName("demonEditNumber");
+        demonEditPercent = document.getElementsByName("demonEditPercent");
 
         //Setup some custom CSS for our select controls
-        for (var i = 0; i <= 39; i = i + 10) {
+        for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/4) {
             dropDownMenus[i + 0].className += " demon-dropdown";
             dropDownMenus[i + 1].className += " demon-dropdown";
             dropDownMenus[i + 2].className += " archtype-dropdown";
@@ -132,13 +150,36 @@ function LoadData() {
             dropDownMenus[i + 7].className += " skill-dropdown";
             dropDownMenus[i + 8].className += " skill-dropdown";
             dropDownMenus[i + 9].className += " skill-dropdown";
+            dropDownMenus[i + 10].className += " archtype-dropdown";
+            dropDownMenus[i + 11].className += " archtype-dropdown";
+            dropDownMenus[i + 12].className += " archtype-dropdown";
+            dropDownMenus[i + 13].className += " archtype-dropdown";
+            dropDownMenus[i + 14].className += " archtype-dropdown";
+            dropDownMenus[i + 15].className += " archtype-dropdown";
+            dropDownMenus[i + 16].className += " archtype-dropdown";
+            dropDownMenus[i + 17].className += " archtype-dropdown";
+            dropDownMenus[i + 18].className += " archtype-dropdown";
+            dropDownMenus[i + 19].className += " archtype-dropdown";
+            dropDownMenus[i + 20].className += " archtype-dropdown";
+            dropDownMenus[i + 21].className += " archtype-dropdown";
         }
 
+        //Setup tooltips for our custom skill combos
         for (var l = 0; l < demonsSel.length; l++) {
             var el = $(demonCustomSkill1[l]).next().find("div")[0];
             el.setAttribute('data-toggle', "tooltip");
             var el = $(demonCustomSkill2[l]).next().find("div")[0];
             el.setAttribute('data-toggle', "tooltip");
+        }
+
+        //Set correct default settings 
+        for (var m = 0; m < demonEdit1.length; m++) {
+            $(demonEdit1).selectpicker('val', "hp");
+            $(demonEdit2).selectpicker('val', "physatk");
+            $(demonEdit3).selectpicker('val', "magatk");
+            $(demonEdit4).selectpicker('val', "magdef");
+            $(demonEdit5).selectpicker('val', "physevasion");
+            $(demonEdit6).selectpicker('val', "speed");
         }
 
         ReadURL();
@@ -161,17 +202,21 @@ function LoadData() {
 
 //Clones our Demon
 function Clone(object, num) {
+    //Create a clone
     var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
     var select = $(newClone).find('select').clone(true, true);
     var boostrap = $(newClone).find('.bootstrap-select');
 
+    //Replace Bootstrap with the select statment as we initiate it later on
     for (var i = 0; i < select.length; i++) {
         boostrap[i].replaceWith(select[i]);
     }
 
+    //Grab our Tabs and the Buttons for them
     var nav = $(newClone).find('a');
     var tabs = $(newClone).find('.tab-pane');
 
+    //Ensure each tab has a unique name
     for (var j = 0; j < nav.length; j++) {
         var name = $(nav[j]).attr("href").replace("#", "").replace("1", "");
         $(nav[j]).attr("href", "#" + name + num);
@@ -226,11 +271,89 @@ function ReadURL() {
             url.searchParams.get("demon4brands")
         ];
 
+        var edits = [
+            [
+                url.searchParams.get("demon1Edit1"),
+                url.searchParams.get("demon1Edit2"),
+                url.searchParams.get("demon1Edit3"),
+                url.searchParams.get("demon1Edit4"),
+                url.searchParams.get("demon1Edit5"),
+                url.searchParams.get("demon1Edit6")
+            ],
+            [
+                url.searchParams.get("demon2Edit1"),
+                url.searchParams.get("demon2Edit2"),
+                url.searchParams.get("demon2Edit3"),
+                url.searchParams.get("demon2Edit4"),
+                url.searchParams.get("demon2Edit5"),
+                url.searchParams.get("demon2Edit6")
+            ],
+            [
+                url.searchParams.get("demon3Edit1"),
+                url.searchParams.get("demon3Edit2"),
+                url.searchParams.get("demon3Edit3"),
+                url.searchParams.get("demon3Edit4"),
+                url.searchParams.get("demon3Edit5"),
+                url.searchParams.get("demon3Edit6")
+            ],
+            [
+                url.searchParams.get("demon4Edit1"),
+                url.searchParams.get("demon4Edit2"),
+                url.searchParams.get("demon4Edit3"),
+                url.searchParams.get("demon4Edit4"),
+                url.searchParams.get("demon4Edit5"),
+                url.searchParams.get("demon4Edit6")
+            ]
+        ];
+
         for (var i = 0; i < demons.length; i++) {
             $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i]);
             $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
+
+            if (edits[i][0] != null) {
+                var values = edits[i][0].split(";");
+                $(demonEdit1[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6].value = values[1];
+                demonEditPercent[i*6].value = values[2];
+                $(demonEdit1[i]).selectpicker('Refresh');
+            }
+            if (edits[i][1] != null) {
+                var values = edits[i][1].split(";");
+                $(demonEdit2[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6+1].value = values[1];
+                demonEditPercent[i * 6 + 1].value = values[2];
+                $(demonEdit2[i]).selectpicker('Refresh');
+            }
+            if (edits[i][2] != null) {
+                var values = edits[i][2].split(";");
+                $(demonEdit3[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6+2].value = values[1];
+                demonEditPercent[i*6+2].value = values[2];
+                $(demonEdit3[i]).selectpicker('Refresh');
+            }
+            if (edits[i][3] != null) {
+                var values = edits[i][3].split(";");
+                $(demonEdit4[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6+3].value = values[1];
+                demonEditPercent[i*6+3].value = values[2];
+                $(demonEdit4[i]).selectpicker('Refresh');
+            }
+            if (edits[i][4] != null) {
+                var values = edits[i][4].split(";");
+                $(demonEdit5[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6+4].value = values[1];
+                demonEditPercent[i*6+4].value = values[2];
+                $(demonEdit5[i]).selectpicker('Refresh');
+            }
+            if (edits[i][5] != null) {
+                var values = edits[i][5].split(";");
+                $(demonEdit6[i]).selectpicker('val', values[0]);
+                demonEditNumber[i*6+5].value = values[1];
+                demonEditPercent[i*6+5].value = values[2];
+                $(demonEdit6[i]).selectpicker('Refresh');
+            }
 
             if (brands[i] != null) {
                 var values = brands[i].split(",");
@@ -256,14 +379,55 @@ function CreateURL() {
 
     for (var i = 0; i < demonsSel.length; i++) {
         if (demonsSel[i].value !== nullText) {
-            parameters += "demon" + (i+1) + "=" + demonsSel[i].value + "&";
-            parameters += "demon" + (i+1) + "archtype=" + demonArchtype[i].value + "&";
+            //Write Demon/Archetype
+            parameters += "demon" + (i + 1) + "=" + demonsSel[i].value + "&";
+            parameters += "demon" + (i + 1) + "archtype=" + demonArchtype[i].value + "&";
 
+            //Write Skills
             if (demonCustomSkill1[i].value !== nullText)
-                parameters += "demon" + (i+1) + "skill1=" + demonCustomSkill1[i].value + "&";
+                parameters += "demon" + (i + 1) + "skill1=" + demonCustomSkill1[i].value + "&";
             if (demonCustomSkill2[i].value !== nullText)
                 parameters += "demon" + (i + 1) + "skill2=" + demonCustomSkill2[i].value + "&";
 
+            //Write Edits
+            if (demonEdit1[i].value !== "hp" || demonEditPercent[0].value !== "" || demonEditNumber[0].value !== "")
+                parameters += "demon" + (i + 1) + "Edit1=" +
+                    demonEdit1[i].value + ";" +
+                    demonEditNumber[0].value + ";" +
+                    demonEditPercent[0].value + "&";
+
+            if (demonEdit2[i].value !== "physatk" || demonEditPercent[1].value !== "" || demonEditNumber[1].value !== "")
+                parameters += "demon" + (i + 1) + "Edit2=" +
+                    demonEdit2[i].value + ";" +
+                    demonEditNumber[1].value + ";" +
+                    demonEditPercent[1].value + "&";
+
+            if (demonEdit3[i].value !== "magatk" || demonEditPercent[2].value !== "" || demonEditNumber[2].value !== "")
+                parameters += "demon" + (i + 1) + "Edit3=" +
+                    demonEdit3[i].value + ";" +
+                    demonEditNumber[2].value + ";" +
+                    demonEditPercent[2].value + "&";
+
+            if (demonEdit4[i].value !== "magdef" || demonEditPercent[3].value !== "" || demonEditNumber[3].value !== "")
+                parameters += "demon" + (i + 1) + "Edit4=" +
+                    demonEdit4[i].value + ";" +
+                    demonEditNumber[3].value + ";" +
+                    demonEditPercent[3].value + "&";
+
+            if (demonEdit5[i].value !== "physevasion" || demonEditPercent[4].value !== "" || demonEditNumber[4].value !== "")
+                parameters += "demon" + (i + 1) + "Edit5=" +
+                    demonEdit5[i].value + ";" +
+                    demonEditNumber[4].value + ";" +
+                    demonEditPercent[4].value + "&";
+
+            if (demonEdit6[i].value !== "speed" || demonEditPercent[5].value !== "" || demonEditNumber[5].value !== "")
+                parameters += "demon" + (i + 1) + "Edit6=" +
+                    demonEdit6[i].value + ";" +
+                    demonEditNumber[5].value + ";" +
+                    demonEditPercent[5].value + "&";
+            
+
+            //Write Brands
             var values = $(demonBrands[i]).val();
             var valuesStr = "";
 
