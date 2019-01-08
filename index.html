@@ -128,15 +128,15 @@
                     </div>
                     <div class="btn-group" id="secondGroup">
                         <span name="strBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Strength: 0</span>
-                        <span name="agiBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Agility: 0</span>
+                        <span name="agiBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Agility: 0</span>                        
                     </div>
                     <div class="btn-group" id="thirdGroup">
                         <span name="magBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Magic: 0</span>
-                        <span name="luBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Luck: 0</span>
+                        <span name="luBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">Luck: 0</span>                        
                     </div>
                     <div class="btn-group" id="fourthGroup">
                         <span name="patkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PAtk: 0</span>
-                        <span name="pdefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PDef: 0</span>
+                        <span name="pdefBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">PDef: 0</span>                        
                     </div>
                     <div class="btn-group" id="fifthGroup">
                         <span name="maatkBtn" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title="">MAtk: 0</span>
@@ -146,7 +146,7 @@
                 <div id="demonEdit1" class="tab-pane fade">
                     <div class="input-group input-group-sm mb-3">
                         <div class="input-group-prepend">
-                            <select name="demonEdit1" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit1" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -161,10 +161,10 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                         <div class="input-group-prepend">
-                            <select name="demonEdit2" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit2" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -179,10 +179,10 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                         <div class="input-group-prepend">
-                            <select name="demonEdit3" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit3" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -197,10 +197,10 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                         <div class="input-group-prepend">
-                            <select name="demonEdit4" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit4" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -215,10 +215,10 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                         <div class="input-group-prepend">
-                            <select name="demonEdit5" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit5" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -233,10 +233,10 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                         <div class="input-group-prepend">
-                            <select name="demonEdit6" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="" title="">
+                            <select name="demonEdit6" class="selectpicker" data-width="100px" data-style="btn-sm btn-warning" onchange="ReloadAll();" title="">
                                 <option value="ailmentinfliction">Ailment Infliction</option>
                                 <option value="ailmentresistance">Ailment Resistance</option>
                                 <option value="critical">Critical</option>
@@ -251,8 +251,8 @@
                                 <option value="speed">Speed</option>
                             </select>
                         </div>
-                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#">
-                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%">
+                        <input name="demonEditNumber" type="number" class="form-control" placeholder="#" onchange="ReloadAll();">
+                        <input name="demonEditPercent" type="number" class="form-control" placeholder="%" onchange="ReloadAll();">
                     </div>
                 </div>
             </div>

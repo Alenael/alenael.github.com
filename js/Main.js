@@ -139,7 +139,7 @@ function LoadData() {
         demonEditPercent = document.getElementsByName("demonEditPercent");
 
         //Setup some custom CSS for our select controls
-        for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/4) {
+        for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/demonsSel.length) {
             dropDownMenus[i + 0].className += " demon-dropdown";
             dropDownMenus[i + 1].className += " demon-dropdown";
             dropDownMenus[i + 2].className += " archtype-dropdown";
@@ -573,13 +573,94 @@ function ReloadAll(control) {
         UpdateTooltips();
         CalculateTotalSpeed();
         CalculateSP();
+        CalculateStats();
         BuildResists();
         FilterDemons();
         FilterSkills();
         FilterBrands();
-        UpdateStatInfo();
         PruneArchetypes();
     }
+}
+
+//Calculate our Stats from EVERYTHING WE HAVE SETUP!!!
+function CalculateStats() {
+
+    //Figure out Win Streak Bonus
+    var streakBonus = document.getElementById('steakBonus').value;      
+
+    //Loop through each demon....
+    for (var i = 0; i < demonsSel.length; i++)
+    {
+        var demon = GetDemon(demonsSel[i].value);
+        var brands = $(demonBrands[i]).val();
+
+        if (demon !== null) {
+            //Get our demons base stat values at 50..
+            var demonHPStat = demon["6★ HP"];
+            var demonVitStat = demon["6★ Vitality"];
+            var demonStrStat = demon["6★ Strength"];
+            var demonAgiStat = demon["6★ Agility"];
+            var demonMagStat =demon["6★ Magic"];
+            var demonLuStat = demon["6★ Luck"];
+            var demonPhysAtkStat = demon["PATK"];
+            var demonMagAtkStat = demon["MATK"];
+            var demonPhysDefStat = demon["PDEF"];
+            var demonMagDefStat = demon["MDEF"];
+
+            
+
+            //Get our Brand Stat Bonuses..
+            if (brands !== null) {
+                for (var i = 0; i < brands.length; i++) {
+                    //if (brands[i] === "aim2")
+                    //    demonPhysAcc
+                    //else if (brands[i] === "aim")
+                    //    extraPercent += .25;
+                }
+            }
+
+            //Get our Edit Stat Bonuses..
+
+            //Add them together..
+
+            //Apply Win Streak Bonus..
+
+
+            //Write our stat values to Controls
+            demonHP[i].innerHTML = "HP: " + demonHPStat;
+            demonVit[i].innerHTML = "Vitality: " + demonVitStat;
+            demonStr[i].innerHTML = "Strength: " + demonStrStat;
+            demonAgi[i].innerHTML = "Agility: " + demonAgiStat;
+            demonMag[i].innerHTML = "Magic: " + demonMagStat;
+            demonLu[i].innerHTML = "Luck: " + demonLuStat;
+            demonPAtk[i].innerHTML = "Phys Atk: " + demonPhysAtkStat;
+            demonMAtk[i].innerHTML = "Magic Atk: " + demonMagAtkStat;
+            demonPDef[i].innerHTML = "Phys Def: " + demonPhysDefStat;
+            demonMDef[i].innerHTML = "Magic Atk: " + demonMagDefStat;
+        } else {
+            demonHP[i].innerHTML = "HP:";
+            demonVit[i].innerHTML = "Vitality:";
+            demonStr[i].innerHTML = "Strength:";
+            demonAgi[i].innerHTML = "Agility:";
+            demonMag[i].innerHTML = "Magic:";
+            demonLu[i].innerHTML = "Luck:";
+            demonPAtk[i].innerHTML = "Phys Atk:";
+            demonMAtk[i].innerHTML = "Magic Atk:";
+            demonPDef[i].innerHTML = "Phys Def:";
+            demonMDef[i].innerHTML = "Magic Def:";
+        }
+    }
+}
+
+function MorphByWinStreak(stat, winStreak) {
+
+}
+
+//Updates all places that need brand info 
+function UpdateBrandInfo() {    
+    CalculateTotalSpeed();
+    FilterBrands();
+    CalculateStats();
 }
 
 //Calculates and sets our Total SP
@@ -908,13 +989,6 @@ function GetDemonSpeed(name, num) {
     }
 
     return speed;
-}
-
-//Updates all places that need brand info 
-function UpdateBrandInfo() {
-    CalculateTotalSpeed();
-    FilterBrands();
-    UpdateStatInfo();
 }
 
 //Builds resists for each demon
@@ -1272,37 +1346,6 @@ function UpdateTooltips() {
             GetSkillInfo(demonCustomSkill1[i].value));
         $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
             GetSkillInfo(demonCustomSkill2[i].value));
-    }
-}
-
-//Updates our Stats
-function UpdateStatInfo() {
-    for (var i = 0; i < demonsSel.length; i++) {
-        var demon = GetDemon(demonsSel[i].value);
-
-        if (demon !== null) {
-            demonHP[i].innerHTML = "HP: " + demon["6★ HP"];
-            demonVit[i].innerHTML = "Vitality: " + demon["6★ Vitality"];
-            demonStr[i].innerHTML = "Strength: " + demon["6★ Strength"];
-            demonAgi[i].innerHTML = "Agility: " + demon["6★ Agility"];
-            demonMag[i].innerHTML = "Magic: " + demon["6★ Magic"];
-            demonLu[i].innerHTML = "Luck: " + demon["6★ Luck"];
-            demonPAtk[i].innerHTML = "Phys Atk: " + demon["PATK"];
-            demonMAtk[i].innerHTML = "Magic Atk: " + demon["MATK"];
-            demonPDef[i].innerHTML = "Phys Def: " + demon["PDEF"];
-            demonMDef[i].innerHTML = "Magic Atk: " + demon["MDEF"];
-        } else {
-            demonHP[i].innerHTML = "HP:";
-            demonVit[i].innerHTML = "Vitality:";
-            demonStr[i].innerHTML = "Strength:";
-            demonAgi[i].innerHTML = "Agility:";
-            demonMag[i].innerHTML = "Magic:";
-            demonLu[i].innerHTML = "Luck:";
-            demonPAtk[i].innerHTML = "Phys Atk:";
-            demonMAtk[i].innerHTML = "Magic Atk:";
-            demonPDef[i].innerHTML = "Phys Def:";
-            demonMDef[i].innerHTML = "Magic Def:";
-        }
     }
 }
 
