@@ -24,6 +24,11 @@ p {
     margin-top: -25px;
 }
 
+.scrollable-panel {
+    height: 180px;
+    overflow-y: scroll;
+}
+
 .loader {
     border: 8px solid whitesmoke;
     border-top: 8px solid #17a2b8;
