@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
-var majorVer = 0;
-var minorVer = .8;
+var majorVer = 1;
+var minorVer = 0;
 
 
 var demonData;
@@ -72,7 +72,6 @@ var demonEdit5;
 var demonEdit6;
 var demonEditNumber;
 var demonEditPercent;
-
 
 var blockUpdating = true;
 
@@ -594,6 +593,7 @@ function ReloadAll(control) {
         FilterDemons();
         FilterSkills();
         FilterBrands();
+        FilterStats();
         PruneArchetypes();
     }
 }
@@ -1207,6 +1207,7 @@ function BuildResists() {
     }
 }
 
+//Returns proper Resist by name
 function FixResist(skillName, resistFinal, actualResist) {
     if (skillName.indexOf(actualResist) >= 0)
         if (skillName.indexOf("Drain") >= 0)
@@ -1510,6 +1511,45 @@ function UpdateTooltips() {
             GetSkillInfo(demonCustomSkill1[i].value));
         $(demonCustomSkill2[i]).next().find("div")[0].setAttribute('data-original-title',
             GetSkillInfo(demonCustomSkill2[i].value));
+    }
+}
+
+//Disable uneeded values in stats
+function FilterStats() {
+    for (var i = 0; i < demonsSel.length; i++) {
+        var types = [
+            $(demonEdit1[i]).selectpicker('val'),
+            $(demonEdit2[i]).selectpicker('val'),
+            $(demonEdit3[i]).selectpicker('val'),
+            $(demonEdit4[i]).selectpicker('val'),
+            $(demonEdit5[i]).selectpicker('val'),
+            $(demonEdit6[i]).selectpicker('val')
+        ];
+        var numbers = [
+            demonEditNumber[i * 6],
+            demonEditNumber[i * 6 + 1],
+            demonEditNumber[i * 6 + 2],
+            demonEditNumber[i * 6 + 3],
+            demonEditNumber[i * 6 + 4],
+            demonEditNumber[i * 6 + 5]
+        ];
+
+        for (var x = 0; x < types.length; x++) {
+            switch (types[x]) {
+                case "ailmentinfliction":
+                case "ailmentresistance":
+                case "critical":
+                case "heal":
+                case "physaccuracy":
+                case "physevasion":
+                case "speed":
+                    $(numbers[x]).attr('disabled', true);
+                    break;
+                default:
+                    $(numbers[x]).attr('disabled', false);
+                    break;
+            }
+        }
     }
 }
 
