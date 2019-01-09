@@ -45,6 +45,16 @@ var demonPAtk;
 var demonMAtk;
 var demonPDef;
 var demonMDef;
+var demonPAtk;
+var demonPDef;
+var demonMAtk;
+var demonMDef;
+var demonPhysEvasion;
+var demonPhysAccuracy;
+var demonAilmentInfiction;
+var demonAilmentResistance;
+var demonCritical;
+var demonHeal;
 var demonSP;
 var aether1;
 var aether2;
@@ -119,6 +129,12 @@ function LoadData() {
         demonMAtk = document.getElementsByName("pdefBtn");
         demonPDef = document.getElementsByName("maatkBtn");
         demonMDef = document.getElementsByName("madefBtn");
+        demonPhysEvasion = document.getElementsByName("physEvasionBtn");
+        demonPhysAccuracy = document.getElementsByName("physAccuracyBtn");
+        demonAilmentInfiction = document.getElementsByName("ailmentInflictionBtn");
+        demonAilmentResistance = document.getElementsByName("ailmentResistanceBtn");
+        demonCritical = document.getElementsByName("criticalBtn");
+        demonHeal = document.getElementsByName("healBtn");
         demonSP = document.getElementsByName("demonSP");
         aether1 = document.getElementsByName("aether1");
         aether2 = document.getElementsByName("aether2");
@@ -596,47 +612,193 @@ function CalculateStats() {
 
         if (demon !== null) {
             //Get our demons base stat values at 50..
-            var demonHPStat = demon["6★ HP"];
+            var demonHPStat = 0;
             var demonVitStat = demon["6★ Vitality"];
             var demonStrStat = demon["6★ Strength"];
             var demonAgiStat = demon["6★ Agility"];
-            var demonMagStat =demon["6★ Magic"];
+            var demonMagStat = demon["6★ Magic"];
             var demonLuStat = demon["6★ Luck"];
-            var demonPhysAtkStat = demon["PATK"];
-            var demonMagAtkStat = demon["MATK"];
-            var demonPhysDefStat = demon["PDEF"];
-            var demonMagDefStat = demon["MDEF"];
+            var demonPhysAtkStat = 0;
+            var demonMagAtkStat = 0;
+            var demonPhysDefStat = 0;
+            var demonMagDefStat = 0;
+            var demonPhysAccuracyStat = 0;
+            var demonPhysEvasionStat = 0;
+            var demonAilmentInfictionStat = 0;
+            var demonAilmentResistanceStat = 0;
+            var demonCriticalStat = 0;
+            var demonHealStat = 0;
+            //Bonus Percents
+            var physAtkPercent = 0;
+            var physDefPercent = 0;
+            var magAtkPercent = 0;
+            var magDefPercent = 0;
+            var hpPercent = 0;
 
-            
+            //Get our Edit Stat Bonus values
+            var types = [
+                $(demonEdit1[i]).selectpicker('val'),
+                $(demonEdit2[i]).selectpicker('val'),
+                $(demonEdit3[i]).selectpicker('val'),
+                $(demonEdit4[i]).selectpicker('val'),
+                $(demonEdit5[i]).selectpicker('val'),
+                $(demonEdit6[i]).selectpicker('val')
+            ];
+            var numbers = [
+                new Number(demonEditNumber[i * 6].value),
+                new Number(demonEditNumber[i * 6 + 1].value),
+                new Number(demonEditNumber[i * 6 + 2].value),
+                new Number(demonEditNumber[i * 6 + 3].value),
+                new Number(demonEditNumber[i * 6 + 4].value),
+                new Number(demonEditNumber[i * 6 + 5].value)
 
-            //Get our Brand Stat Bonuses..
-            if (brands !== null) {
-                for (var i = 0; i < brands.length; i++) {
-                    //if (brands[i] === "aim2")
-                    //    demonPhysAcc
-                    //else if (brands[i] === "aim")
-                    //    extraPercent += .25;
+            ];
+            var percents = [
+                new Number(demonEditPercent[i * 6].value),
+                new Number(demonEditPercent[i * 6 + 1].value),
+                new Number(demonEditPercent[i * 6 + 2].value),
+                new Number(demonEditPercent[i * 6 + 3].value),
+                new Number(demonEditPercent[i * 6 + 4].value),
+                new Number(demonEditPercent[i * 6 + 5].value)
+            ];
+
+            //Add values to above number/percents
+            for (var k = 0; k < types.length; k++) {
+                switch (types[k]) {
+                    case "ailmentinfliction":
+                        ailmentInflictionStat += percents[k];
+                        break;
+                    case "ailmentresistance":
+                        demonAilmentResistanceStat += percents[k];
+                        break;
+                    case "critical":
+                        criticalStat += percents[k];
+                        break;
+                    case "heal":
+                        healStat += percents[k];
+                        break;
+                    case "hp":
+                        demonHPStat += numbers[k];
+                        hpPercent += percents[k];
+                        break;
+                    case "magatk":
+                        demonMagAtkStat += numbers[k];
+                        magAtkPercent += percents[k]; 
+                        break;
+                    case "magdef":
+                        demonMagDefStat += numbers[k];
+                        magDefPercent += percents[k];
+                        break;
+                    case "physaccuracy":
+                        demonPhysEvasionStat += percents[k];
+                        break;
+                    case "physatk":
+                        demonPhysAtkStat += numbers[k];
+                        physAtkPercent += percents[k];
+                        break;
+                    case "physdef":
+                        demonPhysDefStat += numbers[k];
+                        physDefPercent += percents[k];
+                        break;
+                    case "physevasion":
+                        demonPhysEvasionStat += percents[k];
+                        break;
                 }
             }
 
-            //Get our Edit Stat Bonuses..
+            //Get our Brand Stat Bonuses..
+            if (brands !== null) {
+                for (var x = 0; x < brands.length; x++) {
+                    switch (brands[x]) {
+                        case "aim2":
+                            demonPhysAccuracyStat += 20;
+                            break;  
+                        case "aim":
+                            demonPhysAccuracyStat += 10;
+                            break;  
+                        case "dodge":
+                            demonPhysEvasionStat += 10;
+                            break;  
+                        case "dodge2":
+                            demonPhysEvasionStat += 10;
+                            break;  
+                        case "guard":
+                            physDefPercent += 60;
+                            break;  
+                        case "guard2":
+                            physDefPercent += 30;
+                            break;  
+                        case "shield":
+                            magDefPercent += 60;
+                            break;  
+                        case "shield2":
+                            magDefPercent += 30;
+                            break;  
+                        case "heal":
+                            demonHealStat += 10;
+                            break;  
+                        case "heal2":
+                            demonHealStat += 20;
+                            break;  
+                        case "life":
+                            hpPercent += 50;
+                            break;  
+                        case "sick":
+                            demonAilmentInfictionStat += 20;
+                            break;  
+                        case "spell":
+                            magAtkPercent += 20;
+                            break;  
+                        case "war":
+                            physAtkPercent += 20;
+                            break;  
+                    }
+                }
+            }
+            
+            //Apply Win Streak Bonus to appropriate stats..
+            switch (streakBonus) {                
+                case "2":
+                case "3":
+                case "4":
+                    hpPercent += 4;
+                    break;
+                case "5":
+                case "6":
+                case "7":
+                    hpPercent += 8;
+                    break;
+                case "8":
+                case "9":
+                case "10":
+                    hpPercent += 12;
+                    break;
+            }
 
-            //Add them together..
-
-            //Apply Win Streak Bonus..
-
+            //Apply Percents to number values
+            demonPhysAtkStat += (demon["PATK"] * (1 + physAtkPercent / 100));
+            demonMagAtkStat += (demon["MATK"] * (1 + magAtkPercent / 100));
+            demonHPStat += (demon["6★ HP"] * (1 + hpPercent / 100));
+            demonMagDefStat += (demon["MDEF"] * (1 + magDefPercent / 100));
+            demonPhysDefStat += (demon["PDEF"] * (1 + physDefPercent / 100));
 
             //Write our stat values to Controls
-            demonHP[i].innerHTML = "HP: " + demonHPStat;
+            demonHP[i].innerHTML = "HP: " + Math.floor(demonHPStat);
             demonVit[i].innerHTML = "Vitality: " + demonVitStat;
             demonStr[i].innerHTML = "Strength: " + demonStrStat;
             demonAgi[i].innerHTML = "Agility: " + demonAgiStat;
             demonMag[i].innerHTML = "Magic: " + demonMagStat;
             demonLu[i].innerHTML = "Luck: " + demonLuStat;
-            demonPAtk[i].innerHTML = "Phys Atk: " + demonPhysAtkStat;
-            demonMAtk[i].innerHTML = "Magic Atk: " + demonMagAtkStat;
-            demonPDef[i].innerHTML = "Phys Def: " + demonPhysDefStat;
-            demonMDef[i].innerHTML = "Magic Atk: " + demonMagDefStat;
+            demonPAtk[i].innerHTML = "Phys Atk: " + Math.floor(demonPhysAtkStat);
+            demonMAtk[i].innerHTML = "Magic Atk: " + Math.floor(demonMagAtkStat);
+            demonPDef[i].innerHTML = "Phys Def: " + Math.floor(demonPhysDefStat);
+            demonMDef[i].innerHTML = "Magic Atk: " + Math.floor(demonMagDefStat);
+            demonPhysEvasion[i].innerHTML = "Phys Evasion: +" + demonPhysEvasionStat + "%";
+            demonPhysAccuracy[i].innerHTML = "Phys Accuracy: +" + demonPhysAccuracyStat + "%";
+            demonAilmentInfiction[i].innerHTML = "Ailment Infliction: +" + demonAilmentInfictionStat + "%";
+            demonAilmentResistance[i].innerHTML = "Ailment Resistance: +" + demonAilmentResistanceStat + "%";
+            demonCritical[i].innerHTML = "Critical: +" + demonCriticalStat + "%";
+            demonHeal[i].innerHTML = "Heal: +" + demonHealStat + "%";
         } else {
             demonHP[i].innerHTML = "HP:";
             demonVit[i].innerHTML = "Vitality:";
@@ -648,12 +810,14 @@ function CalculateStats() {
             demonMAtk[i].innerHTML = "Magic Atk:";
             demonPDef[i].innerHTML = "Phys Def:";
             demonMDef[i].innerHTML = "Magic Def:";
+            demonPhysEvasion[i].innerHTML = "Phys Evasion:";
+            demonPhysAccuracy[i].innerHTML = "Phys Accuracy:";
+            demonAilmentInfiction[i].innerHTML = "Ailment Infliction:";
+            demonAilmentResistance[i].innerHTML = "Ailment Resistance:";
+            demonCritical[i].innerHTML = "Critical:";
+            demonHeal[i].innerHTML = "Hela:";
         }
     }
-}
-
-function MorphByWinStreak(stat, winStreak) {
-
 }
 
 //Updates all places that need brand info 
