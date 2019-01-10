@@ -157,14 +157,14 @@ function LoadData() {
         for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/demonsSel.length) {
             dropDownMenus[i + 0].className += " demon-dropdown";
             dropDownMenus[i + 1].className += " demon-dropdown";
-            dropDownMenus[i + 2].className += " skill-dropdown";
-            dropDownMenus[i + 3].className += " skill-dropdown";
+            dropDownMenus[i + 2].className += " archtype-dropdown";
+            dropDownMenus[i + 3].className += " archtype-dropdown";
             dropDownMenus[i + 4].className += " skill-dropdown";
             dropDownMenus[i + 5].className += " skill-dropdown";
             dropDownMenus[i + 6].className += " skill-dropdown";
             dropDownMenus[i + 7].className += " skill-dropdown";
             dropDownMenus[i + 8].className += " skill-dropdown";
-            dropDownMenus[i + 9].className += " archtype-dropdown";
+            dropDownMenus[i + 9].className += " skill-dropdown";
             dropDownMenus[i + 10].className += " archtype-dropdown";
             dropDownMenus[i + 11].className += " archtype-dropdown";
             dropDownMenus[i + 12].className += " archtype-dropdown";
@@ -175,6 +175,8 @@ function LoadData() {
             dropDownMenus[i + 17].className += " archtype-dropdown";
             dropDownMenus[i + 18].className += " archtype-dropdown";
             dropDownMenus[i + 19].className += " archtype-dropdown";
+            dropDownMenus[i + 20].className += " archtype-dropdown";
+            dropDownMenus[i + 21].className += " archtype-dropdown";
         }
 
         //Setup tooltips for our custom skill combos
@@ -217,7 +219,7 @@ function LoadData() {
 function Clone(object, num) {
     //Create a clone
     var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
-    var select = $(newClone).find('.selectpicker').clone(true, true);
+    var select = $(newClone).find('select').clone(true, true);
     var boostrap = $(newClone).find('.bootstrap-select');
 
     //Replace Bootstrap with the select statment as we initiate it later on
@@ -869,6 +871,11 @@ function PruneArchetypes() {
                             options[x].value === "teal" ||
                             options[x].value === "red") {
                             $(options[x]).prop('disabled', true);
+                            if (demonArchtype[i].value !== 'clear') {
+                                blockUpdating = true;
+                                $(demonArchtype[i]).selectpicker('val', 'clear');
+                                blockUpdating = false;
+                            }
                         } else {
                             $(options[x]).prop('disabled', false);
                         }
@@ -879,6 +886,11 @@ function PruneArchetypes() {
                         $(options[x]).prop('disabled', false);
                         if (options[x].value === "clear") {
                             $(options[x]).prop('disabled', true);
+                            if (demonArchtype[i].value === 'clear') {
+                                blockUpdating = true;
+                                $(demonArchtype[i]).selectpicker('val', 'red');
+                                blockUpdating = false;
+                            }
                         }
                         break;
                     default:
@@ -889,6 +901,8 @@ function PruneArchetypes() {
         } else {
             $(demonArchtype[i]).prop('disabled', true);
         }
+
+        $(demonArchtype[i]).selectpicker('refresh');
     }
 }
 
