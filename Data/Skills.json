@@ -4726,29 +4726,5 @@
     "Learned By": "",
     "Transferable From": "",
     "Unique": 1
-  },
-  {
-    "Element": "passive",
-    "Name": "Hell's Gate",
-    "JP Name": "",
-    "Cost": "passive",
-    "Description": "While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 3% less multiple-target attack damage. (Max reduction: 30%)",
-    "Target": "Self",
-    "Skill Points": "",
-    "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
-  },
-  {
-    "Element": "passive",
-    "Name": "Law of Hell",
-    "JP Name": "",
-    "Cost": "passive",
-    "Description": "As long as the demon with this skill is alive, no bonus turn will be granted when a party member's weak point is attacked.\n\nLv2: +2% to HP. +2% to Ailment Resistance.\nLv3: +3% to HP. +3% to Ailment Resistance.\nLv4: +4% to HP. +4% to Ailment Resistance.\nLv5: +5% to HP. +5% to Ailment Resistance.\nLv6: +10% to HP. +10% to Ailment Resistance.",
-    "Target": "Self",
-    "Skill Points": "",
-    "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
   }
 ]
