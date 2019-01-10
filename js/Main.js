@@ -990,7 +990,6 @@ function UpdateAether() {
     for (var i = 0; i < demonsSel.length; i++) {
         var demon = GetDemon(demonsSel[i].value);
         if (demon != null) {
-
             var aether = [];
             var aetherTypes = [];
 
@@ -1037,9 +1036,13 @@ function UpdateAether() {
             }
         } else {
             aether1[i].style.visibility = 'hidden';
+            aether1Img[i].src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             aether2[i].style.visibility = 'hidden';
+            aether2Img[i].src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             aether3[i].style.visibility = 'hidden';
+            aether3Img[i].src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             aether4[i].style.visibility = 'hidden';
+            aether4Img[i].src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
         }
     }
 }
