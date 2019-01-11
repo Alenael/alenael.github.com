@@ -1184,8 +1184,7 @@ function BuildResists() {
 
             //Now lets check if we have any resist skills that override the base
             var skills = [
-                demon["Skill 3"], GetSkillByArchtype(demon, demonArchtype[i].value, demonCustomSkill1[i].value),
-                demonCustomSkill2[i].value
+                demon["Skill 3"], GetSkillByArchtype(demon, demonArchtype[i].value), demonCustomSkill1[i].value, demonCustomSkill2[i].value
             ];
 
             for (var x = 0; x < skills.length; x++) {
