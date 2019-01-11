@@ -198,11 +198,7 @@ function LoadData() {
         }
 
         ReadURL();
-        TurnOrder();
-
-        $('div#demoncontent').removeClass("hidden");
-        $('div#loading').addClass("hidden");
-
+        
         //Show help if first time on site
         if (!localStorage.noFirstVisit) {
             $('#helpModal').modal('show');
@@ -215,41 +211,15 @@ function LoadData() {
     });
 }
 
-//Clones our Demon
-function Clone(object, num) {
-    //Create a clone
-    var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
-    var select = $(newClone).find('select').clone(true, true);
-    var boostrap = $(newClone).find('.bootstrap-select');
-
-    //Replace Bootstrap with the select statment as we initiate it later on
-    for (var i = 0; i < select.length; i++) {
-        boostrap[i].replaceWith(select[i]);
-    }
-
-    //Grab our Tabs and the Buttons for them
-    var nav = $(newClone).find('a');
-    var tabs = $(newClone).find('.tab-pane');
-
-    //Ensure each tab has a unique name
-    for (var j = 0; j < nav.length; j++) {
-        var name = $(nav[j]).attr("href").replace("#", "").replace("1", "");
-        $(nav[j]).attr("href", "#" + name + num);
-        $(tabs[j]).attr("id", name + num);
-    }
-}
-
-//Reads the URl upon load to see if we have a special build being loaded
-function ReadURL() {
-    if (window.location.href.indexOf("?") >= 0) {
-        var result = window.atob(window.location.href.split('?')[1]);
-
-        var url = new URL(decodeURI(baseUrl + "?" + result.replace("#", "")));
+//Parse our URL Data and setup things in it
+function ParseURL(data) {
+    if (data != null) {
+        var url = new URL(decodeURI(baseUrl + "?" + data.replace("#", "")));
 
         var liberator = url.searchParams.get("liberator");
 
-         if (liberator != null)
-             document.getElementById("liberators").value = liberator;
+        if (liberator != null)
+            document.getElementById("liberators").value = liberator;
 
         var demons = [
             url.searchParams.get("demon1"),
@@ -330,43 +300,43 @@ function ReadURL() {
             if (edits[i][0] != null) {
                 var values = edits[i][0].split(";");
                 $(demonEdit1[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6].value = values[1];
-                demonEditPercent[i*6].value = values[2];
+                demonEditNumber[i * 6].value = values[1];
+                demonEditPercent[i * 6].value = values[2];
                 $(demonEdit1[i]).selectpicker('Refresh');
             }
             if (edits[i][1] != null) {
                 var values = edits[i][1].split(";");
                 $(demonEdit2[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6+1].value = values[1];
+                demonEditNumber[i * 6 + 1].value = values[1];
                 demonEditPercent[i * 6 + 1].value = values[2];
                 $(demonEdit2[i]).selectpicker('Refresh');
             }
             if (edits[i][2] != null) {
                 var values = edits[i][2].split(";");
                 $(demonEdit3[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6+2].value = values[1];
-                demonEditPercent[i*6+2].value = values[2];
+                demonEditNumber[i * 6 + 2].value = values[1];
+                demonEditPercent[i * 6 + 2].value = values[2];
                 $(demonEdit3[i]).selectpicker('Refresh');
             }
             if (edits[i][3] != null) {
                 var values = edits[i][3].split(";");
                 $(demonEdit4[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6+3].value = values[1];
-                demonEditPercent[i*6+3].value = values[2];
+                demonEditNumber[i * 6 + 3].value = values[1];
+                demonEditPercent[i * 6 + 3].value = values[2];
                 $(demonEdit4[i]).selectpicker('Refresh');
             }
             if (edits[i][4] != null) {
                 var values = edits[i][4].split(";");
                 $(demonEdit5[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6+4].value = values[1];
-                demonEditPercent[i*6+4].value = values[2];
+                demonEditNumber[i * 6 + 4].value = values[1];
+                demonEditPercent[i * 6 + 4].value = values[2];
                 $(demonEdit5[i]).selectpicker('Refresh');
             }
             if (edits[i][5] != null) {
                 var values = edits[i][5].split(";");
                 $(demonEdit6[i]).selectpicker('val', values[0]);
-                demonEditNumber[i*6+5].value = values[1];
-                demonEditPercent[i*6+5].value = values[2];
+                demonEditNumber[i * 6 + 5].value = values[1];
+                demonEditPercent[i * 6 + 5].value = values[2];
                 $(demonEdit6[i]).selectpicker('Refresh');
             }
 
@@ -376,10 +346,60 @@ function ReadURL() {
                 $(demonBrands[i]).selectpicker('refresh');
             }
         }
+
+        $('div#demoncontent').removeClass("hidden");
+        $('div#loading').addClass("hidden");
+
+        TurnOrder();
+
+        blockUpdating = false;
+        ReloadAll("All");
+    }
+}
+
+//Clones our Demon
+function Clone(object, num) {
+    //Create a clone
+    var newClone = object.clone().attr("id", "demon" + num).addClass("order-" + num).appendTo('#demoncontent');
+    var select = $(newClone).find('select').clone(true, true);
+    var boostrap = $(newClone).find('.bootstrap-select');
+
+    //Replace Bootstrap with the select statment as we initiate it later on
+    for (var i = 0; i < select.length; i++) {
+        boostrap[i].replaceWith(select[i]);
     }
 
-    blockUpdating = false;
-    ReloadAll("All");
+    //Grab our Tabs and the Buttons for them
+    var nav = $(newClone).find('a');
+    var tabs = $(newClone).find('.tab-pane');
+
+    //Ensure each tab has a unique name
+    for (var j = 0; j < nav.length; j++) {
+        var name = $(nav[j]).attr("href").replace("#", "").replace("1", "");
+        $(nav[j]).attr("href", "#" + name + num);
+        $(tabs[j]).attr("id", name + num);
+    }
+}
+
+//Reads the URl upon load to see if we have a special build being loaded
+function ReadURL() {
+    if (window.location.href.indexOf("?") >= 0) {
+        var data = window.location.href.split('?')[1]
+        if (data.match("([a-z0-9]{6,})-([a-z0-9]{6,})"))
+            ReadLinkData(data).then(function (d) {
+                ParseURL(window.atob(d["base64"]));
+            });
+        else {
+            ParseURL(window.atob(data));
+        }
+    }
+    else {
+        $('div#demoncontent').removeClass("hidden");
+        $('div#loading').addClass("hidden");
+
+        blockUpdating = false;
+        ReloadAll("All");
+    }
 }
 
 
@@ -456,7 +476,7 @@ function CreateURL() {
         }
     }
 
-    window.location.href = baseUrl + "?" + window.btoa(parameters.substring(0, parameters.length - 1));
+    WriteLinkData(window.btoa(parameters.substring(0, parameters.length - 1)));
 }
 
 function JsonLoader1() {
@@ -1629,4 +1649,77 @@ function GetBrandCost(brandName)
         default:
             return 0;
     }
+}
+
+//Writes a url to db and returns a short URl for it
+function WriteLinkData(url) {
+    var db = firebase.firestore();
+    db.settings({ timestampsInSnapshots: true });
+
+    var redirectUrl;
+
+    FindByBase64(url).then(function (id) {
+        if (id == null)
+            redirectUrl = generateUUID();
+        else
+            redirectUrl = id;
+
+        db.collection("url").doc(redirectUrl).set({
+            base64: url
+        }).finally(function () {
+            window.location.href = baseUrl + "?" + redirectUrl;
+        });
+    }).catch(function (error) {
+        console.log(error);
+        //Revert to standard long URl if error occurs
+        window.location.href = baseUrl + "?" + url;
+    });
+}
+
+//Reads a GUID and spits back data from the DB
+function ReadLinkData(guid) {
+    var db = firebase.firestore();
+    db.settings({ timestampsInSnapshots: true });
+
+    var doc = db.collection("url").doc(guid);
+
+    return doc.get().then(function (doc) {
+        if (doc.exists) {
+            return doc.data();
+        } else {
+            return null;
+        }
+    });    
+}
+
+//Checks to see if a base64 is already in use and if so returns its id, else returns null
+function FindByBase64(url) {
+    var db = firebase.firestore();
+    db.settings({ timestampsInSnapshots: true });
+
+    var doc = db.collection("url");
+
+    return doc.get().then(function (querySnapshot) {
+        var id = null;
+        querySnapshot.forEach(function (doc) {
+            
+            var data = doc.data();
+            if (data["base64"] == url)
+                id = doc.id;
+        });
+        return id;
+    });
+}
+
+//Returns a GUID
+function generateUUID() {
+    var d = new Date().getTime();
+    if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
+        d += performance.now();
+    }
+    return 'xxxxxx-xxxxxx'.replace(/[xy]/g, function (c) {
+        var r = (d + Math.random() * 16) % 16 | 0;
+        d = Math.floor(d / 16);
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
 }
