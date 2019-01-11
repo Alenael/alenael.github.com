@@ -425,41 +425,41 @@ function CreateURL() {
                 parameters += "demon" + (i + 1) + "skill2=" + demonCustomSkill2[i].value + "&";
 
             //Write Edits
-            if (demonEdit1[i].value !== "hp" || demonEditPercent[0].value !== "" || demonEditNumber[0].value !== "")
+            if (demonEdit1[i].value !== "hp" || demonEditPercent[i * 6].value !== "" || demonEditNumber[i*6].value !== "")
                 parameters += "demon" + (i + 1) + "Edit1=" +
                     demonEdit1[i].value + ";" +
-                    demonEditNumber[0].value + ";" +
-                    demonEditPercent[0].value + "&";
+                    demonEditNumber[i * 6].value + ";" +
+                    demonEditPercent[i * 6].value + "&";
 
-            if (demonEdit2[i].value !== "physatk" || demonEditPercent[1].value !== "" || demonEditNumber[1].value !== "")
+            if (demonEdit2[i].value !== "physatk" || demonEditPercent[i *6+1].value !== "" || demonEditNumber[i*6+1].value !== "")
                 parameters += "demon" + (i + 1) + "Edit2=" +
                     demonEdit2[i].value + ";" +
-                    demonEditNumber[1].value + ";" +
-                    demonEditPercent[1].value + "&";
+                    demonEditNumber[i * 6 +1].value + ";" +
+                    demonEditPercent[i * 6 +1].value + "&";
 
-            if (demonEdit3[i].value !== "magatk" || demonEditPercent[2].value !== "" || demonEditNumber[2].value !== "")
+            if (demonEdit3[i].value !== "magatk" || demonEditPercent[i * 6 +2].value !== "" || demonEditNumber[i * 6 +2].value !== "")
                 parameters += "demon" + (i + 1) + "Edit3=" +
                     demonEdit3[i].value + ";" +
-                    demonEditNumber[2].value + ";" +
-                    demonEditPercent[2].value + "&";
+                    demonEditNumber[i * 6 +2].value + ";" +
+                    demonEditPercent[i * 6 +2].value + "&";
 
-            if (demonEdit4[i].value !== "magdef" || demonEditPercent[3].value !== "" || demonEditNumber[3].value !== "")
+            if (demonEdit4[i].value !== "magdef" || demonEditPercent[i * 6 +3].value !== "" || demonEditNumber[i * 6 +3].value !== "")
                 parameters += "demon" + (i + 1) + "Edit4=" +
                     demonEdit4[i].value + ";" +
-                    demonEditNumber[3].value + ";" +
-                    demonEditPercent[3].value + "&";
+                    demonEditNumber[i * 6 +3].value + ";" +
+                    demonEditPercent[i * 6 +3].value + "&";
 
-            if (demonEdit5[i].value !== "physevasion" || demonEditPercent[4].value !== "" || demonEditNumber[4].value !== "")
+            if (demonEdit5[i].value !== "physevasion" || demonEditPercent[i * 6 +4].value !== "" || demonEditNumber[i * 6 +4].value !== "")
                 parameters += "demon" + (i + 1) + "Edit5=" +
                     demonEdit5[i].value + ";" +
-                    demonEditNumber[4].value + ";" +
-                    demonEditPercent[4].value + "&";
+                    demonEditNumber[i * 6 +4].value + ";" +
+                    demonEditPercent[i * 6 +4].value + "&";
 
-            if (demonEdit6[i].value !== "speed" || demonEditPercent[5].value !== "" || demonEditNumber[5].value !== "")
+            if (demonEdit6[i].value !== "speed" || demonEditPercent[i * 6 +5].value !== "" || demonEditNumber[i * 6 +5].value !== "")
                 parameters += "demon" + (i + 1) + "Edit6=" +
                     demonEdit6[i].value + ";" +
-                    demonEditNumber[5].value + ";" +
-                    demonEditPercent[5].value + "&";
+                    demonEditNumber[i * 6 +5].value + ";" +
+                    demonEditPercent[i * 6 +5].value + "&";
             
 
             //Write Brands
