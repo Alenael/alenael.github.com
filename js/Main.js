@@ -792,7 +792,7 @@ function CalculateStats() {
             demonPAtk[i].innerHTML = "Phys Atk: " + Math.floor(demonPhysAtkStat);
             demonMAtk[i].innerHTML = "Magic Atk: " + Math.floor(demonMagAtkStat);
             demonPDef[i].innerHTML = "Phys Def: " + Math.floor(demonPhysDefStat);
-            demonMDef[i].innerHTML = "Magic Atk: " + Math.floor(demonMagDefStat);
+            demonMDef[i].innerHTML = "Magic Def: " + Math.floor(demonMagDefStat);
             demonPhysEvasion[i].innerHTML = "Phys Evasion: +" + demonPhysEvasionStat + "%";
             demonPhysAccuracy[i].innerHTML = "Phys Accuracy: +" + demonPhysAccuracyStat + "%";
             demonAilmentInfiction[i].innerHTML = "Ailment Infliction: +" + demonAilmentInfictionStat + "%";
