@@ -4749,6 +4749,54 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
+  },
+  {
+    "Element": "passive",
+    "Name": "Moushou no Gekirin",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Adds Phys Pierce. When receiving a Phys Attack, 100% chance to counter dealing Phys damage with 100 power. Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "phys",
+    "Name": "Occult Flash",
+    "JP Name": "",
+    "Cost": 8,
+    "Description": "Inflicts Phys (Physical) damage with 50% crit rate and 200 power on a Single Enemy, with 100% Kill rate. (3 uses)\n\nLv2: +5% to AC.\nLv3: +10% to AC.\nLv4: +15% to AC.\nLv5: +20% to AC.\nLv6: +20% to AC. MP cost -1.",
+    "Target": "Single Enemy",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "passive",
+    "Name": "Night Fever",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Increases Macca obtained during battle by 5%.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "passive",
+    "Name": "Ryoukiteki na Aijou",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "When an enemy is Charmed, reduces all enemy DEF by 20% (3 turns).\n\nLv2: +2% to Ailment hit rate. +2% Damage to Charmed enemies.\nLv3: +3% to Ailment hit rate. +3% Damage to Charmed enemies.\nLv4: +4% to Ailment hit rate. +4% Damage to Charmed enemies.\nLv5: +5% to Ailment hit rate. +5% Damage to Charmed enemies.\nLv6: +10% to Ailment hit rate. +10% Damage to Charmed enemies.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
   }
 ]
