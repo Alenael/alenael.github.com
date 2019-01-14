@@ -4798,5 +4798,29 @@
     "Learned By": "",
     "Transferable From": "",
     "Unique": 1
+  },
+  {
+    "Element": "support",
+    "Name": "Swift Dance",
+    "JP Name": "",
+    "Cost": 6,
+    "Description": "Casts Tarukaja and Sukukaja",
+    "Target": "Party Members",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "almighty",
+    "Name": "Anticipated Revelation",
+    "JP Name": "",
+    "Cost": 9,
+    "Description": "Casts Megidola and Sukukaja",
+    "Target": "All Enemies/Party Members",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
   }
 ]
