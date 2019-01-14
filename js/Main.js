@@ -602,6 +602,7 @@ function SortByABC(control) {
 //Reloads all our data on the form
 function ReloadAll(control) {
     if (!blockUpdating) {
+        PruneArchetypes();
         ChangeLiberator();
         SetupDemonControls(control);
         UpdateAether();
@@ -614,7 +615,6 @@ function ReloadAll(control) {
         FilterSkills();
         FilterBrands();
         FilterStats();
-        PruneArchetypes();
     }
 }
 
