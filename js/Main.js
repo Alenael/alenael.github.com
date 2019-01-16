@@ -686,16 +686,16 @@ function CalculateStats() {
             for (var k = 0; k < types.length; k++) {
                 switch (types[k]) {
                     case "ailmentinfliction":
-                        ailmentInflictionStat += percents[k];
+                        demonAilmentInfictionStat += percents[k];
                         break;
                     case "ailmentresistance":
                         demonAilmentResistanceStat += percents[k];
                         break;
                     case "critical":
-                        criticalStat += percents[k];
+                        demonCriticalStat += percents[k];
                         break;
                     case "heal":
-                        healStat += percents[k];
+                        demonHealStat += percents[k];
                         break;
                     case "hp":
                         demonHPStat += numbers[k];
