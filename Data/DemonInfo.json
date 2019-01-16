@@ -11,6 +11,17 @@
     "Teal": "Given he has resist elec in general, Repel Elec for one upgrades it, but it doesn't really do much. The only case where this would help is when facing Thor with Elec Pierce. Pair Metatron with Alilat and you can block elec sweeping. Its a pretty rare case and so it doesn't really warrant switching to Teal just for that purpose."
   },
   {
+    "Name": "Masakado",
+    "Description": "One of the most OP demons in the game, hats off to you if you've obtained him. He has no weaknesses: Null Phys, Resist Light, Drain Dark (He can't be killed by Alice), the highest strength in the game and really high luck (meaning he can easily crit, have high innate ailment resistance and infliction) and a really powerful base kit. Vorpal Blade for phys aoe, Warlord's Wrath: Granting phys pierce, 100% phys counter and Intimidating Stance all in one passive and Occult Flash: Single target phys damage with 50% crit, 200 power and 100% kill rate. Yup even if you have Tetraja on your demon, odds are they'll die anyways from the heavy damage and crit (even has three uses). Since he's a intimidating stance user, it's best to pair him up with another stance user. I'd recommend Zhong Kui due to his Auto-Taruka having a huge benefit for the both of them.",
+    "RecommendedSkills": "Endure/Enduring Soul. If he's alive and kicking, he'd remain a dangerous foe. Phys Boost/Amp. Increasing his already high damage is always good. Good/Great Aim. Worried about his accuracy? this can help boost it. Null Charm/Hellish/Infernal Mask. A charmed Masakado can be deadly to your team.",
+    "Brands": "Divine to two turn Vorpal Blade, Occult Flash. Life can ensure he stays alive and War if you want pure damage/use him for pve only. For secondary, Ward should be gotten unless you run ailment resistance. If that's the case Aim can be good for accuracy, Shield/Guard for defenses.",
+    "Common": "Unknown",
+    "Red": "Myriad Arrows gives him a multi-hit skill to use, this would be useful for boss fights. Auto-Rakunda would boost turn one damage/counter Auto-Rakuka. Pair him with Zhong Kui for 2x Intimidation and full damage buffing.",
+    "Yellow": "Binge Eating allows him to dish out damage whilst at the same time heal himself. Great for longer fights where you need more sustain. Auto-Sukunda would help in turn one accuracy for him and his team.",
+    "Purple": "Phys Amp skyrockets his already damage due to his strength stat, combine this with Phys Boost for maximum power. If you do pair him with Zhong Kui, Auto-Taruka should be replaced given Zhong Kui already comes with it.",
+    "Teal": "Drain Phys when paired with Rama would prevent pierce phys sweeping (and getting one shotted by another Masakado). Given he already counters phys hits with a 100% chance, phys units hitting him isn't so scary. Even so this will allow him to heal off repelled damage, so you can intentionally Vorpal Blade into Alilat + Repel Phys unit to heal yourself back up. Auto-Rakuka would add to your team's survability. Paired with double intimidation, you should have no issues surviving being outsped."
+  },
+  {
     "Name": "Lucifer",
     "Description": "Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as powerful as he can get. The reason for this is that he comes with the unique skill: Morning Star (MS). Given the fact it can be levelled as well it can reach really high numbers.",
     "RecommendedSkills": "Resist Light. If not Teal to cover his weakness Endure. Pvp mainly for extra survival. Serial Killer to amp up his almighty damage.",
@@ -416,5 +427,269 @@
     "Yellow": "Samarecarm gives her a cheaper revive, she can utilize it as a support ai demon at least.",
     "Purple": "Luck Amp III increases her luck, adding increased crit chance, ailment resistance, infliction, accuracy, dodge and reducing chances of crits taken in turn.",
     "Teal": "Null Light covers one of her weaknesses leaving you free reign over the final slot (provided you also cover force weakness)."
+  },
+  {
+    "Name": "Chernobog",
+    "Description": "Strong phys unit pairing well with Nergal. He is poison oriented with Deadly Poison, Hades Blast for aoe and his unique passive Fog Of Death. Whever a enemy is weakened, he casts Sukunda and inflicts poison on them. To synergize, Nergal happens to have an ability which removes barrier then inflicts weak + a passive which casts rebellion whenever an enemy is poisoned making them a powerful combo. Even without Nergal he can work fine by himself, you need to inflict weak on enemies or just inflict poison for a free Sukunda. Mad Gasser (comes with Mahapoisma, poison all) can pair well with him as you can always transfer Madezoreto (weak all) to him too.",
+    "RecommendedSkills": "Single target phys attack. For example Oni-Kagura would be nice for its crit chance boost Resist Light. For covering weakness Phys Boost. Damage Increase",
+    "Brands": "War works due to him not having costly skills, Divine for more skill spamming",
+    "Common": "Sea Of Chaos gives him a expensive Rakunda. He doesn't have good magic so it's main use will be for support. Weaken them for Sukunda + Sea Of Chaos for Rakunda.",
+    "Red": "Dark Sword Gives him a single target attack that can inflict mute, saving you the need from transferring one. This goes well with Deadly Mute which stacks with Deadly Poison. Easy to setup with weak and gives you a total of a 60% damage boost against poison/muted enemies.",
+    "Yellow": "Outbreak inflicts weak multiple times to enemies. Generally aoe weak (Madezoreto) is better to use and since he is Attack AI he won't use this on auto. Damage Panel V II can be replaced as you can just bring demons with Damage Panel Immunity instead for AG",
+    "Purple": "Savage Glee increases his crit rate to high amounts, quite amazing if you don't want to use him in a HB/ZG team For bosses Tempest Slash would prove useful, but not so much in pvp.",
+    "Teal": "He's weak to light and so Null Fire does nothing for him. Resist Light should be kept however if you're worried about enemies exploiting his weakness"
+  },
+  {
+    "Name": "Hel",
+    "Description": "Strong caster designed for aoe dps especially given she has Mabufula, Mamudo and Call to Helhiem her unique passive. Whenever she kills an enemy, War Cry is casted on their team (Rakunda, Tarunda) and so this makes her really good for Wanted missions (where most of them are weak to dark/ice), V10 and in general pve content. Pair her up with Kangaroo Boxer with his passive that increases damage as the more enemies you kill the more damage you'd do, subsequently also debuffing.",
+    "RecommendedSkills": "Back Attack. For pve content this helps further strengthen her overall damage with Ice/Dark Resist Fire. For weakness covering Any other element (Single target/aoe). Gives her more coverage Ice/Dark boost. Enhances her standard kit further",
+    "Brands": "Spell works fine with her mp costs. You'd want Divine if you want to use Yellow/more spamming in general.",
+    "Common": "She gains the ability to breathe ice, Ice Breath is not that great given she already has Mabufula. The main advantage it has is that its spammable with a 3mp cost, good against bosses weak to ice (though none really come to mind).",
+    "Red": "A cheaper costing Bufudyne is great for single targeting and spamming. With Merciless Blow she can do great amounts of damage to ice/dar weak foes.",
+    "Yellow": "Rattle gives her more coverage and support utility. Just wipe out any foe using this and they are debuffed fully with Taru/Raku/Sukunda effects. Enduring Soul would give her another life, always good for dps units.",
+    "Purple": "Ice Boost would help increase her damage for stronger Mabufulas Bufudyne saves you mag/sp if you want the skill, though it'd be better going with Red in that case for the -1mp cost.",
+    "Teal": "By default she already nulls ice and so Repel Ice doesn't help at all. Resist Fire covers her weakness, so this should be kept if you don't want it exploited"
+  },
+  {
+    "Name": "Hell Biker",
+    "Description": "The second component in the setup HB/ZG setup. He comes with Maragion, Speedster and his unique Red Zone (Grants Rebellion to all allies, 3 uses). Given his innate high agility and a need for speed with Speedster, with him in your team you'd reach really high battle speeds almost guaranteeing first strikes for most battles. Red Zone all allies and phys all enemies (when you have Zaou Gongen, granting pierce) to wipe them all out. This will make pve content really easy. As for pvp, people generally build anti phys defenses due to Huang Di and this setup, so you'd need to pick your targets wisely.",
+    "RecommendedSkills": "Resist Light. Covering weakness if you think you can't 1 turn enemies Enduring/Enduring Soul. Giving him more survival to cast Red Zone Agility Amp I/II/III. Most of the time Yatagarasu is a good pairing as he comes with Auto-Sukunda (also being a pretty good phys attacker). The problem with this is that Yatagarasu will act before HB meaning he won't get that effect. One way to get around this is transferring any of these to ensure HB has more agility, going first (or use Lead Brands). Phys skill. If you want Hell Biker to be attacking with skills himself, be sure to save enough mp for Red Zone casts though when your team needs it Mana Aid. Expensive to transfer but if you get Mana Aid for him he can immediately crank out Red Zone every wave (assuming you only need 1 per wave)",
+    "Brands": "Divine for quick Red Zone casting. You need to max out the skill in order to turn one use it in pvp.",
+    "Common": "Power Hit is quite a strong phys skill (170 power), However the drawback is that you lose 10% hp after using it and given it also costs 7mp (6 for awakened skill) it's not so great to be spammable.",
+    "Red": "Hell Biker would benefit most from phys attacks and so Mamudoon doesn't really help in that department Agidyne follows suit for the same reasoning, you should probably just replace that.",
+    "Yellow": "Hell Biker is quite squishy and so Recarmdra won't see much uses, he'd also likely fall first due to how dangerous he can be when left alive. War Cry would be great for manual play and transfering. On auto, he's attack ai and so won't ever use this skill.",
+    "Purple": "Auto-Sukuka helps immensely for pvp, increasing your phys team's hit/evasion rate. In pve it only affects the first wave so not so great there. Deadly Bondage wouldn't have much use to him unless your team runs bind (it would guarantee hits which is nice), quite the rare passive for transfering.",
+    "Teal": "Repel Light covers his weakness giving you two slots for customization. Great for pve as it ensures his survival, in pvp Biker teams aim for all out wipes and so covering weakness wouldn't be much of a priority. Resist Dark can be replaced since he's neutral to it."
+  },
+  {
+    "Name": "Jeanne D'Arc",
+    "Description": "Good healer (when compared with Pazuzu and Feng Huang), coming with Recovery Boost for higher heals, Holy Wrath and her unique Orlean Prayer (Heals single ally and recovers 3 mp, 6 uses). Orlean Prayer can be used offensively, acting as a mana battery for your hard hitters. She also doesn't have the pesky ice weakness, (fire weakness instead) so it'll cost less mag to fuse Pazuzu to cover her weakness compared to Odin.",
+    "RecommendedSkills": "Resist Fire. Covering her weakness Damage spells. If you want her to be more offensive Buffs/Debuffs. For more support utility Mediarama. If you want to use her as a healer",
+    "Brands": "Divine as healers need it for 2 turn aoe heals (it is also needed for Red)",
+    "Common": "Life Aid wouldn't help her much, she can just heal up damage taken anyways.",
+    "Red": "If you want to build her offensively Judgement is pretty good to support her kit (though quite costly). Once Orlean Prayer casts run out you can spam this to help buff up your allies and do damage at the same time. Mind Break adds to her support kit, she can both drain mp from foes and restore mp to allies.",
+    "Yellow": "Silent Prayer would help against ailments/reflect shields the enemy places up. Given her naturally high agi she would act before the rest of your demons and can cure inflictions (given she isn't inflicted herself). Given her average luck though, you'd need quite high ailment resistance to prevent her from being inflicted. Mediarama should be kept if you want to use her as a healer or to simply transfer it to another demon (It's a rare skill to get).",
+    "Purple": "Null Mute doesn't help that much on her, if you're worried about ailments you could always bring ailment clearing centric demons. You can always keep passing until mute wears off. Purgatory gives her a dark multi-hit skill, not so great as a skill due to the amount of dark immune enemies around. Good for V10 though.",
+    "Teal": "Repel Fire covers her weakness giving you full customization of her skills Zanma gives her a single target force skill. If your team doesn't need healing anymore/you used up Orlean prayer you could start spamming force."
+  },
+  {
+    "Name": "Persephone",
+    "Description": "Persephone comes with Bufudyne, Mamudoon and a unique passive Fruit of the Dead. A direct counter to revive teams as units come back with only 1 hp, allowing for easy re-wipes. High Agility, Luck and good Hp, Vitality and Magic means she can be built as a ailment clearer or spell dps. Ideally you'd want her to remain alive as long as possible for her passive to remain in effect.",
+    "RecommendedSkills": "Resist Elec. To cover her weakness Hellish Mask. Goes well with Yellow to reduce likelihoods of her being inflicted by ailments Ice/Dark Boost. If you want her to be dps, it will increase her kit's damage.",
+    "Brands": "Spell if you want damage, Divine for spamming spells more and Life for surivability. If you go with Yellow + Hellish Mask then you won't really need ward brands. Lead would ensure she acts first if you have a speedier unit, Shield/Guard for more defense.",
+    "Common": "Summoning a curse upon her enemies Vengeance inflicts randomly towards multiple enemies. You could build her towards the ailment route if you want, though curse doesn't really do much (as opposed to Charm, Mute and Bind)",
+    "Red": "For damage usage Energy Drain doesn't really do much due to only having 100 power. The 1mp drain and 25% hp restored is negligible for a 5mp cost. Acid Breath helps your phys units immensely, enemies will take more damage + less evasion/accuracy.",
+    "Yellow": "Amazing for clearing ailments Prayer removes all inflictions to your team. Make sure she goes first in order to take the most advantage of it. Life Gain adds to her survivability, extra health is always a boon.",
+    "Purple": "Null Bind doesn't really do much. With it i suppose you could run her as a bind clearer (but in that case it would be better getting yellow). War Cry would help for a more supportive role, she will use it due to being Support AI.",
+    "Teal": "Drain Dark doesn't help much due to her already nulling it. Resist Elec covers her weakness to prevent extra press turns for the enemy team."
+  },
+  {
+    "Name": "White Rider",
+    "Description": "High magic and agility makes him a speedy caster, though with low Hp and Vitality he's quite squishy (essentially a glass cannon). He uses Ziodyne, White Noise and his unique God's Bow (Light, a single foe with 50% chance to kill, 2 uses). Along with Alice, he's amazing for pve content for one shotting dangerous foes as you get 2 chances, at best you've killed off two of them, at worst you've dealt 400 power worth of damage towards the enemy. So regardless they'd be hit really hard by the skill.",
+    "RecommendedSkills": "Damage Spells/Megido. For coverage Resist Force. Force skills are really prevalent, you should really cover any force weaknesses you have Endure. Helps with his survivability",
+    "Brands": "Divine for spamming skills, Spell means they'd come out slower but be more powerful.",
+    "Common": "Conjuring a Bolt Storm would be nice for bosses, but given he already has Ziodyne i don't really see much use for it.",
+    "Red": "Soul Drain gives him more coverage for elec/light immune foes. It also hits pretty hard so is a great alternative to God's Bow when its used up. Bufula gives him a ice spell to shoot at enemies, more coverage is always nice.",
+    "Yellow": "Recarmdra would be nice on him if he weren't so squishy. He'd be killed before he could use this to help your team. Good Aim would be good if he was a phys unit and so can easily be replaced.",
+    "Purple": "Null Bind is useful only in being Lakshmi Kiwami and AG50 currently. In Kiwami you can transfer Meparaladi and you can stop bind (though you'd still have to deal with charm). In AG50, if he acts first you can use an Amrita shower to remove bind. You can attempt one shotting Asherah/Alice too, making the fight way easier. Mecharmdi is useless on him, i'd recommend just replacing it.",
+    "Teal": "Null Force covers his weakness given you reign of control over what skills you want in the last two slots. Maragion gives him a fire aoe, decent but you'd have to be wary of any ndr fire foe."
+  },
+  {
+    "Name": "Fenrir",
+    "Description": "Recommended mainly for Aura Gate 45-50 farming and only when Purple. You need to reach around ~21,000 speed for those floors in order to get first strikes, ensuring your team doesn't fall as the recommended team on the wiki is very squishy. If you want an improved version to use, Purple Huang Long (or any other HL with Speedster) would suit this bill in terms of survivability and speed (and comes with an upgraded Makarakarn). SP won't be an issue due to the abundance of Fenrir Souls found at 45-50 so don't feed him Yasaka Magatamas. At minimum he should be level 45 to be most effective for farming.",
+    "RecommendedSkills": "Makarakarn. Very important and a must have due to him being weak to two elements, this will help shield your team from damage. Rakunda/Tarunda. Go first if you want to end battles quicker, second for more survival Barrier Break (PVP only). Turn one ailment teams would have to rely on BB and Divine Brands. He's a good candidate due to having Auto-Taruka and speedster for acting first.",
+    "Brands": "Divine and Ward. Both are compulsory as he needs to get out Makarakarn as much as possible and the debuff. Ward is for Lilim/Shiisa encounters, preventing charm/bind Aim for Life% and Evade % for survival.",
+    "Common": "",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "His sole purpose is to boost speed via Speedster, don't use him if he's any other archetype (unless you have another purpose in mind)",
+    "Teal": ""
+  },
+  {
+    "Name": "Gucumatz",
+    "Description": "Sturdy slow demon with good hp/vit and luck. For pvp he's a auto-debuffer with Auto-Tarunda (his other two skills are quite useless) and shines as Yellow for the sole purpose of spamming Fog Breath. If you want a replacement demon, Purple Ananta works better in this regard. Having both Auto-Tarunda and Auto-Rakuka cast at the start of pvp battles can save your team from being swept by teams, giving them a fighting chance at counter attacks.",
+    "RecommendedSkills": "Resist Fire. If not Teal for no extra press turns Samarecarm. Revive is always good on a support unit Mind Break. If Fog Breath has been stuck on the opponent and they don't clear it, he can then spend the rest of his turns draining their mana.",
+    "Brands": "Life to make him tanky",
+    "Common": "",
+    "Red": "",
+    "Yellow": "Fog Breath is the best defensive debuff in the game. Tarunda for damage reduction and Sukunda for reduced accuracy from foes. -1mp cost makes it have the same cost as Tarunda/Sukunda/Rakunda (So really it's a two in one skill). Being 5mp, you don't have to run Divine for turn one casts and so can opt for Life brands for tankiness.",
+    "Purple": "",
+    "Teal": "Null Fire will cover his weakness if you want to use him for another purpose. His strength is okay but due to his low agi he will miss a lot and so building towards phys would be a bad idea. With his decent luck, i have seen one person build him with ailments, it can catch people quite off guard."
+  },
+  {
+    "Name": "Hecatoncheires",
+    "Description": "Extremely tanky demon with high luck, vit, hp, luck and strength (low mag, agi). He has Megaton Press, Bloody Glee and a unique passive Guards of Tartarus which reduces all aoe/multi-target damage done to your team by 15%. Given his stats he naturally has higher resistance to ailments and can crit (if he manages to land a hit). Amazing for both pvp and pve as his presence alone will help in reducing damage taken by your team. Given he also Nulls phys, he can only be touched by phys pierce and spells.",
+    "RecommendedSkills": "Resist Force. Mandatory given Force is used by many demons. He can easily be defeated by Cu Chulainn/Susano-o Resist Light. Prevents enemies getting extra press turns. Samarecarm/Recarmdra. Some people prefer not to cover light weakness and get this instead. Even though he's Attack AI, he has been seeing using these skills.",
+    "Brands": "Life and Shield is the best combination for survival",
+    "Common": "Auto-Rakuka would mainly be for pvp. It gives your team a defensive boost at the start of combat, reducing the likelihood of team wipes. Go for this archetype if you don't have any other demon with the auto passive.",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "Life Surge makes his already high life pool even higher adding to his tankiness.",
+    "Teal": "With Drain Phys and being paired with Rama, he can prevent phys piercing. Another added advantage is that if he gets charmed he can heal himself up."
+  },
+  {
+    "Name": "King Frost",
+    "Description": "Slow tanky caster, hee comes with the unique skill Cold World (CW), a aoe ice attack with an added Rakunda effect if all targets are hit. Ice boost ramps up this damage, whilst his last skill Megaton Press doesn't really do much. With King Frost hee hoever works best when there are no opponents who ndr ice. You'd have to be very selective whenever you use him. Hee's great for pve, but not so good in pvp due to ice weakness being covered most of the time.",
+    "RecommendedSkills": "Resist Fire. Covering weakness is always good. Any other element/almighty. For coverage.",
+    "Brands": "Divine if you're going for Yellow (and want two turn CW) otherwise Life/Spell would work fine, though it'll take him a while to charge up CW.",
+    "Common": "",
+    "Red": "Glacial Blast would be great for bosses but doesn't add to his coverage sadly.",
+    "Yellow": "Concentrate is amazing for launching powered up CW/spells.",
+    "Purple": "",
+    "Teal": "Resist Fire covers his weakness giving you the freedom of customization for the rest of your slots"
+  },
+  {
+    "Name": "Loki",
+    "Description": "Slow single target oriented mage with great HP/Vit stats for survivability. Loki is a Trickster, his unique passive granting a chance to ignore press turn usage when a weakness is hit. Naturally coming with Zandyne and Agidyne he's great for coverage and targeting weaknesses in content such as AG Gatekeeper fights and pve in general. He is an effective counter to Orcus/Hecatoncheires as damage reduction is only applied to multi-hit/aoe skills.",
+    "RecommendedSkills": "Elec/Ice/Light/Dark (Preferably single target versions). The more elements he covers the more usage you can get out of him (don't get almighty due to his passive) Resist Light. If not Teal it can prevent him from being wiped out by light. By not covering it however you can run with 5 elemental attacks",
+    "Brands": "Divine can ensure more spell spamming, though since at most his skills cost 6mp, you can two turn them regardless with Spell/Life.",
+    "Common": "Ziodyne grants him another element to play with, being an awakened skill it also nicely gets a -1mp cost attached to it",
+    "Red": "Bufudyne gives him more coverage (like Clear), the -1mp cost is always nice.",
+    "Yellow": "He has pretty good luck, but his main forte is not in ailment slinging with Vengeance (It's not that great anyways) instead being in single target spell damage",
+    "Purple": "",
+    "Teal": "Resist Light covers his weakness giving you the freedom of customization for the rest of your slots. Compared to Clear/Red though you lose out on the -1mp attached to those skills in exchange for being able to pick and choose what you like."
+  },
+  {
+    "Name": "Pallas Athena",
+    "Description": "Mainly considered for two uses: Resist Force transfer or as a budget Yoshitsune (only when purple). She naturally comes with Resist Force (for transferral), Myriad Arrows (For bosses) and Holy Wrath. She has high strength, agility and luck, making her a excellent phys unit for farming. Her hp, mag and vit is on the low end however, so she'll do low Holy Wrath damage and will take more damage compared to other units.",
+    "RecommendedSkills": "Phys Boost. To increase damage Resist Dark. If you're worried about her weakness being hit Aoe phys skill. Myriad Arrows for single targeting bosses, aoe for multiple enemies",
+    "Brands": "Divine ensures she can utilize multiple activations of her phys skills, War would ensure she hits harder.",
+    "Common": "",
+    "Red": "Mortal Jihad can be used if you want to bring her to pvp. Though there are better phys units to use due to her low bulk.",
+    "Yellow": "",
+    "Purple": "Mana Aid is excellent for farming. Restoring mp per wave ensures she can spam skills on the get go. If you get her powerful enough she can sweep, rinse and repeat.",
+    "Teal": ""
+  },
+  {
+    "Name": "Rakshasa",
+    "Description": "Powerful glass cannon phys unit (Low hp/vit/mag + two weaknesses). He has Fatal Sword, Charge and his unique Rasetsu, increasing his base accuracy and granting him Rebellion at the start of battle. Combined with Zaou Gongen, you can immediately pierce when you start combat, give him an aoe to let him wreck havok. Due to Rasetsu only activating once however, if he dies then the effect is lost. It is also not reactivated every wave, meaning it's best for turn one clears such as pvp, pvp training mode or AG farming.",
+    "RecommendedSkills": "Phys Boost. Increasing his damage Aoe move. If you're using him for pvp, aim for one that is usable turn one (E.g. For pvp: Herculean Strike, 5mp or Hades Blast 6mp (with Divine)) Mana Aid. Expensive to transfer but if you get Mana Aid up with him and Hell Biker it'll make them both really effective for brand farming",
+    "Brands": "War to maximise damage or Divine if you want a more powerful aoe in exchange for less single target damage. For a secondary brand, Ward isn't really needed as he's gonna die anyways so Aim would be good for more accuracy or Lead if you run him in a Biker team (using Red Zone before using up his Rasetsu would mean it's wasted).",
+    "Common": "Due to his glass cannon nature Endure would ensure he survives at least once.",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "",
+    "Teal": ""
+  },
+  {
+    "Name": "Rangda",
+    "Description": "Magic unit with a kit that has Mahajuon for cursing foes, Mudodyne and Mazandyne for spells to cast. Her appeal mainly is in her natural repel phys resistance and her archetype as Yellow with Recarmdra, pair her with Alilat to prevent phys piercing from the likes of HB/ZG teams, Mara and Huang Di. You can build her either as a spell caster (Though she is kinda squishy to begin with so for pve be sure to have Makarakarn/5 Elements up to prevent her from taking magic damage) or as a defensive support demon for pvp.",
+    "RecommendedSkills": "Endure. If Yellow, when she casts recarmdra it can prevent her death. Or it can prevent her death in order to cast recarmdra. Resist Elec. Covers her weakness, since she can be easily shredded by magic its best to not give the enemy any openings",
+    "Brands": "Brands:Life if you're building her Yellow, Spell/Divine if you're building her Teal. For a secondary brand, Shield could work to improve her MDEF, but Ward is always nice for ailment protection",
+    "Common": "",
+    "Red": "",
+    "Yellow": "Recarmdra is a elusive skill to find and is most effective on tanky units who are intended to survive last. In her case you'd have to invest in order to get her survivability up as much as possible.",
+    "Purple": "",
+    "Teal": "Null Force makes her immune to Susano-o and Seth naturally as they both run Phys/Force. For this archetype you can build her as a caster. This makes her mainly useful in pve however as if people see her with this on defence they can just bring another unit."
+  },
+  {
+    "Name": "Sandalphon",
+    "Description": "One of the first recommended 4* demons to build in the game (he's also a component for Alilat). Having no weaknesses and really good resistances, a balanced stat spread, two single target skills and Auto-Sukuka to boot he's a pretty good well rounded demon. Red is recommended if you want to use him for farming brands or on your AG farming team, whilst Yellow is good for general usage.",
+    "RecommendedSkills": "Light Boost. If using him for AG/S10 farming, boosting his Mahamaon damage can ensure faster clears ST Fire/Ice/Dark/Elec. Giving him coverage is always nice since he already covers two elements",
+    "Brands": "Brands:Divine if you want more skill spamming, Spell/Life would work for more damage/survival",
+    "Common": "",
+    "Red": "Mahamaon with a -1mp cost allows him to shine in AG 45-50 and Sloth 10 farming. Given both places have a lot of light weak enemies he can easily sweep and generate press turn icons for your team.",
+    "Yellow": "Samarecarm allows him to provide more support with a cheaper mp cost attached to it.",
+    "Purple": "",
+    "Teal": ""
+  },
+  {
+    "Name": "Sleipnir",
+    "Description": "Speedy caster that's generally recommended for AG 45-50 and Sloth 10 (If Red). He has Light Boost to increase the damage of Mahamaon and Speedster, giving your team a needed boost in battle speed for farming content. He is pretty squishy however and so you should expect him to fall quite easily. This is why you can also find a fair amount of Sleipnir souls in AG 45-50, however this means you don't have to waste Yasaka Magatamas on him as souls should be enough to get your the skill points you need. At minimum he should be level 45 to be most effective for farming.",
+    "RecommendedSkills": "Resist Fire. Mainly for Sloth 10, if you just want to use him for AG 45-50, Makarakarn from Fenrir should be more than enough. Mazan/Mazio. For AG 45-50, increasing his coverage allows you to sweep a wider variety of foes. Bufu/Bufula. For Lilim in AG 45-50 if your team keeps falling to her. Makarakarn from Fenrir + Ward on all demons should ensure your survival Hama. For Sloth 10, if you run Divine then once he reaches 0mp from using his other skills he'll start to spam this (so you don't have to worry about phys attacks missing)",
+    "Brands": "Divine is a must on Sloth 10. Spell works fine for AG 45-50 and Ward as a secondary brand is essential to both.",
+    "Common": "Samarecarm gives him support utility to revive your dead team members. Useful for AG farming in the cases where an ally gets killed by a foe, talk or someone failing the Chaos Knight challenge.",
+    "Red": "Hamadyne gives him a single target skill to use in farming. Note: If you do decide to bring him to Sloth 10, be sure to cover his fire weakness so that Lucifer won't fry him to a crisp.",
+    "Yellow": "Diarahan helps in the healing department, mending the wounds of your team (mainly for AG 45-50, for S10 you don't really need healing and should aim for quick clears)",
+    "Purple": "Agility Amp III though sounds good on paper for more speed, isn't really required as you could always get more speed via levelling him up, getting speed tertiaries or combining him with another speedy demon. In AG 45-50 he's mainly with Fenrir and so those two with double Speedster should provide your team more than enough speed to reach the ~21,000 mark.",
+    "Teal": ""
+  },
+  {
+    "Name": "Yatagarasu",
+    "Description": "Lighting fast bird with high strength, very high agility and decent luck. Yatagarasu has Hades Blast, Auto-Sukunda and Speedster making him a effective demon for HB/ZG comps. Speedster would ensure your team gets high battle speeds, whilst Auto-Sukunda assists with hit rates (since the team is fully reliant on phys). He's really squishy and so will fall very easily to magic, having one of the lowest HP/Vit/Magic stats in the game, quickly wipe them out before they can wipe you out. Due to this Yatagarasu souls also litter AG 45-50 floors and so you shouldn't waste Yasaka Magatamas on him.",
+    "RecommendedSkills": "Single Target Phys. For HB/ZG teams for when you run across Repel Phys + Alilat. Debuff/Buff. For Support build Barrier Break. Support build, if you want to use him in an ailment team",
+    "Brands": "Brands:Divine if you want more skill spamming, though he doesn't really have expensive skills to begin with. War for phys build. Dodge can be a good secondary brand for him to further increase his evasion, Speed for extra, well speed. Otherwise the standard Ward to shield from ailments.",
+    "Common": "Phys Boost increases his phys damage, this saves you tons of mag and so you don't have to fuse Wu Kong and also save mag as oppposed to making him colored",
+    "Red": "If you don't have a HB/ZG team and want to use him as a phys unit, Oni-Kagura is excellent for single targeting. Given guaranteed crit from Red Zone, the added crit from this isn't required for HB/ZG teams.",
+    "Yellow": "",
+    "Purple": "With his already high agility he should have natural high evasion, with Evade stacked on top it can reach even higher. In going with this archetype you can build him as a support unit if you wish. In being Support AI, he will give priority to support skills over phys.",
+    "Teal": ""
+  },
+  {
+    "Name": "Zhong Kui",
+    "Description": "The angry red man with the highest strength stat in the game (also with second highest luck) meaning he will strike with heavy critical hits. He has Hellish Mask boosting his ailment resistance, Oni-Kagura to strike with a boosted crit chance and Auto-Taruka giving your team an immediate boost in attack at the start of combat. In retrospect he has low HP, Mag, Vit and Agi meaning he can have trouble hitting (luck is factored into hit rate but with low Agi it's balanced out). Best seen with Purple Archetype for pvp he's suited towards slow teams (to intentionally aim to start second). Combine him with Surt or Baihu for double intimidation (Fun fact: If you run double intimidation in levelling quests, you will always start first regardless of battle speed).",
+    "RecommendedSkills": "Resist Force. Force is too prevalent to be ignored. He'd easily be one shotted by Cu Chulainn/Susano-o Endure. Gives him a second fighting chance, always nice. Phys Boost. Make him hit harder, releasing all of that pent up anger Bloody/Savage Glee. Further increase odds of him critting, he'll still struggle to get crits off high luck demons and so this'll reduce the gap",
+    "Brands": "Brands:He doesn't need ward brands due to his high innate ailment resistance + Hellish Mask. Go with Life + Shield if you want more survivability on him. War with aim is the more glass cannony route, increasing damage and hit rate.",
+    "Common": "",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "Intimidating Stance works best if your team starts second. When you have two users with this passive you can reduce the enemy's starting press turns from 4 to 2. This can easily stop Jack Bros, HB/ZG and turn one clear teams. It can however be countered by Ganesha who grants +1mp to all party members per press turn lost.",
+    "Teal": ""
+  },
+  {
+    "Name": "Baihu",
+    "Description": "Mainly used in pvp for his purple archetype. Overall Baihu doesn't really have any notable qualities to him and so people like to use him as a low speed unit in their defense team, pair him with Zhong Kui for double intimidation. Baihu is deliberately left at lv 1 for this case (to ensure your team being really slow), give him evade % brands to avoid phys attacks and endure for him to take multiple hits to fall. He will sadly fall very easily to magic and so isn't seen much in higher level pvp. An upgrade to him instead would be clear Surt, with more bulk and firepower.",
+    "RecommendedSkills": "Endure. Increases his survival. If he falls then your team starts with 3 press turns and less chances to counter attack. Dodge. Increases his evasion. Since he's going to fall easily to magic, we're instead building his survival towards phys.",
+    "Brands": "Double Dodge can give him an extra 20% evasion. Set bonus doesn't really matter in this case if you have good evasion tertiaries",
+    "Common": "",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "Intimidating Stance reduces the enemy's press turn count by one whenever you start second (maximum two activations). It's a fairly unique passive existing for only a few demons, making it the best archetype for any demon that possesses it.",
+    "Teal": ""
+  },
+  {
+    "Name": "Hare of Inaba",
+    "Description": "This bunny rabbit has one main use and that's for your AG subparty for higher floors. On these you will encounter two tile types that have negative effects on your party. The first being a Damage Tile which harms your party when you stand on it, whilst the second a Dark Zone tile which reduces your step count. Hare of Inaba comes with the unique passive 'Trap Free' which nullifies the effect of Dark Zones and also reduces damage done by Damage Tiles. Ideally you'd want both effects blocked and so two slots in your secondary team should be reserved for him + a Damage Panel Immunity demon. Demons with the same Dark Zone Immunity effect are: Throne: More expensive to obtain, but if you prefer him then Teal would have the added benefit of being usable for Aether farming Kelpie: Even easier to obtain, simply talk to one when farming or just buy him from the compendium. Clear Feng Huang and Purple Loki also have the passive for it, but i think they aren't worth it as you can just fuse them instead or sell Loki for karma.",
+    "RecommendedSkills": "Dmg Panel V I and Dmg Panel V II. If you transfer both onto him, you get both immunity to Dark Zones and Damage Tiles, freeing up a slot on your secondary team (you wouldn't need a damage panel immunity demon).",
+    "Brands": "Not Required",
+    "Common": "Recarm doesn't matter on him since you won't be bringing him into battle anyways.",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "",
+    "Teal": ""
+  },
+  {
+    "Name": "Mitra",
+    "Description": "Phys Repel demon with resistance to light/dark but having the hard to cover Ice weakness. He has pretty good HP, Vit, Str and Mag but bad Agi/Luck. Mitra comes with Mahaju, Barrier Break and Evil Gaze and so on manual play would be a good demon for barrier removal + if Yellow, support. If you do decide to build him as a phys unit, he doesn't have to worry about Phys Repel from harming him which is nice.",
+    "RecommendedSkills": "Resist Ice. Ice weakness is pretty bad given the amount of demons around that can exploit it. Samarecarm. For Yellow, another support skill is always nice",
+    "Brands": "Divine if you want more spell spamming, Life can build up his bulk and Spell works too if you use him as Clear/Red",
+    "Common": "A 5mp Megido is quite spammable and with his magic stat you could use him as a caster (It's not that high compared to standard casters).",
+    "Red": "Though Mitra isn't really recommended for Sloth 10, Mahamaon would make him usable there. Compared to the other Light recommended demons, he doesn't pack as much of a punch sadly, however can stop Girimekhala's Megaton Press.",
+    "Yellow": "A 5mp Fog Breath makes him an amazing unit for support. For manual play you can use him with Alilat to prevent phys piercing.",
+    "Purple": "Though Insanity sounds nice in boosting ailment infliction rates, his base luck is pretty low. If you want an ailment unit there are better choices. Mothman for one also comes with Insanity for Purple and also has bind all in his base kit.",
+    "Teal": ""
+  },
+  {
+    "Name": "Zouchouten",
+    "Description": "Recommended as Purple for Dmg Panel Immunity. As mentioned in Hare of Inaba's writeup, the later floors of AG can have tiles with negative effects. Dmg Panel Immunity prevents your units from taking damage when stepping on this type of tile (Fun fact, you never get into a encounter when standing on this tile and so the best floor to farming is 45, it doesn't have any damage tiles present). One notable thing on him is that he has pretty high magic so you can use him in your main party if you want (give him stuff like Mahama, Mazan or Mazio for AG 45-50). His other stats are pretty low though (besides strength), so don't expect much from him. Other demons found this passive are: Orochi: More expensive than Zouchouten, but has the added benefit of being useful in Aether farming when Teal Gacha Purple Ishtar: I wouldn't recommend using her just for this role though as she can be used instead for fusions/karma or archetype shifted",
+    "RecommendedSkills": "Void Dark Zones. There are no current transferable sources of this, but if it does become transferable you can save a demon slot by giving this passive to him (or any demon with the same passive)",
+    "Brands": "Not required. Though if you want to use him as a caster for AG, then Spell should be fine, Life if you want him to have more bulk",
+    "Common": "",
+    "Red": "",
+    "Yellow": "",
+    "Purple": "Damage Panel Immunity is what his main purpose is for.",
+    "Teal": ""
+  },
+  {
+    "Name": "Jack Frost",
+    "Description": "Hee Ho the mascot of the series. Hee Ho is best for when hee is Protector archetype ho. Tag allows hee to pass hee's turn without using a press turn icon ho. Pair hee with brother Pyro Jack for the deadly Jack Bros Tag Team Ho. The Jack Bros team uses two hee Tag Jacks + One swheeper and one spheedy support ho. Sweepers: Yellow Ishtar, Trumpeter, Rama (with concentrate), Yellow Black Frost, Mother Harlot Support: Fenrir, Garuda",
+    "RecommendedSkills": "Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper Mind Break. Great support usage. Megido. Clean up any demons that have endured Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.",
+    "Brands": "Life to increase survivability. One fun fact is if he's charmed then he can use tag so Ward could be optional if you don't care about Mute/Bind (Note he can also still use his other skills of course, or just standard attack).",
+    "Common": "",
+    "Red": "",
+    "Yellow": "Pass the baton and Tag hee",
+    "Purple": "",
+    "Teal": ""
+  },
+  {
+    "Name": "Pyro Jack",
+    "Description": "Brother of Jack Frost ho, pair for the fearsome Jack Bros team. Hee is also best as Protector for Tag, pass turn for no costs whatsoever ho.",
+    "RecommendedSkills": "Essentially the same as Jack Frost's skills: Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper Mind Break. Great support usage. Megido. Clean up any demons that have endured Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.",
+    "Brands": "Same brand setup as Jack Frost.",
+    "Common": "",
+    "Red": "",
+    "Yellow": "Recieve baton and Tag the next, hee ho.",
+    "Purple": "",
+    "Teal": ""
   }
 ]
