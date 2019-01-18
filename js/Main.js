@@ -1662,7 +1662,7 @@ function WriteLinkData(url) {
 
     FindByBase64(url).then(function (id) {
         if (id == null)
-            redirectUrl = generateUUID();
+            redirectUrl = GenerateUUID();
         else
             redirectUrl = id;
 
@@ -1714,7 +1714,7 @@ function FindByBase64(url) {
 }
 
 //Returns a GUID
-function generateUUID() {
+function GenerateUUID() {
     var d = new Date().getTime();
     if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
         d += performance.now();
@@ -1724,4 +1724,59 @@ function generateUUID() {
         d = Math.floor(d / 16);
         return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
     });
+}
+
+//Loads our links to Builds page
+function LoadLinks() {
+    var db = firebase.firestore();
+    db.settings({ timestampsInSnapshots: true });
+
+    var doc = db.collection("url");
+    var ul = document.getElementById("buildList");
+    
+    doc.get().then(function (querySnapshot) {
+        querySnapshot.forEach(function (doc) {
+
+            var name = GetDemonsFromUrl(doc.data()["base64"]);
+
+            if (name != "" && name.split(",").length -1 >= 3) {
+                var li = document.createElement("li");
+                li.classList.add("list-group-item");
+                var a = document.createElement("a");
+                a.href = baseUrl + "/?" + doc.id;
+                a.appendChild(document.createTextNode(name));
+                li.appendChild(a);
+                ul.appendChild(li);
+            }
+        });
+    });
+}
+
+//Returns the demons in our url by string
+function GetDemonsFromUrl(data) {
+    var demonNames = "";
+
+    var data = window.atob(data)
+    var url = new URL(decodeURI(baseUrl + "?" + data.replace("#", "")));
+
+    var demons = [
+        url.searchParams.get("demon1"),
+        url.searchParams.get("demon2"),
+        url.searchParams.get("demon3"),
+        url.searchParams.get("demon4")
+    ];
+
+    if (demons[0] != null)
+        demonNames += demons[0] + ", ";
+    if (demons[1] != null)
+        demonNames += demons[1] + ", ";
+    if (demons[2] != null)
+        demonNames += demons[2] + ", ";
+    if (demons[3] != null)
+        demonNames += demons[3] + ", ";
+
+    if (demonNames != "")
+        demonNames = demonNames.substring(0, demonNames.length - 2);
+
+    return demonNames;
 }

@@ -76,11 +76,24 @@ div.hidden {
     height: 540px;
 }
 
+.col-3 {
+    color: whitesmoke;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    min-width: 410px;
+    float: none;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 600px){
     .col, .col-2 {
         max-width: 410px;
         min-width: 310px;
     }
+}
+
+.list-group-item {
+    background-color: transparent !important;
 }
 
 .border {
