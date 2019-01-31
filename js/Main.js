@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 1;
-var minorVer = .2;
+var minorVer = .4;
 
 
 var demonData;
@@ -686,16 +686,16 @@ function CalculateStats() {
             for (var k = 0; k < types.length; k++) {
                 switch (types[k]) {
                     case "ailmentinfliction":
-                        ailmentInflictionStat += percents[k];
+                        demonAilmentInfictionStat += percents[k];
                         break;
                     case "ailmentresistance":
                         demonAilmentResistanceStat += percents[k];
                         break;
                     case "critical":
-                        criticalStat += percents[k];
+                        demonCriticalStat += percents[k];
                         break;
                     case "heal":
-                        healStat += percents[k];
+                        demonHealStat += percents[k];
                         break;
                     case "hp":
                         demonHPStat += numbers[k];
@@ -1662,7 +1662,7 @@ function WriteLinkData(url) {
 
     FindByBase64(url).then(function (id) {
         if (id == null)
-            redirectUrl = generateUUID();
+            redirectUrl = GenerateUUID();
         else
             redirectUrl = id;
 
@@ -1714,7 +1714,7 @@ function FindByBase64(url) {
 }
 
 //Returns a GUID
-function generateUUID() {
+function GenerateUUID() {
     var d = new Date().getTime();
     if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
         d += performance.now();
@@ -1724,4 +1724,59 @@ function generateUUID() {
         d = Math.floor(d / 16);
         return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
     });
+}
+
+//Loads our links to Builds page
+function LoadLinks() {
+    var db = firebase.firestore();
+    db.settings({ timestampsInSnapshots: true });
+
+    var doc = db.collection("url");
+    var ul = document.getElementById("buildList");
+    
+    doc.get().then(function (querySnapshot) {
+        querySnapshot.forEach(function (doc) {
+
+            var name = GetDemonsFromUrl(doc.data()["base64"]);
+
+            if (name != "" && name.split(",").length -1 >= 3) {
+                var li = document.createElement("li");
+                li.classList.add("list-group-item");
+                var a = document.createElement("a");
+                a.href = baseUrl + "/?" + doc.id;
+                a.appendChild(document.createTextNode(name));
+                li.appendChild(a);
+                ul.appendChild(li);
+            }
+        });
+    });
+}
+
+//Returns the demons in our url by string
+function GetDemonsFromUrl(data) {
+    var demonNames = "";
+
+    var data = window.atob(data)
+    var url = new URL(decodeURI(baseUrl + "?" + data.replace("#", "")));
+
+    var demons = [
+        url.searchParams.get("demon1"),
+        url.searchParams.get("demon2"),
+        url.searchParams.get("demon3"),
+        url.searchParams.get("demon4")
+    ];
+
+    if (demons[0] != null)
+        demonNames += demons[0] + ", ";
+    if (demons[1] != null)
+        demonNames += demons[1] + ", ";
+    if (demons[2] != null)
+        demonNames += demons[2] + ", ";
+    if (demons[3] != null)
+        demonNames += demons[3] + ", ";
+
+    if (demonNames != "")
+        demonNames = demonNames.substring(0, demonNames.length - 2);
+
+    return demonNames;
 }

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link href="https://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script type="text/javascript" src="js/Main.js"></script>
+    <title>Dx2-Builds</title>
+</head>
+<body>
+    <div class="page-header">
+        <img class="img headerimage" src="Images/Theme/Logo.png" width="150px" height="150px" />
+        <br />
+        <br />
+        <h1>Dx2 Builds</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="col-3 border border-dark rounded order-1">
+            <ul id="buildList" class="list-group"></ul>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyDdCoET6RdRVmD2sPJoN74pznkPlLnnPFY",
+            authDomain: "dx2-linkdb.firebaseapp.com",
+            databaseURL: "https://dx2-linkdb.firebaseio.com",
+            projectId: "dx2-linkdb",
+            storageBucket: "dx2-linkdb.appspot.com",
+            messagingSenderId: "324320998090"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript">
+        LoadLinks();
+    </script>
+</body>
+</html>
