@@ -27,7 +27,7 @@
   },
   {
     "Name": "Templar Dragon",
-    "HP": 5,
+    "HP": 8,
     "St": 5,
     "Ma": 5,
     "Vi": "",
@@ -53,7 +53,7 @@
   },
   {
     "Name": "Eileen",
-    "HP": 7,
+    "HP": 10,
     "St": "",
     "Ma": "",
     "Vi": "",
