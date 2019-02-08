@@ -835,7 +835,7 @@ function CalculateStats() {
             demonAilmentInfiction[i].innerHTML = "Ailment Infliction:";
             demonAilmentResistance[i].innerHTML = "Ailment Resistance:";
             demonCritical[i].innerHTML = "Critical:";
-            demonHeal[i].innerHTML = "Hela:";
+            demonHeal[i].innerHTML = "Heal";
         }
     }
 }
