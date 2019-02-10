@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 1;
-var minorVer = .4;
+var minorVer = .5;
 
 
 var demonData;
@@ -629,6 +629,7 @@ function CalculateStats() {
     {
         var demon = GetDemon(demonsSel[i].value);
         var brands = $(demonBrands[i]).val();
+        var liberator = GetLiberator();
 
         if (demon !== null) {
             //Get our demons base stat values at 50..
@@ -654,6 +655,21 @@ function CalculateStats() {
             var magAtkPercent = 0;
             var magDefPercent = 0;
             var hpPercent = 0;
+            
+            if (liberator != null && liberator !== nullText) {
+                if (liberator.HP != "")
+                    hpPercent += liberator.HP;                                                
+                if (liberator.St != "")
+                    demonStrStat += liberator.St;
+                if (liberator.Ma != "")
+                    demonMagStat += liberator.Ma;
+                if (liberator.Vi != "")
+                    demonVitStat += liberator.Vi;
+                if (liberator.Lu != "")
+                    demonLuStat += liberator.Lu;                
+                if (liberator.Ag != "")
+                    demonAgiStat += liberator.Ag;
+            }
 
             //Get our Edit Stat Bonus values
             var types = [
@@ -730,29 +746,29 @@ function CalculateStats() {
             if (brands !== null) {
                 for (var x = 0; x < brands.length; x++) {
                     switch (brands[x]) {
-                        case "aim2":
-                            demonPhysAccuracyStat += 20;
-                            break;  
                         case "aim":
                             demonPhysAccuracyStat += 10;
-                            break;  
+                            break; 
+                        case "aim2":
+                            demonPhysAccuracyStat += 20;
+                            break;   
                         case "dodge":
                             demonPhysEvasionStat += 10;
                             break;  
                         case "dodge2":
-                            demonPhysEvasionStat += 10;
+                            demonPhysEvasionStat += 20;
                             break;  
                         case "guard":
-                            physDefPercent += 60;
-                            break;  
-                        case "guard2":
                             physDefPercent += 30;
                             break;  
+                        case "guard2":
+                            physDefPercent += 60;
+                            break;  
                         case "shield":
-                            magDefPercent += 60;
+                            magDefPercent += 30;
                             break;  
                         case "shield2":
-                            magDefPercent += 30;
+                            magDefPercent += 60;
                             break;  
                         case "heal":
                             demonHealStat += 10;
@@ -796,11 +812,11 @@ function CalculateStats() {
             }
 
             //Apply Percents to number values
-            demonPhysAtkStat += (demon["PATK"] * (1 + physAtkPercent / 100));
-            demonMagAtkStat += (demon["MATK"] * (1 + magAtkPercent / 100));
-            demonHPStat += (demon["6★ HP"] * (1 + hpPercent / 100));
-            demonMagDefStat += (demon["MDEF"] * (1 + magDefPercent / 100));
-            demonPhysDefStat += (demon["PDEF"] * (1 + physDefPercent / 100));
+            demonPhysAtkStat += ((demonStrStat * 2.1 + 50 * 5.6 + 50) * (1 + physAtkPercent / 100));
+            demonMagAtkStat += ((demonMagStat * 2.1 + 50 * 5.6 + 50) * (1 + magAtkPercent / 100));
+            demonHPStat += ((demonVitStat * 4.7 + 50 * 7.4) * (1 + hpPercent / 100));
+            demonMagDefStat += ((demonVitStat * 1.1 + demonMagStat * 0.5 + 50 * 5.6 + 50) * (1 + magDefPercent / 100));
+            demonPhysDefStat += ((demonVitStat * 1.1 + demonStrStat * 0.5 + 50 * 5.6 + 50) * (1 + physDefPercent / 100));
 
             //Write our stat values to Controls
             demonHP[i].innerHTML = "HP: " + Math.floor(demonHPStat);
