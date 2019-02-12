@@ -4836,15 +4836,63 @@
     "Unique": ""
   },
   {
-    "Element": "",
-    "Name": "",
+    "Element": "phys",
+    "Name": "Summon Monster Gomorra B",
     "JP Name": "",
-    "Cost": "",
-    "Description": "",
-    "Target": "All Enemies/Party Members",
-    "Skill Points": 15,
+    "Cost": "8 MP",
+    "Description": "1 use. Available turn 3. Phys with +50% crit rate, hits 5 times on a single target and has a chance to charm (50%). Damage depends on 50% Patk and 50% Matk. This skill gains pierce phys.",
+    "Target": "All Enemies",
+    "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
-    "Unique": ""
+    "Unique": 1
+  },
+  {
+    "Element": "phys",
+    "Name": "Summon Monster Gomorra J",
+    "JP Name": "",
+    "Cost": "8 MP",
+    "Description": "1 use. Only available at turn 3. Phys aoe with +50% crit, power = 180 and inflicts bind with 50% base chance. Damage of the skill depends on 50% patk and 50% matk. This skill gains phys pierce.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "phys",
+    "Name": "Beloved Slash",
+    "JP Name": "",
+    "Cost": "6 MP",
+    "Description": "Phys aoe, hits them twice",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "passive",
+    "Name": "Madame Stomp",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Passive, when she hits an enemy and crits, they are hit by an almighty attack with power = 100 and has a chance to be charmed (30%). (Seems like it activates every crit).\n\nLv2: +4% to Ailment Infliction and Critical.\nLv3:  +6% to Ailment Infliction and Critical.\nLv4:  +8% to Ailment Infliction and Critical.\nLv5:  +10% to Ailment Infliction and Critical.\nLv6:  +20% to Ailment Infliction and +25% to Critical.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
+  },
+  {
+    "Element": "passive",
+    "Name": "Madame Upper",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Passive, when an enemy is charmed they are hit by an almighty attack (power = 100) with an added 30% chance to bind.\n\nLv2: +4% to Ailment Infliction and Evasion.\nLv3:  +6% to Ailment Infliction and Evasion.\nLv4:  +8% to Ailment Infliction and Evasion.\nLv5:  +10% to Ailment Infliction and Evasion.\nLv6:  +20% to Ailment Infliction and Evasion.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "Unique": 1
   }
 ]
