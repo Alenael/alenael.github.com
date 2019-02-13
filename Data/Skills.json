@@ -4837,7 +4837,7 @@
   },
   {
     "Element": "phys",
-    "Name": "Gomorrah B",
+    "Name": "Gomorrah (B)",
     "JP Name": "",
     "Cost": "8 MP",
     "Description": "Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on a single enemy 5 times and a 50% chance to inflict Charm on all enemies.\nPower: 50\n*Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.",
@@ -4849,7 +4849,7 @@
   },
   {
     "Element": "phys",
-    "Name": "Gomorrah J",
+    "Name": "Gomorrah (J)",
     "JP Name": "",
     "Cost": "8 MP",
     "Description": "Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on all enemies 5 times and a 50% chance to inflict Bind on all enemies.\nPower: 180\n*Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.",
