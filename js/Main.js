@@ -536,7 +536,7 @@ function LoadSkillControls() {
 
         for (var i = 0; i < skillData.length; i++) {
 
-            if (skillData[i]["Unique"] !== 1) {
+            if (parseInt(skillData[i]["Skill Points"]) >= 1) {
                 var option = document.createElement('option');
                 option.text = skillData[i].Name;
                 option.value = skillData[i].Name;
