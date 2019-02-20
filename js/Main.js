@@ -536,7 +536,7 @@ function LoadSkillControls() {
 
         for (var i = 0; i < skillData.length; i++) {
 
-            if (skillData[i]["Unique"] !== 1) {
+            if (parseInt(skillData[i]["Skill Points"]) >= 1) {
                 var option = document.createElement('option');
                 option.text = skillData[i].Name;
                 option.value = skillData[i].Name;
@@ -956,11 +956,11 @@ function SetupDemonControls(control) {
 
         if (demon != null) {
 
-            demonImages[i].src = "Images/Demons/" + demon.Name + ".jpg";
+            demonImages[i].src = "Images/Demons/" + demon.Name.replace(" ☆", "") + ".jpg";
             demonImages[i].style.visibility = 'visible';
 
             var di = GetDemonInfo(demon.Name);
-
+            
             if (di != null) {
                 $(demonImages[i]).attr('data-original-title', di.Description + "\n\n" + di.RecommendedSkills + "\n\n" + di.Brands);
                 $(demonImgArchtype[i]).attr('data-original-title', GetDemonInfoByAchtype(di, $(demonArchtype[i]).val()));

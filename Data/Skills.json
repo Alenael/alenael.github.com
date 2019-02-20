@@ -8,8 +8,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -20,8 +19,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -32,8 +30,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -44,8 +41,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -56,8 +52,7 @@
     "Target": "Single Enemy",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -68,8 +63,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -80,8 +74,7 @@
     "Target": "All Enemies",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -92,8 +85,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -104,8 +96,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -116,8 +107,7 @@
     "Target": "All Enemies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -128,8 +118,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -140,8 +129,7 @@
     "Target": "Single Enemy",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -152,8 +140,7 @@
     "Target": "Single Enemy",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -164,8 +151,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -176,8 +162,7 @@
     "Target": "All Enemies",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -188,8 +173,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -200,8 +184,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -212,8 +195,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -224,8 +206,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -236,8 +217,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -248,8 +228,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -260,8 +239,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -272,8 +250,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -284,8 +261,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -296,8 +272,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -308,8 +283,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -320,8 +294,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -332,8 +305,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -344,8 +316,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -356,8 +327,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -368,8 +338,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -380,8 +349,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -392,8 +360,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -404,8 +371,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -416,8 +382,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -428,8 +393,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -440,8 +404,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -452,8 +415,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -464,8 +426,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -476,8 +437,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -488,8 +448,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -500,8 +459,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -512,8 +470,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -524,8 +481,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -536,8 +492,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -548,8 +503,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -560,8 +514,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -572,8 +525,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -584,8 +536,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -596,8 +547,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -608,8 +558,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -620,8 +569,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -632,8 +580,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -644,8 +591,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -656,8 +602,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -668,8 +613,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -680,8 +624,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -692,8 +635,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -704,8 +646,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -716,8 +657,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -728,8 +668,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -740,8 +679,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -752,8 +690,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -764,8 +701,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -776,8 +712,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -788,8 +723,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -800,8 +734,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -812,8 +745,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -824,8 +756,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -836,8 +767,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -848,8 +778,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -860,8 +789,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -872,8 +800,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -884,8 +811,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -896,8 +822,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -908,8 +833,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -920,8 +844,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -932,8 +855,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -944,8 +866,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -956,8 +877,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -968,8 +888,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -980,8 +899,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -992,8 +910,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1004,8 +921,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1016,8 +932,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1028,8 +943,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1040,8 +954,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1052,8 +965,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1064,8 +976,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -1076,8 +987,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1088,8 +998,7 @@
     "Target": "Single Enemy",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1100,8 +1009,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1112,8 +1020,7 @@
     "Target": "Single Enemy",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1124,8 +1031,7 @@
     "Target": "Single Enemy",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1136,8 +1042,7 @@
     "Target": "All Enemies",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1148,8 +1053,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1160,8 +1064,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1172,8 +1075,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1184,8 +1086,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1196,8 +1097,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1208,8 +1108,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1220,8 +1119,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -1232,8 +1130,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1244,8 +1141,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1256,8 +1152,7 @@
     "Target": "Single Enemy",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1268,8 +1163,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1280,8 +1174,7 @@
     "Target": "Single Enemy",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1292,8 +1185,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1304,8 +1196,7 @@
     "Target": "Single Enemy",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1316,8 +1207,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1328,8 +1218,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1340,8 +1229,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1352,8 +1240,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1364,8 +1251,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1376,8 +1262,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1388,8 +1273,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1400,8 +1284,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1412,8 +1295,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1424,8 +1306,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1436,8 +1317,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1448,8 +1328,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1460,8 +1339,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -1472,8 +1350,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1484,8 +1361,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1496,8 +1372,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1508,8 +1383,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1520,8 +1394,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1532,8 +1405,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1544,8 +1416,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1556,8 +1427,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1568,8 +1438,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1580,8 +1449,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1592,8 +1460,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1604,8 +1471,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1616,8 +1482,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1628,8 +1493,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1640,8 +1504,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1652,8 +1515,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1664,8 +1526,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1676,8 +1537,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1688,8 +1548,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1700,8 +1559,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1712,8 +1570,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1724,8 +1581,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1736,8 +1592,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1748,8 +1603,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1760,8 +1614,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1772,8 +1625,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1784,8 +1636,7 @@
     "Target": "Single Enemy",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1796,8 +1647,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1808,8 +1658,7 @@
     "Target": "All Enemies",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1820,8 +1669,7 @@
     "Target": "All Enemies",
     "Skill Points": 9,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1832,8 +1680,7 @@
     "Target": "Random Enemy/ies",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ailment",
@@ -1844,8 +1691,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1856,8 +1702,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1868,8 +1713,7 @@
     "Target": "Single Party Member",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1880,8 +1724,7 @@
     "Target": "Single Party Member",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1892,8 +1735,7 @@
     "Target": "Single Party Member",
     "Skill Points": 11,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1904,8 +1746,7 @@
     "Target": "All Party Members",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1916,8 +1757,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1928,8 +1768,7 @@
     "Target": "All Party Members",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1940,8 +1779,7 @@
     "Target": "All Party Members",
     "Skill Points": 11,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1952,8 +1790,7 @@
     "Target": "All Party Members",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1964,8 +1801,7 @@
     "Target": "Single Party Member",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1976,8 +1812,7 @@
     "Target": "Single Party Member",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -1988,8 +1823,7 @@
     "Target": "All Party Members",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2000,8 +1834,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2012,8 +1845,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2024,8 +1856,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2036,8 +1867,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2048,8 +1878,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2060,8 +1889,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2072,8 +1900,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2084,8 +1911,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2096,8 +1922,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2108,8 +1933,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2120,8 +1944,7 @@
     "Target": "Single Party Member",
     "Skill Points": 1,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2132,8 +1955,7 @@
     "Target": "All Party Members",
     "Skill Points": 5,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2144,8 +1966,7 @@
     "Target": "Single Party Member",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2156,8 +1977,7 @@
     "Target": "All Party Members",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2168,8 +1988,7 @@
     "Target": "Universal",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2180,8 +1999,7 @@
     "Target": "Single Party Member",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2192,8 +2010,7 @@
     "Target": "Single Party Member",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "recovery",
@@ -2204,8 +2021,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2216,8 +2032,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2228,8 +2043,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2240,8 +2054,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2252,8 +2065,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2264,8 +2076,7 @@
     "Target": "All Party Members",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2276,8 +2087,7 @@
     "Target": "All Party Members",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2288,8 +2098,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2300,8 +2109,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2312,8 +2120,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2324,8 +2131,7 @@
     "Target": "All Party Members",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2336,8 +2142,7 @@
     "Target": "All Party Members",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2348,8 +2153,7 @@
     "Target": "All Party Members",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2360,8 +2164,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2372,8 +2175,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2384,8 +2186,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2396,8 +2197,7 @@
     "Target": "All Enemies",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2408,8 +2208,7 @@
     "Target": "All Party Members",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2420,8 +2219,7 @@
     "Target": "All Party Members",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2432,8 +2230,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2444,8 +2241,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2456,8 +2252,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2468,8 +2263,7 @@
     "Target": "All Enemies",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2480,8 +2274,7 @@
     "Target": "All Enemies",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2492,8 +2285,7 @@
     "Target": "Single Party Member",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2504,8 +2296,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2516,8 +2307,7 @@
     "Target": "Single Party Member",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2528,8 +2318,7 @@
     "Target": "All Enemies",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2540,8 +2329,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2552,8 +2340,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2564,8 +2351,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2576,8 +2362,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2588,8 +2373,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2600,8 +2384,7 @@
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -2612,8 +2395,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2624,8 +2406,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2636,8 +2417,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2648,8 +2428,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2660,8 +2439,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2672,8 +2450,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2684,8 +2461,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2696,8 +2472,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2708,8 +2483,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2720,8 +2494,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2732,8 +2505,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2744,8 +2516,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2756,8 +2527,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2768,8 +2538,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2780,8 +2549,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2792,8 +2560,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2804,8 +2571,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2816,8 +2582,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2828,8 +2593,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2840,8 +2604,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2850,10 +2613,9 @@
     "Cost": "Passive",
     "Description": "Ice attacks bypass resistances",
     "Target": "",
-    "Skill Points": "",
+    "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2864,8 +2626,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2876,8 +2637,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2888,8 +2648,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2900,8 +2659,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2912,8 +2670,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2924,8 +2681,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2936,8 +2692,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2948,8 +2703,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2960,8 +2714,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2972,8 +2725,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2984,8 +2736,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -2996,8 +2747,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3008,8 +2758,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3020,8 +2769,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3032,8 +2780,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3044,8 +2791,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3056,8 +2802,7 @@
     "Target": "Self",
     "Skill Points": 24,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3068,8 +2813,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3080,8 +2824,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3092,8 +2835,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3104,8 +2846,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3116,8 +2857,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3128,8 +2868,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3140,8 +2879,7 @@
     "Target": "Self",
     "Skill Points": 30,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3152,8 +2890,7 @@
     "Target": "Self",
     "Skill Points": 20,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3164,8 +2901,7 @@
     "Target": "Self",
     "Skill Points": 20,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3176,8 +2912,7 @@
     "Target": "Self",
     "Skill Points": 20,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3188,8 +2923,7 @@
     "Target": "Self",
     "Skill Points": 20,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3200,8 +2934,7 @@
     "Target": "Self",
     "Skill Points": 20,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3212,8 +2945,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3224,8 +2956,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3236,8 +2967,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3248,8 +2978,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3260,8 +2989,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3272,8 +3000,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3284,8 +3011,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3296,8 +3022,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3308,8 +3033,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3320,8 +3044,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3332,8 +3055,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3344,8 +3066,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3356,8 +3077,7 @@
     "Target": "Self",
     "Skill Points": 10,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3368,8 +3088,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3380,8 +3099,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3392,8 +3110,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3404,8 +3121,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3416,8 +3132,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3428,8 +3143,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3440,8 +3154,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3452,8 +3165,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3464,8 +3176,7 @@
     "Target": "Self",
     "Skill Points": 24,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3476,8 +3187,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3488,8 +3198,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3500,8 +3209,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3512,8 +3220,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3524,8 +3231,7 @@
     "Target": "Self",
     "Skill Points": 16,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3536,8 +3242,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3548,8 +3253,7 @@
     "Target": "Self",
     "Skill Points": 14,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3560,8 +3264,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3572,8 +3275,7 @@
     "Target": "Self",
     "Skill Points": 14,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3584,8 +3286,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3596,8 +3297,7 @@
     "Target": "Self",
     "Skill Points": 7,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3608,8 +3308,7 @@
     "Target": "Self",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3620,8 +3319,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3632,8 +3330,7 @@
     "Target": "Self",
     "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3644,8 +3341,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3656,8 +3352,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3668,8 +3363,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3680,8 +3374,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3692,8 +3385,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3704,8 +3396,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3716,8 +3407,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3728,8 +3418,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3740,8 +3429,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3752,8 +3440,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3764,8 +3451,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3776,8 +3462,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3788,8 +3473,7 @@
     "Target": "Self",
     "Skill Points": 3,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3800,8 +3484,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3812,8 +3495,7 @@
     "Target": "Self",
     "Skill Points": 32,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3824,8 +3506,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3836,8 +3517,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3848,8 +3528,7 @@
     "Target": "Self",
     "Skill Points": 24,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3860,8 +3539,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3872,8 +3550,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3884,8 +3561,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3896,8 +3572,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3908,8 +3583,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3920,8 +3594,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3932,8 +3605,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3944,8 +3616,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3956,8 +3627,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3968,8 +3638,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3980,8 +3649,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -3992,8 +3660,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4004,8 +3671,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4016,8 +3682,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4028,8 +3693,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4040,8 +3704,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4052,8 +3715,7 @@
     "Target": "Self",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4064,8 +3726,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4076,8 +3737,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4088,8 +3748,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4100,8 +3759,7 @@
     "Target": "Self",
     "Skill Points": 18,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4112,8 +3770,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4124,8 +3781,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4136,8 +3792,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4148,8 +3803,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4160,8 +3814,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4172,8 +3825,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4184,8 +3836,7 @@
     "Target": "",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4196,8 +3847,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4208,8 +3858,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4220,8 +3869,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4232,8 +3880,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4244,8 +3891,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4256,8 +3902,7 @@
     "Target": "Self",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4268,8 +3913,7 @@
     "Target": "Self",
     "Skill Points": 21,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4280,8 +3924,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4292,8 +3935,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4304,8 +3946,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4316,8 +3957,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4328,8 +3968,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4340,8 +3979,7 @@
     "Target": "Self",
     "Skill Points": 2,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4352,8 +3990,7 @@
     "Target": "Self",
     "Skill Points": 4,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4364,8 +4001,7 @@
     "Target": "Self",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4376,8 +4012,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4386,10 +4021,9 @@
     "Cost": "Passive",
     "Description": "Nullifies Dark Zone effects in the Aura Gate.",
     "Target": "Self",
-    "Skill Points": "",
+    "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4400,8 +4034,7 @@
     "Target": "Self",
     "Skill Points": 13,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4412,8 +4045,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4424,8 +4056,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -4436,8 +4067,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4448,8 +4078,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4460,8 +4089,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -4472,8 +4100,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4484,8 +4111,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4496,8 +4122,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4508,8 +4133,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4520,8 +4144,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4532,8 +4155,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4542,10 +4164,9 @@
     "Cost": "7 MP",
     "Description": "Reduces all enemy DEF and increases own parties ATK by 20% for 3 turns.",
     "Target": "All Enemies/Party Members",
-    "Skill Points": "",
+    "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -4554,10 +4175,9 @@
     "Cost": "7 MP",
     "Description": "Inflicts Almighty (Magic) damage on a single enemy with 100 power and reduces MP by 4.",
     "Target": "All Enemies",
-    "Skill Points": "",
+    "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -4566,10 +4186,9 @@
     "Cost": "6 MP",
     "Description": "Increases own parties ATK and DEF by 20% for 3 turns.",
     "Target": "All Enemies/Party Members",
-    "Skill Points": "",
+    "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "light",
@@ -4580,8 +4199,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "dark",
@@ -4592,8 +4210,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "force",
@@ -4604,8 +4221,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "elec",
@@ -4616,8 +4232,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -4628,8 +4243,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -4640,8 +4254,7 @@
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "fire",
@@ -4652,8 +4265,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "ice",
@@ -4664,8 +4276,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -4676,8 +4287,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -4688,8 +4298,7 @@
     "Target": "All Enemies",
     "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -4700,8 +4309,7 @@
     "Target": "Single Enemy",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4712,8 +4320,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -4724,8 +4331,7 @@
     "Target": "All Party Members",
     "Skill Points": 8,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4736,8 +4342,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4748,8 +4353,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4760,8 +4364,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -4772,8 +4375,7 @@
     "Target": "Single Enemy",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4784,8 +4386,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4796,8 +4397,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -4806,10 +4406,9 @@
     "Cost": "6 MP",
     "Description": "Increases own parties ATK and EV/AC by 20%. (3 turns)",
     "Target": "Party Members",
-    "Skill Points": "",
+    "Skill Points": 6,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "almighty",
@@ -4818,10 +4417,9 @@
     "Cost": "9 MP",
     "Description": "Inflicts Almighty (Magic) damage on all enemies and increases own parties EV/AC by 20%. (3 turns)\n\nLv2: +4% to damage dealt using this skill.\nLv3: +8% to damage dealt using this skill.\nLv4: +8% to damage dealt using this skill. MP cost of this skill -1.",
     "Target": "All Enemies/Party Members",
-    "Skill Points": "",
+    "Skill Points": 12,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "support",
@@ -4830,10 +4428,9 @@
     "Cost": "7 MP",
     "Description": "Reduces all enemy EV/AC and increases own parties EV/AC by 20%. (3 turns)",
     "Target": "All Enemies/Party Members",
-    "Skill Points": "",
+    "Skill Points": 15,
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": ""
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -4844,8 +4441,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -4856,8 +4452,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "phys",
@@ -4868,8 +4463,7 @@
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4880,8 +4474,7 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   },
   {
     "Element": "passive",
@@ -4892,7 +4485,6 @@
     "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
-    "Transferable From": "",
-    "Unique": 1
+    "Transferable From": ""
   }
 ]
