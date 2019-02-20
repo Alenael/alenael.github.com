@@ -1769,6 +1769,20 @@ function LoadLinks() {
     });
 }
 
+//Loads a demon names from single link and replaces it in the description
+function LoadOurLink() {    
+    if (window.location.href.indexOf("?") >= 0) {
+        var data = window.location.href.split('?')[1]
+        if (data.match("([a-z0-9]{6,})-([a-z0-9]{6,})"))
+            ReadLinkData(data).then(function (d) {
+                //d["base64"]
+                $('meta[name=description]').remove();
+                description = '<meta name="description" property="og:description" content="Build your own teams in Dx2 and show them off to others easily with small URL\'s. All Liberators, Custom Demon Stats, Full Skills and Demons Avaialble! \n' + GetDemonsFromUrl(d["base64"]) + '">';
+                $('head').append(description);
+            });
+    }
+}    
+
 //Returns the demons in our url by string
 function GetDemonsFromUrl(data) {
     var demonNames = "";

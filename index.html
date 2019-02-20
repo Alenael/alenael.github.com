@@ -16,6 +16,24 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script type="text/javascript" src="js/Main.js"></script>
     <title>Dx2 - Team Builder</title>
+    <meta property="og:title" content="Dx2 Team Builder - A Web based application that can be used to build and plan teams in Dx2!">
+    <meta property="og:site_name" content="Dx2 Team Builder">
+    <meta name="description" property="og:description" content="Build your own teams in Dx2 and show them off to others easily with small URL's. All Liberators, Custom Demon Stats, Full Skills and Demons Avaialble!">
+    <meta property='og:image' content="Images/Theme/Logo.png">
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyDdCoET6RdRVmD2sPJoN74pznkPlLnnPFY",
+            authDomain: "dx2-linkdb.firebaseapp.com",
+            databaseURL: "https://dx2-linkdb.firebaseio.com",
+            projectId: "dx2-linkdb",
+            storageBucket: "dx2-linkdb.appspot.com",
+            messagingSenderId: "324320998090"
+        };
+        firebase.initializeApp(config);
+        LoadOurLink();
+    </script>
 </head>
 <body>
     <div class="container-fluid">
@@ -445,19 +463,6 @@
             </div>
         </div>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
-    <script>
-        var config = {
-            apiKey: "AIzaSyDdCoET6RdRVmD2sPJoN74pznkPlLnnPFY",
-            authDomain: "dx2-linkdb.firebaseapp.com",
-            databaseURL: "https://dx2-linkdb.firebaseio.com",
-            projectId: "dx2-linkdb",
-            storageBucket: "dx2-linkdb.appspot.com",
-            messagingSenderId: "324320998090"
-        };
-        firebase.initializeApp(config);
-    </script>
     <script type="text/javascript">
         LoadData();
     </script>
