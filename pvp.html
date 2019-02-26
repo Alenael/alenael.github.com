@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta property="og:type" content="website">
-    <meta property="og:title" content="List of all complete builds generated with the Team Builder tool.">
-    <meta property="og:site_name" content="Dx2 Team Builder - Builds">
-    <meta property="og:description" content="Take a sneak peak at all the builds everyone has been making recently with the tool.">
+    <meta property="og:title" content="Guide designed to aide new players in building PvP worthy teams.">
+    <meta property="og:site_name" content="Dx2 Team Builder - PvP Teams">
+    <meta property="og:description" content="Guide to PvP Teams: How to Build, How to Counter, How to Win!">
     <meta property='og:image' content="https://alenael.github.io/Images/Theme/Logo.png">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,40 +20,45 @@
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script type="text/javascript" src="js/Main.js"></script>
-    <title>Dx2-Builds</title>
+    <title>Dx2 - PvP Teams</title>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
 </head>
 <body>
+
     <div class="page-header">
         <img class="img headerimage" src="Images/Theme/Logo.png" width="150px" height="150px" />
         <br />
         <br />
-        <h1>Dx2 Builds</h1>
+        <h1>Dx2 PvP Guide</h1>
     </div>
+
     <div class="container-fluid">
-        <div class="col-3 border border-dark rounded order-1">
-            <ul id="buildList" class="list-group"></ul>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        <div class="col-4 border border-dark rounded order-1">
+
+            <h2>Table of Contents:</h2>
+            <ol>
+                <li>Introduction</li>
+            </ol>
+
+            <br>
+            <br>
+            <br>
+
+            <button class="btn-xl" data-toggle="collapse" data-target="#concentrate">Concentrate Team</button>
+            <div id="concentrate" class="collapse">
+                <div class="card card-body">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
-    <script>
-        var config = {
-            apiKey: "AIzaSyDdCoET6RdRVmD2sPJoN74pznkPlLnnPFY",
-            authDomain: "dx2-linkdb.firebaseapp.com",
-            databaseURL: "https://dx2-linkdb.firebaseio.com",
-            projectId: "dx2-linkdb",
-            storageBucket: "dx2-linkdb.appspot.com",
-            messagingSenderId: "324320998090"
-        };
-        firebase.initializeApp(config);
-    </script>
-    <script type="text/javascript">
-        LoadLinks();
-    </script>
+
 </body>
 </html>

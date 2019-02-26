@@ -85,6 +85,15 @@ div.hidden {
     margin: 0 auto;
 }
 
+.col-4 {
+    color: whitesmoke;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    min-width: 1000px;
+    float: none;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 600px){
     .col, .col-2 {
         max-width: 410px;
