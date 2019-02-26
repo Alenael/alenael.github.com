@@ -726,7 +726,18 @@
     "Teal": ""
   },
   {
-    "Name": "Jack Bros",
+    "Name": "Pyro Jack",
+    "Description": "The Jack siblings follow the same build via being optimal as Yellow. They're excellent for manual play and in pvp form the Jack Bros team. Tag will pass their turn without consuming any turn icons and so allies will be able to quickly regain mana. Ideally you'd want your sweeper to run concentrate so that you can one shot them or do enough damage to finish them off the second turn. Aim to start first, but if you can bear the brunt of their attacks (and have no demons fall) then starting second would be fine too as you'd begin with even more mana. The team mainly comprises of the Tag Jacks + One swheeper and one spheedy supphort. Sweepers: Yellow Ishtar, Trumpeter, Rama (with concentrate), Yellow Black Frost, Mother Harlot Support: Fenrir, Garuda, Kinmamon",
+    "RecommendedSkills": "Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper Mind Break. Great support usage. Megido. Clean up any demons that have endured Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.",
+    "Brands": "Life to increase survivability. One fun fact is if they're charmed then they can use tag so Ward could be optional if you don't care about Mute/Bind (Note they can also still use his other skills of course, or just standard attack).",
+    "Common": "",
+    "Red": "",
+    "Yellow": "Pass their turn and Tag your next theeam member",
+    "Purple": "",
+    "Teal": ""
+  },
+  {
+    "Name": "Jack Frost",
     "Description": "The Jack siblings follow the same build via being optimal as Yellow. They're excellent for manual play and in pvp form the Jack Bros team. Tag will pass their turn without consuming any turn icons and so allies will be able to quickly regain mana. Ideally you'd want your sweeper to run concentrate so that you can one shot them or do enough damage to finish them off the second turn. Aim to start first, but if you can bear the brunt of their attacks (and have no demons fall) then starting second would be fine too as you'd begin with even more mana. The team mainly comprises of the Tag Jacks + One swheeper and one spheedy supphort. Sweepers: Yellow Ishtar, Trumpeter, Rama (with concentrate), Yellow Black Frost, Mother Harlot Support: Fenrir, Garuda, Kinmamon",
     "RecommendedSkills": "Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper Mind Break. Great support usage. Megido. Clean up any demons that have endured Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.",
     "Brands": "Life to increase survivability. One fun fact is if they're charmed then they can use tag so Ward could be optional if you don't care about Mute/Bind (Note they can also still use his other skills of course, or just standard attack).",
