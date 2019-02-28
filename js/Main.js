@@ -896,12 +896,17 @@ function PruneArchetypes() {
             $(demonArchtype[i]).prop('disabled', false);
             var options = $(demonArchtype[i]).find("option");
             for (var x = 0; x < options.length; x++) {
-                switch (demon.Race) {
-                    case "Enigma":
-                    case "Zealot":
-                    case "Entity":
-                    case "UMA":
-                    case "Rumor":
+                switch (demon.Name) {
+                    case "Kama":
+                    case "Kanabari":
+                    case "Kinmamon":
+                    case "Attis":
+                    case "Dionysus":
+                    case "Alilat":
+                    case "Chupacabra":
+                    case "Hare of Inaba":
+                    case "Kamiotoko":
+                    case "Reiko Kashima":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
@@ -916,21 +921,39 @@ function PruneArchetypes() {
                             $(options[x]).prop('disabled', false);
                         }
                         break;
-                    case "Fiend":
-                    case "Hero":
-                    case "Reaper":
-                    case "Undead":
-                    case "General":
-                    case "Witch":
-                        $(options[x]).prop('disabled', false);
-                        if (options[x].value === "clear") {
-                            $(options[x]).prop('disabled', true);
-                            if (demonArchtype[i].value === 'clear') {
-                                blockUpdating = true;
-                                $(demonArchtype[i]).selectpicker('val', 'red');
-                                blockUpdating = false;
+                    case "Alice":
+                    case "Hell Biker":
+                    case "Mother Harlot":
+                    case "Trumpeter":
+                    case "White Rider":
+                    case "Huang Di":
+                    case "Rama":
+                    case "Jeanne d'Arc":
+                    case "Rama":
+                    case "Siegfried":
+                    case "Yoshitsune":
+                    case "Bodyconian":
+                    case "Man Eater":
+                    case "Masakado":
+                    case "Bayonetta":
+                    case "Jeanne":
+                    case "Bayonetta ☆":
+                    case "Jeanne ☆":
+                    case "Abaddon 2":
+                    case "Nekomata 2":
+                        if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
+                            $(options[x]).prop('disabled', false);
+                            if (options[x].value === "clear") {
+                                $(options[x]).prop('disabled', true);
+                                if (demonArchtype[i].value === 'clear') {
+                                    blockUpdating = true;
+                                    $(demonArchtype[i]).selectpicker('val', 'red');
+                                    blockUpdating = false;
+                                }
                             }
                         }
+                        else
+                            $(options[x]).prop('disabled', false);
                         break;
                     default:
                         $(options[x]).prop('disabled', false);

@@ -4486,5 +4486,27 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Pussyfoot",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "While the demon with this skill is alive, all party members will recieve the following effect: +20% EV.\n\nLv2: +3 to Ag.\nLv3: +6 to Ag.\nLv4: +9 to Ag.\nLv5: +12 to Ag.\nLv6: +20 to Ag.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Lord of the Abyss",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Removes all status buffs of all enemies at the beginning of the first turn in a boss battle and decreases the ATK, DEF and EV/AC of all enemies by 20%. (3 turns)\n\nLv2: +4% to HP.\nLv3: +6% to HP.\nLv4: +8% to HP.\nLv5: +10% to HP.\nLv6: +20% to HP.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
   }
 ]
