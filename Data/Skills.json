@@ -3510,6 +3510,17 @@
   },
   {
     "Element": "passive",
+    "Name": "Master Assassin",
+    "JP Name": "暗殺者",
+    "Cost": "Passive",
+    "Description": "+20% to single-target attack skill damage.",
+    "Target": "Self",
+    "Skill Points": 8,
+    "Learned By": "",
+    "Transferable From": ""
+  },
+  {
+    "Element": "passive",
     "Name": "Serial Killer",
     "JP Name": "虐殺者",
     "Cost": "Passive",
