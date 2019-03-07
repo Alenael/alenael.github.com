@@ -3515,7 +3515,7 @@
     "Cost": "Passive",
     "Description": "+20% to single-target attack skill damage.",
     "Target": "Self",
-    "Skill Points": 8,
+    "Skill Points": 24,
     "Learned By": "",
     "Transferable From": ""
   },
