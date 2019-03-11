@@ -2118,7 +2118,7 @@
     "Cost": "4 MP",
     "Description": "All Party Members will evade Instant Kill for 1 turn",
     "Target": "All Party Members",
-    "Skill Points": "",
+    "Skill Points": 4,
     "Learned By": "",
     "Transferable From": ""
   },
