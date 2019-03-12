@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 1; 
-var minorVer = .8;
+var minorVer = .9;
 
 
 var demonData;
@@ -898,7 +898,7 @@ function PruneArchetypes() {
             for (var x = 0; x < options.length; x++) {
                 switch (demon.Name) {
                     case "Kama":
-                    case "Kanabari":
+                    case "Kanbari":
                     case "Kinmamon":
                     case "Attis":
                     case "Dionysus":
@@ -941,6 +941,9 @@ function PruneArchetypes() {
                     case "Jeanne ☆":
                     case "Abaddon 2":
                     case "Nekomata 2":
+                    case "Nero ☆":
+                    case "V ☆":
+                    case "Dante ☆":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
