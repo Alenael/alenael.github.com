@@ -2369,7 +2369,7 @@
     "Name": "Barong Dance",
     "JP Name": "バロンダンス",
     "Cost": "7 MP",
-    "Description": "Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)",
+    "Description": "Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)\n\nLv2: +5% to Healing amount of this skill.\nLv3: +5% to Healing amount of this skill.\nLv4: +10% to Healing amount of this skill. MP cost of this skill -1.",
     "Target": "All Party Members",
     "Skill Points": "",
     "Learned By": "",
