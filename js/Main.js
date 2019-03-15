@@ -1,7 +1,7 @@
 ﻿//http://localhost:58413/?bGliZXJhdG9yPVRlbXBsYXIgRHJhZ29uJmRlbW9uMT1Jc2h0YXImZGVtb24xYXJjaHR5cGU9eWVsbG93JmRlbW9uMXNraWxsMT1CdXRjaGVyJmRlbW9uMXNraWxsMj1TZXJpYWwgS2lsbGVyJmRlbW9uMWJyYW5kcz13YXJkLGRpdmluZSZkZW1vbjI9SmFjayBGcm9zdCZkZW1vbjJhcmNodHlwZT15ZWxsb3cmZGVtb24yc2tpbGwxPUVuZHVyZSZkZW1vbjJza2lsbDI9U2FtYXJlY2FybSZkZW1vbjJicmFuZHM9d2FyZCxsaWZlJmRlbW9uMz1QeXJvIEphY2smZGVtb24zYXJjaHR5cGU9eWVsbG93JmRlbW9uM3NraWxsMT1FbmR1cmUmZGVtb24zc2tpbGwyPU1lZ2lkbyZkZW1vbjNicmFuZHM9d2FyZCxsaWZlJmRlbW9uND1LaW5tYW1vbiZkZW1vbjRhcmNodHlwZT1wdXJwbGUmZGVtb240c2tpbGwxPUV2YWRlJmRlbW9uNHNraWxsMj1XYXIgQ3J5JmRlbW9uNGJyYW5kcz1zaGllbGQsbGlmZQ
 
 var majorVer = 1; 
-var minorVer = .9;
+var minorVer = .10;
 
 
 var demonData;
@@ -292,7 +292,7 @@ function ParseURL(data) {
         ];
 
         for (var i = 0; i < demons.length; i++) {
-            $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i]);
+            $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i].replace(" 4", "").replace(" 5", "☆").replace(" 2", " A"));
             $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
             $(demonCustomSkill1[i]).selectpicker('val', customSkills1[i]);
             $(demonCustomSkill2[i]).selectpicker('val', customSkills2[i]);
@@ -415,7 +415,7 @@ function CreateURL() {
     for (var i = 0; i < demonsSel.length; i++) {
         if (demonsSel[i].value !== nullText) {
             //Write Demon/Archetype
-            parameters += "demon" + (i + 1) + "=" + demonsSel[i].value + "&";
+            parameters += "demon" + (i + 1) + "=" + demonsSel[i].value.replace("☆", " 5") + "&";
             parameters += "demon" + (i + 1) + "archtype=" + demonArchtype[i].value + "&";
 
             //Write Skills
@@ -929,7 +929,6 @@ function PruneArchetypes() {
                     case "Huang Di":
                     case "Rama":
                     case "Jeanne d'Arc":
-                    case "Rama":
                     case "Siegfried":
                     case "Yoshitsune":
                     case "Bodyconian":
@@ -937,13 +936,13 @@ function PruneArchetypes() {
                     case "Masakado":
                     case "Bayonetta":
                     case "Jeanne":
-                    case "Bayonetta ☆":
-                    case "Jeanne ☆":
-                    case "Abaddon 2":
-                    case "Nekomata 2":
-                    case "Nero ☆":
-                    case "V ☆":
-                    case "Dante ☆":
+                    case "Bayonetta☆":
+                    case "Jeanne☆":
+                    case "Abaddon A":
+                    case "Nekomata A":
+                    case "Nero☆":
+                    case "V☆":
+                    case "Dante☆":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
@@ -982,7 +981,7 @@ function SetupDemonControls(control) {
 
         if (demon != null) {
 
-            demonImages[i].src = "Images/Demons/" + demon.Name.replace(" ☆", "") + ".jpg";
+            demonImages[i].src = "Images/Demons/" + demon.Name.replace("☆", "") + ".jpg";
             demonImages[i].style.visibility = 'visible';
 
             var di = GetDemonInfo(demon.Name);
@@ -1352,8 +1351,27 @@ function GetSkillInfo(skillName) {
     for (var i = 0; i < skillData.length; i++) {
         if (skillName === nullText)
             return "";
-        else if (skillData[i].Name === skillName)
-            return skillData[i].Description;
+        else if (skillData[i].Name === skillName) {
+            skillInfo = skillData[i].Description + "\n"
+
+            if (skillData[i].Element != "")
+                skillInfo = skillInfo + skillData[i].Element.charAt(0).toUpperCase() + skillData[i].Element.slice(1) + " | ";
+
+            if (skillData[i]["Skill Points"] != "")
+                skillInfo = skillInfo + skillData[i]["Skill Points"] + " SP | ";
+
+            if (skillData[i].Cost != "")
+                skillInfo = skillInfo + skillData[i].Cost.replace("Passive", "0 MP") + " | ";
+
+            if (skillData[i].Target != "")
+                skillInfo = skillInfo + skillData[i].Target.charAt(0).toUpperCase() + skillData[i].Target.slice(1) + " | ";
+
+            if (skillData[i]["Skill Points"] != "" || skillData[i].Target != "" || skillData[i].Cost != "" || skillData[i].Element != "")
+                skillInfo = skillInfo.slice(0, -3);
+
+            return skillInfo
+        }
+
     }
 
     return "";

@@ -4585,5 +4585,16 @@
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Phys Pierce [weak]",
+    "JP Name": "",
+    "Cost": "passive",
+    "Description": "Gains Phys Pierce.Damage reduced by 70% if the enemy has Null, Repel or Drain Phys attribute.\n\nLv2: Decreases Phys Pierce damage reduction by 5%.\nLv3: Decreases Phys Pierce damage reduction by 10%.\nLv4: Decreases Phys Pierce damage reduction by 20%.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": ""
   }
 ]

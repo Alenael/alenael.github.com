@@ -48,7 +48,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Abraxas",
@@ -99,7 +103,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Agathion",
@@ -150,7 +158,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Alice",
@@ -201,7 +213,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Alilat",
@@ -252,7 +268,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Amaterasu",
@@ -303,7 +323,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ammut",
@@ -354,7 +378,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ananta",
@@ -405,7 +433,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Angel",
@@ -456,7 +488,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Anubis",
@@ -507,7 +543,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Apis",
@@ -558,7 +598,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Apsaras",
@@ -609,7 +653,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Arahabaki",
@@ -660,7 +708,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Archangel",
@@ -711,7 +763,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ares",
@@ -762,7 +818,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Arianrhod",
@@ -813,7 +873,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Asherah",
@@ -864,7 +928,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Attis",
@@ -915,7 +983,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Azrael",
@@ -966,7 +1038,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Azumi",
@@ -1017,7 +1093,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Baihu",
@@ -1068,7 +1148,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Baphomet",
@@ -1119,7 +1203,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Barong",
@@ -1170,7 +1258,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Beelzebub",
@@ -1221,7 +1313,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Beiji-Weng",
@@ -1272,7 +1368,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Berserker",
@@ -1323,7 +1423,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Bicorn",
@@ -1374,7 +1478,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Bishamonten",
@@ -1425,7 +1533,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Black Frost",
@@ -1476,7 +1588,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Black Ooze",
@@ -1527,7 +1643,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Blob",
@@ -1578,7 +1698,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Cerberus",
@@ -1629,7 +1753,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Chagrin",
@@ -1680,7 +1808,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Chatterskull",
@@ -1731,7 +1863,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Chernobog",
@@ -1782,7 +1918,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Chimera",
@@ -1833,7 +1973,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Chupacabra",
@@ -1884,7 +2028,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Cu Chulainn",
@@ -1935,7 +2083,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Cu Sith",
@@ -1986,7 +2138,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dakini",
@@ -2037,7 +2193,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dantalian",
@@ -2088,7 +2248,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Decarabia",
@@ -2139,7 +2303,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dionysus",
@@ -2190,7 +2358,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dis",
@@ -2241,7 +2413,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dominion",
@@ -2292,7 +2468,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Efreet",
@@ -2343,7 +2523,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Eligor",
@@ -2394,7 +2578,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Feng Huang",
@@ -2445,7 +2633,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Fenrir",
@@ -2496,7 +2688,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Fomorian",
@@ -2547,7 +2743,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Forneus",
@@ -2598,7 +2798,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ganesha",
@@ -2649,7 +2853,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Garuda",
@@ -2700,7 +2908,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Girimekhala",
@@ -2751,7 +2963,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Gremlin",
@@ -2802,7 +3018,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Grendel",
@@ -2853,7 +3073,11 @@
     "L Dark": 10,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Gucumatz",
@@ -2904,7 +3128,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Gui Xian",
@@ -2955,7 +3183,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Halloween Jack",
@@ -3006,7 +3238,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 30,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hamsa",
@@ -3057,7 +3293,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hanuman",
@@ -3108,7 +3348,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hare of Inaba",
@@ -3159,7 +3403,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hathor",
@@ -3210,7 +3458,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hecatoncheires",
@@ -3261,7 +3513,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hel",
@@ -3312,7 +3568,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Hell Biker",
@@ -3363,7 +3623,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Helper Frost",
@@ -3414,7 +3678,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 30,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Heqet",
@@ -3465,7 +3733,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "High Pixie",
@@ -3516,7 +3788,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Horkos",
@@ -3567,7 +3843,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Horus",
@@ -3618,7 +3898,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Huang Di",
@@ -3669,7 +3953,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Huang Long",
@@ -3720,7 +4008,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ikusa",
@@ -3771,7 +4063,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Illuyanka",
@@ -3822,7 +4118,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Incubus",
@@ -3873,7 +4173,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Inugami",
@@ -3924,7 +4228,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ippon-Datara",
@@ -3975,7 +4283,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ishtar",
@@ -4026,7 +4338,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Isis",
@@ -4077,7 +4393,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ixtab",
@@ -4128,7 +4448,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Izanami",
@@ -4179,7 +4503,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Jack Frost",
@@ -4230,7 +4558,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Jatayu",
@@ -4281,7 +4613,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Jeanne d'Arc",
@@ -4332,7 +4668,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Jikokuten",
@@ -4383,7 +4723,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kaiwan",
@@ -4434,7 +4778,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kama",
@@ -4485,7 +4833,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kamiotoko",
@@ -4536,7 +4888,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kanbari",
@@ -4587,7 +4943,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kelpie",
@@ -4638,7 +4998,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kikuri-Hime",
@@ -4689,7 +5053,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "King Frost",
@@ -4740,7 +5108,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kinmamon",
@@ -4791,7 +5163,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Koppa Tengu",
@@ -4842,7 +5218,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Koumokuten",
@@ -4893,7 +5273,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kresnik",
@@ -4944,7 +5328,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kudlak",
@@ -4995,7 +5383,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kurama Tengu",
@@ -5046,7 +5438,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kushinada",
@@ -5097,7 +5493,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Lailah",
@@ -5148,7 +5548,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Lakshmi",
@@ -5199,7 +5603,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Leanan Sidhe",
@@ -5250,7 +5658,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Legion",
@@ -5301,7 +5713,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Lilim",
@@ -5352,7 +5768,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Lilith",
@@ -5403,7 +5823,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Loki",
@@ -5454,7 +5878,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Long",
@@ -5505,7 +5933,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Lucifer",
@@ -5556,7 +5988,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mad Gasser",
@@ -5607,7 +6043,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Makami",
@@ -5658,7 +6098,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Makara",
@@ -5709,7 +6153,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mara",
@@ -5760,7 +6208,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mastema",
@@ -5811,7 +6263,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Melchom",
@@ -5862,7 +6318,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mermaid",
@@ -5913,7 +6373,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Metatron",
@@ -5964,7 +6428,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Michael",
@@ -6015,7 +6483,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mishaguji",
@@ -6066,7 +6538,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mitra",
@@ -6117,7 +6593,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mokoi",
@@ -6168,7 +6648,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Momunofu",
@@ -6219,7 +6703,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mot",
@@ -6270,7 +6758,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mother Harlot",
@@ -6321,7 +6813,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mothman",
@@ -6372,7 +6868,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Mou-Ryo",
@@ -6423,7 +6923,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Naga",
@@ -6474,7 +6978,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nekomata",
@@ -6525,7 +7033,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nergal",
@@ -6576,7 +7088,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nozuchi",
@@ -6627,7 +7143,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nue",
@@ -6678,7 +7198,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Obariyon",
@@ -6729,7 +7253,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Oberon",
@@ -6780,7 +7308,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Odin",
@@ -6831,7 +7363,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ongyo-Ki",
@@ -6882,7 +7418,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Oni",
@@ -6933,7 +7473,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Orochi",
@@ -6984,7 +7528,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Orthrus",
@@ -7035,7 +7583,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ose",
@@ -7086,7 +7638,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pallas Athena",
@@ -7137,7 +7693,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Patrimpas",
@@ -7188,7 +7748,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pazuzu",
@@ -7239,7 +7803,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Peallaidh",
@@ -7290,7 +7858,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pele",
@@ -7341,7 +7913,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Persephone",
@@ -7392,7 +7968,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Phantom",
@@ -7443,7 +8023,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pisaca",
@@ -7494,7 +8078,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pixie",
@@ -7545,7 +8133,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Power",
@@ -7596,7 +8188,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Preta",
@@ -7647,7 +8243,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Principality",
@@ -7698,7 +8298,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Prometheus",
@@ -7749,7 +8353,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Pyro Jack",
@@ -7800,7 +8408,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Quetzalcoatl",
@@ -7851,7 +8463,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Raijuu",
@@ -7902,7 +8518,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Rakshasa",
@@ -7953,7 +8573,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Rama",
@@ -8004,7 +8628,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Rangda",
@@ -8055,7 +8683,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Reiko Kashima",
@@ -8106,7 +8738,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Samael",
@@ -8157,7 +8793,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Sandalphon",
@@ -8208,7 +8848,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Sandman",
@@ -8259,7 +8903,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Sarasvati",
@@ -8310,7 +8958,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Scathach",
@@ -8361,7 +9013,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Setanta",
@@ -8412,7 +9068,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Seth",
@@ -8463,7 +9123,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Shadow",
@@ -8514,7 +9178,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Shiisaa",
@@ -8565,7 +9233,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Shiki-Ouji",
@@ -8616,7 +9288,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Shikome",
@@ -8667,7 +9343,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Shiva",
@@ -8718,7 +9398,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Siegfried",
@@ -8769,7 +9453,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Silky",
@@ -8820,7 +9508,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Skadi",
@@ -8871,7 +9563,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Sleipnir",
@@ -8922,7 +9618,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Slime",
@@ -8973,7 +9673,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Sphinx",
@@ -9024,7 +9728,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Succubus",
@@ -9075,7 +9783,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Suparna",
@@ -9126,7 +9838,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Surt",
@@ -9177,7 +9893,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Susano-o",
@@ -9228,7 +9948,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Take-Minakata",
@@ -9279,7 +10003,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Tam Lin",
@@ -9330,7 +10058,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 20,
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Thor",
@@ -9381,7 +10113,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Throne",
@@ -9432,7 +10168,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Titania",
@@ -9483,7 +10223,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Trumpeter",
@@ -9534,7 +10278,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Tsukuyomi",
@@ -9585,7 +10333,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Unicorn",
@@ -9636,7 +10388,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Valkyrie",
@@ -9687,7 +10443,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Vetala",
@@ -9738,7 +10498,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Virtue",
@@ -9789,7 +10553,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Vishnu",
@@ -9840,7 +10608,11 @@
     "L Dark": 5,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "White Rider",
@@ -9891,7 +10663,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Wu Kong",
@@ -9942,7 +10718,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Yaksini",
@@ -9993,7 +10773,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Yatagarasu",
@@ -10044,7 +10828,11 @@
     "L Dark": "",
     "S Chaotic": 10,
     "M Chaotic": 5,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Yoshitsune",
@@ -10095,7 +10883,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Yurlungur",
@@ -10146,7 +10938,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Zaou-Gongen",
@@ -10197,7 +10993,11 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Zhong Kui",
@@ -10248,7 +11048,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": 15,
-    "L Chaotic": 5
+    "L Chaotic": 5,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Zouchouten",
@@ -10299,7 +11103,11 @@
     "L Dark": "",
     "S Chaotic": 5,
     "M Chaotic": 10,
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Orcus",
@@ -10350,7 +11158,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Bodyconian",
@@ -10401,7 +11213,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Man Eater",
@@ -10452,7 +11268,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Masakado",
@@ -10503,10 +11323,14 @@
     "L Dark": 15,
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": 15
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Bayonetta ☆",
+    "Name": "Bayonetta☆",
     "Race": "Witch",
     "Grade": 85,
     "Rarity": 5,
@@ -10554,10 +11378,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Jeanne ☆",
+    "Name": "Jeanne☆",
     "Race": "Witch",
     "Grade": 85,
     "Rarity": 5,
@@ -10605,7 +11433,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Beloved",
@@ -10656,7 +11488,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Bayonetta",
@@ -10707,7 +11543,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Jeanne",
@@ -10758,7 +11598,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Kusi Mitama",
@@ -10772,12 +11616,12 @@
     "Force": "rs",
     "Light": "rs",
     "Dark": "rs",
-    "6★ HP": 0,
-    "6★ Strength": 0,
-    "6★ Magic": 0,
-    "6★ Vitality": 0,
-    "6★ Agility": 0,
-    "6★ Luck": 0,
+    "6★ HP": 976,
+    "6★ Strength": 106,
+    "6★ Magic": 106,
+    "6★ Vitality": 129,
+    "6★ Agility": 144,
+    "6★ Luck": 106,
     "Skill 1": "Agility Amp I",
     "Skill 2": "Charge",
     "Skill 3": "Concentrate",
@@ -10809,7 +11653,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nigi Mitama",
@@ -10823,12 +11671,12 @@
     "Force": "",
     "Light": "rs",
     "Dark": "rs",
-    "6★ HP": 0,
-    "6★ Strength": 0,
-    "6★ Magic": 0,
-    "6★ Vitality": 0,
-    "6★ Agility": 0,
-    "6★ Luck": 0,
+    "6★ HP": 863,
+    "6★ Strength": 105,
+    "6★ Magic": 147,
+    "6★ Vitality": 105,
+    "6★ Agility": 102,
+    "6★ Luck": 129,
     "Skill 1": "Magic Amp I",
     "Skill 2": "Media",
     "Skill 3": "Recarm",
@@ -10860,7 +11708,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Ara Mitama",
@@ -10874,12 +11726,12 @@
     "Force": "",
     "Light": "rs",
     "Dark": "rs",
-    "6★ HP": 0,
-    "6★ Strength": 0,
-    "6★ Magic": 0,
-    "6★ Vitality": 0,
-    "6★ Agility": 0,
-    "6★ Luck": 0,
+    "6★ HP": 862,
+    "6★ Strength": 146,
+    "6★ Magic": 105,
+    "6★ Vitality": 105,
+    "6★ Agility": 122,
+    "6★ Luck": 105,
     "Skill 1": "Strength Amp I",
     "Skill 2": "Charge",
     "Skill 3": "Lunge",
@@ -10911,7 +11763,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Saki Mitama",
@@ -10925,12 +11781,12 @@
     "Force": "",
     "Light": "rs",
     "Dark": "rs",
-    "6★ HP": 0,
-    "6★ Strength": 0,
-    "6★ Magic": 0,
-    "6★ Vitality": 0,
-    "6★ Agility": 0,
-    "6★ Luck": 0,
+    "6★ HP": 1157,
+    "6★ Strength": 113,
+    "6★ Magic": 106,
+    "6★ Vitality": 154,
+    "6★ Agility": 111,
+    "6★ Luck": 132,
     "Skill 1": "Vitality Amp I",
     "Skill 2": "Makarakarn",
     "Skill 3": "Life Bonus",
@@ -10962,10 +11818,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Abaddon 2",
+    "Name": "Abaddon A",
     "Race": "Tyrant",
     "Grade": 60,
     "Rarity": 4,
@@ -10993,7 +11853,7 @@
     "Red Gacha": "Fire Boost",
     "Yellow Gacha": "Life Gain",
     "Purple Gacha": "Hellish Mask",
-    "Teal Gacha": "Resist Elect",
+    "Teal Gacha": "Resist Elec",
     "Type": "Attack",
     "PATK": "",
     "PDEF": "",
@@ -11013,10 +11873,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Nekomata 2",
+    "Name": "Nekomata A",
     "Race": "Beast",
     "Grade": 60,
     "Rarity": 4,
@@ -11064,10 +11928,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Nero ☆",
+    "Name": "Nero☆",
     "Race": "Fiend",
     "Grade": 90,
     "Rarity": 5,
@@ -11115,10 +11983,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "Dante ☆",
+    "Name": "Dante☆",
     "Race": "Fiend",
     "Grade": 90,
     "Rarity": 5,
@@ -11166,10 +12038,14 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
-    "Name": "V ☆",
+    "Name": "V☆",
     "Race": "??",
     "Grade": 90,
     "Rarity": 5,
@@ -11217,7 +12093,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Nero",
@@ -11268,7 +12148,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "Dante",
@@ -11319,7 +12203,11 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   },
   {
     "Name": "V",
@@ -11370,6 +12258,10 @@
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
-    "L Chaotic": ""
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": ""
   }
 ]
