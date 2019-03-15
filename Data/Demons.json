@@ -3560,11 +3560,11 @@
     "S Lawful": "",
     "M Lawful": "",
     "L Lawful": "",
-    "S Neutral": "",
-    "M Neutral": "",
+    "S Neutral": 15,
+    "M Neutral": 5,
     "L Neutral": "",
-    "S Dark": "",
-    "M Dark": "",
+    "S Dark": 15,
+    "M Dark": 5,
     "L Dark": "",
     "S Chaotic": "",
     "M Chaotic": "",
@@ -11544,8 +11544,8 @@
     "S Chaotic": "",
     "M Chaotic": "",
     "L Chaotic": "",
-    "S Witch": "",
-    "L Witch": "",
+    "S Witch": 30,
+    "L Witch": 15,
     "S Soul": "",
     "L Soul": ""
   },
@@ -11599,8 +11599,8 @@
     "S Chaotic": "",
     "M Chaotic": "",
     "L Chaotic": "",
-    "S Witch": "",
-    "L Witch": "",
+    "S Witch": 30,
+    "L Witch": 15,
     "S Soul": "",
     "L Soul": ""
   },
@@ -12151,8 +12151,8 @@
     "L Chaotic": "",
     "S Witch": "",
     "L Witch": "",
-    "S Soul": "",
-    "L Soul": ""
+    "S Soul": 30,
+    "L Soul": 15
   },
   {
     "Name": "Dante",
@@ -12206,8 +12206,8 @@
     "L Chaotic": "",
     "S Witch": "",
     "L Witch": "",
-    "S Soul": "",
-    "L Soul": ""
+    "S Soul": 30,
+    "L Soul": 15
   },
   {
     "Name": "V",
@@ -12261,7 +12261,7 @@
     "L Chaotic": "",
     "S Witch": "",
     "L Witch": "",
-    "S Soul": "",
-    "L Soul": ""
+    "S Soul": 30,
+    "L Soul": 15
   }
 ]
