@@ -77,7 +77,7 @@ var blockUpdating = true;
 
 function LoadData() {
 
-    document.getElementById("versionLbl").innerHTML = "Version: " + (majorVer + minorVer);
+    document.getElementById("versionLbl").innerHTML = "Version: " + parseFloat(majorVer + minorVer).toFixed(2);
 
     $(document).ready(function () {
         $("body").tooltip({
@@ -203,11 +203,11 @@ function LoadData() {
         if (!localStorage.noFirstVisit) {
             $('#helpModal').modal('show');
             localStorage.noFirstVisit = true;
-        } else if (localStorage.lastUpdate < majorVer + minorVer) { //Show recent change if version changed
+        } else if (localStorage.lastUpdate < parseFloat(majorVer + minorVer).toFixed(2)) { //Show recent change if version changed
             $('#newChangesModal').modal('show');
         }
 
-        localStorage.lastUpdate = majorVer + minorVer;
+        localStorage.lastUpdate = parseFloat(majorVer + minorVer).toFixed(2);
     });
 }
 
