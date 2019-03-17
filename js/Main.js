@@ -1060,6 +1060,8 @@ function UpdateAether() {
             AddAether(demon, aether, aetherTypes, "Neutral");
             AddAether(demon, aether, aetherTypes, "Dark");
             AddAether(demon, aether, aetherTypes, "Chaotic");
+            AddAether(demon, aether, aetherTypes, "Witch");
+            AddAether(demon, aether, aetherTypes, "Soul");
 
             if (aether[0] != null) {
                 aether1Img[i].src = "Images/Awakening/" + aetherTypes[0] + ".jpg";
