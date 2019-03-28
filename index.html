@@ -96,15 +96,15 @@
                 <div class="tab-content">
                     <div id="demomSkills1" class="tab-pane fade show active center">
                         <div class="btn-group">
-                            <span name="demonSkill1" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                            <span name="demonSkill2" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonSkill1" class="btn btn-secondary btn-xs" data-html="true" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonSkill2" class="btn btn-secondary btn-xs" data-html="true" data-placement="top" data-toggle="tooltip" title=""></span>
                         </div>
                         <div class="btn-group">
-                            <span name="demonSkill3" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
-                            <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonSkill3" class="btn btn-secondary btn-xs" data-html="true" data-placement="top" data-toggle="tooltip" title=""></span>
+                            <span name="demonAwakenSkill" class="btn btn-secondary btn-xs" data-html="true" data-placement="top" data-toggle="tooltip" title=""></span>
                         </div>
                         <div class="btn-group" id="customSkillGroup">
-                            <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); UpdateTooltips(); CalculateTotalSpeed(); FilterDemons(); CalculateSP();FilterSkills();BuildResists();"></select>
+                            <select id="demonCustomSkill1" name="demonCustomSkill1" class="selectpicker" data-html="true" data-live-search="true" data-style="btn-secondary btn-xs" data-toggle="tooltip" data-trigger="hover" title="" onchange="Lock(this); UpdateTooltips(); CalculateTotalSpeed(); FilterDemons(); CalculateSP();FilterSkills();BuildResists();"></select>
                         </div>
                         <p></p>
                         <span>Brands:</span><br />
@@ -393,12 +393,18 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                    <h6>1.11 Changes:</h6>
+                    <ul stype="list-style: decimal inside;">
+                        <li>Quick bug fix for spacing in Skill Descriptions as we altered the underlyning DB.</li>
+                        <li>DB Fixes and Updates in general.</li>
+                        <li>Added Light Pierce [weak] Skill.</li>
+                    </ul>
                     <h6>1.10 Changes:</h6>
                     <ul stype="list-style: decimal inside;">
                         <li>Updated a lot of random things in the DB to be a bit more accurate. Some names of demons changed as well.</li>
                         <li>Updated the tooltips to include a bit more information on the skill such as SP, MP, Element, and Target.</li>
                         <li>Fixed some issues with old build links no longer working due to changes made recently to the DB.</li>
-						<li>Added new Phys Pierce [weak] Skill.</li>
+                        <li>Added new Phys Pierce [weak] Skill.</li>
                     </ul>
                     <h6>1.9 Changes:</h6>
                     <ul stype="list-style: decimal inside;">
