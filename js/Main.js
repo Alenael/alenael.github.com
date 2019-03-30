@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .10;
+var minorVer = .11;
 
 
 var demonData;
@@ -181,8 +181,10 @@ function LoadData() {
         for (var l = 0; l < demonsSel.length; l++) {
             var el = $(demonCustomSkill1[l]).next().find("div")[0];
             el.setAttribute('data-toggle', "tooltip");
+            el.setAttribute('data-html', "true");            
             var el = $(demonCustomSkill2[l]).next().find("div")[0];
             el.setAttribute('data-toggle', "tooltip");
+            el.setAttribute('data-html', "true");
         }
 
         //Set correct default settings 
@@ -1368,6 +1370,8 @@ function GetSkillInfo(skillName) {
 
             if (skillData[i]["Skill Points"] != "" || skillData[i].Target != "" || skillData[i].Cost != "" || skillData[i].Element != "")
                 skillInfo = skillInfo.slice(0, -3);
+
+            skillInfo = skillInfo.replace(/\\n/g, "<br/>");
 
             return skillInfo
         }
