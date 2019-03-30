@@ -7,7 +7,7 @@ var skillData;
 var liberatorData;
 var demonInfoData;
 var nullText = "-----------";
-var baseUrl = "https://alenael.github.io";
+var baseUrl = window.location.origin;
 
 //Our Controls
 var demonsSel;
