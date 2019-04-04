@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .11;
+var minorVer = .12;
 
 
 var demonData;
@@ -940,6 +940,7 @@ function PruneArchetypes() {
                     case "Jeanne☆":
                     case "Abaddon A":
                     case "Nekomata A":
+                    case "Shiva A":
                     case "Nero☆":
                     case "V☆":
                     case "Dante☆":

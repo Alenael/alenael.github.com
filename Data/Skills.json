@@ -340,7 +340,7 @@
     "Name": "Toxic Sting",
     "JP Name": "毒針",
     "Cost": "5 MP",
-    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.\\n\\nLv2: +16% chance to inflict status ailments.",
+    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.",
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
@@ -354,7 +354,7 @@
     "Name": "Binding Claw",
     "JP Name": "バインドクロー",
     "Cost": "5 MP",
-    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.\\n\\nLv2: +16% chance to inflict status ailments.",
+    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.",
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
@@ -382,7 +382,7 @@
     "Name": "Dark Sword",
     "JP Name": "暗夜剣",
     "Cost": "5 MP",
-    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Mute.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.\\n\\nLv2: +16% chance to inflict status ailments.",
+    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Mute.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.",
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
@@ -396,7 +396,7 @@
     "Name": "Sweet Bite",
     "JP Name": "甘噛み",
     "Cost": "5 MP",
-    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflicts Charm.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.\\n\\nLv2: +16% chance to inflict status ailments.",
+    "Description": "Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflicts Charm.\\n\\nLv2: +2% chance to inflict status ailments.\\nLv3: +4% chance to inflict status ailments.\\nLv4: +6% chance to inflict status ailments.\\nLv5: +8% chance to inflict status ailments.\\nLv6: +10% chance to inflict status ailments.",
     "Target": "Single Enemy",
     "Skill Points": 6,
     "Learned By": "",
@@ -840,7 +840,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Zio",
     "JP Name": "ジオ",
     "Cost": "4 MP",
@@ -854,7 +854,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Zionga",
     "JP Name": "ジオンガ",
     "Cost": "5 MP",
@@ -868,7 +868,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Ziodyne",
     "JP Name": "ジオダイン",
     "Cost": "6 MP",
@@ -882,7 +882,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Thunder Reign",
     "JP Name": "真理の雷",
     "Cost": "7 MP",
@@ -896,7 +896,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Mazio",
     "JP Name": "マハジオ",
     "Cost": "5 MP",
@@ -910,7 +910,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Mazionga",
     "JP Name": "マハジオンガ",
     "Cost": "6 MP",
@@ -924,7 +924,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Maziodyne",
     "JP Name": "マハジオダイン",
     "Cost": "7 MP",
@@ -938,7 +938,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Shock",
     "JP Name": "放電",
     "Cost": "4 MP",
@@ -952,7 +952,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Bolt Storm",
     "JP Name": "ショックウェーブ",
     "Cost": "5 MP",
@@ -966,7 +966,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Mjolnir",
     "JP Name": "ミョルニル",
     "Cost": "7 MP",
@@ -4906,7 +4906,7 @@
     "Cost": "Passive",
     "Description": "While the demon with this skill is alive, Pierce will have no effect on any party member that can drain the attribute they are attacked with.",
     "Target": "Self",
-    "Skill Points": "",
+    "Skill Points": 20,
     "Learned By": "",
     "Transferable From": "",
     "ExtractExclusive": "",
@@ -4971,7 +4971,7 @@
   },
   {
     "Element": "passive",
-    "Name": "Empress' Libido",
+    "Name": "Death Lust",
     "JP Name": "",
     "Cost": "Passive",
     "Description": "+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.",
@@ -5460,7 +5460,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Zionga L",
     "JP Name": "",
     "Cost": "4 MP",
@@ -5894,7 +5894,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Overture",
     "JP Name": "",
     "Cost": "7 MP",
@@ -5964,7 +5964,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "elec",
+    "Element": "electricity",
     "Name": "Elec Pierce [weak]",
     "JP Name": "",
     "Cost": "Passive",
@@ -6002,6 +6002,48 @@
     "Learned By": "",
     "Transferable From": "",
     "ExtractExclusive": 1,
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Ishvara",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+25% to Critical hit rate, +20% to AC.\\nCasts Rebellion on self at the beginning of the 1st turn.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "almighty",
+    "Name": "Third Eye",
+    "JP Name": "",
+    "Cost": "8 MP",
+    "Description": "Inflicts Almighty (Physical) damage on all enemies. Power: 120\\n*The damage inflicted by this skill is dependent on Mag ATK.\\n*This skill has a chance of having a Critical effect or a Miss which are dependent on their respective rates.\\n\\nLv2: +3% to damage.\\nLv3: +6% to damage.\\nLv4: +9% to damage.\\nLv5: +12% to damage.\\nLv6: +12% to damage. MP cost -1",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Drain Force",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "Adds Force Drain.",
+    "Target": "Self",
+    "Skill Points": 20,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
   }
