@@ -6046,5 +6046,19 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Andalucia",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "Activates the following Chain Effect when this demon evades an enemy's Physical attack:Inflict Phys (physical) damage with 50% crit rate on all enemies 4 times.Counter effects will not work on this skill.Power:30.\\n\\nLv2: +4% to EV.\\nLv3: +6% to EV.\\nLv4: +8% to EV.\\nLv5: +10% to EV.\\nLv6: +20% to EV.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
   }
 ]
