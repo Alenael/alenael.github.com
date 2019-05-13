@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .14;
+var minorVer = .15;
 
 
 var demonData;
@@ -934,8 +934,6 @@ function PruneArchetypes() {
                     case "Bodyconian":
                     case "Man Eater":
                     case "Masakado":
-                    case "Bayonetta":
-                    case "Jeanne":
                     case "Bayonetta☆":
                     case "Jeanne☆":
                     case "Abaddon A":
@@ -944,6 +942,8 @@ function PruneArchetypes() {
                     case "Nero☆":
                     case "V☆":
                     case "Dante☆":
+                    case "Matador": 
+                    case "Orcus":
                     case "Matador":
                     case "Daisoujou":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
