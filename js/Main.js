@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .13;
+var minorVer = .14;
 
 
 var demonData;
@@ -934,8 +934,6 @@ function PruneArchetypes() {
                     case "Bodyconian":
                     case "Man Eater":
                     case "Masakado":
-                    case "Bayonetta":
-                    case "Jeanne":
                     case "Bayonetta☆":
                     case "Jeanne☆":
                     case "Abaddon A":
@@ -944,7 +942,8 @@ function PruneArchetypes() {
                     case "Nero☆":
                     case "V☆":
                     case "Dante☆":
-                    case "Matador":
+                    case "Matador": 
+                    case "Orcus":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
