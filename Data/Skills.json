@@ -6172,5 +6172,47 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Loyal God of War",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "Adds Phys Pierce.\\nActivates the following Chain Effect when the demon with this skill downs an enemy:\\nRecovers 3 MP and heals own HP by 30%.\\n\\nLv2: +4% to AC.\\nLv3:+6% to AC. \\nLv4:+8% to AC. \\nLv5:+10% to AC. \\nLv6: +20% to AC.",
+    "Target": "",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "physical",
+    "Name": "Dragon Blade",
+    "JP Name": "",
+    "Cost": "7 MP",
+    "Description": "Inflicts Phys (Physical) damage (power: 150) with 30% crit rate on a single enemy. Activates the following Chain Effect when an attack is successful: Inflicts Phys (Physical) damage (power: 80) with 30% crit rate on all enemies.",
+    "Target": "Single Enemy",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Null Mortal",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "Adds Null Mortal.",
+    "Target": "Self",
+    "Skill Points": 12,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
   }
 ]
