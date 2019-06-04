@@ -6214,5 +6214,47 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Epitome of Aggression",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% to Phys hit rate, -45% chance of receiving status ailments.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Epitome of Madness",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% chance to inflict status ailments, +15% to EV.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Joy Song",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15％ to Healing skill effectiveness.Activates the following Chain Effect when a Press Turn Icon is lost due to an enemy skill:All party members recover 1 MP.",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
   }
 ]

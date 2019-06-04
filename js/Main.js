@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .16;
+var minorVer = .17;
 
 
 var demonData;
@@ -907,6 +907,7 @@ function PruneArchetypes() {
                     case "Hare of Inaba":
                     case "Kamiotoko":
                     case "Reiko Kashima":
+                    case "Parvati":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
