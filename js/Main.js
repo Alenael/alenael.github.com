@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .17;
+var minorVer = .18;
 
 
 var demonData;
