@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .18;
+var minorVer = .19;
 
 
 var demonData;
@@ -908,6 +908,8 @@ function PruneArchetypes() {
                     case "Kamiotoko":
                     case "Reiko Kashima":
                     case "Parvati":
+                    case "Cybele":
+                    case "Kabuso":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
