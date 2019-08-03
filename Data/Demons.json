@@ -53,7 +53,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Abaddon A"
+    "Alternate Name": "Abaddon A",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Abraxas",
@@ -109,7 +115,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Agathion",
@@ -165,7 +177,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Alice",
@@ -221,7 +239,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% to Dark Damage.",
+    "Panel 2": "Reduces the cost of Dark Skills by 1MP.",
+    "Panel 3": "Increases the uses of Die For Me! by 2.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Alilat",
@@ -277,7 +301,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Amaterasu",
@@ -333,7 +363,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% to Fire damage.",
+    "Panel 2": "-50% to Fire damage received.",
+    "Panel 3": "As long as this demon is alive, -20% to Fire damage received by all allies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag DEF +15 (MAX +150)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Ammut",
@@ -389,7 +425,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ananta",
@@ -445,7 +487,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "Reduces the cost of Diarahan by 1MP.",
+    "Panel 2": "-50% to Ice damage received.",
+    "Panel 3": "As long as this demon is alive, -20% to Ice damage received by all allies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag Def +15 (MAX +150)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Angel",
@@ -501,7 +549,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Anubis",
@@ -557,7 +611,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Apis",
@@ -613,7 +673,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Apsaras",
@@ -669,7 +735,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Arahabaki",
@@ -725,7 +797,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Archangel",
@@ -781,7 +859,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ares",
@@ -837,7 +921,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Arianrhod",
@@ -893,7 +983,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Asherah",
@@ -949,7 +1045,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "Reduces the cost of Mediarama by 1MP.",
+    "Panel 2": "-50% to Fire damage received.",
+    "Panel 3": "Increases the uses of Mother's Creation by 1.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag Def +15 (MAX +150)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Attis",
@@ -1005,7 +1107,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Azrael",
@@ -1061,7 +1169,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Azumi",
@@ -1117,7 +1231,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Baihu",
@@ -1173,7 +1293,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Baphomet",
@@ -1229,7 +1355,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Barong",
@@ -1285,7 +1417,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Beelzebub",
@@ -1341,7 +1479,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Beiji-Weng",
@@ -1397,7 +1541,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Berserker",
@@ -1453,7 +1603,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Bicorn",
@@ -1509,7 +1665,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Bishamonten",
@@ -1565,7 +1727,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Black Frost",
@@ -1621,7 +1789,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Black Ooze",
@@ -1677,7 +1851,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Blob",
@@ -1733,7 +1913,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Cerberus",
@@ -1789,7 +1975,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Chagrin",
@@ -1845,7 +2037,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Chatterskull",
@@ -1901,7 +2099,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Chernobog",
@@ -1957,7 +2161,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Chimera",
@@ -2013,7 +2223,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Chupacabra",
@@ -2069,7 +2285,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Cu Chulainn",
@@ -2125,7 +2347,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "-50% to Force damage received.",
+    "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80) <br>Mag ATK +8 (MAX +80)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Cu Sith",
@@ -2181,7 +2409,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dakini",
@@ -2237,7 +2471,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dantalian",
@@ -2293,7 +2533,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Decarabia",
@@ -2349,7 +2595,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dionysus",
@@ -2405,7 +2657,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dis",
@@ -2461,7 +2719,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dominion",
@@ -2517,7 +2781,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Efreet",
@@ -2573,7 +2843,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Eligor",
@@ -2629,7 +2905,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Feng Huang",
@@ -2685,7 +2967,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Fenrir",
@@ -2741,7 +3029,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Fomorian",
@@ -2797,7 +3091,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Forneus",
@@ -2853,7 +3153,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ganesha",
@@ -2909,7 +3215,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Garuda",
@@ -2965,7 +3277,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Girimekhala",
@@ -3021,7 +3339,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Gremlin",
@@ -3077,7 +3401,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Grendel",
@@ -3133,7 +3463,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Gucumatz",
@@ -3189,7 +3525,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Gui Xian",
@@ -3245,7 +3587,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Halloween Jack",
@@ -3301,7 +3649,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Pyro Jack"
+    "Alternate Name": "Pyro Jack",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hamsa",
@@ -3357,7 +3711,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hanuman",
@@ -3413,7 +3773,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hare of Inaba",
@@ -3469,7 +3835,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hathor",
@@ -3525,7 +3897,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hecatoncheires",
@@ -3581,7 +3959,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hel",
@@ -3637,7 +4021,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hell Biker",
@@ -3693,7 +4083,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Helper Frost",
@@ -3749,7 +4145,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Jack Frost"
+    "Alternate Name": "Jack Frost",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Heqet",
@@ -3805,7 +4207,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "High Pixie",
@@ -3861,7 +4269,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Horkos",
@@ -3917,7 +4331,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Horus",
@@ -3973,7 +4393,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Huang Di",
@@ -4029,7 +4455,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+20% to Critical hit rate.",
+    "Panel 2": "-50% to Critical hit rate of damage received.",
+    "Panel 3": "Activates the following Chain Effect when landing a critical hit:<br>Heals 15% HP of all party members.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Huang Long",
@@ -4085,7 +4517,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ikusa",
@@ -4141,7 +4579,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Illuyanka",
@@ -4197,7 +4641,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Incubus",
@@ -4253,7 +4703,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Inugami",
@@ -4309,7 +4765,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ippon-Datara",
@@ -4365,7 +4827,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ishtar",
@@ -4421,7 +4889,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Isis",
@@ -4477,7 +4951,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ixtab",
@@ -4533,7 +5013,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Izanami",
@@ -4589,7 +5075,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jack Frost",
@@ -4645,7 +5137,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Helper Frost"
+    "Alternate Name": "Helper Frost",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jatayu",
@@ -4701,7 +5199,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jeanne d'Arc",
@@ -4757,7 +5261,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jikokuten",
@@ -4813,7 +5323,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kaiwan",
@@ -4869,7 +5385,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kama",
@@ -4925,7 +5447,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kamiotoko",
@@ -4981,7 +5509,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kanbari",
@@ -5037,7 +5571,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kelpie",
@@ -5093,7 +5633,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kikuri-Hime",
@@ -5149,7 +5695,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "King Frost",
@@ -5205,7 +5757,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kinmamon",
@@ -5261,7 +5819,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Koppa Tengu",
@@ -5317,7 +5881,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Koumokuten",
@@ -5373,7 +5943,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kresnik",
@@ -5429,7 +6005,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kudlak",
@@ -5485,7 +6067,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kurama Tengu",
@@ -5541,7 +6129,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kushinada",
@@ -5597,7 +6191,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Lailah",
@@ -5653,7 +6253,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Lakshmi",
@@ -5709,7 +6315,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Leanan Sidhe",
@@ -5765,7 +6377,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Legion",
@@ -5821,7 +6439,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Lilim",
@@ -5877,7 +6501,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Lilith",
@@ -5933,7 +6563,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% chance to inflict status ailments.",
+    "Panel 2": "-50% to Dark damage received.",
+    "Panel 3": "Activates the following Chain Effect when enemy is Charmed:<br>30% chance to Bind all enemies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Loki",
@@ -5989,7 +6625,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Long",
@@ -6045,7 +6687,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Lucifer",
@@ -6101,7 +6749,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "+50% to max HP.",
+    "Panel 3": "+25% to Almighty damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Mad Gasser",
@@ -6157,7 +6811,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Makami",
@@ -6213,7 +6873,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Makara",
@@ -6269,7 +6935,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mara",
@@ -6325,7 +6997,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mastema",
@@ -6381,7 +7059,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Melchom",
@@ -6437,7 +7121,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mermaid",
@@ -6493,7 +7183,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Metatron",
@@ -6549,7 +7245,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "Reduces the cost of Almighty Skills by 1MP.",
+    "Panel 2": "-20% to Magic damage received",
+    "Panel 3": "+20% to Magic damage inflicted.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Michael",
@@ -6605,7 +7307,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "-50% to Light damage received.",
+    "Panel 3": "+25% to Light damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Mishaguji",
@@ -6661,7 +7369,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mitra",
@@ -6717,7 +7431,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mokoi",
@@ -6773,7 +7493,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Momunofu",
@@ -6829,7 +7555,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mot",
@@ -6885,7 +7617,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mother Harlot",
@@ -6941,7 +7679,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mothman",
@@ -6997,7 +7741,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Mou-Ryo",
@@ -7053,7 +7803,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Naga",
@@ -7109,7 +7865,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nekomata",
@@ -7165,7 +7927,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Nekomata A"
+    "Alternate Name": "Nekomata A",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nergal",
@@ -7221,7 +7989,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nozuchi",
@@ -7277,7 +8051,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nue",
@@ -7333,7 +8113,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Obariyon",
@@ -7389,7 +8175,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Oberon",
@@ -7445,7 +8237,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Odin",
@@ -7501,7 +8299,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ongyo-Ki",
@@ -7557,7 +8361,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Oni",
@@ -7613,7 +8423,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Orochi",
@@ -7669,7 +8485,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Orthrus",
@@ -7725,7 +8547,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ose",
@@ -7781,7 +8609,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pallas Athena",
@@ -7837,7 +8671,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Patrimpas",
@@ -7893,7 +8733,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pazuzu",
@@ -7949,7 +8795,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Peallaidh",
@@ -8005,7 +8857,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pele",
@@ -8061,7 +8919,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Persephone",
@@ -8117,7 +8981,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Phantom",
@@ -8173,7 +9043,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pisaca",
@@ -8229,7 +9105,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pixie",
@@ -8285,7 +9167,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Power",
@@ -8341,7 +9229,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Preta",
@@ -8397,7 +9291,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Principality",
@@ -8453,7 +9353,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Prometheus",
@@ -8509,7 +9415,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Pyro Jack",
@@ -8565,7 +9477,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Halloween Jack"
+    "Alternate Name": "Halloween Jack",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Quetzalcoatl",
@@ -8621,7 +9539,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Raijuu",
@@ -8677,7 +9601,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Rakshasa",
@@ -8733,7 +9663,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Rama",
@@ -8789,7 +9725,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "+15% Phys evasion rate.",
+    "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Rangda",
@@ -8845,7 +9787,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Reiko Kashima",
@@ -8901,7 +9849,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Samael",
@@ -8957,7 +9911,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% chance to inflict status ailments.",
+    "Panel 2": "Reduces the cost of God's Malice by 1MP.",
+    "Panel 3": "Activates the following Chain Effect at the beginning of your turn:<br>Removes Barrier and Repel Mag from all enemies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Sandalphon",
@@ -9013,7 +9973,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Sandman",
@@ -9069,7 +10035,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Sarasvati",
@@ -9125,7 +10097,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Scathach",
@@ -9181,7 +10159,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Setanta",
@@ -9237,7 +10221,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Seth",
@@ -9293,7 +10283,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% to Phys damage.",
+    "Panel 2": "+50% to max HP.",
+    "Panel 3": "Reduces the cost of Ouas by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Shadow",
@@ -9349,7 +10345,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Shiisaa",
@@ -9405,7 +10407,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Shiki-Ouji",
@@ -9461,7 +10469,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Shikome",
@@ -9517,7 +10531,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Shiva",
@@ -9573,7 +10593,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Shiva A"
+    "Alternate Name": "Shiva A",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Siegfried",
@@ -9629,7 +10655,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "-50% to Phys damage received.",
+    "Panel 2": "Adds Phys Pierce.",
+    "Panel 3": "Reduces the cost of Phys Skills by 1MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Silky",
@@ -9685,7 +10717,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Skadi",
@@ -9741,7 +10779,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Sleipnir",
@@ -9797,7 +10841,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Slime",
@@ -9853,7 +10903,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Sphinx",
@@ -9909,7 +10965,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Succubus",
@@ -9965,7 +11027,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Suparna",
@@ -10021,7 +11089,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Surt",
@@ -10077,7 +11151,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% to single-target attack damage.",
+    "Panel 2": "-50% to Fire damage received.",
+    "Panel 3": "+25% to Fire damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80)<br>Mag ATK +8 (MAX +80)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Susano-o",
@@ -10133,7 +11213,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% to single-target attack damage.",
+    "Panel 2": "-50% to Force damage received.",
+    "Panel 3": "+25% to single-target attack damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Take-Minakata",
@@ -10189,7 +11275,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Tam Lin",
@@ -10245,7 +11337,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Thor",
@@ -10301,7 +11399,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "-50% to Elec damage received.",
+    "Panel 3": "+25% to Elec damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80) <br>Mag ATK +8 (MAX +80)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Throne",
@@ -10357,7 +11461,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Titania",
@@ -10413,7 +11523,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Trumpeter",
@@ -10469,7 +11585,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "+15% chance to inflict status ailments.",
+    "Panel 2": "Activates the following Chain Effect when entering a statue of Concentrate:<br>Removes Barrier from all enemies.",
+    "Panel 3": "Reduces the cost of Concentrate by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Tsukuyomi",
@@ -10525,7 +11647,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Unicorn",
@@ -10581,7 +11709,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Valkyrie",
@@ -10637,7 +11771,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Vetala",
@@ -10693,7 +11833,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Virtue",
@@ -10749,7 +11895,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Vishnu",
@@ -10805,7 +11957,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "White Rider",
@@ -10861,7 +12019,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Wu Kong",
@@ -10917,7 +12081,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Yaksini",
@@ -10973,7 +12143,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Yatagarasu",
@@ -11029,7 +12205,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Yoshitsune",
@@ -11085,7 +12267,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Yurlungur",
@@ -11141,7 +12329,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Zaou-Gongen",
@@ -11197,7 +12391,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Zhong Kui",
@@ -11253,7 +12453,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Zouchouten",
@@ -11309,7 +12515,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Orcus",
@@ -11365,7 +12577,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Bodyconian",
@@ -11421,7 +12639,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Man Eater",
@@ -11477,7 +12701,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Masakado",
@@ -11533,7 +12763,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Bayonetta☆",
@@ -11589,7 +12825,13 @@
     "L Witch": 40,
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Bayonetta"
+    "Alternate Name": "Bayonetta",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jeanne☆",
@@ -11645,7 +12887,13 @@
     "L Witch": 40,
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Jeanne"
+    "Alternate Name": "Jeanne",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Beloved",
@@ -11701,7 +12949,13 @@
     "L Witch": 15,
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Bayonetta",
@@ -11757,7 +13011,13 @@
     "L Witch": 15,
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Bayonetta☆"
+    "Alternate Name": "Bayonetta☆",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Jeanne",
@@ -11813,7 +13073,13 @@
     "L Witch": 15,
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Jeanne☆"
+    "Alternate Name": "Jeanne☆",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kusi Mitama",
@@ -11869,7 +13135,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nigi Mitama",
@@ -11925,7 +13197,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Ara Mitama",
@@ -11981,7 +13259,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Saki Mitama",
@@ -12037,7 +13321,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Abaddon A",
@@ -12093,7 +13383,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Abaddon"
+    "Alternate Name": "Abaddon",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nekomata A",
@@ -12149,7 +13445,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Nekomata"
+    "Alternate Name": "Nekomata",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nero☆",
@@ -12205,7 +13507,13 @@
     "L Witch": "",
     "S Soul": 80,
     "L Soul": 40,
-    "Alternate Name": "Nero"
+    "Alternate Name": "Nero",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dante☆",
@@ -12261,7 +13569,13 @@
     "L Witch": "",
     "S Soul": 80,
     "L Soul": 40,
-    "Alternate Name": "Dante"
+    "Alternate Name": "Dante",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "V☆",
@@ -12317,7 +13631,13 @@
     "L Witch": "",
     "S Soul": 80,
     "L Soul": 40,
-    "Alternate Name": "V"
+    "Alternate Name": "V",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nero",
@@ -12373,7 +13693,13 @@
     "L Witch": "",
     "S Soul": 30,
     "L Soul": 15,
-    "Alternate Name": "Nero☆"
+    "Alternate Name": "Nero☆",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Dante",
@@ -12429,7 +13755,13 @@
     "L Witch": "",
     "S Soul": 30,
     "L Soul": 15,
-    "Alternate Name": "Dante☆"
+    "Alternate Name": "Dante☆",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "V",
@@ -12485,7 +13817,13 @@
     "L Witch": "",
     "S Soul": 30,
     "L Soul": 15,
-    "Alternate Name": "V☆"
+    "Alternate Name": "V☆",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Shiva A",
@@ -12541,7 +13879,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "Shiva"
+    "Alternate Name": "Shiva",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Matador",
@@ -12597,7 +13941,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Nadja",
@@ -12653,7 +14003,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Daisoujou",
@@ -12709,7 +14065,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Guan Yu",
@@ -12765,7 +14127,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Parvati",
@@ -12821,7 +14189,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Gogmagog",
@@ -12877,7 +14251,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Tlaltecuhtli",
@@ -12933,7 +14313,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Titan",
@@ -12989,7 +14375,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kwancha",
@@ -13045,7 +14437,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Hua Po",
@@ -13101,7 +14499,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kodama",
@@ -13157,7 +14561,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Koropokkur",
@@ -13213,7 +14623,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Kabuso",
@@ -13269,7 +14685,13 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Cybele",
@@ -13325,38 +14747,106 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   },
   {
     "Name": "Indrajit",
     "Race": "Tenma",
     "Grade": 88,
     "Rarity": 5,
-    "Phys": "",
+    "Phys": "rs",
     "Fire": "",
-    "Ice": "",
-    "Elec": "",
+    "Ice": "wk",
+    "Elec": "sr",
     "Force": "",
-    "Light": "",
-    "Dark": "",
-    "6★ HP": "",
-    "6★ Strength": "",
-    "6★ Magic": "",
-    "6★ Vitality": "",
-    "6★ Agility": "",
-    "6★ Luck": "",
+    "Light": "rs",
+    "Dark": "rs",
+    "6★ HP": 1023,
+    "6★ Strength": 90,
+    "6★ Magic": 216,
+    "6★ Vitality": 139,
+    "6★ Agility": 168,
+    "6★ Luck": 150,
     "Skill 1": "Merciless Blow",
-    "Skill 2": "Kumo no Houkou",
-    "Skill 3": "Todoroki Kaminari",
-    "Clear Awaken": "Agility Amp III",
+    "Skill 2": "Lord of Clouds",
+    "Skill 3": "Lightning Shower",
+    "Clear Awaken": "",
     "Red Awaken": "Mazionga",
     "Yellow Awaken": "Concentrate",
     "Purple Awaken": "Master Assassin",
     "Teal Awaken": "Drain Ice",
     "Red Gacha": "Elec Amp",
-    "Yellow Gacha": "Elec Enhance",
+    "Yellow Gacha": "Elec Enhancement",
     "Purple Gacha": "Thunderclap",
     "Teal Gacha": "Null Bind",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": 15,
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": 15,
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": 15,
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Elec damage.",
+    "Panel 2": "-50% to Elec damage recieved.",
+    "Panel 3": "+25% to single-target attack damage.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
+  },
+  {
+    "Name": "Kartikeya",
+    "Race": "Fury",
+    "Grade": 80,
+    "Rarity": 5,
+    "Phys": "rs",
+    "Fire": "",
+    "Ice": "",
+    "Elec": "",
+    "Force": "",
+    "Light": "rs",
+    "Dark": "rs",
+    "6★ HP": 783,
+    "6★ Strength": 190,
+    "6★ Magic": 68,
+    "6★ Vitality": 88,
+    "6★ Agility": 256,
+    "6★ Luck": 157,
+    "Skill 1": "Great Aim",
+    "Skill 2": "Mortal Jihad",
+    "Skill 3": "Skanda",
+    "Clear Awaken": "Speedster",
+    "Red Awaken": "",
+    "Yellow Awaken": "",
+    "Purple Awaken": "",
+    "Teal Awaken": "",
+    "Red Gacha": "",
+    "Yellow Gacha": "",
+    "Purple Gacha": "",
+    "Teal Gacha": "",
     "Type": "Attack",
     "PATK": "",
     "PDEF": "",
@@ -13381,6 +14871,136 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": ""
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
+  },
+  {
+    "Name": "Yama",
+    "Race": "Tenma",
+    "Grade": 84,
+    "Rarity": 5,
+    "Phys": "",
+    "Fire": "nu",
+    "Ice": "",
+    "Elec": "",
+    "Force": "",
+    "Light": "",
+    "Dark": "nu",
+    "6★ HP": 1112,
+    "6★ Strength": 68,
+    "6★ Magic": 202,
+    "6★ Vitality": 158,
+    "6★ Agility": 154,
+    "6★ Luck": 170,
+    "Skill 1": "Mudodyne",
+    "Skill 2": "Enma's Judgement",
+    "Skill 3": "Guilty",
+    "Clear Awaken": "",
+    "Red Awaken": "Mamudodyne",
+    "Yellow Awaken": "Judgement",
+    "Purple Awaken": "Dark Pierce",
+    "Teal Awaken": "Drain Fire",
+    "Red Gacha": "Dark Amp",
+    "Yellow Gacha": "Dark Enhancement",
+    "Purple Gacha": "Infernal Mask",
+    "Teal Gacha": "Tetra Shift",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": 15,
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": 15,
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": 15,
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Dark damage.",
+    "Panel 2": "-50% to Dark damage received.",
+    "Panel 3": "Reduces the cost of Dark Skills by 1MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250"
+  },
+  {
+    "Name": "Asura",
+    "Race": "Tenma",
+    "Grade": 80,
+    "Rarity": 5,
+    "Phys": "rs",
+    "Fire": "rp",
+    "Ice": "wk",
+    "Elec": "",
+    "Force": "",
+    "Light": "nu",
+    "Dark": "nu",
+    "6★ HP": 1107,
+    "6★ Strength": 212,
+    "6★ Magic": 116,
+    "6★ Vitality": 157,
+    "6★ Agility": 163,
+    "6★ Luck": 146,
+    "Skill 1": "Mana Aid",
+    "Skill 2": "Three Faces Six Arms",
+    "Skill 3": "Ashura",
+    "Clear Awaken": "",
+    "Red Awaken": "Gigantomachia",
+    "Yellow Awaken": "Blood Rush",
+    "Purple Awaken": "Great Aim",
+    "Teal Awaken": "Repel Phys",
+    "Red Gacha": "Epitome of Carnage",
+    "Yellow Gacha": "Auto-Taruka",
+    "Purple Gacha": "Phys Amp",
+    "Teal Gacha": "Wild Instinct",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": 15,
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": 15,
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": 15,
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": 15,
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Phys hit rate.",
+    "Panel 2": "-25% to Random Attack damage recieved.",
+    "Panel 3": "Reduces the cost of Ashura by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250"
   }
 ]
