@@ -997,8 +997,8 @@ function SetupDemonControls(control) {
             var di = GetDemonInfo(demon.Name);
             var panelStats = "";
 
-            if (demon["Panel 1 Stats"] != "")
-                panelStats = "Panel 1: " + demon["Panel 1 Stats"] + "\nPanel 2: " + demon["Panel 2 Stats"] + "\nPanel 3: " + demon["Panel 3 Stats"] + "\n\n";            
+            if (demon["Panel 1"] != "")
+                panelStats = "Panel 1: " + demon["Panel 1"] + " " + demon["Panel 1 Stats"] + "\nPanel 2: " + demon["Panel 2"] + " " + demon["Panel 2 Stats"] + "\nPanel 3: " + demon["Panel 3"] + " " + demon["Panel 3 Stats"] + "\n\n";            
 
             if (di != null) {
                 $(demonImages[i]).attr('data-original-title', panelStats + di.Description + "\n\n" + di.RecommendedSkills + "\n\n" + di.Brands);
