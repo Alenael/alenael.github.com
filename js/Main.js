@@ -995,13 +995,17 @@ function SetupDemonControls(control) {
             demonImages[i].style.visibility = 'visible';
 
             var di = GetDemonInfo(demon.Name);
-            
+            var panelStats = "";
+
+            if (demon["Panel 1 Stats"] != "")
+                panelStats = "Panel 1: " + demon["Panel 1 Stats"] + "\nPanel 2: " + demon["Panel 2 Stats"] + "\nPanel 3: " + demon["Panel 3 Stats"] + "\n\n";            
+
             if (di != null) {
-                $(demonImages[i]).attr('data-original-title', di.Description + "\n\n" + di.RecommendedSkills + "\n\n" + di.Brands);
+                $(demonImages[i]).attr('data-original-title', panelStats + di.Description + "\n\n" + di.RecommendedSkills + "\n\n" + di.Brands);
                 $(demonImgArchtype[i]).attr('data-original-title', GetDemonInfoByAchtype(di, $(demonArchtype[i]).val()));
             }
             else {
-                $(demonImages[i]).attr('data-original-title', "");
+                $(demonImages[i]).attr('data-original-title', panelStats);
                 $(demonImgArchtype[i]).attr('data-original-title', "");
             }
 
