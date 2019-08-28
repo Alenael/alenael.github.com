@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .21;
+var minorVer = .22;
 
 
 var demonData;
@@ -1231,6 +1231,24 @@ function GetDemonSpeed(name, num) {
                     extraPercent += .25;
             }
         }
+
+        if (demonEdit1[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6].value / 100;        
+
+        if (demonEdit2[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6 + 1].value / 100;
+        
+        if (demonEdit3[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6 + 2].value / 100;        
+
+        if (demonEdit4[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6 + 3].value / 100;        
+
+        if (demonEdit5[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6 + 4].value / 100;        
+
+        if (demonEdit6[num].value == "speed")
+            extraPercent += demonEditPercent[num * 6 + 5].value / 100;        
 
         speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
     }
