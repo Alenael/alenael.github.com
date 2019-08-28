@@ -1496,6 +1496,20 @@ function TurnOrder() {
 
     for (var i = 0; i < demonsSel.length; i++) {
         demons.push(GetDemon(demonsSel[i].value));
+
+        if (demons[i] != null) {
+            var tempBrands = $(demonBrands[i]).val();
+            demons[i].hasLeadBrand = false;
+            demons[i].index = i;
+
+            if (tempBrands !== null) {
+                for (var j = 0; j < tempBrands.length; j++) {
+                    if (tempBrands[j] === "lead") {
+                        demons[i].hasLeadBrand = true;                        
+                    }
+                }
+            }
+        }
     }
 
     //Sorts our demons by agi only (Lead brands will be added later for this)
@@ -1507,13 +1521,20 @@ function TurnOrder() {
                 return -1;
             } else if (a === b) {
                 return 0;
-            }
+            }           
             if (a === b) {
                 return 0;
-            } 
-            else {
-                return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;
             }
+
+            //If b is in front of a
+            if (a.index == b.index + 1) {
+                if (a.hasLeadBrand == true && b.hasLeadBrand == false)
+                    return -1;
+                else if (a.hasLeadBrand == false && b.hasLeadBrand == true)
+                    return 1;
+            }
+
+            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;            
         }
     };
 
@@ -1545,7 +1566,7 @@ function TurnOrder() {
         }
     }
 
-    //Deslect our button
+    //Deselect our button
     $('speedButton').blur();
 }
 
