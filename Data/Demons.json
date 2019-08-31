@@ -1,6 +1,7 @@
 ﻿[
   {
     "Name": "Abaddon",
+    "Name JP": "アバドン",
     "Race": "Tyrant",
     "Grade": 60,
     "Rarity": 4,
@@ -63,6 +64,7 @@
   },
   {
     "Name": "Abraxas",
+    "Name JP": "アブラクサス",
     "Race": "Vile",
     "Grade": 26,
     "Rarity": 2,
@@ -125,6 +127,7 @@
   },
   {
     "Name": "Agathion",
+    "Name JP": "アガシオン",
     "Race": "Yoma",
     "Grade": 5,
     "Rarity": 1,
@@ -187,6 +190,7 @@
   },
   {
     "Name": "Alice",
+    "Name JP": "アリス",
     "Race": "Fiend",
     "Grade": 89,
     "Rarity": 5,
@@ -249,6 +253,7 @@
   },
   {
     "Name": "Alilat",
+    "Name JP": "アリラト",
     "Race": "Entity",
     "Grade": 85,
     "Rarity": 5,
@@ -311,6 +316,7 @@
   },
   {
     "Name": "Amaterasu",
+    "Name JP": "アマテラス",
     "Race": "Deity",
     "Grade": 82,
     "Rarity": 5,
@@ -373,6 +379,7 @@
   },
   {
     "Name": "Ammut",
+    "Name JP": "アーマーン",
     "Race": "Beast",
     "Grade": 44,
     "Rarity": 3,
@@ -435,6 +442,7 @@
   },
   {
     "Name": "Ananta",
+    "Name JP": "アナンタ",
     "Race": "Snake",
     "Grade": 83,
     "Rarity": 5,
@@ -497,6 +505,7 @@
   },
   {
     "Name": "Angel",
+    "Name JP": "エンジェル",
     "Race": "Divine",
     "Grade": 20,
     "Rarity": 2,
@@ -559,6 +568,7 @@
   },
   {
     "Name": "Anubis",
+    "Name JP": "アヌビス",
     "Race": "Avatar",
     "Grade": 70,
     "Rarity": 4,
@@ -621,6 +631,7 @@
   },
   {
     "Name": "Apis",
+    "Name JP": "アピス",
     "Race": "Holy",
     "Grade": 44,
     "Rarity": 3,
@@ -683,6 +694,7 @@
   },
   {
     "Name": "Apsaras",
+    "Name JP": "アプサラス",
     "Race": "Yoma",
     "Grade": 11,
     "Rarity": 1,
@@ -745,6 +757,7 @@
   },
   {
     "Name": "Arahabaki",
+    "Name JP": "アラハバキ",
     "Race": "Vile",
     "Grade": 50,
     "Rarity": 3,
@@ -807,6 +820,7 @@
   },
   {
     "Name": "Archangel",
+    "Name JP": "アークエンジェ",
     "Race": "Divine",
     "Grade": 25,
     "Rarity": 2,
@@ -869,6 +883,7 @@
   },
   {
     "Name": "Ares",
+    "Name JP": "アレス",
     "Race": "Fury",
     "Grade": 44,
     "Rarity": 3,
@@ -931,6 +946,7 @@
   },
   {
     "Name": "Arianrhod",
+    "Name JP": "アリアンロッド",
     "Race": "Megami",
     "Grade": 44,
     "Rarity": 3,
@@ -993,6 +1009,7 @@
   },
   {
     "Name": "Asherah",
+    "Name JP": "アシェラト",
     "Race": "Lady",
     "Grade": 83,
     "Rarity": 5,
@@ -1055,6 +1072,7 @@
   },
   {
     "Name": "Attis",
+    "Name JP": "アティス",
     "Race": "Zealot",
     "Grade": 65,
     "Rarity": 4,
@@ -1117,6 +1135,7 @@
   },
   {
     "Name": "Azrael",
+    "Name JP": "アズラエル",
     "Race": "Herald",
     "Grade": 67,
     "Rarity": 4,
@@ -1179,6 +1198,7 @@
   },
   {
     "Name": "Azumi",
+    "Name JP": "アズミ",
     "Race": "Brute",
     "Grade": 3,
     "Rarity": 1,
@@ -1241,6 +1261,7 @@
   },
   {
     "Name": "Baihu",
+    "Name JP": "ビャッコ",
     "Race": "Holy",
     "Grade": 48,
     "Rarity": 3,
@@ -1303,6 +1324,7 @@
   },
   {
     "Name": "Baphomet",
+    "Name JP": "バフォメット",
     "Race": "Vile",
     "Grade": 41,
     "Rarity": 3,
@@ -1365,6 +1387,7 @@
   },
   {
     "Name": "Barong",
+    "Name JP": "バロン",
     "Race": "Avatar",
     "Grade": 84,
     "Rarity": 5,
@@ -1427,6 +1450,7 @@
   },
   {
     "Name": "Beelzebub",
+    "Name JP": "ベルゼブブ",
     "Race": "Tyrant",
     "Grade": 68,
     "Rarity": 4,
@@ -1489,6 +1513,7 @@
   },
   {
     "Name": "Beiji-Weng",
+    "Name JP": "ホクトセイクン",
     "Race": "Fury",
     "Grade": 69,
     "Rarity": 4,
@@ -1551,6 +1576,7 @@
   },
   {
     "Name": "Berserker",
+    "Name JP": "ベルセルク",
     "Race": "Brute",
     "Grade": 54,
     "Rarity": 3,
@@ -1613,6 +1639,7 @@
   },
   {
     "Name": "Bicorn",
+    "Name JP": "バイコーン",
     "Race": "Wilder",
     "Grade": 9,
     "Rarity": 1,
@@ -1675,6 +1702,7 @@
   },
   {
     "Name": "Bishamonten",
+    "Name JP": "ビシャモンテン",
     "Race": "Kishin",
     "Grade": 70,
     "Rarity": 4,
@@ -1737,6 +1765,7 @@
   },
   {
     "Name": "Black Frost",
+    "Name JP": "じゃあくフロスト",
     "Race": "Jaki",
     "Grade": 81,
     "Rarity": 5,
@@ -1799,6 +1828,7 @@
   },
   {
     "Name": "Black Ooze",
+    "Name JP": "ブラックウーズ",
     "Race": "Foul",
     "Grade": 25,
     "Rarity": 2,
@@ -1861,6 +1891,7 @@
   },
   {
     "Name": "Blob",
+    "Name JP": "ブロブ",
     "Race": "Foul",
     "Grade": 20,
     "Rarity": 2,
@@ -1923,6 +1954,7 @@
   },
   {
     "Name": "Cerberus",
+    "Name JP": "ケルベロス",
     "Race": "Beast",
     "Grade": 61,
     "Rarity": 4,
@@ -1985,6 +2017,7 @@
   },
   {
     "Name": "Chagrin",
+    "Name JP": "チャグリン",
     "Race": "Wilder",
     "Grade": 4,
     "Rarity": 1,
@@ -2047,6 +2080,7 @@
   },
   {
     "Name": "Chatterskull",
+    "Name JP": "ラフィン・スカル",
     "Race": "Haunt",
     "Grade": 44,
     "Rarity": 3,
@@ -2109,6 +2143,7 @@
   },
   {
     "Name": "Chernobog",
+    "Name JP": "チェルノボグ",
     "Race": "Reaper",
     "Grade": 64,
     "Rarity": 4,
@@ -2171,6 +2206,7 @@
   },
   {
     "Name": "Chimera",
+    "Name JP": "キマイラ",
     "Race": "Avatar",
     "Grade": 49,
     "Rarity": 3,
@@ -2233,6 +2269,7 @@
   },
   {
     "Name": "Chupacabra",
+    "Name JP": "チュパカブラ",
     "Race": "UMA",
     "Grade": 15,
     "Rarity": 1,
@@ -2295,6 +2332,7 @@
   },
   {
     "Name": "Cu Chulainn",
+    "Name JP": "クー・フーリン",
     "Race": "Genma",
     "Grade": 81,
     "Rarity": 5,
@@ -2352,11 +2390,12 @@
     "Panel 2": "-50% to Force damage received.",
     "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
-    "Panel 2 Stats": "Phys ATK +8 (MAX +80) <br>Mag ATK +8 (MAX +80)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80) \nMag ATK +8 (MAX +80)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Cu Sith",
+    "Name JP": "カーシー",
     "Race": "Beast",
     "Grade": 3,
     "Rarity": 1,
@@ -2419,6 +2458,7 @@
   },
   {
     "Name": "Dakini",
+    "Name JP": "ダーキニー",
     "Race": "Femme",
     "Grade": 53,
     "Rarity": 3,
@@ -2481,6 +2521,7 @@
   },
   {
     "Name": "Dantalian",
+    "Name JP": "ダンタリアン",
     "Race": "Fallen",
     "Grade": 70,
     "Rarity": 4,
@@ -2543,6 +2584,7 @@
   },
   {
     "Name": "Decarabia",
+    "Name JP": "デカラビア",
     "Race": "Fallen",
     "Grade": 23,
     "Rarity": 2,
@@ -2605,6 +2647,7 @@
   },
   {
     "Name": "Dionysus",
+    "Name JP": "ディオニュソス",
     "Race": "Zealot",
     "Grade": 64,
     "Rarity": 4,
@@ -2667,6 +2710,7 @@
   },
   {
     "Name": "Dis",
+    "Name JP": "ディース",
     "Race": "Yoma",
     "Grade": 34,
     "Rarity": 2,
@@ -2729,6 +2773,7 @@
   },
   {
     "Name": "Dominion",
+    "Name JP": "ドミニオン",
     "Race": "Divine",
     "Grade": 53,
     "Rarity": 3,
@@ -2791,6 +2836,7 @@
   },
   {
     "Name": "Efreet",
+    "Name JP": "イフリート",
     "Race": "Yoma",
     "Grade": 52,
     "Rarity": 3,
@@ -2853,6 +2899,7 @@
   },
   {
     "Name": "Eligor",
+    "Name JP": "エリゴール",
     "Race": "Fallen",
     "Grade": 10,
     "Rarity": 1,
@@ -2915,6 +2962,7 @@
   },
   {
     "Name": "Feng Huang",
+    "Name JP": "スザク",
     "Race": "Avian",
     "Grade": 53,
     "Rarity": 3,
@@ -2977,6 +3025,7 @@
   },
   {
     "Name": "Fenrir",
+    "Name JP": "フェンリル",
     "Race": "Wilder",
     "Grade": 61,
     "Rarity": 4,
@@ -3039,6 +3088,7 @@
   },
   {
     "Name": "Fomorian",
+    "Name JP": "フォーモリア",
     "Race": "Night",
     "Grade": 30,
     "Rarity": 2,
@@ -3101,6 +3151,7 @@
   },
   {
     "Name": "Forneus",
+    "Name JP": "フォルネウス",
     "Race": "Fallen",
     "Grade": 41,
     "Rarity": 3,
@@ -3163,6 +3214,7 @@
   },
   {
     "Name": "Ganesha",
+    "Name JP": "ガネーシャ",
     "Race": "Yoma",
     "Grade": 66,
     "Rarity": 4,
@@ -3225,6 +3277,7 @@
   },
   {
     "Name": "Garuda",
+    "Name JP": "ガルーダ",
     "Race": "Avian",
     "Grade": 80,
     "Rarity": 5,
@@ -3287,6 +3340,7 @@
   },
   {
     "Name": "Girimekhala",
+    "Name JP": "ギリメカラ",
     "Race": "Vile",
     "Grade": 67,
     "Rarity": 4,
@@ -3349,6 +3403,7 @@
   },
   {
     "Name": "Gremlin",
+    "Name JP": "グレムリン",
     "Race": "Jaki",
     "Grade": 11,
     "Rarity": 1,
@@ -3411,6 +3466,7 @@
   },
   {
     "Name": "Grendel",
+    "Name JP": "グレンデル",
     "Race": "Jaki",
     "Grade": 51,
     "Rarity": 3,
@@ -3473,6 +3529,7 @@
   },
   {
     "Name": "Gucumatz",
+    "Name JP": "グクマッツ",
     "Race": "Dragon",
     "Grade": 69,
     "Rarity": 4,
@@ -3535,6 +3592,7 @@
   },
   {
     "Name": "Gui Xian",
+    "Name JP": "ゲンブ",
     "Race": "Snake",
     "Grade": 45,
     "Rarity": 3,
@@ -3597,6 +3655,7 @@
   },
   {
     "Name": "Halloween Jack",
+    "Name JP": "トリック・ランタン",
     "Race": "Fairy",
     "Grade": 65,
     "Rarity": 4,
@@ -3659,6 +3718,7 @@
   },
   {
     "Name": "Hamsa",
+    "Name JP": "ハンサ",
     "Race": "Avian",
     "Grade": 24,
     "Rarity": 2,
@@ -3721,6 +3781,7 @@
   },
   {
     "Name": "Hanuman",
+    "Name JP": "ハヌマーン",
     "Race": "Genma",
     "Grade": 60,
     "Rarity": 4,
@@ -3783,6 +3844,7 @@
   },
   {
     "Name": "Hare of Inaba",
+    "Name JP": "イナバシロウサギ",
     "Race": "UMA",
     "Grade": 41,
     "Rarity": 3,
@@ -3845,6 +3907,7 @@
   },
   {
     "Name": "Hathor",
+    "Name JP": "ハトホル",
     "Race": "Megami",
     "Grade": 27,
     "Rarity": 2,
@@ -3907,6 +3970,7 @@
   },
   {
     "Name": "Hecatoncheires",
+    "Name JP": "ヘカトンケイル",
     "Race": "Jaki",
     "Grade": 74,
     "Rarity": 4,
@@ -3969,6 +4033,7 @@
   },
   {
     "Name": "Hel",
+    "Name JP": "ヘル",
     "Race": "Reaper",
     "Grade": 60,
     "Rarity": 4,
@@ -4031,6 +4096,7 @@
   },
   {
     "Name": "Hell Biker",
+    "Name JP": "ヘルズエンジェル",
     "Race": "Fiend",
     "Grade": 77,
     "Rarity": 4,
@@ -4093,6 +4159,7 @@
   },
   {
     "Name": "Helper Frost",
+    "Name JP": "おてつだいフロスト",
     "Race": "Fairy",
     "Grade": 63,
     "Rarity": 4,
@@ -4155,6 +4222,7 @@
   },
   {
     "Name": "Heqet",
+    "Name JP": "へケト",
     "Race": "Holy",
     "Grade": 27,
     "Rarity": 2,
@@ -4217,6 +4285,7 @@
   },
   {
     "Name": "High Pixie",
+    "Name JP": "ハイピクシー",
     "Race": "Fairy",
     "Grade": 24,
     "Rarity": 2,
@@ -4279,6 +4348,7 @@
   },
   {
     "Name": "Horkos",
+    "Name JP": "オーカス",
     "Race": "Tyrant",
     "Grade": 46,
     "Rarity": 3,
@@ -4341,6 +4411,7 @@
   },
   {
     "Name": "Horus",
+    "Name JP": "ホルス",
     "Race": "Deity",
     "Grade": 49,
     "Rarity": 3,
@@ -4403,6 +4474,7 @@
   },
   {
     "Name": "Huang Di",
+    "Name JP": "コウテイ",
     "Race": "Hero",
     "Grade": 88,
     "Rarity": 5,
@@ -4458,13 +4530,14 @@
     "Alternate Name": "",
     "Panel 1": "+20% to Critical hit rate.",
     "Panel 2": "-50% to Critical hit rate of damage received.",
-    "Panel 3": "Activates the following Chain Effect when landing a critical hit:<br>Heals 15% HP of all party members.",
+    "Panel 3": "Activates the following Chain Effect when landing a critical hit:\nHeals 15% HP of all party members.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Huang Long",
+    "Name JP": "コウリュウ",
     "Race": "Dragon",
     "Grade": 88,
     "Rarity": 5,
@@ -4527,6 +4600,7 @@
   },
   {
     "Name": "Ikusa",
+    "Name JP": "ヨモツイクサ",
     "Race": "Brute",
     "Grade": 41,
     "Rarity": 3,
@@ -4589,6 +4663,7 @@
   },
   {
     "Name": "Illuyanka",
+    "Name JP": "イルルヤンカシュ",
     "Race": "Dragon",
     "Grade": 47,
     "Rarity": 3,
@@ -4651,6 +4726,7 @@
   },
   {
     "Name": "Incubus",
+    "Name JP": "インキュバス",
     "Race": "Night",
     "Grade": 21,
     "Rarity": 2,
@@ -4713,6 +4789,7 @@
   },
   {
     "Name": "Inugami",
+    "Name JP": "イヌガミ",
     "Race": "Beast",
     "Grade": 9,
     "Rarity": 1,
@@ -4775,6 +4852,7 @@
   },
   {
     "Name": "Ippon-Datara",
+    "Name JP": "イッポンダタラ",
     "Race": "Jaki",
     "Grade": 26,
     "Rarity": 2,
@@ -4837,6 +4915,7 @@
   },
   {
     "Name": "Ishtar",
+    "Name JP": "イシュタル",
     "Race": "Megami",
     "Grade": 82,
     "Rarity": 5,
@@ -4899,6 +4978,7 @@
   },
   {
     "Name": "Isis",
+    "Name JP": "イシス",
     "Race": "Lady",
     "Grade": 54,
     "Rarity": 3,
@@ -4961,6 +5041,7 @@
   },
   {
     "Name": "Ixtab",
+    "Name JP": "イシュタム",
     "Race": "Reaper",
     "Grade": 84,
     "Rarity": 5,
@@ -5023,6 +5104,7 @@
   },
   {
     "Name": "Izanami",
+    "Name JP": "イザナミ",
     "Race": "Megami",
     "Grade": 89,
     "Rarity": 5,
@@ -5085,6 +5167,7 @@
   },
   {
     "Name": "Jack Frost",
+    "Name JP": "ジャックフロスト",
     "Race": "Fairy",
     "Grade": 7,
     "Rarity": 1,
@@ -5147,6 +5230,7 @@
   },
   {
     "Name": "Jatayu",
+    "Name JP": "ジャターユ",
     "Race": "Avian",
     "Grade": 44,
     "Rarity": 3,
@@ -5209,6 +5293,7 @@
   },
   {
     "Name": "Jeanne d'Arc",
+    "Name JP": "ジャンヌ・ダルク",
     "Race": "Hero",
     "Grade": 78,
     "Rarity": 4,
@@ -5271,6 +5356,7 @@
   },
   {
     "Name": "Jikokuten",
+    "Name JP": "ジコクテン",
     "Race": "Kishin",
     "Grade": 62,
     "Rarity": 4,
@@ -5333,6 +5419,7 @@
   },
   {
     "Name": "Kaiwan",
+    "Name JP": "キウン",
     "Race": "Night",
     "Grade": 42,
     "Rarity": 3,
@@ -5395,6 +5482,7 @@
   },
   {
     "Name": "Kama",
+    "Name JP": "カーマ",
     "Race": "Enigma",
     "Grade": 75,
     "Rarity": 4,
@@ -5457,6 +5545,7 @@
   },
   {
     "Name": "Kamiotoko",
+    "Name JP": "かみおとこ",
     "Race": "Rumor",
     "Grade": 25,
     "Rarity": 2,
@@ -5519,6 +5608,7 @@
   },
   {
     "Name": "Kanbari",
+    "Name JP": "カンバリ",
     "Race": "Enigma",
     "Grade": 30,
     "Rarity": 2,
@@ -5581,6 +5671,7 @@
   },
   {
     "Name": "Kelpie",
+    "Name JP": "ケルピー",
     "Race": "Fairy",
     "Grade": 35,
     "Rarity": 2,
@@ -5643,6 +5734,7 @@
   },
   {
     "Name": "Kikuri-Hime",
+    "Name JP": "キクリヒメ",
     "Race": "Lady",
     "Grade": 60,
     "Rarity": 4,
@@ -5705,6 +5797,7 @@
   },
   {
     "Name": "King Frost",
+    "Name JP": "キングフロスト",
     "Race": "Tyrant",
     "Grade": 64,
     "Rarity": 4,
@@ -5767,6 +5860,7 @@
   },
   {
     "Name": "Kinmamon",
+    "Name JP": "キンマモン",
     "Race": "Enigma",
     "Grade": 55,
     "Rarity": 3,
@@ -5829,6 +5923,7 @@
   },
   {
     "Name": "Koppa Tengu",
+    "Name JP": "コッパテング",
     "Race": "Yoma",
     "Grade": 7,
     "Rarity": 1,
@@ -5891,6 +5986,7 @@
   },
   {
     "Name": "Koumokuten",
+    "Name JP": "コウモクテン",
     "Race": "Kishin",
     "Grade": 50,
     "Rarity": 3,
@@ -5953,6 +6049,7 @@
   },
   {
     "Name": "Kresnik",
+    "Name JP": "クルースニク",
     "Race": "Genma",
     "Grade": 49,
     "Rarity": 3,
@@ -6015,6 +6112,7 @@
   },
   {
     "Name": "Kudlak",
+    "Name JP": "クドラク",
     "Race": "Jaki",
     "Grade": 67,
     "Rarity": 4,
@@ -6077,6 +6175,7 @@
   },
   {
     "Name": "Kurama Tengu",
+    "Name JP": "クラマテング",
     "Race": "Genma",
     "Grade": 27,
     "Rarity": 2,
@@ -6139,6 +6238,7 @@
   },
   {
     "Name": "Kushinada",
+    "Name JP": "クシナビヒメ",
     "Race": "Lady",
     "Grade": 47,
     "Rarity": 3,
@@ -6201,6 +6301,7 @@
   },
   {
     "Name": "Lailah",
+    "Name JP": "ライラ",
     "Race": "Herald",
     "Grade": 43,
     "Rarity": 3,
@@ -6263,6 +6364,7 @@
   },
   {
     "Name": "Lakshmi",
+    "Name JP": "ラクシュミ",
     "Race": "Megami",
     "Grade": 85,
     "Rarity": 5,
@@ -6325,6 +6427,7 @@
   },
   {
     "Name": "Leanan Sidhe",
+    "Name JP": "リャナンシー",
     "Race": "Femme",
     "Grade": 12,
     "Rarity": 1,
@@ -6387,6 +6490,7 @@
   },
   {
     "Name": "Legion",
+    "Name JP": "レギオン",
     "Race": "Haunt",
     "Grade": 34,
     "Rarity": 2,
@@ -6449,6 +6553,7 @@
   },
   {
     "Name": "Lilim",
+    "Name JP": "リリム",
     "Race": "Night",
     "Grade": 47,
     "Rarity": 3,
@@ -6511,6 +6616,7 @@
   },
   {
     "Name": "Lilith",
+    "Name JP": "リリス",
     "Race": "Night",
     "Grade": 80,
     "Rarity": 5,
@@ -6566,13 +6672,14 @@
     "Alternate Name": "",
     "Panel 1": "+15% chance to inflict status ailments.",
     "Panel 2": "-50% to Dark damage received.",
-    "Panel 3": "Activates the following Chain Effect when enemy is Charmed:<br>30% chance to Bind all enemies.",
+    "Panel 3": "Activates the following Chain Effect when enemy is Charmed:\n30% chance to Bind all enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Loki",
+    "Name JP": "ロキ",
     "Race": "Tyrant",
     "Grade": 75,
     "Rarity": 4,
@@ -6635,6 +6742,7 @@
   },
   {
     "Name": "Long",
+    "Name JP": "セイリュウ",
     "Race": "Dragon",
     "Grade": 63,
     "Rarity": 4,
@@ -6697,6 +6805,7 @@
   },
   {
     "Name": "Lucifer",
+    "Name JP": "ルシファー",
     "Race": "Tyrant",
     "Grade": 98,
     "Rarity": 5,
@@ -6759,6 +6868,7 @@
   },
   {
     "Name": "Mad Gasser",
+    "Name JP": "マッドガッサー",
     "Race": "Foul",
     "Grade": 45,
     "Rarity": 3,
@@ -6821,6 +6931,7 @@
   },
   {
     "Name": "Makami",
+    "Name JP": "マカミ",
     "Race": "Avatar",
     "Grade": 41,
     "Rarity": 3,
@@ -6883,6 +6994,7 @@
   },
   {
     "Name": "Makara",
+    "Name JP": "マカラ",
     "Race": "Dragon",
     "Grade": 41,
     "Rarity": 3,
@@ -6945,6 +7057,7 @@
   },
   {
     "Name": "Mara",
+    "Name JP": "マーラ",
     "Race": "Tyrant",
     "Grade": 90,
     "Rarity": 5,
@@ -7007,6 +7120,7 @@
   },
   {
     "Name": "Mastema",
+    "Name JP": "マンセマット",
     "Race": "Herald",
     "Grade": 83,
     "Rarity": 5,
@@ -7069,6 +7183,7 @@
   },
   {
     "Name": "Melchom",
+    "Name JP": "メルコム",
     "Race": "Fallen",
     "Grade": 4,
     "Rarity": 1,
@@ -7131,6 +7246,7 @@
   },
   {
     "Name": "Mermaid",
+    "Name JP": "マーメイド",
     "Race": "Femme",
     "Grade": 42,
     "Rarity": 3,
@@ -7193,6 +7309,7 @@
   },
   {
     "Name": "Metatron",
+    "Name JP": "メタトロン",
     "Race": "Herald",
     "Grade": 99,
     "Rarity": 5,
@@ -7255,6 +7372,7 @@
   },
   {
     "Name": "Michael",
+    "Name JP": "ミカエル",
     "Race": "Herald",
     "Grade": 90,
     "Rarity": 5,
@@ -7317,6 +7435,7 @@
   },
   {
     "Name": "Mishaguji",
+    "Name JP": "ミシャグジさま",
     "Race": "Vile",
     "Grade": 65,
     "Rarity": 4,
@@ -7379,6 +7498,7 @@
   },
   {
     "Name": "Mitra",
+    "Name JP": "ミトラ",
     "Race": "Deity",
     "Grade": 55,
     "Rarity": 3,
@@ -7441,6 +7561,7 @@
   },
   {
     "Name": "Mokoi",
+    "Name JP": "モコイ",
     "Race": "Night",
     "Grade": 5,
     "Rarity": 1,
@@ -7503,6 +7624,7 @@
   },
   {
     "Name": "Momunofu",
+    "Name JP": "モムノフ",
     "Race": "Brute",
     "Grade": 15,
     "Rarity": 1,
@@ -7565,6 +7687,7 @@
   },
   {
     "Name": "Mot",
+    "Name JP": "モト",
     "Race": "Reaper",
     "Grade": 91,
     "Rarity": 5,
@@ -7627,6 +7750,7 @@
   },
   {
     "Name": "Mother Harlot",
+    "Name JP": "マザーハーロット",
     "Race": "Fiend",
     "Grade": 95,
     "Rarity": 5,
@@ -7689,6 +7813,7 @@
   },
   {
     "Name": "Mothman",
+    "Name JP": "モスマン",
     "Race": "Wilder",
     "Grade": 41,
     "Rarity": 3,
@@ -7751,6 +7876,7 @@
   },
   {
     "Name": "Mou-Ryo",
+    "Name JP": "モウリョウ",
     "Race": "Haunt",
     "Grade": 20,
     "Rarity": 2,
@@ -7813,6 +7939,7 @@
   },
   {
     "Name": "Naga",
+    "Name JP": "ナーガ",
     "Race": "Snake",
     "Grade": 28,
     "Rarity": 2,
@@ -7875,6 +8002,7 @@
   },
   {
     "Name": "Nekomata",
+    "Name JP": "ネコマタ",
     "Race": "Beast",
     "Grade": 14,
     "Rarity": 1,
@@ -7937,6 +8065,7 @@
   },
   {
     "Name": "Nergal",
+    "Name JP": "ネルガル",
     "Race": "Reaper",
     "Grade": 81,
     "Rarity": 5,
@@ -7999,6 +8128,7 @@
   },
   {
     "Name": "Nozuchi",
+    "Name JP": "ノズチ",
     "Race": "Snake",
     "Grade": 15,
     "Rarity": 1,
@@ -8061,6 +8191,7 @@
   },
   {
     "Name": "Nue",
+    "Name JP": "ヌエ",
     "Race": "Wilder",
     "Grade": 25,
     "Rarity": 2,
@@ -8123,6 +8254,7 @@
   },
   {
     "Name": "Obariyon",
+    "Name JP": "オバリヨン",
     "Race": "Haunt",
     "Grade": 7,
     "Rarity": 1,
@@ -8185,6 +8317,7 @@
   },
   {
     "Name": "Oberon",
+    "Name JP": "オベロン",
     "Race": "Fairy",
     "Grade": 67,
     "Rarity": 4,
@@ -8247,6 +8380,7 @@
   },
   {
     "Name": "Odin",
+    "Name JP": "オーディン",
     "Race": "Deity",
     "Grade": 73,
     "Rarity": 4,
@@ -8309,6 +8443,7 @@
   },
   {
     "Name": "Ongyo-Ki",
+    "Name JP": "オンギョウキ",
     "Race": "Brute",
     "Grade": 68,
     "Rarity": 4,
@@ -8371,6 +8506,7 @@
   },
   {
     "Name": "Oni",
+    "Name JP": "オ二",
     "Race": "Brute",
     "Grade": 27,
     "Rarity": 2,
@@ -8433,6 +8569,7 @@
   },
   {
     "Name": "Orochi",
+    "Name JP": "ヤマタノオロチ",
     "Race": "Snake",
     "Grade": 61,
     "Rarity": 4,
@@ -8495,6 +8632,7 @@
   },
   {
     "Name": "Orthrus",
+    "Name JP": "オルトロス",
     "Race": "Beast",
     "Grade": 35,
     "Rarity": 2,
@@ -8557,6 +8695,7 @@
   },
   {
     "Name": "Ose",
+    "Name JP": "オセ",
     "Race": "Fallen",
     "Grade": 54,
     "Rarity": 3,
@@ -8619,6 +8758,7 @@
   },
   {
     "Name": "Pallas Athena",
+    "Name JP": "パラスアテナ",
     "Race": "Megami",
     "Grade": 62,
     "Rarity": 4,
@@ -8681,6 +8821,7 @@
   },
   {
     "Name": "Patrimpas",
+    "Name JP": "パトリムパス",
     "Race": "Dragon",
     "Grade": 35,
     "Rarity": 2,
@@ -8743,6 +8884,7 @@
   },
   {
     "Name": "Pazuzu",
+    "Name JP": "パズス",
     "Race": "Vile",
     "Grade": 62,
     "Rarity": 4,
@@ -8805,6 +8947,7 @@
   },
   {
     "Name": "Peallaidh",
+    "Name JP": "ピアレイ",
     "Race": "Wilder",
     "Grade": 46,
     "Rarity": 3,
@@ -8867,6 +9010,7 @@
   },
   {
     "Name": "Pele",
+    "Name JP": "ペレ",
     "Race": "Lady",
     "Grade": 40,
     "Rarity": 3,
@@ -8929,6 +9073,7 @@
   },
   {
     "Name": "Persephone",
+    "Name JP": "ペルセポネー",
     "Race": "Reaper",
     "Grade": 72,
     "Rarity": 4,
@@ -8991,6 +9136,7 @@
   },
   {
     "Name": "Phantom",
+    "Name JP": "ファントム",
     "Race": "Foul",
     "Grade": 10,
     "Rarity": 1,
@@ -9053,6 +9199,7 @@
   },
   {
     "Name": "Pisaca",
+    "Name JP": "ピシャーチャ",
     "Race": "Haunt",
     "Grade": 26,
     "Rarity": 2,
@@ -9115,6 +9262,7 @@
   },
   {
     "Name": "Pixie",
+    "Name JP": "ピクシー",
     "Race": "Fairy",
     "Grade": 2,
     "Rarity": 1,
@@ -9177,6 +9325,7 @@
   },
   {
     "Name": "Power",
+    "Name JP": "パワー",
     "Race": "Divine",
     "Grade": 40,
     "Rarity": 3,
@@ -9239,6 +9388,7 @@
   },
   {
     "Name": "Preta",
+    "Name JP": "ガキ",
     "Race": "Haunt",
     "Grade": 4,
     "Rarity": 1,
@@ -9301,6 +9451,7 @@
   },
   {
     "Name": "Principality",
+    "Name JP": "プリンシパリティ",
     "Race": "Divine",
     "Grade": 35,
     "Rarity": 2,
@@ -9363,6 +9514,7 @@
   },
   {
     "Name": "Prometheus",
+    "Name JP": "プロメテウス",
     "Race": "Deity",
     "Grade": 67,
     "Rarity": 4,
@@ -9425,6 +9577,7 @@
   },
   {
     "Name": "Pyro Jack",
+    "Name JP": "ジャックランタン",
     "Race": "Fairy",
     "Grade": 13,
     "Rarity": 1,
@@ -9487,6 +9640,7 @@
   },
   {
     "Name": "Quetzalcoatl",
+    "Name JP": "ケツアルカトル",
     "Race": "Dragon",
     "Grade": 80,
     "Rarity": 5,
@@ -9549,6 +9703,7 @@
   },
   {
     "Name": "Raijuu",
+    "Name JP": "ライジュウ",
     "Race": "Wilder",
     "Grade": 20,
     "Rarity": 2,
@@ -9611,6 +9766,7 @@
   },
   {
     "Name": "Rakshasa",
+    "Name JP": "ラクシャーサ",
     "Race": "Jaki",
     "Grade": 61,
     "Rarity": 4,
@@ -9673,6 +9829,7 @@
   },
   {
     "Name": "Rama",
+    "Name JP": "ラーマ",
     "Race": "Hero",
     "Grade": 86,
     "Rarity": 5,
@@ -9735,6 +9892,7 @@
   },
   {
     "Name": "Rangda",
+    "Name JP": "ランダ",
     "Race": "Femme",
     "Grade": 67,
     "Rarity": 4,
@@ -9797,6 +9955,7 @@
   },
   {
     "Name": "Reiko Kashima",
+    "Name JP": "カシマレイコ",
     "Race": "Rumor",
     "Grade": 42,
     "Rarity": 3,
@@ -9859,6 +10018,7 @@
   },
   {
     "Name": "Samael",
+    "Name JP": "サマエル",
     "Race": "Fallen",
     "Grade": 84,
     "Rarity": 5,
@@ -9914,13 +10074,14 @@
     "Alternate Name": "",
     "Panel 1": "+15% chance to inflict status ailments.",
     "Panel 2": "Reduces the cost of God's Malice by 1MP.",
-    "Panel 3": "Activates the following Chain Effect at the beginning of your turn:<br>Removes Barrier and Repel Mag from all enemies.",
+    "Panel 3": "Activates the following Chain Effect at the beginning of your turn:\nRemoves Barrier and Repel Mag from all enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Sandalphon",
+    "Name JP": "サンダルフォン",
     "Race": "Herald",
     "Grade": 61,
     "Rarity": 4,
@@ -9983,6 +10144,7 @@
   },
   {
     "Name": "Sandman",
+    "Name JP": "ザントマン",
     "Race": "Night",
     "Grade": 10,
     "Rarity": 1,
@@ -10045,6 +10207,7 @@
   },
   {
     "Name": "Sarasvati",
+    "Name JP": "サラスヴァティ",
     "Race": "Megami",
     "Grade": 69,
     "Rarity": 4,
@@ -10107,6 +10270,7 @@
   },
   {
     "Name": "Scathach",
+    "Name JP": "スカアハ",
     "Race": "Megami",
     "Grade": 50,
     "Rarity": 3,
@@ -10169,6 +10333,7 @@
   },
   {
     "Name": "Setanta",
+    "Name JP": "セタンタ",
     "Race": "Fairy",
     "Grade": 47,
     "Rarity": 3,
@@ -10231,6 +10396,7 @@
   },
   {
     "Name": "Seth",
+    "Name JP": "セト",
     "Race": "Vile",
     "Grade": 84,
     "Rarity": 5,
@@ -10293,6 +10459,7 @@
   },
   {
     "Name": "Shadow",
+    "Name JP": "シャドウ",
     "Race": "Foul",
     "Grade": 35,
     "Rarity": 2,
@@ -10355,6 +10522,7 @@
   },
   {
     "Name": "Shiisaa",
+    "Name JP": "シーサー",
     "Race": "Avatar",
     "Grade": 33,
     "Rarity": 2,
@@ -10417,6 +10585,7 @@
   },
   {
     "Name": "Shiki-Ouji",
+    "Name JP": "シキオウジ",
     "Race": "Brute",
     "Grade": 49,
     "Rarity": 3,
@@ -10479,6 +10648,7 @@
   },
   {
     "Name": "Shikome",
+    "Name JP": "ヨモツシコメ",
     "Race": "Femme",
     "Grade": 23,
     "Rarity": 2,
@@ -10541,6 +10711,7 @@
   },
   {
     "Name": "Shiva",
+    "Name JP": "シヴァ",
     "Race": "Fury",
     "Grade": 93,
     "Rarity": 5,
@@ -10603,6 +10774,7 @@
   },
   {
     "Name": "Siegfried",
+    "Name JP": "ジークフリード",
     "Race": "Hero",
     "Grade": 83,
     "Rarity": 5,
@@ -10665,6 +10837,7 @@
   },
   {
     "Name": "Silky",
+    "Name JP": "シルキー",
     "Race": "Fairy",
     "Grade": 42,
     "Rarity": 3,
@@ -10727,6 +10900,7 @@
   },
   {
     "Name": "Skadi",
+    "Name JP": "スカディ",
     "Race": "Lady",
     "Grade": 67,
     "Rarity": 4,
@@ -10789,6 +10963,7 @@
   },
   {
     "Name": "Sleipnir",
+    "Name JP": "スレイプニル",
     "Race": "Holy",
     "Grade": 62,
     "Rarity": 4,
@@ -10851,6 +11026,7 @@
   },
   {
     "Name": "Slime",
+    "Name JP": "スライム",
     "Race": "Foul",
     "Grade": 1,
     "Rarity": 1,
@@ -10913,6 +11089,7 @@
   },
   {
     "Name": "Sphinx",
+    "Name JP": "スフィンクス",
     "Race": "Holy",
     "Grade": 76,
     "Rarity": 4,
@@ -10975,6 +11152,7 @@
   },
   {
     "Name": "Succubus",
+    "Name JP": "サキュバス",
     "Race": "Night",
     "Grade": 63,
     "Rarity": 4,
@@ -11037,6 +11215,7 @@
   },
   {
     "Name": "Suparna",
+    "Name JP": "スパルナ",
     "Race": "Avian",
     "Grade": 28,
     "Rarity": 2,
@@ -11099,6 +11278,7 @@
   },
   {
     "Name": "Surt",
+    "Name JP": "スルト",
     "Race": "Tyrant",
     "Grade": 83,
     "Rarity": 5,
@@ -11156,11 +11336,12 @@
     "Panel 2": "-50% to Fire damage received.",
     "Panel 3": "+25% to Fire damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
-    "Panel 2 Stats": "Phys ATK +8 (MAX +80)<br>Mag ATK +8 (MAX +80)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80)\nMag ATK +8 (MAX +80)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Susano-o",
+    "Name JP": "スサノオ",
     "Race": "Fury",
     "Grade": 82,
     "Rarity": 5,
@@ -11223,6 +11404,7 @@
   },
   {
     "Name": "Take-Minakata",
+    "Name JP": "タケミナカタ",
     "Race": "Kishin",
     "Grade": 27,
     "Rarity": 2,
@@ -11285,6 +11467,7 @@
   },
   {
     "Name": "Tam Lin",
+    "Name JP": "タム・リン",
     "Race": "Genma",
     "Grade": 40,
     "Rarity": 3,
@@ -11347,6 +11530,7 @@
   },
   {
     "Name": "Thor",
+    "Name JP": "トール",
     "Race": "Kishin",
     "Grade": 83,
     "Rarity": 5,
@@ -11404,11 +11588,12 @@
     "Panel 2": "-50% to Elec damage received.",
     "Panel 3": "+25% to Elec damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
-    "Panel 2 Stats": "Phys ATK +8 (MAX +80) <br>Mag ATK +8 (MAX +80)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80) \nMag ATK +8 (MAX +80)",
     "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Throne",
+    "Name JP": "ソロネ",
     "Race": "Divine",
     "Grade": 60,
     "Rarity": 4,
@@ -11471,6 +11656,7 @@
   },
   {
     "Name": "Titania",
+    "Name JP": "ティターニア",
     "Race": "Fairy",
     "Grade": 62,
     "Rarity": 4,
@@ -11533,6 +11719,7 @@
   },
   {
     "Name": "Trumpeter",
+    "Name JP": "トランペッター",
     "Race": "Fiend",
     "Grade": 94,
     "Rarity": 5,
@@ -11587,7 +11774,7 @@
     "L Soul": "",
     "Alternate Name": "",
     "Panel 1": "+15% chance to inflict status ailments.",
-    "Panel 2": "Activates the following Chain Effect when entering a statue of Concentrate:<br>Removes Barrier from all enemies.",
+    "Panel 2": "Activates the following Chain Effect when entering a statue of Concentrate:\nRemoves Barrier from all enemies.",
     "Panel 3": "Reduces the cost of Concentrate by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
@@ -11595,6 +11782,7 @@
   },
   {
     "Name": "Tsukuyomi",
+    "Name JP": "ツクヨミ",
     "Race": "Genma",
     "Grade": 67,
     "Rarity": 4,
@@ -11657,6 +11845,7 @@
   },
   {
     "Name": "Unicorn",
+    "Name JP": "ユニコーン",
     "Race": "Holy",
     "Grade": 42,
     "Rarity": 3,
@@ -11719,6 +11908,7 @@
   },
   {
     "Name": "Valkyrie",
+    "Name JP": "ヴァルキリー",
     "Race": "Yoma",
     "Grade": 40,
     "Rarity": 3,
@@ -11781,6 +11971,7 @@
   },
   {
     "Name": "Vetala",
+    "Name JP": "ヴェータラ",
     "Race": "Haunt",
     "Grade": 55,
     "Rarity": 3,
@@ -11843,6 +12034,7 @@
   },
   {
     "Name": "Virtue",
+    "Name JP": "ヴァーチャー",
     "Race": "Divine",
     "Grade": 47,
     "Rarity": 3,
@@ -11905,6 +12097,7 @@
   },
   {
     "Name": "Vishnu",
+    "Name JP": "ヴィシュヌ",
     "Race": "Deity",
     "Grade": 97,
     "Rarity": 5,
@@ -11967,6 +12160,7 @@
   },
   {
     "Name": "White Rider",
+    "Name JP": "ワイトナイト",
     "Race": "Fiend",
     "Grade": 74,
     "Rarity": 4,
@@ -12029,6 +12223,7 @@
   },
   {
     "Name": "Wu Kong",
+    "Name JP": "セイテンタイセイ",
     "Race": "Fury",
     "Grade": 61,
     "Rarity": 4,
@@ -12091,6 +12286,7 @@
   },
   {
     "Name": "Yaksini",
+    "Name JP": "ヤクシニー",
     "Race": "Femme",
     "Grade": 34,
     "Rarity": 2,
@@ -12153,6 +12349,7 @@
   },
   {
     "Name": "Yatagarasu",
+    "Name JP": "ヤタガラス",
     "Race": "Avian",
     "Grade": 66,
     "Rarity": 4,
@@ -12215,6 +12412,7 @@
   },
   {
     "Name": "Yoshitsune",
+    "Name JP": "ヨシツネ",
     "Race": "Hero",
     "Grade": 97,
     "Rarity": 5,
@@ -12277,6 +12475,7 @@
   },
   {
     "Name": "Yurlungur",
+    "Name JP": "ユルング",
     "Race": "Snake",
     "Grade": 70,
     "Rarity": 4,
@@ -12339,6 +12538,7 @@
   },
   {
     "Name": "Zaou-Gongen",
+    "Name JP": "ザオウゴンゲン",
     "Race": "Fury",
     "Grade": 85,
     "Rarity": 5,
@@ -12401,6 +12601,7 @@
   },
   {
     "Name": "Zhong Kui",
+    "Name JP": "ショウキ",
     "Race": "Kishin",
     "Grade": 75,
     "Rarity": 4,
@@ -12463,6 +12664,7 @@
   },
   {
     "Name": "Zouchouten",
+    "Name JP": "ゾウチョウテン",
     "Race": "Kishin",
     "Grade": 41,
     "Rarity": 3,
@@ -12525,6 +12727,7 @@
   },
   {
     "Name": "Orcus",
+    "Name JP": "オルクス",
     "Race": "Reaper",
     "Grade": 80,
     "Rarity": 5,
@@ -12587,6 +12790,7 @@
   },
   {
     "Name": "Bodyconian",
+    "Name JP": "ボディコニアン",
     "Race": "Undead",
     "Grade": 40,
     "Rarity": 3,
@@ -12649,6 +12853,7 @@
   },
   {
     "Name": "Man Eater",
+    "Name JP": "マンイーター",
     "Race": "Undead",
     "Grade": 60,
     "Rarity": 4,
@@ -12711,6 +12916,7 @@
   },
   {
     "Name": "Masakado",
+    "Name JP": "マサカド",
     "Race": "General",
     "Grade": 98,
     "Rarity": 5,
@@ -12773,6 +12979,7 @@
   },
   {
     "Name": "Bayonetta☆",
+    "Name JP": "ベヨネッタ☆",
     "Race": "Witch",
     "Grade": 85,
     "Rarity": 5,
@@ -12835,6 +13042,7 @@
   },
   {
     "Name": "Jeanne☆",
+    "Name JP": "ジャンヌ☆",
     "Race": "Witch",
     "Grade": 85,
     "Rarity": 5,
@@ -12897,7 +13105,8 @@
   },
   {
     "Name": "Beloved",
-    "Race": "Divine",
+    "Name JP": "ビラブド",
+    "Race": "Powers",
     "Grade": 70,
     "Rarity": 4,
     "Phys": "rs",
@@ -12959,6 +13168,7 @@
   },
   {
     "Name": "Bayonetta",
+    "Name JP": "ベヨネッタ",
     "Race": "Witch",
     "Grade": 65,
     "Rarity": 4,
@@ -13021,6 +13231,7 @@
   },
   {
     "Name": "Jeanne",
+    "Name JP": "ジャンヌ",
     "Race": "Witch",
     "Grade": 65,
     "Rarity": 4,
@@ -13083,6 +13294,7 @@
   },
   {
     "Name": "Kusi Mitama",
+    "Name JP": "クシミタマ",
     "Race": "Mitama",
     "Grade": 31,
     "Rarity": 2,
@@ -13145,6 +13357,7 @@
   },
   {
     "Name": "Nigi Mitama",
+    "Name JP": "ニギミタマ",
     "Race": "Mitama",
     "Grade": 26,
     "Rarity": 2,
@@ -13207,6 +13420,7 @@
   },
   {
     "Name": "Ara Mitama",
+    "Name JP": "アラミタマ",
     "Race": "Mitama",
     "Grade": 21,
     "Rarity": 2,
@@ -13269,6 +13483,7 @@
   },
   {
     "Name": "Saki Mitama",
+    "Name JP": "サキミタマ",
     "Race": "Mitama",
     "Grade": 36,
     "Rarity": 2,
@@ -13331,6 +13546,7 @@
   },
   {
     "Name": "Abaddon A",
+    "Name JP": "異世界アバドン",
     "Race": "Tyrant",
     "Grade": 60,
     "Rarity": 4,
@@ -13393,6 +13609,7 @@
   },
   {
     "Name": "Nekomata A",
+    "Name JP": "異世界ネコマタ",
     "Race": "Beast",
     "Grade": 60,
     "Rarity": 4,
@@ -13455,6 +13672,7 @@
   },
   {
     "Name": "Nero☆",
+    "Name JP": "ネロ☆",
     "Race": "Fiend",
     "Grade": 90,
     "Rarity": 5,
@@ -13517,6 +13735,7 @@
   },
   {
     "Name": "Dante☆",
+    "Name JP": "ダンテ☆",
     "Race": "Fiend",
     "Grade": 90,
     "Rarity": 5,
@@ -13579,6 +13798,7 @@
   },
   {
     "Name": "V☆",
+    "Name JP": "V☆",
     "Race": "??",
     "Grade": 90,
     "Rarity": 5,
@@ -13641,6 +13861,7 @@
   },
   {
     "Name": "Nero",
+    "Name JP": "ネロ",
     "Race": "Fiend",
     "Grade": 70,
     "Rarity": 4,
@@ -13703,6 +13924,7 @@
   },
   {
     "Name": "Dante",
+    "Name JP": "ダンテ",
     "Race": "Fiend",
     "Grade": 70,
     "Rarity": 4,
@@ -13765,6 +13987,7 @@
   },
   {
     "Name": "V",
+    "Name JP": "V",
     "Race": "??",
     "Grade": 70,
     "Rarity": 4,
@@ -13827,6 +14050,7 @@
   },
   {
     "Name": "Shiva A",
+    "Name JP": "異世界シヴァ",
     "Race": "Fury",
     "Grade": 93,
     "Rarity": 5,
@@ -13889,6 +14113,7 @@
   },
   {
     "Name": "Matador",
+    "Name JP": "マタドール",
     "Race": "Fiend",
     "Grade": 73,
     "Rarity": 4,
@@ -13951,6 +14176,7 @@
   },
   {
     "Name": "Nadja",
+    "Name JP": "ナジャ",
     "Race": "Fairy",
     "Grade": 30,
     "Rarity": 2,
@@ -14013,6 +14239,7 @@
   },
   {
     "Name": "Daisoujou",
+    "Name JP": "だいそうじょう",
     "Race": "Fiend",
     "Grade": 81,
     "Rarity": 5,
@@ -14075,6 +14302,7 @@
   },
   {
     "Name": "Guan Yu",
+    "Name JP": "カンセイテイクン",
     "Race": "Hero",
     "Grade": 85,
     "Rarity": 5,
@@ -14137,6 +14365,7 @@
   },
   {
     "Name": "Parvati",
+    "Name JP": "パールヴァティ",
     "Race": "Megami",
     "Grade": 60,
     "Rarity": 4,
@@ -14199,6 +14428,7 @@
   },
   {
     "Name": "Gogmagog",
+    "Name JP": "ゴグマゴグ",
     "Race": "Jirae",
     "Grade": 80,
     "Rarity": 5,
@@ -14261,6 +14491,7 @@
   },
   {
     "Name": "Tlaltecuhtli",
+    "Name JP": "トラルテクトリ",
     "Race": "Jirae",
     "Grade": 66,
     "Rarity": 4,
@@ -14323,6 +14554,7 @@
   },
   {
     "Name": "Titan",
+    "Name JP": "ティターン",
     "Race": "Jirae",
     "Grade": 60,
     "Rarity": 4,
@@ -14385,6 +14617,7 @@
   },
   {
     "Name": "Kwancha",
+    "Name JP": "カワンチャ",
     "Race": "Jirae",
     "Grade": 46,
     "Rarity": 3,
@@ -14447,6 +14680,7 @@
   },
   {
     "Name": "Hua Po",
+    "Name JP": "カハク",
     "Race": "Jirae",
     "Grade": 40,
     "Rarity": 3,
@@ -14509,6 +14743,7 @@
   },
   {
     "Name": "Kodama",
+    "Name JP": "コダマ",
     "Race": "Jirae",
     "Grade": 22,
     "Rarity": 2,
@@ -14571,6 +14806,7 @@
   },
   {
     "Name": "Koropokkur",
+    "Name JP": "コロポックル",
     "Race": "Jirae",
     "Grade": 12,
     "Rarity": 1,
@@ -14633,6 +14869,7 @@
   },
   {
     "Name": "Kabuso",
+    "Name JP": "カブソ",
     "Race": "Beast",
     "Grade": 20,
     "Rarity": 2,
@@ -14695,6 +14932,7 @@
   },
   {
     "Name": "Cybele",
+    "Name JP": "キュベレ",
     "Race": "Lady",
     "Grade": 85,
     "Rarity": 5,
@@ -14757,13 +14995,14 @@
   },
   {
     "Name": "Indrajit",
+    "Name JP": "インドラジット",
     "Race": "Tenma",
     "Grade": 88,
     "Rarity": 5,
     "Phys": "rs",
     "Fire": "",
     "Ice": "wk",
-    "Elec": "sr",
+    "Elec": "dr",
     "Force": "",
     "Light": "rs",
     "Dark": "rs",
@@ -14819,6 +15058,7 @@
   },
   {
     "Name": "Kartikeya",
+    "Name JP": "カルティケーヤ",
     "Race": "Fury",
     "Grade": 80,
     "Rarity": 5,
@@ -14881,6 +15121,7 @@
   },
   {
     "Name": "Yama",
+    "Name JP": "ヤマ",
     "Race": "Tenma",
     "Grade": 84,
     "Rarity": 5,
@@ -14943,6 +15184,7 @@
   },
   {
     "Name": "Asura",
+    "Name JP": "アスラ",
     "Race": "Tenma",
     "Grade": 80,
     "Rarity": 5,
@@ -15002,5 +15244,131 @@
     "Panel 1 Stats": "HP +25 (MAX +250",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
     "Panel 3 Stats": "HP +25 (MAX +250"
+  },
+  {
+    "Name": "Mahakala",
+    "Name JP": "マハカーラ",
+    "Race": "Tenma",
+    "Grade": 92,
+    "Rarity": 5,
+    "Phys": "",
+    "Fire": "dr",
+    "Ice": "",
+    "Elec": "rs",
+    "Force": "",
+    "Light": "",
+    "Dark": "nu",
+    "6★ HP": 1028,
+    "6★ Strength": 109,
+    "6★ Magic": 218,
+    "6★ Vitality": 140,
+    "6★ Agility": 148,
+    "6★ Luck": 151,
+    "Skill 1": "Fire Amp",
+    "Skill 2": "The Great Darkness",
+    "Skill 3": "Wrathful Flame",
+    "Clear Awaken": "",
+    "Red Awaken": "Maragidyne",
+    "Yellow Awaken": "Concentrate",
+    "Purple Awaken": "Merciless Blow",
+    "Teal Awaken": "Drain Dark",
+    "Red Gacha": "Butcher",
+    "Yellow Gacha": "Fire Enchancement",
+    "Purple Gacha": "Null Charm",
+    "Teal Gacha": "Master Assassin",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Fire damage.",
+    "Panel 2": "-50% to Fire damage received.",
+    "Panel 3": "Activates the following Chain Effect after Wrathful Flame is activated:\n Increases own party's ATK by 20%. (3 turns)",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
+  },
+  {
+    "Name": "Agni",
+    "Name JP": "アグニ",
+    "Race": "Tenma",
+    "Grade": 70,
+    "Rarity": 4,
+    "Phys": "",
+    "Fire": "dr",
+    "Ice": "wk",
+    "Elec": "",
+    "Force": "",
+    "Light": "nu",
+    "Dark": "",
+    "6★ HP": 995,
+    "6★ Strength": 123,
+    "6★ Magic": 207,
+    "6★ Vitality": 133,
+    "6★ Agility": 138,
+    "6★ Luck": 123,
+    "Skill 1": "Fire Boost",
+    "Skill 2": "Maragion",
+    "Skill 3": "Ignite",
+    "Clear Awaken": "",
+    "Red Awaken": "Hellfire",
+    "Yellow Awaken": "Fog Breath",
+    "Purple Awaken": "Auto-Rakunda",
+    "Teal Awaken": "Drain Light",
+    "Red Gacha": "Serial Killer",
+    "Yellow Gacha": "Maragidyne",
+    "Purple Gacha": "Berserker",
+    "Teal Gacha": "Resist Ice",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": ""
   }
 ]
