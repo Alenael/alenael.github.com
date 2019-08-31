@@ -6550,5 +6550,61 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Ice Enhancement",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% to Ice damage. +10% damage when attacking the enemy's weak point.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Fire Enhancement",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% to Fire damage. +10% damage when attacking the enemy's weak point.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Light Enhancement",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% to Light damage. +10% damage when attacking the enemy's weak point.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Force Enhancement",
+    "JP Name": "",
+    "Cost": "Passive",
+    "Description": "+15% to Force damage. +10% damage when attacking the enemy's weak point.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
   }
 ]

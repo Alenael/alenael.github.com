@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .22;
+var minorVer = .23;
 
 
 var demonData;
@@ -953,6 +953,8 @@ function PruneArchetypes() {
                     case "Guan Yu":
                     case "Yama":
                     case "Asura":
+                    case "Agni":
+                    case "Mahakala":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
