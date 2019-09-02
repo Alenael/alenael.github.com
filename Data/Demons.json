@@ -1441,12 +1441,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "Increases the uses of Barong Dance by 2.",
+    "Panel 2": "-50% to Elec damage received.",
+    "Panel 3": "As long as this demon is alive, -20% to Elec damage received by all allies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Beelzebub",
@@ -4969,12 +4969,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% damage to attacks that target all or random enemies.",
+    "Panel 2": "-50% to Light damage received.",
+    "Panel 3": "Activates the following Chain Effect after Mesopotamian Star is activated:\n Increases own party's DEF and EV/AC by 20%. (3 turns)",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Isis",
@@ -6418,12 +6418,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% chance to inflict status ailments.",
+    "Panel 2": "+15% Phys evasion rate.",
+    "Panel 3": "Activates the following Chain Effect after Lotus Dance is activated:\n All party members recover 1 MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag DEF +15(MAX 150)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Leanan Sidhe",
@@ -7111,12 +7111,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to Phys hit rate.",
+    "Panel 2": "-50% to Elec damage received.",
+    "Panel 3": "Activates the following Chain Effect after Hell Thrust is activated:\n Enters a state of Charge. Increases the next Phys attack damage by 125%.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10(MAX 100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Mastema",
@@ -7741,12 +7741,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "Reduces the cost of Almighty Skills by 1MP.",
+    "Panel 2": "Adds Null Mortal.",
+    "Panel 3": "Activates the following Chain Effect at the beginning of every third turn:\n Receive 1 additional Press Turn Icon.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Mother Harlot",
@@ -7804,12 +7804,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "Activates the following Chain Effect at the beginning of a battle if the enemy attacks first:Activates the following Chain Effect at the beginning of a battle if the enemy attacks first:\n Removes Barrier from all enemies.",
+    "Panel 2": "Activates the following Chain Effect after Babylon Goblet is activated:\n 30% chance to inflict Charm on random enemies 3 to 4 times.",
+    "Panel 3": "+25% to damage to Charmed enemies. As long as this demon is alive, -25% to enemy Charm auto cure rate.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Mothman",
@@ -8119,12 +8119,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% chance to inflict status ailments.",
+    "Panel 2": "+25% to damage to Weakened enemies.",
+    "Panel 3": "Adds Phys Pierce against Weakened enemies.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Nozuchi",
@@ -9697,9 +9697,9 @@
     "Panel 1": "",
     "Panel 2": "",
     "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Raijuu",
@@ -10765,12 +10765,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "Shiva A",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to all attack damage.",
+    "Panel 2": "+15% to Phys hit rate, +20% to Critical hit rate",
+    "Panel 3": "Reduces consumed MP of Phys attack skills by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10(MAX 100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Siegfried",
@@ -12151,12 +12151,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-50% to Ice damage received.",
+    "Panel 2": "Activates the following Chain Effect at the beginning of your own turn:\n Heals 15% HP of caster.",
+    "Panel 3": "Reduces consumed MP of Magic attack skills by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "White Rider",
@@ -15273,7 +15273,7 @@
     "Purple Awaken": "Merciless Blow",
     "Teal Awaken": "Drain Dark",
     "Red Gacha": "Butcher",
-    "Yellow Gacha": "Fire Enhancement",
+    "Yellow Gacha": "Fire Enchancement",
     "Purple Gacha": "Null Charm",
     "Teal Gacha": "Master Assassin",
     "Type": "Attack",
