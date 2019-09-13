@@ -1534,6 +1534,14 @@ function TurnOrder() {
     //Sorts by if they have lead brands or not
     var sorter2 = function () {
         return function (a, b) {
+            if (a == null) {
+                return 1;
+            } else if (b == null) {
+                return -1;
+            } else if (a === b) {
+                return 0;
+            }
+
             if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 1) {
                 if (a.hasLeadBrand == true && b.hasLeadBrand == false)
                     return -1;
