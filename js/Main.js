@@ -1523,9 +1523,6 @@ function TurnOrder() {
                 return -1;
             } else if (a === b) {
                 return 0;
-            }           
-            if (a === b) {
-                return 0;
             }
 
             return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;            
