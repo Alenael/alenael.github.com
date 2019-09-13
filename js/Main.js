@@ -1499,7 +1499,7 @@ function TurnOrder() {
     for (var i = 0; i < demonsSel.length; i++) {
         demons.push(GetDemon(demonsSel[i].value));
 
-        if (demons[i] != null) {
+        if (demons[i] != null) {            
             var tempBrands = $(demonBrands[i]).val();
             demons[i].hasLeadBrand = false;
             demons[i].index = i;
@@ -1507,14 +1507,14 @@ function TurnOrder() {
             if (tempBrands !== null) {
                 for (var j = 0; j < tempBrands.length; j++) {
                     if (tempBrands[j] === "lead") {
-                        demons[i].hasLeadBrand = true;                        
+                        demons[i].hasLeadBrand = true;          
                     }
                 }
             }
         }
     }
 
-    //Sorts our demons by agi only (Lead brands will be added later for this)
+    //Sorts our demons by agi only
     var sorter = function() {
         return function (a, b) {
             if (a == null) {
@@ -1528,19 +1528,27 @@ function TurnOrder() {
                 return 0;
             }
 
-            //If b is in front of a
-            if (a.index == b.index + 1) {
+            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;            
+        }
+    };
+
+    var newTurnOrder = demons.slice().sort(sorter());
+
+    //Sorts by if they have lead brands or not
+    var sorter2 = function () {
+        return function (a, b) {
+            if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 1) {
                 if (a.hasLeadBrand == true && b.hasLeadBrand == false)
                     return -1;
                 else if (a.hasLeadBrand == false && b.hasLeadBrand == true)
                     return 1;
             }
 
-            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;            
+            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1; 
         }
-    };
+    }
 
-    var newTurnOrder = demons.slice().sort(sorter());
+    newTurnOrder = newTurnOrder.sort(sorter2());
 
     //Move everything to end
     for (var x = 0; x < newTurnOrder.length; x++) {
