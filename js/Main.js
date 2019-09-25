@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .25;
+var minorVer = .26;
 
 
 var demonData;
@@ -8,6 +8,14 @@ var liberatorData;
 var demonInfoData;
 var nullText = "-----------";
 var baseUrl = window.location.origin;
+
+var maxTotalMitama = 20;
+
+var max1Mitama = 100;
+var max2Mitama = 100;
+var max3Mitama = 100;
+var max4Mitama = 50;
+var max5Mitama = 50;
 
 //Our Controls
 var demonsSel;
@@ -70,6 +78,12 @@ var demonEdit5;
 var demonEdit6;
 var demonEditNumber;
 var demonEditPercent;
+var demonMitamaStr;
+var demonMitamaMag;
+var demonMitamaVit;
+var demonMitamaAgi;
+var demonMitamaLuck;
+var demonMitamaTotal;
 
 var blockUpdating = true;
 
@@ -150,6 +164,12 @@ function LoadData() {
         demonEdit6 = document.getElementsByName("demonEdit6");
         demonEditNumber = document.getElementsByName("demonEditNumber");
         demonEditPercent = document.getElementsByName("demonEditPercent");
+        demonMitamaStr = document.getElementsByName("demonMitamaStr");
+        demonMitamaMag = document.getElementsByName("demonMitamaMag");
+        demonMitamaVit = document.getElementsByName("demonMitamaVit");
+        demonMitamaAgi = document.getElementsByName("demonMitamaAgi");
+        demonMitamaLuck = document.getElementsByName("demonMitamaLuck");
+        demonMitamaTotal = document.getElementsByName("demonMitamaTotal");
 
         //Setup some custom CSS for our select controls
         for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/demonsSel.length) {
@@ -291,6 +311,37 @@ function ParseURL(data) {
             ]
         ];
 
+        var mitama = [
+            [
+                url.searchParams.get("demon1Mitama1"),
+                url.searchParams.get("demon1Mitama2"),
+                url.searchParams.get("demon1Mitama3"),
+                url.searchParams.get("demon1Mitama4"),
+                url.searchParams.get("demon1Mitama5")
+            ],
+            [
+                url.searchParams.get("demon2Mitama1"),
+                url.searchParams.get("demon2Mitama2"),
+                url.searchParams.get("demon2Mitama3"),
+                url.searchParams.get("demon2Mitama4"),
+                url.searchParams.get("demon2Mitama5")
+            ],
+            [
+                url.searchParams.get("demon3Mitama1"),
+                url.searchParams.get("demon3Mitama2"),
+                url.searchParams.get("demon3Mitama3"),
+                url.searchParams.get("demon3Mitama4"),
+                url.searchParams.get("demon3Mitama5")
+            ],
+            [
+                url.searchParams.get("demon4Mitama1"),
+                url.searchParams.get("demon4Mitama2"),
+                url.searchParams.get("demon4Mitama3"),
+                url.searchParams.get("demon4Mitama4"),
+                url.searchParams.get("demon4Mitama5")
+            ]
+        ];
+
         for (var i = 0; i < demons.length; i++) {
             $(demonsSel[i]).selectpicker('val', demons[i] === null ? nullText : demons[i].replace(" 4", "").replace(" 5", "☆").replace(" 2", " A"));
             $(demonArchtype[i]).selectpicker('val', archtypes[i] === null ? "clear" : archtypes[i]);
@@ -344,6 +395,26 @@ function ParseURL(data) {
                 var values = brands[i].split(",");
                 $(demonBrands[i]).val(values);
                 $(demonBrands[i]).selectpicker('refresh');
+            }
+
+            if (parseInt(mitama[i][0])) {
+                $(demonMitamaStr[i]).val(parseInt(mitama[i][0]));
+            }
+
+            if (mitama[i][1] != null) {
+                $(demonMitamaMag[i]).val(mitama[i][1]);
+            }
+
+            if (mitama[i][2] != null) {
+                $(demonMitamaVit[i]).val(mitama[i][2]);
+            }
+
+            if (mitama[i][3] != null) {
+                $(demonMitamaAgi[i]).val(mitama[i][3]);
+            }
+
+            if (mitama[i][4] != null) {
+                $(demonMitamaLuck[i]).val(mitama[i][4]);
             }
         }
 
@@ -459,8 +530,7 @@ function CreateURL() {
                 parameters += "demon" + (i + 1) + "Edit6=" +
                     demonEdit6[i].value + ";" +
                     demonEditNumber[i * 6 +5].value + ";" +
-                    demonEditPercent[i * 6 +5].value + "&";
-            
+                    demonEditPercent[i * 6 +5].value + "&";            
 
             //Write Brands
             var values = $(demonBrands[i]).val();
@@ -473,6 +543,34 @@ function CreateURL() {
                 if (valuesStr !== "")
                     parameters += "demon" + (i + 1) + "brands=" + valuesStr.substring(0, valuesStr.length - 1) + "&";
             }
+
+            //Write Mitama
+            var str = $(demonMitamaStr[i]).val();
+            var mag = $(demonMitamaMag[i]).val();
+            var vit = $(demonMitamaVit[i]).val();
+            var agi = $(demonMitamaAgi[i]).val();
+            var luck = $(demonMitamaLuck[i]).val();
+
+            if (parseInt(str))
+                parameters += "demon" + (i + 1) + "Mitama1=" + str + "&";
+            else
+                parameters += "demon" + (i + 1) + "Mitama1=0&";
+            if (parseInt(mag))
+                parameters += "demon" + (i + 1) + "Mitama2=" + mag + "&";
+            else
+                parameters += "demon" + (i + 1) + "Mitama2=0&";
+            if (parseInt(vit))
+                parameters += "demon" + (i + 1) + "Mitama3=" + vit + "&";
+            else
+                parameters += "demon" + (i + 1) + "Mitama3=0&";
+            if (parseInt(agi))
+                parameters += "demon" + (i + 1) + "Mitama4=" + agi + "&";
+            else
+                parameters += "demon" + (i + 1) + "Mitama4=0&";
+            if (parseInt(luck))
+                parameters += "demon" + (i + 1) + "Mitama5=" + luck + "&";
+            else
+                parameters += "demon" + (i + 1) + "Mitama5=0&";
         }
     }
 
@@ -607,14 +705,15 @@ function ReloadAll(control) {
         SetupDemonControls(control);
         UpdateAether();
         UpdateTooltips();
+        UpdateMitama();
         CalculateTotalSpeed();
-        CalculateSP();
+        CalculateSP();        
         CalculateStats();
         BuildResists();
         FilterDemons();
         FilterSkills();
         FilterBrands();
-        FilterStats();
+        FilterStats();        
     }
 }
 
@@ -635,10 +734,15 @@ function CalculateStats() {
             //Get our demons base stat values at 50..
             var demonHPStat = 0;
             var demonVitStat = demon["6★ Vitality"];
+            var demonVitMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[2].children[1].value;
             var demonStrStat = demon["6★ Strength"];
+            var demonStrMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[0].children[1].value;
             var demonAgiStat = demon["6★ Agility"];
+            var demonAgiMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[3].children[1].value;
             var demonMagStat = demon["6★ Magic"];
+            var demonMagMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[1].children[1].value;
             var demonLuStat = demon["6★ Luck"];
+            var demonLuMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[4].children[1].value;
             var demonPhysAtkStat = 0;
             var demonMagAtkStat = 0;
             var demonPhysDefStat = 0;
@@ -670,6 +774,18 @@ function CalculateStats() {
                 if (liberator.Ag != "")
                     demonAgiStat += liberator.Ag;
             }
+
+            //Add Mitama Stats
+            if (parseInt(demonVitMitama))
+                demonVitStat += parseInt(demonVitMitama);
+            if (parseInt(demonStrMitama))
+                demonStrStat += parseInt(demonStrMitama);
+            if (parseInt(demonMagMitama))
+                demonMagStat += parseInt(demonMagMitama);
+            if (parseInt(demonAgiMitama))
+                demonAgiStat += parseInt(demonAgiMitama);
+            if (parseInt(demonLuMitama))
+                demonLuStat += parseInt(demonLuMitama);
 
             //Get our Edit Stat Bonus values
             var types = [
@@ -1181,9 +1297,14 @@ function GetDemonSpeed(name, num) {
     var liberator = GetLiberator();
     var speed = 0;
     var extraAgi = 0;
-    var extraPercent = 1;
+    var extraPercent = 1;    
 
     if (demon != null) {
+
+        //Add Mitama Agi        
+        if (demon.MitamaAgi != null)
+            extraAgi += demon.MitamaAgi;
+
         //Calculate Extra Agi
         if (demon["Skill 1"] === "Agility Amp I" ||
             demon["Skill 2"] === "Agility Amp I" ||
@@ -1492,6 +1613,7 @@ function ChangeLiberator() {
 
 //Swaps demons by turn order
 function TurnOrder() {
+    CalculateTotalSpeed();
 
     var cols = document.getElementsByName("demon");
     var demons = [];
@@ -1525,7 +1647,14 @@ function TurnOrder() {
                 return 0;
             }
 
-            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1;            
+            var demonAAgi = a["6★ Agility"];
+            var demonBAgi = b["6★ Agility"];
+            if (parseInt(a.MitamaAgi))
+                demonAAgi += parseInt(a.MitamaAgi);
+            if (parseInt(b.MitamaAgi))
+                demonBAgi += parseInt(b.MitamaAgi);
+
+            return demonAAgi < demonBAgi ? 1 : -1;            
         }
     };
 
@@ -1549,7 +1678,14 @@ function TurnOrder() {
                     return 1;
             }
 
-            return a["6★ Agility"] < b["6★ Agility"] ? 1 : -1; 
+            var demonAAgi = a["6★ Agility"];
+            var demonBAgi = b["6★ Agility"];
+            if (parseInt(a.MitamaAgi))
+                demonAAgi += parseInt(a.MitamaAgi);
+            if (parseInt(b.MitamaAgi))
+                demonBAgi += parseInt(b.MitamaAgi);
+
+            return demonAAgi < demonBAgi ? 1 : -1; 
         }
     }
 
@@ -1911,4 +2047,91 @@ function GetDemonsFromUrl(data) {
         demonNames = demonNames.substring(0, demonNames.length - 2);
 
     return demonNames;
+}
+
+//Returns Maxes out the mitama control located near the control passed
+function Max(control) {
+
+    var demon = GetDemon(control.parentNode.parentNode.parentNode.parentNode.parentNode.children[2].children[0].children[0].value)
+
+    if (demon != null) {
+        var totalMitama = GetCurrentMitama(control);
+        var maxMitama = GetMaxMitama(demon);
+
+        if (totalMitama + 20 <= maxMitama)
+            control.parentNode.children[1].value = "20";
+        else if (parseInt(control.parentNode.children[1].value))
+            control.parentNode.children[1].value = parseInt(control.parentNode.children[1].value) + (maxMitama - GetCurrentMitama(control))
+        else
+            control.parentNode.children[1].value = (maxMitama - GetCurrentMitama(control))
+    }
+
+    ReloadAll();
+}
+
+//Update all mitama for all demons
+function UpdateMitama() {
+    for (var i = 0; i < demonsSel.length; i++) {
+
+        var demon = GetDemon(demonsSel[i].value)
+
+        if (demon != null) {
+            var maxMitama = GetMaxMitama(demon);
+            demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[5].children[1].innerHTML = maxMitama - GetCurrentMitama(demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[4].children[3]);
+            var mitamaAgi = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[3].children[1].value;
+            if (parseInt(mitamaAgi))
+                demon.MitamaAgi = parseInt(mitamaAgi);
+            else
+                demon.MitamaAgi = 0;
+        }
+        else { 
+            demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[5].children[1].innerHTML = "0";            
+        }
+    }
+}
+
+//Get max mitama allowed for a demon
+function GetMaxMitama(demon) {
+
+    if (demon != null) {
+        switch (demon.Rarity) {
+            case 5:
+                return max5Mitama;
+            case 4:
+                return max4Mitama;
+            case 3:
+                return max3Mitama;
+            case 2:
+                return max2Mitama;
+            case 1:
+                return max1Mitama;
+        }
+    }
+
+    return 0;
+}
+
+//Calculate current mitama based off a control
+function GetCurrentMitama(control) {
+    var total = 0;
+
+    var owner = control.parentNode.parentNode;
+    if (parseInt(owner.children[0].children[1].value))
+        total += parseInt(owner.children[0].children[1].value);
+    if (parseInt(owner.children[1].children[1].value))
+        total += parseInt(owner.children[1].children[1].value);
+    if (parseInt(owner.children[2].children[1].value))
+        total += parseInt(owner.children[2].children[1].value);
+    if (parseInt(owner.children[3].children[1].value))
+        total += parseInt(owner.children[3].children[1].value);
+    if (parseInt(owner.children[4].children[1].value))
+        total += parseInt(owner.children[4].children[1].value);
+
+    return total;
+}
+
+//Clears our mitama count for the local mitama
+function Clear(control) {
+    control.parentNode.children[1].value = 0;
+    ReloadAll();
 }

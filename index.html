@@ -50,14 +50,17 @@
             <br />
             <div id="demon" name="demon" class="col border border-dark rounded order-1">
                 <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Build</a>
+                    <li class="nav-item text-center">
+                        <a class="nav-link active" data-toggle="pill" href="#demomSkills1">Skills</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link" data-toggle="pill" href="#demonStats1">Stats</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#demonEdit1">Edit</a>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" data-toggle="pill" href="#demonEdit1">Brands</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" data-toggle="pill" href="#demonMitama1">Mitama</a>
                     </li>
                 </ul>
                 <div class="demonInfo">
@@ -281,6 +284,49 @@
                             </div>
                         </div>
                     </div>
+                    <div id="demonMitama1" class="tab-pane fade">
+                        <div class="mitamaGroup">
+                            <div class="mitamaStatGroup">
+                                <label>Str:</label>
+                                <input class="mitamaStatInput form-control" name="demonMitamaStr" min="0" max="20" type="number" placeholder="0" onchange="ReloadAll();">
+                                <img name="strMitamaImg" class="img" src="Images/Extracts/ExtractSt.png" width="34" height="34" />
+                                <button id="strMitamaMaxBtn" class="btn btn-success btn-sm mitamaMaxBtn" name="strMitamaMaxBtn" onclick="Max(this)">Max</button>
+                                <button id="strMitamaMaxBtn" class="btn btn-danger btn-sm mitamaClearBtn" name="strMitamaClearBtn" onclick="Clear(this)">Clear</button>
+                            </div>
+                            <div class="mitamaStatGroup">
+                                <label>Mag:</label>
+                                <input class="mitamaStatInput form-control" name="demonMitamaMag" min="0" max="20" type="number" placeholder="0" onchange="ReloadAll();">
+                                <img name="magMitamaImg" class="img" src="Images/Extracts/ExtractMa.png" width="34" height="34" />
+                                <button id="magMitamaMaxBtn" class="btn btn-success btn-sm mitamaMaxBtn" name="magMitamaMaxBtn" onclick="Max(this)">Max</button>
+                                <button id="magMitamaClearBtn" class="btn btn-danger btn-sm mitamaClearBtn" name="magMitamaClearBtn" onclick="Clear(this)">Clear</button>
+                            </div>
+                            <div class="mitamaStatGroup">
+                                <label>Vit:</label>
+                                <input class="mitamaStatInput form-control" name="demonMitamaVit" min="0" max="20" type="number" placeholder="0" onchange="ReloadAll();">
+                                <img name="vitMitamaImg" class="img" src="Images/Extracts/ExtractVi.png" width="34" height="34" />
+                                <button id="vitMitamaMaxBtn" class="btn btn-success btn-sm mitamaMaxBtn" name="vitMitamaMaxBtn" onclick="Max(this)">Max</button>
+                                <button id="vitMitamaClearBtn" class="btn btn-danger btn-sm mitamaClearBtn" name="vitMitamaClearBtn" onclick="Clear(this)">Clear</button>
+                            </div>
+                            <div class="mitamaStatGroup">
+                                <label>Agi:</label>
+                                <input class="mitamaStatInput form-control" name="demonMitamaAgi" min="0" max="20" type="number" placeholder="0" onchange="ReloadAll();">
+                                <img name="agiMitamaImg" class="img" src="Images/Extracts/ExtractAg.png" width="34" height="34" />
+                                <button id="agiMitamaMaxBtn" class="btn btn-success btn-sm mitamaMaxBtn" name="agiMitamaMaxBtn" onclick="Max(this)">Max</button>
+                                <button id="agiMitamaClearBtn" class="btn btn-danger btn-sm mitamaClearBtn" name="agiMitamaClearBtn" onclick="Clear(this)">Clear</button>
+                            </div>
+                            <div class="mitamaStatGroup">
+                                <label>Luck:</label>
+                                <input class="mitamaStatInput form-control" name="demonMitamaLuck" min="0" max="20" type="number" placeholder="0" onchange="ReloadAll();">
+                                <img name="luckMitamaImg" class="img" src="Images/Extracts/ExtractLu.png" width="34" height="34" />
+                                <button id="luckMitamaMaxBtn" class="btn btn-success btn-sm mitamaMaxBtn" name="luckMitamaMaxBtn" onclick="Max(this)">Max</button>
+                                <button id="luckMitamaClearBtn" class="btn btn-danger btn-sm mitamaClearBtn" name="luckMitamaClearBtn" onclick="Clear(this)">Clear</button>
+                            </div>
+                            <div class="mitamaStatGroup">
+                                <label>Mitama Left: </label>
+                                <label name="demonMitamaTotal">0</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <br />
                 <table class="table table-borderless table-sm align-bottom">
@@ -398,6 +444,11 @@
                 <div class="modal-body">
                     <div class="modal-body">
                         <div class="modal-body">
+                            <h6>1.26 Change:</h6>
+                            <ul stype="list-style: decimal inside;">
+                                <li>DB Updates with new Panel Info and corrections.</li>
+                                <li>Added support for Mitamas</li>
+                            </ul>
                             <h6>1.25 Change:</h6>
                             <ul stype="list-style: decimal inside;">
                                 <li>Bug fix for lead brands not working properly.</li>

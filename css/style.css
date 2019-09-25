@@ -96,8 +96,7 @@ div.hidden {
 
 @media only screen and (max-width: 600px){
     .col, .col-2 {
-        max-width: 410px;
-        min-width: 310px;
+        width: 310px;
     }
 }
 
@@ -202,7 +201,7 @@ div.hidden {
 }
 
 .tab-pane {
-    height:180px;    
+    height:185px;    
 }
 
 .href {
@@ -216,6 +215,33 @@ a {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background: #17a2b8;
+}
+
+.nav-link {  
+    display: inline-block;
+}
+
+.nav>li {
+    width: 25%;
+}
+
+input.mitamaStatInput {
+    width: 26%;
+    height: 30px;
+    display: inline-block;
+}
+
+.mitamaGroup {
+    text-align: right;
+    font-size: 11px;
+}
+
+.mitamaMaxBtn {
+    width: 40px;
+}
+
+.mitamaClearBtn {
+    width: 48px;
 }
 
 .help {
