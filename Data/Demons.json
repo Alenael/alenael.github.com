@@ -1819,12 +1819,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to damage dealt by attacks that target all or random enemies.",
+    "Panel 2": "-15% to damage to all party members by Cursed enemies while this demon is alive.",
+    "Panel 3": "+15% to damage dealt to Cursed enemies by all party members while this demon is alive.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Black Ooze",
@@ -3331,12 +3331,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-1MP to MP consumed by Force skills.",
+    "Panel 2": "-50% to Force damage received.",
+    "Panel 3": "+30% to Phys evasion rate.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "Speed：+20％(MAX)"
   },
   {
     "Name": "Girimekhala",
@@ -4591,12 +4591,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-1MP to MP consumed by Almighty skills.",
+    "Panel 2": "-15% to Fire, Ice, Elec & Force damage received.",
+    "Panel 3": "-15% to Almighty damage received by all party members while this demon is alive.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag DEF：+150(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Ikusa",
@@ -5095,12 +5095,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "Activates the following Chain Effect when downed:\nRandomly increases ATK, DEF or EV/AC of all party members by 20%. (3 turns)",
+    "Panel 2": "Activates the following Chain Effect when downed:\nRandomly reduces ATK, DEF or EV/AC of all enemies by 20%. (3 turns)",
+    "Panel 3": "Activates the following Chain Effect at the beginning of every third turn:\nActivates Yaxche's Chain Effect on a random enemy.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Izanami",
@@ -5158,12 +5158,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-1MP to MP consumed by Elec & Dark skills.",
+    "Panel 2": "Adds Elec Pierce.",
+    "Panel 3": "+10% to Elec & Dark damage dealt by all party members while this demon is alive.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Jack Frost",
@@ -7174,12 +7174,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to Light damage.",
+    "Panel 2": "-30% to Force & Light damage received.",
+    "Panel 3": "Activates the following Chain Effect after Trial of Hate is used:\nRandomly reduces 2 of either ATK, DEF or EV/AC of all enemies by 20%. (1 turn)",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Melchom",
@@ -12427,7 +12427,7 @@
     "6★ Strength": 198,
     "6★ Magic": 132,
     "6★ Vitality": 152,
-    "6★ Agility": 163,
+    "6★ Agility": 162,
     "6★ Luck": 152,
     "Skill 1": "Vorpal Blade",
     "Skill 2": "Mana Aid",
@@ -12592,12 +12592,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to Phys & Fire damage dealt.",
+    "Panel 2": "+15% to Phys hit rate.",
+    "Panel 3": "Activates the following Chain Effect if own attack deals a critical hit:\nPuts all party members into a state of Might.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Phys ATK：+80(MAX) Mag ATK：+80(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Zhong Kui",
@@ -12781,12 +12781,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-50% to Dark damage received.",
+    "Panel 2": "Activates the following Chain Effect if a party member's weak point is attacked.\nIncreases ATK of all party members by 20%. (2 turns)",
+    "Panel 3": "Activates the following Chain Effect at the beginning of a battle if the enemy attacks first:\nReduces all enemy ATK by 20%. (1 turn)",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Phys DEF：+120(MAX) Mag DEF：+120(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Bodyconian",
@@ -14293,12 +14293,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "-50% to Light damage received.",
+    "Panel 2": "-3MP to MP consumed by Soul Drain.",
+    "Panel 3": "Activates the following Chain Effect if Cleansing Shout is used:\nRemoves all enemy status buffs.",
+    "Panel 1 Stats": "HP：+250(MAX)",
+    "Panel 2 Stats": "Mag ATK：+100(MAX)",
+    "Panel 3 Stats": "HP：+250(MAX)"
   },
   {
     "Name": "Guan Yu",
