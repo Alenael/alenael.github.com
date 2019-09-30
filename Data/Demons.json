@@ -12970,12 +12970,12 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 1": "+15% to Phys hit rate.",
+    "Panel 2": "Activates the following Chain Effect when the demon with this skill downs an enemy:",
+    "Panel 3": "Reduces the cost of Occult Flash by 2MP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10(MAX 100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)"
   },
   {
     "Name": "Bayonetta☆",
