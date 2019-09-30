@@ -1051,8 +1051,6 @@ function PruneArchetypes() {
                     case "Jeanne d'Arc":
                     case "Siegfried":
                     case "Yoshitsune":
-                    case "Bodyconian":
-                    case "Man Eater":
                     case "Masakado":
                     case "Bayonetta☆":
                     case "Jeanne☆":
