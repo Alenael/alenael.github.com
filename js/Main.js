@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .27;
+var minorVer = .28;
 
 
 var demonData;
@@ -1027,6 +1027,7 @@ function PruneArchetypes() {
                     case "Cybele":
                     case "Kabuso":
                     case "Kartikeya":
+                    case "Seraph":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
@@ -1069,6 +1070,9 @@ function PruneArchetypes() {
                     case "Asura":
                     case "Agni":
                     case "Mahakala":
+                    case "Raphael":
+                    case "Gabrael":
+                    case "Uriel":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
