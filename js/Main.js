@@ -1073,6 +1073,9 @@ function PruneArchetypes() {
                     case "Raphael":
                     case "Gabrael":
                     case "Uriel":
+                    case "Red Rider":
+                    case "Black Rider":
+                    case "Pale Rider":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
