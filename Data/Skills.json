@@ -6415,7 +6415,7 @@
     "Element": "electricity",
     "Name": "Lightning Shower",
     "JP Name": "",
-    "Cost": 6,
+    "Cost": "6 MP",
     "Description": "Inflicts Elec (Magic) damage 5 times on a single enemy and 30% chance to inflict Bind on a single enemy. Power: 40\\nLv2：+5% to damage dealt using this skill.\\nLv3：+10% to damage dealt using this skill.\\nLv4：+15% to damage dealt using this skill.\\nLv5：+20% to damage dealt using this skill.\\nLv6：+20% to damage dealt using this skill./MP cost of this skill -1.",
     "Target": "Single Enemy",
     "Skill Points": "",

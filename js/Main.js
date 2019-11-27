@@ -1150,7 +1150,7 @@ function SetupDemonControls(control) {
             demonSkill1[i].innerHTML = demon["Skill 1"];
             demonSkill2[i].innerHTML = demon["Skill 2"];
             demonSkill3[i].innerHTML = demon["Skill 3"];
-            demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());;
+            demonAwakenSkill[i].innerHTML = GetSkillByArchtype(demon, $(demonArchtype[i]).val());
 
             var gachaSkill = GetGachaSkillByArchtype(demon, $(demonArchtype[i]).val());
             if (!lock[i] && (gachaSkill !== nullText || $(demonArchtype[i]).val() === "clear")) {
