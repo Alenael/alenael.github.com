@@ -6752,7 +6752,7 @@
     "Name": "Golden Greed",
     "JP Name": "貪欲なる煌めき",
     "Cost": "Passive",
-    "Description": "While the demon with this skill is alive, +200% damage to Poisoned enemies.\\n\\nLv2：+25% to Poison damage.\\nLv3：+50% to Poison damage.\\nLv4：+100% to Poison damage.",
+    "Description": "While the demon with this skill is alive, +200% Poison damage to Poisoned enemies./n/nLv2：+25% to Poison damage./nLv3：+50% to Poison damage./nLv4：+100% to Poison damage.",
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
@@ -6916,12 +6916,12 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "",
-    "Name": "",
-    "JP Name": "",
-    "Cost": "",
-    "Description": "",
-    "Target": "",
+    "Element": "passive",
+    "Name": "Shogun's Order",
+    "JP Name": "将軍の号令",
+    "Cost": "passive",
+    "Description": "Activates the following Chain Effect when an enemy is Muted: Increases own party's ATK and EV/AC by 20%. (1 turn)",
+    "Target": "Self",
     "Skill Points": "",
     "Learned By": "",
     "Transferable From": "",
@@ -6930,7 +6930,7 @@
     "ExtractTransfer": ""
   },
   {
-    "Element": "fractional",
+    "Element": "active",
     "Name": "Blade of Terror",
     "JP Name": "テラーソード",
     "Cost": "6 MP",

@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .28;
+var minorVer = .30;
 
 
 var demonData;
@@ -1028,6 +1028,7 @@ function PruneArchetypes() {
                     case "Kabuso":
                     case "Kartikeya":
                     case "Seraph":
+                    case "Neko Shogun":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
