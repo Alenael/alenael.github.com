@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .30;
+var minorVer = .31;
 
 
 var demonData;
@@ -1077,6 +1077,8 @@ function PruneArchetypes() {
                     case "Red Rider":
                     case "Black Rider":
                     case "Pale Rider":
+                    case "Susano-o A":
+                    case "Garuda A":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
