@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .31;
+var minorVer = .32;
 
 
 var demonData;
@@ -1632,12 +1632,16 @@ function TurnOrder() {
         if (demons[i] != null) {            
             var tempBrands = $(demonBrands[i]).val();
             demons[i].hasLeadBrand = false;
+            demons[i].hasLeadBrand2 = false;
             demons[i].index = i;
 
             if (tempBrands !== null) {
                 for (var j = 0; j < tempBrands.length; j++) {
                     if (tempBrands[j] === "lead") {
-                        demons[i].hasLeadBrand = true;          
+                        demons[i].hasLeadBrand = true;       
+                    }
+                    if (tempBrands[j] === "lead2") {
+                        demons[i].hasLeadBrand2 = true;       
                     }
                 }
             }
@@ -1682,7 +1686,18 @@ function TurnOrder() {
             if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 1) {
                 if (a.hasLeadBrand == true && b.hasLeadBrand == false)
                     return -1;
-                else if (a.hasLeadBrand == false && b.hasLeadBrand == true)
+                if (a.hasLeadBrand == false && b.hasLeadBrand == true)
+                    return 1;                
+                if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
+                    return -1;
+                if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
+                    return 1;
+            }
+
+            if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 2) {
+                if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
+                    return -1;
+                if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
                     return 1;
             }
 
@@ -1923,6 +1938,7 @@ function GetBrandCost(brandName)
         case "dodge2":
         case "aim2":
         case "heal2":
+        case "lead2":
             return 4;
         default:
             return 0;
