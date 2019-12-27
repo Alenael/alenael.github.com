@@ -1638,10 +1638,12 @@ function TurnOrder() {
             if (tempBrands !== null) {
                 for (var j = 0; j < tempBrands.length; j++) {
                     if (tempBrands[j] === "lead") {
-                        demons[i].hasLeadBrand = true;       
+                        demons[i].hasLeadBrand = true;      
+                        demons[i].leadCount =  1;
                     }
                     if (tempBrands[j] === "lead2") {
                         demons[i].hasLeadBrand2 = true;       
+                        demons[i].leadCoun = 2;
                     }
                 }
             }
@@ -1649,7 +1651,7 @@ function TurnOrder() {
     }
 
     //Sorts our demons by agi only
-    var sorter = function() {
+    var sortByAgi = function() {
         return function (a, b) {
             if (a == null) {
                 return 1;
@@ -1670,49 +1672,75 @@ function TurnOrder() {
         }
     };
 
-    var newTurnOrder = demons.slice().sort(sorter());
+    var newTurnOrder = demons.slice().sort(sortByAgi());
 
-    //Sorts by if they have lead brands or not
-    var sorter2 = function () {
+    var sortByLead = function () {
         return function (a, b) {
+
             if (a == null) {
                 return 1;
             } else if (b == null) {
                 return -1;
-            } else if (a === b) {
-                return 0;
             }
 
-            if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 1) {
-                if (a.hasLeadBrand == true && b.hasLeadBrand == false)
-                    return -1;
-                if (a.hasLeadBrand == false && b.hasLeadBrand == true)
-                    return 1;                
-                if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
-                    return -1;
-                if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
-                    return 1;
+            if (a.leadCount > 0) {
+                a.leadCount--;
+                return -1;
             }
 
-            if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 2) {
-                if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
-                    return -1;
-                if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
-                    return 1;
+            if (b.leadCount > 0) {
+                b.leadCount--;
+                return 1;
             }
 
-            var demonAAgi = a["6★ Agility"];
-            var demonBAgi = b["6★ Agility"];
-            if (parseInt(a.MitamaAgi))
-                demonAAgi += parseInt(a.MitamaAgi);
-            if (parseInt(b.MitamaAgi))
-                demonBAgi += parseInt(b.MitamaAgi);
+            return 0;                
 
-            return demonAAgi < demonBAgi ? 1 : -1; 
         }
     }
 
-    newTurnOrder = newTurnOrder.sort(sorter2());
+    newTurnOrder = newTurnOrder.sort(sortByLead());
+
+    ////Sorts by if they have lead brands or not
+    //var sorter2 = function () {
+    //    return function (a, b) {
+    //        if (a == null) {
+    //            return 1;
+    //        } else if (b == null) {
+    //            return -1;
+    //        } else if (a === b) {
+    //            return 0;
+    //        }
+
+    //        if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 1) {
+    //            if (a.hasLeadBrand == true && b.hasLeadBrand == false)
+    //                return -1;
+    //            if (a.hasLeadBrand == false && b.hasLeadBrand == true)
+    //                return 1;                
+    //            if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
+    //                return -1;
+    //            if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
+    //                return 1;
+    //        }
+
+    //        if (newTurnOrder.indexOf(a) == newTurnOrder.indexOf(b) + 2) {
+    //            if (a.hasLeadBrand2 == true && b.hasLeadBrand2 == false)
+    //                return -1;
+    //            if (a.hasLeadBrand2 == false && b.hasLeadBrand2 == true)
+    //                return 1;
+    //        }
+
+    //        var demonAAgi = a["6★ Agility"];
+    //        var demonBAgi = b["6★ Agility"];
+    //        if (parseInt(a.MitamaAgi))
+    //            demonAAgi += parseInt(a.MitamaAgi);
+    //        if (parseInt(b.MitamaAgi))
+    //            demonBAgi += parseInt(b.MitamaAgi);
+
+    //        return demonAAgi < demonBAgi ? 1 : -1; 
+    //    }
+    //}
+
+    //newTurnOrder = newTurnOrder.sort(sorter2());
 
     //Move everything to end
     for (var x = 0; x < newTurnOrder.length; x++) {
