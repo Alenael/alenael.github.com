@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .32;
+var minorVer = .33;
 
 
 var demonData;
@@ -84,6 +84,7 @@ var demonMitamaVit;
 var demonMitamaAgi;
 var demonMitamaLuck;
 var demonMitamaTotal;
+var enableP3Check;
 
 var blockUpdating = true;
 
@@ -94,7 +95,7 @@ function LoadData() {
     $(document).ready(function () {
         $("body").tooltip({
             selector: '[data-toggle="tooltip"]'
-        });
+        }); 
     });
     
     //Load our json
@@ -170,6 +171,8 @@ function LoadData() {
         demonMitamaAgi = document.getElementsByName("demonMitamaAgi");
         demonMitamaLuck = document.getElementsByName("demonMitamaLuck");
         demonMitamaTotal = document.getElementsByName("demonMitamaTotal");
+        enableP3Check = document.getElementsByName("enableP3Check");
+        enableP3Label = document.getElementsByName("enableP3Label");
 
         //Setup some custom CSS for our select controls
         for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/demonsSel.length) {
@@ -1305,7 +1308,7 @@ function GetDemonSpeed(name, num) {
     var liberator = GetLiberator();
     var speed = 0;
     var extraAgi = 0;
-    var extraPercent = 1;    
+    var extraPercent = 1;
 
     if (demon != null) {
 
@@ -1314,26 +1317,17 @@ function GetDemonSpeed(name, num) {
             extraAgi += demon.MitamaAgi;
 
         //Calculate Extra Agi
-        if (demon["Skill 1"] === "Agility Amp I" ||
-            demon["Skill 2"] === "Agility Amp I" ||
-            demon["Skill 3"] === "Agility Amp I" ||
-            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp I" ||
+        if (GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp I" ||
             demonCustomSkill1[num].value === "Agility Amp I" ||
             demonCustomSkill2[num].value === "Agility Amp I")
             extraAgi += 5;
 
-        if (demon["Skill 1"] === "Agility Amp II" ||
-            demon["Skill 2"] === "Agility Amp II" ||
-            demon["Skill 3"] === "Agility Amp II" ||
-            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp II" ||
+        if (GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp II" ||
             demonCustomSkill1[num].value === "Agility Amp II" ||
             demonCustomSkill2[num].value === "Agility Amp II")
             extraAgi += 10;
 
-        if (demon["Skill 1"] === "Agility Amp III" ||
-            demon["Skill 2"] === "Agility Amp III" ||
-            demon["Skill 3"] === "Agility Amp III" ||
-            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp III" ||
+        if (GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp III" ||
             demonCustomSkill1[num].value === "Agility Amp III" ||
             demonCustomSkill2[num].value === "Agility Amp III")
             extraAgi += 15;
@@ -1350,6 +1344,22 @@ function GetDemonSpeed(name, num) {
             demonCustomSkill1[num].value === "Speedster" ||
             demonCustomSkill2[num].value === "Speedster")
             extraPercent += .5;
+
+        if (demon["Skill 1"] === "Epitome of Swiftness" ||
+            demon["Skill 2"] === "Epitome of Swiftness" ||
+            demon["Skill 3"] === "Epitome of Swiftness" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Epitome of Swiftness" ||
+            demonCustomSkill1[num].value === "Epitome of Swiftness" ||
+            demonCustomSkill2[num].value === "Epitome of Swiftness")
+            extraPercent += .25;
+
+        //If we want to Obey P3 rules then we get speed for some demons
+        if ($(enableP3Check).is(':checked')) {
+            if (demon.Name === "Garuda")
+                extraPercent += .2;
+            if (demon.Name === "Kartikeya")
+                extraPercent += .3;
+        }
 
         //Check Brands for speed brands
         var brands = $(demonBrands[num]).val();

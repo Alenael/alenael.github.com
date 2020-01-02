@@ -381,8 +381,7 @@
                     <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
                     <br />
                     <br />
-                    <br />
-                    <br />
+                    <label name="enableP3Label"> <input type="checkbox" name="enableP3Check" onclick="TurnOrder();" /> Add Panel Speed %</label>
                     <br />
                     <br />
                     <br />
@@ -414,17 +413,18 @@
                         <li>Pick a liberator on the far right.</li>
                         <li>Clicking 'Generate Link' will generate a unique URL to the build you just created.</li>
                         <li>Clicking 'Reset' will reset the tool to its default state for you to build something else.</li>
-                        <li>For many 5* Demons you can Hover Over the demon/achetype image to get some additional details on how to use that demon.</li>
+                        <li>For many 5* Demons you can Hover Over the demon/achetype image to get some additional details such as panel info or how you might use that demon.</li>
                     </ol>
                     <h6>FAQ:</h6>
                     <ul stype="list-style: list-unstyled">
                         <li>Where can I Thank, Ask Questions, or Provide Feedback for this tool?</li> Easiest place to do that would be on Reddit. You can find me at:
                         <a href="https://www.reddit.com/user/AlenaelReal">/u/AlenaelReal</a>
                         <li>Do things like Speedster, Agility Amp, Speed Brands, and Liberator's extra Agility affect Total Party Speed?</li> Yes.
-                        <li>Do skills Agility Amp, Strength Amp, etc. affect the Demons Stats?</li> Maybe? If they come naturally on that demon always (Not an awaken or gacha skill) then yes they do. Otherwise they do not function at this time.
-                        <li>Do stats from Liberators affect the partys overall stats?</li> Yes they do.
-                        <li>Do things like Lead brands affect turn order?</li> Yes they do.
-                        <li>Does editing Speed % affect team speed?</li> Yes it does.
+                        <li>Do skills Agility Amp, Strength Amp, etc. affect the Demons Stats?</li> No they do not. Except Agi Amp bonuses they will be added to ensure we calculate turn order properly. The rest are ignored (Not added) to the demons stats.
+                        <li>Do stats from Liberators affect the partys overall stats?</li> Yes.
+                        <li>Do things like Lead brands affect turn order?</li> Yes.
+                        <li>Does editing Speed % affect team speed?</li> Yes.
+                        <li>Does Panels that affect Speed % get calculated?</li> Yes they do if you have the 'Add Panel Speed %' Checkbox selected.
                     </ul>
                 </div>
             </div>
@@ -444,7 +444,16 @@
                 </div>
                 <div class="modal-body">
                     <div class="modal-body">
-                        <div class="modal-body">
+                        <div class="modal-body">                            
+                            <h6>1.33 Change: (DB Changes Courtesy of @AkA#1488)</h6>
+                            <ul stype="list-style: decimal inside;">
+                                <li>Added Masakado A</li>
+                                <li>Added New Skills: Epitome of Swiftness and Faithful Counter</li>
+                                <li>Added Support for Panel Speed % Calculations</li>
+                                <li>Fixed several skills who were missing SP or had other mistakes.</li>
+                                <li>Fixed incorrect skill name on Mahakala</li>
+                                <li>Fixed bug where Agi Amp was being included for demons who already had it as an Innate Skill.</li>
+                            </ul>
                             <h6>1.32 Change:</h6>
                             <ul stype="list-style: decimal inside;">
                                 <li>Added Lead2x (+2 Turn Order) to the Brands List</li>
