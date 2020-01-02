@@ -1083,6 +1083,7 @@ function PruneArchetypes() {
                     case "Pale Rider":
                     case "Susano-o A":
                     case "Garuda A":
+                    case "Masakado A":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
