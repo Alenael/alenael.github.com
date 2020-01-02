@@ -85,6 +85,7 @@ var demonMitamaAgi;
 var demonMitamaLuck;
 var demonMitamaTotal;
 var enableP3Check;
+var enableSkillLevelsCheck;
 
 var blockUpdating = true;
 
@@ -171,8 +172,8 @@ function LoadData() {
         demonMitamaAgi = document.getElementsByName("demonMitamaAgi");
         demonMitamaLuck = document.getElementsByName("demonMitamaLuck");
         demonMitamaTotal = document.getElementsByName("demonMitamaTotal");
-        enableP3Check = document.getElementsByName("enableP3Check");
-        enableP3Label = document.getElementsByName("enableP3Label");
+        enableP3Check = document.getElementsByName("enableP3Check");        
+        enableSkillLevelsCheck = document.getElementsByName("enableSkillLevelsCheck");
 
         //Setup some custom CSS for our select controls
         for (var i = 0; i <= dropDownMenus.length - 1; i = i + dropDownMenus.length/demonsSel.length) {
@@ -1359,6 +1360,12 @@ function GetDemonSpeed(name, num) {
                 extraPercent += .2;
             if (demon.Name === "Kartikeya")
                 extraPercent += .3;
+        }
+
+        //If we want to obey skill level ups then we get agi for some demons
+        if ($(enableSkillLevelsCheck).is(':checked')) {
+            if (demon.Name === "Kartikeya" || demon.Name === "Nekomata A")
+                extraAgi += 20;
         }
 
         //Check Brands for speed brands

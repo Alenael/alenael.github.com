@@ -381,8 +381,8 @@
                     <div id="speedButton" class="btn btn-primary btn-sm" title="Rearrange demons by turn order." onclick="TurnOrder();"><div id="totalspeed">Total Speed: 0</div></div>
                     <br />
                     <br />
-                    <label name="enableP3Label"> <input type="checkbox" name="enableP3Check" onclick="TurnOrder();" /> Add Panel Speed %</label>
-                    <br />
+                    <label name="enableP3Label"> <input type="checkbox" name="enableP3Check" onclick="TurnOrder();" /> Add Panel Speed %</label><br />
+                    <label name="enableSkillLevelsLabel"> <input type="checkbox" name="enableSkillLevelsCheck" onclick="TurnOrder();" /> Add Agi from Skill Level Ups</label><br />
                     <br />
                     <br />
                     <br />
@@ -408,7 +408,8 @@
                     <ol stype="list-style: decimal inside;">
                         <li>Select your first demon and the archetype you want them to have.</li>
                         <li>Select their two inherited skills.</li>
-                        <li>Click the Brands option and assign the Brands for this demon.</li>
+                        <li>Click the Brands option and assign the Brands for this demon at the bottom.</li>
+                        <li>Optional: Click Stats, Brands, or Mitama buttons above the demon to configure additional details about the demon.</li>
                         <li>Repeat this process for the remaining 3 demons.</li>
                         <li>Pick a liberator on the far right.</li>
                         <li>Clicking 'Generate Link' will generate a unique URL to the build you just created.</li>
@@ -419,12 +420,12 @@
                     <ul stype="list-style: list-unstyled">
                         <li>Where can I Thank, Ask Questions, or Provide Feedback for this tool?</li> Easiest place to do that would be on Reddit. You can find me at:
                         <a href="https://www.reddit.com/user/AlenaelReal">/u/AlenaelReal</a>
-                        <li>Do things like Speedster, Agility Amp, Speed Brands, and Liberator's extra Agility affect Total Party Speed?</li> Yes.
+                        <li>Do things like Speedster, Agility Amp, Speed Brands, Panels, and Liberator's extra Agility/Speed % affect Total Party Speed?</li> Yes.
                         <li>Do skills Agility Amp, Strength Amp, etc. affect the Demons Stats?</li> No they do not. Except Agi Amp bonuses they will be added to ensure we calculate turn order properly. The rest are ignored (Not added) to the demons stats.
                         <li>Do stats from Liberators affect the partys overall stats?</li> Yes.
-                        <li>Do things like Lead brands affect turn order?</li> Yes.
-                        <li>Does editing Speed % affect team speed?</li> Yes.
-                        <li>Does Panels that affect Speed % get calculated?</li> Yes they do if you have the 'Add Panel Speed %' Checkbox selected.
+                        <li>Do things like Lead/Lead x2 brands affect turn order?</li> Yes.
+                        <li>Does editing Speed % in Brands affect team speed?</li> Yes.
+                        <li>Does Panels that affect Speed % get calculated?</li> Yes, if you have the 'Add Panel Speed %' Checkbox selected.
                     </ul>
                 </div>
             </div>
