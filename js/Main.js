@@ -846,8 +846,7 @@ function CalculateStats() {
                         magDefPercent += percents[k];
                         break;
                     case "physaccuracy":
-                        demonPhysAccuracyStat += numbers[k];
-                        demonPhysAccuracy += percents[k];
+                        demonPhysAccuracyStat += percents[k];
                         break;
                     case "physatk":
                         demonPhysAtkStat += numbers[k];
