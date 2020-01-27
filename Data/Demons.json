@@ -60,7 +60,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Abraxas",
@@ -123,7 +127,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Agathion",
@@ -186,7 +194,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Alice",
@@ -249,7 +261,11 @@
     "Panel 3": "Increases the uses of Die For Me! by 2.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Alilat",
@@ -312,7 +328,11 @@
     "Panel 3": "+30% to max HP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys DEF +8 (MAX +80) & Mag DEF +8 (MAX +80)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Amaterasu",
@@ -375,7 +395,11 @@
     "Panel 3": "+20% to status ailment auto cure rate. As long as this demon is alive, -20% to Fire damage received by all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag DEF +15 (MAX +150)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ammut",
@@ -438,7 +462,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ananta",
@@ -501,7 +529,11 @@
     "Panel 3": "+20% to max HP. As long as this demon is alive, -20% to Ice damage received by all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag Def +15 (MAX +150)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Angel",
@@ -564,7 +596,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Anubis",
@@ -627,7 +663,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Apis",
@@ -690,7 +730,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Apsaras",
@@ -753,7 +797,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Arahabaki",
@@ -816,7 +864,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Archangel",
@@ -879,7 +931,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ares",
@@ -942,7 +998,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Arianrhod",
@@ -1005,7 +1065,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Asherah",
@@ -1068,7 +1132,11 @@
     "Panel 3": "Increases the uses of Mother's Creation by 1.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag Def +15 (MAX +150)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Attis",
@@ -1131,7 +1199,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Azrael",
@@ -1194,7 +1266,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Azumi",
@@ -1257,7 +1333,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Baihu",
@@ -1320,7 +1400,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Baphomet",
@@ -1383,7 +1467,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Barong",
@@ -1446,7 +1534,11 @@
     "Panel 3": "+15% to Elec damage and +15% to Healing skill effectiveness. As long as this demon is alive, -20% to Elec damage received by all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Beelzebub",
@@ -1509,7 +1601,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Beiji-Weng",
@@ -1572,7 +1668,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Berserker",
@@ -1635,7 +1735,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Bicorn",
@@ -1698,7 +1802,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Bishamonten",
@@ -1761,7 +1869,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Black Frost",
@@ -1824,7 +1936,11 @@
     "Panel 3": "+15% to damage dealt to Cursed enemies by all party members while this demon is alive.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Black Ooze",
@@ -1887,7 +2003,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Blob",
@@ -1950,7 +2070,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Cerberus",
@@ -2013,7 +2137,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Chagrin",
@@ -2076,7 +2204,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Chatterskull",
@@ -2139,7 +2271,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Chernobog",
@@ -2202,7 +2338,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Chimera",
@@ -2265,7 +2405,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Chupacabra",
@@ -2328,7 +2472,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Cu Chulainn",
@@ -2391,7 +2539,11 @@
     "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +8 (MAX +80) \nMag ATK +8 (MAX +80)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Cu Sith",
@@ -2454,7 +2606,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Dakini",
@@ -2517,7 +2673,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Dantalian",
@@ -2580,7 +2740,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Decarabia",
@@ -2643,7 +2807,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Dionysus",
@@ -2706,7 +2874,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Dis",
@@ -2769,7 +2941,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Dominion",
@@ -2832,7 +3008,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Efreet",
@@ -2895,7 +3075,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Eligor",
@@ -2958,7 +3142,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Feng Huang",
@@ -3021,7 +3209,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Fenrir",
@@ -3084,7 +3276,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Fomorian",
@@ -3147,7 +3343,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Forneus",
@@ -3210,7 +3410,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ganesha",
@@ -3273,7 +3477,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Garuda",
@@ -3336,7 +3544,11 @@
     "Panel 3": "+30% to Phys evasion rate.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK：+100(MAX)",
-    "Panel 3 Stats": "Speed：+20％(MAX)"
+    "Panel 3 Stats": "Speed：+20％(MAX)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Girimekhala",
@@ -3399,7 +3611,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Gremlin",
@@ -3462,7 +3678,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Grendel",
@@ -3525,7 +3745,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Gucumatz",
@@ -3588,7 +3812,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Gui Xian",
@@ -3651,7 +3879,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Halloween Jack",
@@ -3714,7 +3946,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hamsa",
@@ -3777,7 +4013,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hanuman",
@@ -3840,7 +4080,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hare of Inaba",
@@ -3903,7 +4147,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Hathor",
@@ -3966,7 +4214,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hecatoncheires",
@@ -4029,7 +4281,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hel",
@@ -4092,7 +4348,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Hell Biker",
@@ -4155,7 +4415,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Helper Frost",
@@ -4218,7 +4482,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Heqet",
@@ -4281,7 +4549,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "High Pixie",
@@ -4344,7 +4616,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Horkos",
@@ -4407,7 +4683,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Horus",
@@ -4470,7 +4750,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Huang Di",
@@ -4533,7 +4817,11 @@
     "Panel 3": "Activates the following Chain Effect when landing a critical hit:\nHeals 15% HP of all party members.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Huang Long",
@@ -4596,7 +4884,11 @@
     "Panel 3": "-15% to Almighty damage received by all party members while this demon is alive.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag DEF：+150(MAX)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ikusa",
@@ -4659,7 +4951,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Illuyanka",
@@ -4722,7 +5018,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Incubus",
@@ -4785,7 +5085,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Inugami",
@@ -4848,7 +5152,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ippon-Datara",
@@ -4911,7 +5219,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ishtar",
@@ -4974,7 +5286,11 @@
     "Panel 3": "Activates the following Chain Effect after Mesopotamian Star is activated:\n Increases own party's DEF and EV/AC by 20%. (3 turns)",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Isis",
@@ -5037,7 +5353,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ixtab",
@@ -5100,7 +5420,11 @@
     "Panel 3": "Activates the following Chain Effect at the beginning of every third turn:\nActivates Yaxche's Chain Effect on a random enemy.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Izanami",
@@ -5163,7 +5487,11 @@
     "Panel 3": "+10% to Elec & Dark damage dealt by all party members while this demon is alive.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Jack Frost",
@@ -5226,7 +5554,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Jatayu",
@@ -5289,7 +5621,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Jeanne d'Arc",
@@ -5352,7 +5688,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Jikokuten",
@@ -5415,7 +5755,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kaiwan",
@@ -5478,7 +5822,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kama",
@@ -5541,7 +5889,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Kamiotoko",
@@ -5604,7 +5956,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Kanbari",
@@ -5667,7 +6023,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Kelpie",
@@ -5730,7 +6090,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kikuri-Hime",
@@ -5793,7 +6157,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "King Frost",
@@ -5856,7 +6224,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kinmamon",
@@ -5919,7 +6291,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Koppa Tengu",
@@ -5982,7 +6358,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Koumokuten",
@@ -6045,7 +6425,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kresnik",
@@ -6108,7 +6492,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kudlak",
@@ -6171,7 +6559,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kurama Tengu",
@@ -6234,7 +6626,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kushinada",
@@ -6297,7 +6693,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Lailah",
@@ -6360,7 +6760,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Lakshmi",
@@ -6423,7 +6827,11 @@
     "Panel 3": "Activates the following Chain Effect after Lotus Dance is activated:\n All party members recover 1 MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag DEF +15(MAX 150)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Leanan Sidhe",
@@ -6486,7 +6894,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Legion",
@@ -6549,7 +6961,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Lilim",
@@ -6612,7 +7028,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Lilith",
@@ -6675,7 +7095,11 @@
     "Panel 3": "Activates the following Chain Effect when enemy is Charmed:\n30% chance to Bind all enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Loki",
@@ -6738,7 +7162,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Long",
@@ -6801,7 +7229,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Lucifer",
@@ -6864,7 +7296,11 @@
     "Panel 3": "+25% to Almighty damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mad Gasser",
@@ -6927,7 +7363,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Makami",
@@ -6990,7 +7430,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Makara",
@@ -7053,7 +7497,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mara",
@@ -7116,7 +7564,11 @@
     "Panel 3": "Activates the following Chain Effect after Hell Thrust is activated:\n Enters a state of Charge. Increases the next Phys attack damage by 125%.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mastema",
@@ -7179,7 +7631,11 @@
     "Panel 3": "Activates the following Chain Effect after Trial of Hate is used:\nRandomly reduces 2 of either ATK, DEF or EV/AC of all enemies by 20%. (1 turn)",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Melchom",
@@ -7242,7 +7698,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mermaid",
@@ -7305,7 +7765,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Metatron",
@@ -7368,7 +7832,11 @@
     "Panel 3": "+20% to Magic damage inflicted.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Michael",
@@ -7431,7 +7899,11 @@
     "Panel 3": "+25% to Light damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mishaguji",
@@ -7494,7 +7966,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mitra",
@@ -7557,7 +8033,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mokoi",
@@ -7620,7 +8100,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Momunofu",
@@ -7683,7 +8167,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mot",
@@ -7746,7 +8234,11 @@
     "Panel 3": "Activates the following Chain Effect at the beginning of every third turn:\n Receive 1 additional Press Turn Icon.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Mother Harlot",
@@ -7809,7 +8301,11 @@
     "Panel 3": "+25% to damage to Charmed enemies. As long as this demon is alive, -25% to enemy Charm auto cure rate.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Mothman",
@@ -7872,7 +8368,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Mou-Ryo",
@@ -7935,7 +8435,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Naga",
@@ -7998,7 +8502,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Nekomata",
@@ -8061,7 +8569,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Nergal",
@@ -8124,7 +8636,11 @@
     "Panel 3": "Adds Phys Pierce against Weakened enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Nozuchi",
@@ -8187,7 +8703,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Nue",
@@ -8250,7 +8770,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Obariyon",
@@ -8313,7 +8837,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Oberon",
@@ -8376,7 +8904,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Odin",
@@ -8439,7 +8971,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ongyo-Ki",
@@ -8502,7 +9038,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Oni",
@@ -8565,7 +9105,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Orochi",
@@ -8628,7 +9172,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Orthrus",
@@ -8691,7 +9239,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ose",
@@ -8754,7 +9306,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pallas Athena",
@@ -8817,7 +9373,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Patrimpas",
@@ -8880,7 +9440,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pazuzu",
@@ -8943,7 +9507,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Peallaidh",
@@ -9006,7 +9574,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pele",
@@ -9069,7 +9641,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Persephone",
@@ -9132,7 +9708,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Phantom",
@@ -9195,7 +9775,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pisaca",
@@ -9258,7 +9842,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pixie",
@@ -9321,7 +9909,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Power",
@@ -9384,7 +9976,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Preta",
@@ -9447,7 +10043,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Principality",
@@ -9510,7 +10110,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Prometheus",
@@ -9573,7 +10177,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pyro Jack",
@@ -9636,7 +10244,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Quetzalcoatl",
@@ -9699,7 +10311,11 @@
     "Panel 3": "Activates the following Chain Effect after Ce Acatls' Return is activated: Cast Lydia on own party.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Raijuu",
@@ -9762,7 +10378,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Rakshasa",
@@ -9825,7 +10445,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Rama",
@@ -9888,7 +10512,11 @@
     "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Rangda",
@@ -9951,7 +10579,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Reiko Kashima",
@@ -10014,7 +10646,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Samael",
@@ -10077,7 +10713,11 @@
     "Panel 3": "Activates the following Chain Effect at the beginning of your turn:\nRemoves Barrier and Repel Mag from all enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Sandalphon",
@@ -10140,7 +10780,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Sandman",
@@ -10203,7 +10847,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Sarasvati",
@@ -10266,7 +10914,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Scathach",
@@ -10329,7 +10981,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Setanta",
@@ -10392,7 +11048,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Seth",
@@ -10455,7 +11115,11 @@
     "Panel 3": "Reduces the cost of Ouas by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shadow",
@@ -10518,7 +11182,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shiisaa",
@@ -10581,7 +11249,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shiki-Ouji",
@@ -10644,7 +11316,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shikome",
@@ -10707,7 +11383,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shiva",
@@ -10770,7 +11450,11 @@
     "Panel 3": "Reduces consumed MP of Phys attack skills by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Siegfried",
@@ -10833,7 +11517,11 @@
     "Panel 3": "Reduces the cost of Phys Skills by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Silky",
@@ -10896,7 +11584,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Skadi",
@@ -10959,7 +11651,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Sleipnir",
@@ -11022,7 +11718,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Slime",
@@ -11085,7 +11785,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Sphinx",
@@ -11148,7 +11852,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Succubus",
@@ -11211,7 +11919,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Suparna",
@@ -11274,7 +11986,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Surt",
@@ -11337,7 +12053,11 @@
     "Panel 3": "+25% to Fire damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +8 (MAX +80) & Mag ATK +8 (MAX +80)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Susano-o",
@@ -11400,7 +12120,11 @@
     "Panel 3": "+25% to single-target attack damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Take-Minakata",
@@ -11463,7 +12187,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Tam Lin",
@@ -11526,7 +12254,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Thor",
@@ -11589,7 +12321,11 @@
     "Panel 3": "+25% to Elec damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +8 (MAX +80) \nMag ATK +8 (MAX +80)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Throne",
@@ -11652,7 +12388,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Titania",
@@ -11715,7 +12455,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Trumpeter",
@@ -11774,11 +12518,15 @@
     "L Soul": "",
     "Alternate Name": "",
     "Panel 1": "+15% chance to inflict status ailments.",
-    "Panel 2": "Activates the following Chain Effect when entering a statue of Concentrate:\nRemoves Barrier from all enemies.",
+    "Panel 2": "Activates the following Chain Effect when entering a statue of Concentrate: Removes Barrier from all enemies.",
     "Panel 3": "Reduces the cost of Concentrate by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Tsukuyomi",
@@ -11841,7 +12589,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Unicorn",
@@ -11904,7 +12656,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Valkyrie",
@@ -11967,7 +12723,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Vetala",
@@ -12030,7 +12790,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Virtue",
@@ -12093,7 +12857,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Vishnu",
@@ -12156,7 +12924,11 @@
     "Panel 3": "Reduces consumed MP of Magic attack skills by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "White Rider",
@@ -12219,7 +12991,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Wu Kong",
@@ -12282,7 +13058,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Yaksini",
@@ -12345,7 +13125,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Yatagarasu",
@@ -12408,7 +13192,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Yoshitsune",
@@ -12471,7 +13259,11 @@
     "Panel 3": "+25% damage to attacks that target all or random enemies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Yurlungur",
@@ -12534,7 +13326,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Zaou-Gongen",
@@ -12597,7 +13393,11 @@
     "Panel 3": "Activates the following Chain Effect if own attack deals a critical hit:\nPuts all party members into a state of Might.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK：+80(MAX) Mag ATK：+80(MAX)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Zhong Kui",
@@ -12660,7 +13460,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Zouchouten",
@@ -12723,7 +13527,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Orcus",
@@ -12786,7 +13594,11 @@
     "Panel 3": "Activates the following Chain Effect at the beginning of a battle if the enemy attacks first:\nReduces all enemy ATK by 20%. (1 turn)",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys DEF：+120(MAX) Mag DEF：+120(MAX)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Bodyconian",
@@ -12849,7 +13661,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Man Eater",
@@ -12912,7 +13728,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Masakado",
@@ -12975,7 +13795,11 @@
     "Panel 3": "Reduces the cost of Occult Flash by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Bayonetta☆",
@@ -13038,7 +13862,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Jeanne☆",
@@ -13101,7 +13929,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Beloved",
@@ -13164,7 +13996,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Bayonetta",
@@ -13227,7 +14063,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Jeanne",
@@ -13290,7 +14130,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kusi Mitama",
@@ -13353,7 +14197,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Nigi Mitama",
@@ -13416,7 +14264,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ara Mitama",
@@ -13479,7 +14331,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Saki Mitama",
@@ -13542,7 +14398,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Abaddon A",
@@ -13605,7 +14465,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Nekomata A",
@@ -13668,7 +14532,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Nero☆",
@@ -13731,7 +14599,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Dante☆",
@@ -13794,7 +14666,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "V☆",
@@ -13857,7 +14733,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Nero",
@@ -13920,7 +14800,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Dante",
@@ -13983,7 +14867,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "V",
@@ -14046,7 +14934,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Shiva A",
@@ -14109,7 +15001,11 @@
     "Panel 3": "Reduces the cost of Third Eye by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Matador",
@@ -14172,7 +15068,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Nadja",
@@ -14235,7 +15135,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Daisoujou",
@@ -14298,7 +15202,11 @@
     "Panel 3": "Activates the following Chain Effect if Cleansing Shout is used:\nRemoves all enemy status buffs.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Guan Yu",
@@ -14361,7 +15269,11 @@
     "Panel 3": "Reduces the cost of Dragon Blade by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Parvati",
@@ -14424,7 +15336,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Gogmagog",
@@ -14487,7 +15403,11 @@
     "Panel 3": "As long as this demon is alive, -30% to Critical hit rate of attacks received by all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys DEF +15 (MAX +150)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Tlaltecuhtli",
@@ -14550,7 +15470,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Titan",
@@ -14613,7 +15537,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kwancha",
@@ -14676,7 +15604,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Hua Po",
@@ -14739,7 +15671,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kodama",
@@ -14802,7 +15738,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Koropokkur",
@@ -14865,7 +15805,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Kabuso",
@@ -14928,7 +15872,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Cybele",
@@ -14937,7 +15885,7 @@
     "Grade": 85,
     "Rarity": 5,
     "Phys": "",
-    "Fire": "dr",
+    "Fire": "ab",
     "Ice": "wk",
     "Elec": "",
     "Force": "rs",
@@ -14991,7 +15939,11 @@
     "Panel 3": "As long as this demon is alive, +10% to Fire damage and +10% to HP Healing skill effectiveness of all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Indrajit",
@@ -15002,7 +15954,7 @@
     "Phys": "rs",
     "Fire": "",
     "Ice": "wk",
-    "Elec": "dr",
+    "Elec": "ab",
     "Force": "",
     "Light": "rs",
     "Dark": "rs",
@@ -15054,7 +16006,11 @@
     "Panel 3": "+25% to single-target attack damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Kartikeya",
@@ -15117,7 +16073,11 @@
     "Panel 3": "As long as this demon is alive, +10% to Critical hit rate and +5% to Phys hit rate of all allies.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Yama",
@@ -15180,7 +16140,11 @@
     "Panel 3": "Reduces the cost of Dark Skills by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250"
+    "Panel 3 Stats": "HP +25 (MAX +250",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Asura",
@@ -15243,7 +16207,11 @@
     "Panel 3": "Reduces the cost of Ashura by 2MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Mahakala",
@@ -15252,7 +16220,7 @@
     "Grade": 92,
     "Rarity": 5,
     "Phys": "",
-    "Fire": "dr",
+    "Fire": "ab",
     "Ice": "",
     "Elec": "rs",
     "Force": "",
@@ -15306,7 +16274,11 @@
     "Panel 3": "Activates the following Chain Effect after Wrathful Flame is activated:\n Increases own party's ATK/DEF by 20%. (3 turns)",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Agni",
@@ -15315,7 +16287,7 @@
     "Grade": 70,
     "Rarity": 4,
     "Phys": "",
-    "Fire": "dr",
+    "Fire": "ab",
     "Ice": "wk",
     "Elec": "",
     "Force": "",
@@ -15369,7 +16341,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Jack the Ripper",
@@ -15432,12 +16408,16 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Baal",
     "Name JP": "バアル",
-    "Race": "Diety",
+    "Race": "Deity",
     "Grade": 86,
     "Rarity": 5,
     "Phys": "",
@@ -15495,7 +16475,11 @@
     "Panel 3": "As long as this demon is alive, +10% to Force damage Inflicted by all allies, +10% to status ailment auto cure rate.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Uriel",
@@ -15558,7 +16542,11 @@
     "Panel 3": "+20% to Fire and Light damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Raphael",
@@ -15621,7 +16609,11 @@
     "Panel 3": "+20% to Force and Light damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Gabriel",
@@ -15684,7 +16676,11 @@
     "Panel 3": "+20% to Elec and Light damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Vasuki",
@@ -15747,7 +16743,11 @@
     "Panel 3": "Activates the following Chain Effect after Halahala is used: Reduces all enemy DEF by 20%. (3 turns)",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Fafnir",
@@ -15810,7 +16810,11 @@
     "Panel 3": "Adds Phys Pierce effect if the enemy is Poisoned.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Ym",
@@ -15873,7 +16877,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Nidhoggr",
@@ -15936,7 +16944,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Tiamat",
@@ -15999,7 +17011,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Seraph",
@@ -16062,7 +17078,11 @@
     "Panel 3": "As long as this demon is alive, +10% to damage inflicted by all allies when attacking the enemy's weak point.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": "",
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": ""
   },
   {
     "Name": "Pale Rider",
@@ -16125,7 +17145,11 @@
     "Panel 3": "+15% to Force damage. +10% Phys evasion rate. +10% chance to inflict status ailments.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Black Rider",
@@ -16188,7 +17212,11 @@
     "Panel 3": "+15% to Ice damage. -20% to Critical hit rate of damage received. -20% chance of receiving status ailments.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Red Rider",
@@ -16251,7 +17279,11 @@
     "Panel 3": "+15% to Phys damage. +10% to Critical hit rate. +10% chance to inflict status ailments.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Neko Shogun",
@@ -16314,7 +17346,11 @@
     "Panel 3": "",
     "Panel 1 Stats": "",
     "Panel 2 Stats": "",
-    "Panel 3 Stats": ""
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": 1,
+    "Banner Required": ""
   },
   {
     "Name": "Susano-o A",
@@ -16377,7 +17413,11 @@
     "Panel 3": "+25% to single-target attack damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Garuda A",
@@ -16440,7 +17480,11 @@
     "Panel 3": "+25% to Force damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Frost Ace",
@@ -16503,7 +17547,11 @@
     "Panel 3": "Gains Ice Pierce. +15% to Ice damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": 1,
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Masakado A",
@@ -16566,7 +17614,11 @@
     "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10(MAX 100)Phys ATK +10(MAX 100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   },
   {
     "Name": "Asura Lord",
@@ -16629,6 +17681,10 @@
     "Panel 3": "While this demon is alive, all party members will receive the following effect: +10% to Critical hit rate, +10% to Critical hit damage.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
     "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
-    "Panel 3 Stats": "HP +25 (MAX +250)"
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1
   }
 ]
