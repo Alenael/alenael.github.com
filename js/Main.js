@@ -1,6 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .36;
-
+var minorVer = .37;
 
 var demonData;
 var skillData;
@@ -1086,7 +1085,10 @@ function PruneArchetypes() {
                     case "Masakado A":
                     case "Asura Lord":
                     case "Cu Chulainn A":
-                    case "Quetzalcoatl A":
+                    case "Quetzalcoatl A":           
+                    case "Hectate":
+                    case "Vairocana":
+                    case "Atavaka":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {

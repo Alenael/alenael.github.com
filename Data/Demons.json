@@ -64,7 +64,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Abraxas",
@@ -131,7 +132,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Agathion",
@@ -198,7 +200,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Alice",
@@ -265,7 +268,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Alilat",
@@ -332,7 +336,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Amaterasu",
@@ -399,7 +404,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "ama"
   },
   {
     "Name": "Ammut",
@@ -466,7 +472,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ananta",
@@ -533,7 +540,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Angel",
@@ -600,7 +608,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Anubis",
@@ -667,7 +676,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Apis",
@@ -734,7 +744,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Apsaras",
@@ -801,7 +812,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Arahabaki",
@@ -868,7 +880,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Archangel",
@@ -935,7 +948,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ares",
@@ -1002,7 +1016,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Arianrhod",
@@ -1069,7 +1084,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Asherah",
@@ -1136,7 +1152,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Attis",
@@ -1194,16 +1211,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+5% to Phys hit rate.",
+    "Panel 2": "+5% to Phys damage.",
+    "Panel 3": "+20% to max HP.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Phys ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Azrael",
@@ -1261,16 +1279,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+10% to max HP.",
+    "Panel 2": "-25% to Light damage received.",
+    "Panel 3": "+10% to Dark damage",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Azumi",
@@ -1337,7 +1356,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Baihu",
@@ -1404,7 +1424,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Baphomet",
@@ -1471,7 +1492,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Barong",
@@ -1538,7 +1560,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Beelzebub",
@@ -1605,7 +1628,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Beiji-Weng",
@@ -1672,7 +1696,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Berserker",
@@ -1739,7 +1764,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Bicorn",
@@ -1806,7 +1832,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Bishamonten",
@@ -1873,7 +1900,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Black Frost",
@@ -1940,7 +1968,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Black Ooze",
@@ -2007,7 +2036,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Blob",
@@ -2074,7 +2104,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Cerberus",
@@ -2141,7 +2172,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Chagrin",
@@ -2208,7 +2240,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Chatterskull",
@@ -2275,7 +2308,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Chernobog",
@@ -2333,16 +2367,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+5% to Phys hit rate.",
+    "Panel 2": "+10% chance to inflict status ailments.",
+    "Panel 3": "Activates the following Chain Effect after Fog of Death is activated: 15% chance to inflict Bind on all enemies.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Phys ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Chimera",
@@ -2409,7 +2444,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Chupacabra",
@@ -2476,7 +2512,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Cu Chulainn",
@@ -2538,12 +2575,13 @@
     "Panel 2": "-50% to Force damage received.",
     "Panel 3": "Reduces the cost of skills that target all or random enemies by 1MP.",
     "Panel 1 Stats": "HP +25 (MAX +250)",
-    "Panel 2 Stats": "Phys ATK +8 (MAX +80) \nMag ATK +8 (MAX +80)",
+    "Panel 2 Stats": "Phys ATK +8 (MAX +80) & Mag ATK +8 (MAX +80)",
     "Panel 3 Stats": "HP +25 (MAX +250)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "cu, cu chu"
   },
   {
     "Name": "Cu Sith",
@@ -2610,7 +2648,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dakini",
@@ -2677,7 +2716,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dantalian",
@@ -2744,7 +2784,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Decarabia",
@@ -2811,7 +2852,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dionysus",
@@ -2878,7 +2920,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dis",
@@ -2945,7 +2988,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dominion",
@@ -3012,7 +3056,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Efreet",
@@ -3079,7 +3124,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Eligor",
@@ -3146,7 +3192,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Feng Huang",
@@ -3213,7 +3260,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Fenrir",
@@ -3280,7 +3328,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Fomorian",
@@ -3347,7 +3396,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Forneus",
@@ -3414,7 +3464,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ganesha",
@@ -3481,7 +3532,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Garuda",
@@ -3548,7 +3600,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Girimekhala",
@@ -3615,7 +3668,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Gremlin",
@@ -3682,7 +3736,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Grendel",
@@ -3749,7 +3804,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Gucumatz",
@@ -3816,7 +3872,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Gui Xian",
@@ -3883,7 +3940,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Halloween Jack",
@@ -3950,7 +4008,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hamsa",
@@ -4017,7 +4076,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hanuman",
@@ -4084,7 +4144,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hare of Inaba",
@@ -4151,7 +4212,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hathor",
@@ -4218,7 +4280,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hecatoncheires",
@@ -4285,7 +4348,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "heca"
   },
   {
     "Name": "Hel",
@@ -4352,7 +4416,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Hell Biker",
@@ -4419,7 +4484,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "hb,biker"
   },
   {
     "Name": "Helper Frost",
@@ -4486,7 +4552,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Heqet",
@@ -4553,7 +4620,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "High Pixie",
@@ -4620,7 +4688,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Horkos",
@@ -4687,7 +4756,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Horus",
@@ -4754,7 +4824,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Huang Di",
@@ -4821,7 +4892,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "hd,hdi,di"
   },
   {
     "Name": "Huang Long",
@@ -4888,7 +4960,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "hl"
   },
   {
     "Name": "Ikusa",
@@ -4955,7 +5028,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Illuyanka",
@@ -5022,7 +5096,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Incubus",
@@ -5089,7 +5164,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Inugami",
@@ -5156,7 +5232,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ippon-Datara",
@@ -5223,7 +5300,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ishtar",
@@ -5290,7 +5368,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Isis",
@@ -5357,7 +5436,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ixtab",
@@ -5424,7 +5504,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Izanami",
@@ -5491,7 +5572,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Jack Frost",
@@ -5558,7 +5640,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Jatayu",
@@ -5625,7 +5708,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Jeanne d'Arc",
@@ -5683,16 +5767,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
-    "Gacha": "",
+    "Panel 1": "+15% to status ailment auto cure rate.",
+    "Panel 2": "+10% to HP Healing skill effectiveness.",
+    "Panel 3": "Activates the following Chain Effect after Orlean Prayer is activated: Increase own party's ATK and EV/AC by 20%. (1 turn)",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
+    "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Jikokuten",
@@ -5759,7 +5844,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kaiwan",
@@ -5826,7 +5912,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kama",
@@ -5893,7 +5980,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kamiotoko",
@@ -5960,7 +6048,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kanbari",
@@ -6027,7 +6116,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kelpie",
@@ -6094,7 +6184,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kikuri-Hime",
@@ -6152,16 +6243,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+10% to HP Healing skill effectiveness.",
+    "Panel 2": "-25% to Force damage received.",
+    "Panel 3": "+10% to Fire damage.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "King Frost",
@@ -6228,7 +6320,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kinmamon",
@@ -6295,7 +6388,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Koppa Tengu",
@@ -6362,7 +6456,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Koumokuten",
@@ -6429,7 +6524,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kresnik",
@@ -6496,7 +6592,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kudlak",
@@ -6563,7 +6660,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kurama Tengu",
@@ -6630,7 +6728,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kushinada",
@@ -6697,7 +6796,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Lailah",
@@ -6764,7 +6864,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Lakshmi",
@@ -6831,7 +6932,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Leanan Sidhe",
@@ -6898,7 +7000,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Legion",
@@ -6965,7 +7068,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Lilim",
@@ -7032,7 +7136,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Lilith",
@@ -7099,7 +7204,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Loki",
@@ -7166,7 +7272,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Long",
@@ -7233,7 +7340,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Lucifer",
@@ -7300,7 +7408,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mad Gasser",
@@ -7367,7 +7476,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Makami",
@@ -7434,7 +7544,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Makara",
@@ -7501,7 +7612,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mara",
@@ -7568,7 +7680,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mastema",
@@ -7635,7 +7748,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Melchom",
@@ -7702,7 +7816,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mermaid",
@@ -7769,7 +7884,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Metatron",
@@ -7836,7 +7952,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Michael",
@@ -7903,7 +8020,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mishaguji",
@@ -7970,7 +8088,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mitra",
@@ -8037,7 +8156,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mokoi",
@@ -8104,7 +8224,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Momunofu",
@@ -8171,7 +8292,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mot",
@@ -8238,7 +8360,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Mother Harlot",
@@ -8305,7 +8428,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "mama,mh"
   },
   {
     "Name": "Mothman",
@@ -8372,7 +8496,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Mou-Ryo",
@@ -8439,7 +8564,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Naga",
@@ -8506,7 +8632,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Nekomata",
@@ -8573,7 +8700,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "neko"
   },
   {
     "Name": "Nergal",
@@ -8640,7 +8768,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Nozuchi",
@@ -8707,7 +8836,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Nue",
@@ -8774,7 +8904,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Obariyon",
@@ -8841,7 +8972,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Oberon",
@@ -8908,7 +9040,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Odin",
@@ -8975,7 +9108,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ongyo-Ki",
@@ -9042,7 +9176,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Oni",
@@ -9109,7 +9244,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Orochi",
@@ -9176,7 +9312,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Orthrus",
@@ -9243,7 +9380,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ose",
@@ -9310,7 +9448,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pallas Athena",
@@ -9377,7 +9516,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Patrimpas",
@@ -9444,7 +9584,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pazuzu",
@@ -9511,7 +9652,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Peallaidh",
@@ -9578,7 +9720,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pele",
@@ -9645,7 +9788,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Persephone",
@@ -9712,7 +9856,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Phantom",
@@ -9779,7 +9924,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pisaca",
@@ -9846,7 +9992,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pixie",
@@ -9913,7 +10060,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Power",
@@ -9980,7 +10128,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Preta",
@@ -10047,7 +10196,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Principality",
@@ -10114,7 +10264,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Prometheus",
@@ -10181,7 +10332,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pyro Jack",
@@ -10248,7 +10400,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Quetzalcoatl",
@@ -10315,7 +10468,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "quetz"
   },
   {
     "Name": "Raijuu",
@@ -10382,7 +10536,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Rakshasa",
@@ -10449,7 +10604,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Rama",
@@ -10516,7 +10672,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Rangda",
@@ -10583,7 +10740,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Reiko Kashima",
@@ -10650,7 +10808,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Samael",
@@ -10717,7 +10876,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Sandalphon",
@@ -10775,16 +10935,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+10 to Ma.",
+    "Panel 2": "-10% to Magic damage received.",
+    "Panel 3": "+10% to Magic damage inflicted.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Sandman",
@@ -10851,7 +11012,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Sarasvati",
@@ -10918,7 +11080,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Scathach",
@@ -10985,7 +11148,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Setanta",
@@ -11052,7 +11216,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Seth",
@@ -11119,7 +11284,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shadow",
@@ -11186,7 +11352,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shiisaa",
@@ -11253,7 +11420,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shiki-Ouji",
@@ -11320,7 +11488,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shikome",
@@ -11387,7 +11556,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shiva",
@@ -11454,7 +11624,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Siegfried",
@@ -11521,7 +11692,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Silky",
@@ -11588,7 +11760,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Skadi",
@@ -11646,16 +11819,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+5% damage to attacks that target all or random enemies.",
+    "Panel 2": "-25% to Ice damage received.",
+    "Panel 3": "+15% chance to inflict status ailments.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Sleipnir",
@@ -11713,16 +11887,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "+10 to Ma.",
+    "Panel 2": "+5% to Light damage.",
+    "Panel 3": "+10% to this demon's affect on Battle Speed.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Slime",
@@ -11789,7 +11964,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Sphinx",
@@ -11847,16 +12023,17 @@
     "S Soul": "",
     "L Soul": "",
     "Alternate Name": "",
-    "Panel 1": "",
-    "Panel 2": "",
-    "Panel 3": "",
-    "Panel 1 Stats": "",
-    "Panel 2 Stats": "",
-    "Panel 3 Stats": "",
+    "Panel 1": "-15% chance of receiving status ailments.",
+    "Panel 2": "-15% to Fire/Light damage received.",
+    "Panel 3": "+10% to Light damage.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Succubus",
@@ -11923,7 +12100,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Suparna",
@@ -11990,7 +12168,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Surt",
@@ -12057,7 +12236,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Susano-o",
@@ -12124,7 +12304,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "susan"
   },
   {
     "Name": "Take-Minakata",
@@ -12191,7 +12372,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Tam Lin",
@@ -12258,7 +12440,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Thor",
@@ -12325,7 +12508,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Throne",
@@ -12392,7 +12576,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Titania",
@@ -12459,7 +12644,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Trumpeter",
@@ -12526,7 +12712,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Tsukuyomi",
@@ -12593,7 +12780,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Unicorn",
@@ -12660,7 +12848,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Valkyrie",
@@ -12727,7 +12916,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Vetala",
@@ -12794,7 +12984,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Virtue",
@@ -12861,7 +13052,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Vishnu",
@@ -12928,7 +13120,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "White Rider",
@@ -12995,7 +13188,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "wr"
   },
   {
     "Name": "Wu Kong",
@@ -13062,7 +13256,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Yaksini",
@@ -13129,7 +13324,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Yatagarasu",
@@ -13196,7 +13392,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "yata"
   },
   {
     "Name": "Yoshitsune",
@@ -13263,7 +13460,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Yurlungur",
@@ -13330,7 +13528,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Zaou-Gongen",
@@ -13397,7 +13596,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "zg"
   },
   {
     "Name": "Zhong Kui",
@@ -13464,7 +13664,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "zk"
   },
   {
     "Name": "Zouchouten",
@@ -13531,7 +13732,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Orcus",
@@ -13598,7 +13800,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Bodyconian",
@@ -13665,7 +13868,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Man Eater",
@@ -13732,7 +13936,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Masakado",
@@ -13799,7 +14004,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "masa"
   },
   {
     "Name": "Bayonetta☆",
@@ -13866,7 +14072,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "bayo*"
   },
   {
     "Name": "Jeanne☆",
@@ -13933,7 +14140,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Beloved",
@@ -14000,7 +14208,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Bayonetta",
@@ -14067,7 +14276,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "bayo"
   },
   {
     "Name": "Jeanne",
@@ -14134,7 +14344,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kusi Mitama",
@@ -14201,7 +14412,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Nigi Mitama",
@@ -14268,7 +14480,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ara Mitama",
@@ -14335,7 +14548,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Saki Mitama",
@@ -14402,7 +14616,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Abaddon A",
@@ -14469,7 +14684,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Nekomata A",
@@ -14536,7 +14752,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "neko a"
   },
   {
     "Name": "Nero☆",
@@ -14603,7 +14820,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Dante☆",
@@ -14670,7 +14888,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "V☆",
@@ -14737,7 +14956,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Nero",
@@ -14804,7 +15024,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Dante",
@@ -14871,7 +15092,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "V",
@@ -14938,7 +15160,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Shiva A",
@@ -15005,7 +15228,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Matador",
@@ -15072,7 +15296,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Nadja",
@@ -15139,7 +15364,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Daisoujou",
@@ -15206,7 +15432,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Guan Yu",
@@ -15273,7 +15500,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "gy"
   },
   {
     "Name": "Parvati",
@@ -15340,7 +15568,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Gogmagog",
@@ -15407,7 +15636,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": "gog"
   },
   {
     "Name": "Tlaltecuhtli",
@@ -15474,7 +15704,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Titan",
@@ -15541,7 +15772,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kwancha",
@@ -15608,7 +15840,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Hua Po",
@@ -15675,7 +15908,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kodama",
@@ -15742,7 +15976,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Koropokkur",
@@ -15809,7 +16044,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Kabuso",
@@ -15876,7 +16112,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Cybele",
@@ -15943,7 +16180,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Indrajit",
@@ -16010,7 +16248,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Kartikeya",
@@ -16077,7 +16316,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Yama",
@@ -16144,7 +16384,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Asura",
@@ -16211,7 +16452,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Mahakala",
@@ -16278,7 +16520,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Agni",
@@ -16345,7 +16588,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Jack the Ripper",
@@ -16412,7 +16656,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Baal",
@@ -16479,7 +16724,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Uriel",
@@ -16546,7 +16792,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Raphael",
@@ -16613,7 +16860,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Gabriel",
@@ -16680,7 +16928,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Vasuki",
@@ -16747,7 +16996,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Fafnir",
@@ -16814,7 +17064,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Ym",
@@ -16881,7 +17132,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Nidhoggr",
@@ -16948,7 +17200,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Tiamat",
@@ -17015,7 +17268,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Seraph",
@@ -17082,7 +17336,8 @@
     "Gacha": "",
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Pale Rider",
@@ -17149,7 +17404,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Black Rider",
@@ -17216,7 +17472,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Red Rider",
@@ -17283,7 +17540,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Neko Shogun",
@@ -17350,7 +17608,8 @@
     "Gacha": "",
     "Event": "",
     "Multi-Fusion": 1,
-    "Banner Required": ""
+    "Banner Required": "",
+    "Nickname": ""
   },
   {
     "Name": "Susano-o A",
@@ -17417,7 +17676,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "susan a"
   },
   {
     "Name": "Garuda A",
@@ -17484,7 +17744,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Frost Ace",
@@ -17551,7 +17812,8 @@
     "Gacha": 1,
     "Event": 1,
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Masakado A",
@@ -17618,7 +17880,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "masa a"
   },
   {
     "Name": "Asura Lord",
@@ -17685,7 +17948,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": ""
   },
   {
     "Name": "Cu Chulainn A",
@@ -17752,7 +18016,8 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "cu a, cu chu a"
   },
   {
     "Name": "Quetzalcoatl A",
@@ -17819,6 +18084,551 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": 1
+    "Banner Required": 1,
+    "Nickname": "quetz a"
+  },
+  {
+    "Name": "Vairocana",
+    "Name JP": "ヴィローシャナ",
+    "Race": "Deity",
+    "Grade": 93,
+    "Rarity": 5,
+    "Phys": "",
+    "Fire": "rp",
+    "Ice": "",
+    "Elec": "",
+    "Force": "",
+    "Light": "rp",
+    "Dark": "nu",
+    "6★ HP": 11079,
+    "6★ Strength": 91,
+    "6★ Magic": 218,
+    "6★ Vitality": 151,
+    "6★ Agility": 148,
+    "6★ Luck": 162,
+    "Skill 1": "Enduring Soul",
+    "Skill 2": "Radiant Mantra",
+    "Skill 3": "Path of Prominence",
+    "Clear Awaken": "",
+    "Red Awaken": "Sea of Chaos",
+    "Yellow Awaken": "Mediarahan",
+    "Purple Awaken": "Butcher",
+    "Teal Awaken": "Repel Dark",
+    "Red Gacha": "Makara Shift",
+    "Yellow Gacha": "Auto-Rakuka",
+    "Purple Gacha": "Maragidyne",
+    "Teal Gacha": "Null Charm",
+    "Type": "Support",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Almighty damage inflicted.",
+    "Panel 2": "Reduces the cost of Path of Prominence by 1MP.",
+    "Panel 3": "+10% to damage dealt by attacks that target all or random enemies and +20% to max HP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1,
+    "Nickname": ""
+  },
+  {
+    "Name": "Atavaka",
+    "Name JP": "アタバク",
+    "Race": "Deity",
+    "Grade": 84,
+    "Rarity": 5,
+    "Phys": "nu",
+    "Fire": "",
+    "Ice": "wk",
+    "Elec": "",
+    "Force": "",
+    "Light": "nu",
+    "Dark": "",
+    "6★ HP": 1169,
+    "6★ Strength": 214,
+    "6★ Magic": 108,
+    "6★ Vitality": 170,
+    "6★ Agility": 102,
+    "6★ Luck": 158,
+    "Skill 1": "Great Aim",
+    "Skill 2": "War Aid",
+    "Skill 3": "Enemy Annihilation",
+    "Clear Awaken": "",
+    "Red Awaken": "Berserker God",
+    "Yellow Awaken": "Charge",
+    "Purple Awaken": "Intimidating Stance",
+    "Teal Awaken": "Null Ice",
+    "Red Gacha": "Phys Amp",
+    "Yellow Gacha": "Auto-Sukuka",
+    "Purple Gacha": "God's Hand",
+    "Teal Gacha": "Mana Aid",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+15% to Phys damage.",
+    "Panel 2": "Reduces the cost of Enemy annihilation by 1MP.",
+    "Panel 3": "+50% to max HP.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Phys ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1,
+    "Nickname": ""
+  },
+  {
+    "Name": "Hecate",
+    "Name JP": "ヘカーテ",
+    "Race": "Tyrant",
+    "Grade": 81,
+    "Rarity": 5,
+    "Phys": "",
+    "Fire": "nu",
+    "Ice": "",
+    "Elec": "",
+    "Force": "",
+    "Light": "wk",
+    "Dark": "rp",
+    "6★ HP": 1060,
+    "6★ Strength": 97,
+    "6★ Magic": 201,
+    "6★ Vitality": 147,
+    "6★ Agility": 153,
+    "6★ Luck": 157,
+    "Skill 1": "Null Bind",
+    "Skill 2": "Lunar Awakening",
+    "Skill 3": "Hell's Trivia",
+    "Clear Awaken": "",
+    "Red Awaken": "Mamudodyne",
+    "Yellow Awaken": "Mahamarin Karin",
+    "Purple Awaken": "Dark Enhancement",
+    "Teal Awaken": "Null Light",
+    "Red Gacha": "Dark Amp",
+    "Yellow Gacha": "Auto-Taruka",
+    "Purple Gacha": "Merciless Blow",
+    "Teal Gacha": "Wild Instinct",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "-30% to Fire and Dark damage received.",
+    "Panel 2": "Activates the following Chain Effect when Lunar Awakening is activated: Recover 2MP.",
+    "Panel 3": "+20% to Dark damage inflicted. +20% to HP Healing skill effectiveness.",
+    "Panel 1 Stats": "HP +25 (MAX +250)",
+    "Panel 2 Stats": "Mag ATK +10 (MAX +100)",
+    "Panel 3 Stats": "HP +25 (MAX +250)",
+    "Gacha": 1,
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": 1,
+    "Nickname": "ht"
+  },
+  {
+    "Name": "Hresvelgr",
+    "Name JP": "フレスベルグ",
+    "Race": "Raptor",
+    "Grade": 84,
+    "Rarity": 5,
+    "Phys": "wk",
+    "Fire": "wk",
+    "Ice": "ab",
+    "Elec": "",
+    "Force": "nu",
+    "Light": "",
+    "Dark": "",
+    "6★ HP": 1065,
+    "6★ Strength": 68,
+    "6★ Magic": 180,
+    "6★ Vitality": 148,
+    "6★ Agility": 260,
+    "6★ Luck": 108,
+    "Skill 1": "Bufudyne",
+    "Skill 2": "Ice Boost",
+    "Skill 3": "North Wind",
+    "Clear Awaken": "Magic Amp III",
+    "Red Awaken": "Mazandyne",
+    "Yellow Awaken": "War Cry",
+    "Purple Awaken": "Auto-Rakunda",
+    "Teal Awaken": "Drain Force",
+    "Red Gacha": "Mabufudyne",
+    "Yellow Gacha": "Speedster",
+    "Purple Gacha": "Glacial Blast",
+    "Teal Gacha": "Resist Phys",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "-30% to Ice and Force damage received.",
+    "Panel 2": "Reduces the cost of Ice skills by 1MP.",
+    "Panel 3": "+20% to max HP. -20% to Force damage received by all party members while this demon is alive.",
+    "Panel 1 Stats": "HP: ＋250 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋100 (Max)",
+    "Panel 3 Stats": "Speed: ＋20％ (Max)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": "",
+    "Nickname": "hresv"
+  },
+  {
+    "Name": "Gurr",
+    "Name JP": "グルル",
+    "Race": "Raptor",
+    "Grade": 71,
+    "Rarity": 4,
+    "Phys": "wk",
+    "Fire": "",
+    "Ice": "",
+    "Elec": "",
+    "Force": "nu",
+    "Light": "wk",
+    "Dark": "",
+    "6★ HP": 858,
+    "6★ Strength": 175,
+    "6★ Magic": 58,
+    "6★ Vitality": 104,
+    "6★ Agility": 236,
+    "6★ Luck": 165,
+    "Skill 1": "Toxic Sting",
+    "Skill 2": "Speedster",
+    "Skill 3": "Yaksha Claw",
+    "Clear Awaken": "Nihil Claw",
+    "Red Awaken": "Blight",
+    "Yellow Awaken": "Binding Claw",
+    "Purple Awaken": "Auto-Sukunda",
+    "Teal Awaken": "Repel Force",
+    "Red Gacha": "Deadly Poison",
+    "Yellow Gacha": "Deadly Bondage",
+    "Purple Gacha": "Agility Amp II",
+    "Teal Gacha": "Resist Light",
+    "Type": "Support",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "+5% to Phys hit rate.",
+    "Panel 2": "+5% to Phys damage.",
+    "Panel 3": "+15% chance to inflict status ailments.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Phys ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": "",
+    "Nickname": ""
+  },
+  {
+    "Name": "Anzu",
+    "Name JP": "アンズー",
+    "Race": "Raptor",
+    "Grade": 60,
+    "Rarity": 4,
+    "Phys": "",
+    "Fire": "",
+    "Ice": "",
+    "Elec": "nu",
+    "Force": "wk",
+    "Light": "",
+    "Dark": "",
+    "6★ HP": 1028,
+    "6★ Strength": 92,
+    "6★ Magic": 170,
+    "6★ Vitality": 140,
+    "6★ Agility": 172,
+    "6★ Luck": 130,
+    "Skill 1": "Ziodyne",
+    "Skill 2": "War Cry",
+    "Skill 3": "Thunder of Destiny",
+    "Clear Awaken": "Wild Instinct",
+    "Red Awaken": "Mazionga",
+    "Yellow Awaken": "Acid Breath",
+    "Purple Awaken": "Elec Boost",
+    "Teal Awaken": "Repel Elec",
+    "Red Gacha": "Bolt Storm",
+    "Yellow Gacha": "Back Attack",
+    "Purple Gacha": "Magic Amp II",
+    "Teal Gacha": "Resist Force",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "-15% to Critical hit rate of damage received.",
+    "Panel 2": "-25% to Elec damage received.",
+    "Panel 3": "+10% to Elec damage.",
+    "Panel 1 Stats": "HP: ＋150 (Max)",
+    "Panel 2 Stats": "Mag ATK: ＋50 (Max)",
+    "Panel 3 Stats": "HP: ＋150 (Max)",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": "",
+    "Nickname": ""
+  },
+  {
+    "Name": "Moh Shuvuu",
+    "Name JP": "モー・ショボー",
+    "Race": "Raptor",
+    "Grade": 49,
+    "Rarity": 3,
+    "Phys": "",
+    "Fire": "wk",
+    "Ice": "",
+    "Elec": "",
+    "Force": "nu",
+    "Light": "",
+    "Dark": "",
+    "6★ HP": 877,
+    "6★ Strength": 73,
+    "6★ Magic": 157,
+    "6★ Vitality": 108,
+    "6★ Agility": 206,
+    "6★ Luck": 146,
+    "Skill 1": "Zanma",
+    "Skill 2": "Mazan",
+    "Skill 3": "Life Drain",
+    "Clear Awaken": "Diarama",
+    "Red Awaken": "Last Resort",
+    "Yellow Awaken": "Mahamarin Karin",
+    "Purple Awaken": "Auto-Tarunda",
+    "Teal Awaken": "Drain Force",
+    "Red Gacha": "Endure",
+    "Yellow Gacha": "Madness",
+    "Purple Gacha": "Wild Guess",
+    "Teal Gacha": "Wind Breath",
+    "Type": "Attack",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": "",
+    "Nickname": ""
+  },
+  {
+    "Name": "Camazotz",
+    "Name JP": "カマソッソ",
+    "Race": "Raptor",
+    "Grade": 42,
+    "Rarity": 3,
+    "Phys": "wk",
+    "Fire": "",
+    "Ice": "",
+    "Elec": "wk",
+    "Force": "",
+    "Light": "wk",
+    "Dark": "",
+    "6★ HP": 919,
+    "6★ Strength": 156,
+    "6★ Magic": 62,
+    "6★ Vitality": 117,
+    "6★ Agility": 202,
+    "6★ Luck": 145,
+    "Skill 1": "Toxic Cloud",
+    "Skill 2": "Madness",
+    "Skill 3": "Eat Whole",
+    "Clear Awaken": "Retaliate",
+    "Red Awaken": "Toxic Sting",
+    "Yellow Awaken": "Sweet Bite",
+    "Purple Awaken": "Deadly Poison",
+    "Teal Awaken": "Repel Phys",
+    "Red Gacha": "Madness Nails",
+    "Yellow Gacha": "Good Aim",
+    "Purple Gacha": "Resist Poison",
+    "Teal Gacha": "Bloody Glee",
+    "Type": "Support",
+    "PATK": "",
+    "PDEF": "",
+    "MATK": "",
+    "MDEF": "",
+    "S Light": "",
+    "M Light": "",
+    "L Light": "",
+    "S Lawful": "",
+    "M Lawful": "",
+    "L Lawful": "",
+    "S Neutral": "",
+    "M Neutral": "",
+    "L Neutral": "",
+    "S Dark": "",
+    "M Dark": "",
+    "L Dark": "",
+    "S Chaotic": "",
+    "M Chaotic": "",
+    "L Chaotic": "",
+    "S Witch": "",
+    "L Witch": "",
+    "S Soul": "",
+    "L Soul": "",
+    "Alternate Name": "",
+    "Panel 1": "",
+    "Panel 2": "",
+    "Panel 3": "",
+    "Panel 1 Stats": "",
+    "Panel 2 Stats": "",
+    "Panel 3 Stats": "",
+    "Gacha": "",
+    "Event": "",
+    "Multi-Fusion": "",
+    "Banner Required": "",
+    "Nickname": ""
   }
 ]
