@@ -7334,5 +7334,61 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Flag of Salvation",
+    "JP Name": "救世の旗印",
+    "Cost": "passive",
+    "Description": "While the demon with this skill is alive, all party members will receive the following effect: +10% to Light damage. Recovers 1 MP when clearing a wave.",
+    "Target": "All Party Members",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "light",
+    "Name": "Amakusa Uprising",
+    "JP Name": "天草一揆",
+    "Cost": "6 MP",
+    "Description": "Inflicts Light (Physical) damage (Power: 140) with Light Pierce effect on a single enemy. *The damage inflicted by this skill is dependent on Mag ATK. *This skill has a chance of having a Critical effect or a Miss which are dependent on their respective rates. When attack is successful, increases own party's ATK and EV/AC by 20%. (2 turn)\\n\\nLv2：+5% to damage dealt using this skill.\\nLv3：+10% to damage dealt using this skill.\\nLv4：+15% to damage dealt using this skill.\\nLv5：+20% to damage dealt using this skill.\\nLv6：+20% to damage dealt using this skill. + MP cost of this skill -1.",
+    "Target": "Single Enemy",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Death Blow",
+    "JP Name": "致命の一撃",
+    "Cost": "passive",
+    "Description": "+20% to critical hit damage.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Auto-Rebellion",
+    "JP Name": "リベリオート",
+    "Cost": "passive",
+    "Description": "Activates the following Chain Effect at the beginning of the 1st turn: Self enters a state of Might. The next Phys attack will have a Critical effect.",
+    "Target": "Self",
+    "Skill Points": 12,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": ""
   }
 ]
