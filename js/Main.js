@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .39;
+var minorVer = .40;
 
 var demonData;
 var skillData;
@@ -1364,7 +1364,7 @@ function GetDemonSpeed(name, num) {
 
         //If we want to Obey P3 rules then we get speed for some demons
         if ($(enableP3Check).is(':checked')) {
-            if (demon.Name === "Garuda")
+            if (demon.Name === "Garuda" || demon.Name === "Hresvelgr")
                 extraPercent += .2;
             if (demon.Name === "Kartikeya")
                 extraPercent += .3;

@@ -115,5 +115,18 @@
     "Description": "Member of the Liberators. Seiran Saikawa is tasked with keeping watch over entrance to the Aura Gate. A Taoist scholar, she is knowledgeable in the ways of Feng Shui and the Dragon Stream. Seiran is a notoriously big fan of all things Chinese and tends to wear a Cheongsam. She is also a fan of Kung Fu movies (although she is more Team Sammo than Team Jackie).",
     "Skillset": "Specializing in healing, Seiran is a Dx2 with unmatched Life energy. She also actively explores and charts the Aura Gate.",
     "Skills": "[Assist ] Revives an ally with 10% HP\n[Ag Plus I - II - III - IV - V] +3 - +5 - + 7 - + 10 - +12 to Ag of all party members\n[Game of Life I - II] 10%-15% chance to heal 5% of all party members when turn starts.\n[Dragons Blessing I - II - III] -5% - -10% - -15% chance of receiving status ailments\n[Ward I - II] 10% - 15% chance to prevent Mortal (instant death)\n[Solar Energy] 50% chance to cast when a party member is revived. When cast, heals 10% HP of all party members.\n[Lunar Energy] 50% chance to cast when an enemy is revived. When cast, has a 100% chance to Curse all enemies\n[Solar Destruction] 50% to cast when a party member defeats a demon. When cast, heals 10% HP of all party members\n[Lunar Destruction] 50% to cast when the enemy defeats a demon. When cast, has a 100% chance to Curse all enemies\n[The Guidance of Luopan] When arriving on an Aura Gate floor, Reveals 5x5 panel grid around the boss on the map\n[Blossoming Love I - II - III] +7% - +15% - +25% to Healing skill effectiveness of all party members\n[Project M] Reduces MP use of your party members in the Aura Gate by 1"
+  },
+  {
+    "Name": "Xana",
+    "HP": "",
+    "St": "",
+    "Ma": "",
+    "Vi": "",
+    "Ag": 12,
+    "Lu": "",
+    "Real Name": "Xana",
+    "Description": "",
+	"Skillset": "",
+	"Skills": ""
   }
 ]
