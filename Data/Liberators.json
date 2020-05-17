@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Name": "Hero",
     "HP": 5,
@@ -23,7 +23,7 @@
     "Real Name": "Taro Fuse",
     "Description": "Leader of the Liberators Tokyo Branch, Megakin is a popular \"Mega:Tuber\". He tries to expose the Acolytes while talking about the latest snacks and toys. He sounds ridiculous but is a passionate content creator.",
     "Skillset": "Grasps elemental affinities well. His charismatic character attracts even demons, making him adept at Demon Talk.",
-    "Skills": "[Support] Randomly increases ATK, DEF, or EV/AC of all party members by 20%. (1 turn)\n[Vi Plus I - II] +3 - +5 to Vi of all party members.\n[Ag Plus I - II] +3 - +5 to Ag of all party members.\n[Lu Plus I - II] +3 - +5 to Lu of all party members.\n[Sweet Talker I - II - III] +5% - +10% - +30% to TRICK success rate during Demon Talk.\n[Charisma I - II - III] +5% - +10% - +30% to Demon Talk probability.\n[Beg I - II] +10% - +20% chance of a demon begging for its life.\n[Null Response] When the enemy�s attribute attack is invalidated , the lakkaja is activated with a probability of 10%.\n[Repel Response] +25% chance to cast Tarukaha when repelling attribute attacks.\n[Drain Response] +25% chance to cast Sukukaja when draining attribute attacks.\n[Repel Enhancer] +15% to all damage repelled by all party members.\n[Drain Enhancer] +15% to all amount of HP drained by all party members.\n[Smooth Criminal] When Talk fails your turn will no longer end abruptly and switch to the enemy.\n[Entertainer] Your chance of being liked by a demon during Talk is increased by 50%."
+    "Skills": "[Support] Randomly increases ATK, DEF, or EV/AC of all party members by 20%. (1 turn)\n[Vi Plus I - II] +3 - +5 to Vi of all party members.\n[Ag Plus I - II] +3 - +5 to Ag of all party members.\n[Lu Plus I - II] +3 - +5 to Lu of all party members.\n[Sweet Talker I - II - III] +5% - +10% - +30% to TRICK success rate during Demon Talk.\n[Charisma I - II - III] +5% - +10% - +30% to Demon Talk probability.\n[Beg I - II] +10% - +20% chance of a demon begging for its life.\n[Null Response] When the enemy’s attribute attack is invalidated , the lakkaja is activated with a probability of 10%.\n[Repel Response] +25% chance to cast Tarukaha when repelling attribute attacks.\n[Drain Response] +25% chance to cast Sukukaja when draining attribute attacks.\n[Repel Enhancer] +15% to all damage repelled by all party members.\n[Drain Enhancer] +15% to all amount of HP drained by all party members.\n[Smooth Criminal] When Talk fails your turn will no longer end abruptly and switch to the enemy.\n[Entertainer] Your chance of being liked by a demon during Talk is increased by 50%."
   },
   {
     "Name": "Templar Dragon",
@@ -128,5 +128,18 @@
     "Description": "A Hollow emanated from the Aura. Unlike other Hollows, her wish is to learn about humans, not become one herself. Her ability to summon demons awakened only after Hayate gave her his smartphone.",
     "Skillset": "Xana excels at taking the initiative and acting fast in battle. She is especially useful for exploring and battling in Aura Gate 2.",
     "Skills": "[Assist] -20% ATK of all enemies. (1 turn)\n[Ag Plus I - V] +3 - +5 - + 7 - + 10 - +12 to Ag of all party members\n[Hospitality I] 20% chance of revealing the gimmick of 1 Gimmick Room(s) upon entering a Floor in Aura Gate 2. (Will not activate when re-entering a Floor unless Gimmicks have been reset.)\n[MP Time I - III] 5% - 10% - 15% chance to increase regenerated MP of all party members by 1.\n[Just Do It I - III] +5% - +10% - +15% to critical hit rate of all party members when attacking first.\n[Chin Up I - II] +5% - +10% to Healing skill effectiveness of allies.\n[Always Strike First I - II] 5% - 10% chance of casting Rakunda on the first turn when attacking first.\n[Gotta Sterilize Demons!] 50% chance to inflict 10% fractional damage on all enemies based on their max HP (max: 1,000) at the end of own turn during Aura Gate 2 battles.\n[Here's the Main Event] Reduces MP use of your party members in the Aura Gate 2 by 1"
+  },
+  {
+    "Name": "Carbon Black",
+    "HP": "",
+    "St": 12,
+    "Ma": "",
+    "Vi": "",
+    "Ag": "",
+    "Lu": "",
+    "Real Name": "Vince",
+    "Description": "Formerly a Dx2 of the Acolytes, Vince specializes in Physical attacks.\nAside from increasing physical damage, he also has support skills that can enhance Physical attacks.",
+    "Skillset": "Specializes in Physical attacks. Aside from increasing physical damage, Vince also has support skills that can enhance Phsyical attacks.",
+    "Skills": "[Assist] -20% DEF of all enemies. (1 turn)\n[St Plus I - V] +3 - +5 - + 7 - + 10 - +12 to St of all party members\n[Hollow-point I - II] +5％ - +10% damage to critical attacks of own party.\n[Backup I - II] Extends enemy DEF debuffs by 1 - 2 turn(s).\n[If Looks Can Kill I-III] 5% - 10% - 15% chance of casting Rakunda when entering a state of Might.\n[Counterattack I - III] 10% - 25% - 50% chance of casting Tarukaja when a party member is Muted.\n[Intimidation I - II] 5％ - 10% chance of casting Tarunda at the beginning of enemy turn."
   }
 ]
