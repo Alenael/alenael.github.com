@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .42;
+var minorVer = .43;
 
 var demonData;
 var skillData;
@@ -1092,6 +1092,9 @@ function PruneArchetypes() {
                     case "Atavaka":
                     case "Tokisada":
                     case "Anat":
+                    case "Schierke":
+                    case "Skull Knight":
+                    case "Mozgus":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
