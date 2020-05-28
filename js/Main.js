@@ -424,10 +424,10 @@ function ParseURL(data) {
         $('div#demoncontent').removeClass("hidden");
         $('div#loading').addClass("hidden");
 
-        TurnOrder();
-
         blockUpdating = false;
         ReloadAll("All");
+
+        TurnOrder();
     }
 }
 
