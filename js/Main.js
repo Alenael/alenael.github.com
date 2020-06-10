@@ -778,10 +778,22 @@ function CalculateStats() {
                     demonAgiStat += liberator.Ag;
             }
 
+            //Add standard stats
+            if (demon.Name === "Ganesha")
+                hpPercent += 10;
+
+            //Critical
+            if (demon.Name === "Shiva A")
+                demonCriticalStat += 25;
+
+            //Acc
+            if (demon.Name === "Shiva A")
+                demonPhysAccuracy += 25;
+
             //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
                 //Mag
-                if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele")
+                if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele" || demon.Name === "Abaddon A")
                     demonMagStat += 20;
                 if (demon.Name === "Vishnu" || demon.Name === "Mot" || demon.Name === "Ixtab")
                     demonMagStat += 10;
@@ -800,13 +812,13 @@ function CalculateStats() {
 
                 //Ailment Resist
                 if (demon.Name === "Orcus")
-                    demonAilmentResistance += 10;
+                    demonAilmentResistanceStat += 10;
 
                 //Ailment Infliction
                 if (demon.Name === "Bayonetta☆")
                     demonAilmentInfiction += 20;
                 if (demon.Name === "Ixtab" || demon.Name === "Man Eater")
-                    demonAilmentInfiction += 10;
+                    demonAilmentResistanceStat += 10;
 
                 //Evasion
                 if (demon.Name === "Matador" || demon.Name === "Jeane☆" || demon.Name === "Bayonetta☆")
@@ -819,6 +831,8 @@ function CalculateStats() {
                 //Acc
                 if (demon.Name === "Guan Yu")
                     demonPhysAccuracy += 20;
+                if (demon.Name === "Siegfried")
+                    demonPhysAccuracy += 10;
             }
 
             //If we want to Obey P3 rules then we get speed for some demons
