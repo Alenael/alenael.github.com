@@ -791,13 +791,35 @@ function CalculateStats() {
                 if (demon.Name === "Orcus" || demon.Name === "Vishnu" || demon.Name === "Mot")
                     hpPercent += 10;
 
+                //Agi
+                if (demon.Name === "Kartikeya" || demon.Name === "Nekomata A")
+                    demonAgiStat += 20;
+
+                //Vit
+                if (demon.Name === "Gogmagog")
+                    demonVitStat += 20;
+
                 //Ailment Resist
                 if (demon.Name === "Orcus")
                     demonAilmentResistance += 10;
 
                 //Ailment Infliction
-                if (demon.Name === "Ixtab")
+                if (demon.Name === "Bayonetta☆")
+                    demonAilmentInfiction += 20;
+                if (demon.Name === "Ixtab" || demon.Name === "Man Eater")
                     demonAilmentInfiction += 10;
+
+                //Evasion
+                if (demon.Name === "Matador" || demon.Name === "Jeane☆" || demon.Name === "Bayonetta☆")
+                    demonPhysEvasion += 20;
+
+                //Critical
+                if (demon.Name === "Bayonetta☆")
+                    demonPhysEvasion += 25;
+
+                //Acc
+                if (demon.Name === "Guan Yu")
+                    demonPhysAccuracy += 20;
             }
 
             //If we want to Obey P3 rules then we get speed for some demons
