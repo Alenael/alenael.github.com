@@ -815,7 +815,7 @@ function CalculateStats() {
 
                 //Critical
                 if (demon.Name === "Bayonetta☆")
-                    demonPhysEvasion += 25;
+                    demonCriticalStat += 25;
 
                 //Acc
                 if (demon.Name === "Guan Yu")
