@@ -780,7 +780,6 @@ function CalculateStats() {
 
             //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
-
                 //Mag
                 if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele")
                     demonMagStat += 20;
