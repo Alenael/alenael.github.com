@@ -839,7 +839,7 @@ function CalculateStats() {
                     demonAilmentInfictionStat += 10;
 
                 //Evasion
-                if (demon.Name === "Matador" || demon.Name === "Jeane☆" || demon.Name === "Bayonetta☆")
+                if (demon.Name === "Matador" || demon.Name === "Jeanne☆" || demon.Name === "Bayonetta☆")
                     demonPhysEvasionStat += 20;
 
                 //Critical
