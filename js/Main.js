@@ -788,7 +788,7 @@ function CalculateStats() {
                     demonMagStat += 10;
 
                 //HP
-                if (demon.Name === "Orcus" || demon.Name === "Vishnu")
+                if (demon.Name === "Orcus" || demon.Name === "Vishnu" || demon.Name === "Mot")
                     hpPercent += 10;
 
                 //Ailment Resist
