@@ -778,12 +778,23 @@ function CalculateStats() {
                     demonAgiStat += liberator.Ag;
             }
 
-            //If we want to Obey P3 rules then we get speed for some demons
+            //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
+
+                //Mag
                 if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele")
                     demonMagStat += 20;
                 if (demon.Name === "Vishnu" || demon.Name === "Mot")
                     demonMagStat += 10;
+
+                //HP
+                if (demon.Name === "Orcus" || demon.Name === "Mot")
+                    hpPercent += 10;
+            }
+
+            //If we want to Obey P3 rules then we get speed for some demons
+            if ($(enableP3Check).is(':checked')) {
+
             }
 
             //Add Mitama Stats
