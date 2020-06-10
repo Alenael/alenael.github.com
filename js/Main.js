@@ -796,13 +796,13 @@ function CalculateStats() {
 
             //Acc
             if (demon.Name === "Shiva A")
-                demonPhysAccuracy += 25;
+                demonPhysAccuracyStat += 25;
             if (demonsSel[0].value === "Kartikeya" || demonsSel[1].value === "Kartikeya" || demonsSel[2].value === "Kartikeya" || demonsSel[3].value === "Kartikeya")
-                demonPhysAccuracy += 15;
+                demonPhysAccuracyStat += 15;
 
             //Evasion
             if (demonsSel[0].value === "Nekomata A" || demonsSel[1].value === "Nekomata A" || demonsSel[2].value === "Nekomata A" || demonsSel[3].value === "Nekomata A")
-                demonPhysEvasion += 20;
+                demonPhysEvasionStat += 20;
 
             //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
@@ -838,7 +838,7 @@ function CalculateStats() {
 
                 //Evasion
                 if (demon.Name === "Matador" || demon.Name === "Jeane☆" || demon.Name === "Bayonetta☆")
-                    demonPhysEvasion += 20;
+                    demonPhysEvasionStat += 20;
 
                 //Critical
                 if (demon.Name === "Bayonetta☆")
@@ -846,9 +846,9 @@ function CalculateStats() {
 
                 //Acc
                 if (demon.Name === "Guan Yu")
-                    demonPhysAccuracy += 20;
+                    demonPhysAccuracyStat += 20;
                 if (demon.Name === "Siegfried")
-                    demonPhysAccuracy += 10;
+                    demonPhysAccuracyStat += 10;
             }
 
             //If we want to Obey P3 rules then we get speed for some demons
