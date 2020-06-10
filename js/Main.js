@@ -790,6 +790,10 @@ function CalculateStats() {
                 //HP
                 if (demon.Name === "Orcus" || demon.Name === "Mot")
                     hpPercent += 10;
+
+                //Ailment Resist
+                if (demon.Name === "Orcus" || demon.Name === "Mot")
+                    demonAilmentResistance += 10;
             }
 
             //If we want to Obey P3 rules then we get speed for some demons
