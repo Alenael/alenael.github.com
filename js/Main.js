@@ -784,7 +784,7 @@ function CalculateStats() {
                 //Mag
                 if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele")
                     demonMagStat += 20;
-                if (demon.Name === "Vishnu" || demon.Name === "Mot")
+                if (demon.Name === "Vishnu" || demon.Name === "Mot" || demon.Name === "Ixtab")
                     demonMagStat += 10;
 
                 //HP
@@ -794,6 +794,10 @@ function CalculateStats() {
                 //Ailment Resist
                 if (demon.Name === "Orcus")
                     demonAilmentResistance += 10;
+
+                //Ailment Infliction
+                if (demon.Name === "Ixtab")
+                    demonAilmentInfiction += 10;
             }
 
             //If we want to Obey P3 rules then we get speed for some demons
