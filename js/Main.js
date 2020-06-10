@@ -778,6 +778,10 @@ function CalculateStats() {
                     demonAgiStat += liberator.Ag;
             }
 
+            GetDemon()
+
+            demonsSel[0].value
+
             //Add standard stats
             if (demon.Name === "Ganesha")
                 hpPercent += 10;
@@ -785,20 +789,28 @@ function CalculateStats() {
             //Critical
             if (demon.Name === "Shiva A")
                 demonCriticalStat += 25;
+            if (demonsSel[0].value === "Kartikeya" || demonsSel[1].value === "Kartikeya" || demonsSel[2].value === "Kartikeya" || demonsSel[3].value === "Kartikeya")
+                demonCriticalStat += 20;
+            if (demonsSel[0].value === "Asura Lord" || demonsSel[1].value === "Asura Lord" || demonsSel[2].value === "Asura Lord" || demonsSel[3].value === "Asura Lord")
+                demonCriticalStat += 20;
 
             //Acc
             if (demon.Name === "Shiva A")
                 demonPhysAccuracy += 25;
+            if (demonsSel[0].value === "Kartikeya" || demonsSel[1].value === "Kartikeya" || demonsSel[2].value === "Kartikeya" || demonsSel[3].value === "Kartikeya")
+                demonPhysAccuracy += 15;
 
             //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
                 //Mag
-                if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele" || demon.Name === "Abaddon A")
+                if (demon.Name === "Izanami" || demon.Name === "Seraph" || demon.Name === "Cybele")
                     demonMagStat += 20;
                 if (demon.Name === "Vishnu" || demon.Name === "Mot" || demon.Name === "Ixtab")
                     demonMagStat += 10;
 
                 //HP
+                if (demon.Name === "Abaddon A")
+                    hpPercent += 20;
                 if (demon.Name === "Orcus" || demon.Name === "Vishnu" || demon.Name === "Mot")
                     hpPercent += 10;
 
@@ -816,9 +828,9 @@ function CalculateStats() {
 
                 //Ailment Infliction
                 if (demon.Name === "Bayonetta☆")
-                    demonAilmentInfiction += 20;
+                    demonAilmentInfictionStat += 20;
                 if (demon.Name === "Ixtab" || demon.Name === "Man Eater")
-                    demonAilmentResistanceStat += 10;
+                    demonAilmentInfictionStat += 10;
 
                 //Evasion
                 if (demon.Name === "Matador" || demon.Name === "Jeane☆" || demon.Name === "Bayonetta☆")
