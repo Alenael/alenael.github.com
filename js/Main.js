@@ -800,6 +800,10 @@ function CalculateStats() {
             if (demonsSel[0].value === "Kartikeya" || demonsSel[1].value === "Kartikeya" || demonsSel[2].value === "Kartikeya" || demonsSel[3].value === "Kartikeya")
                 demonPhysAccuracy += 15;
 
+            //Evasion
+            if (demonsSel[0].value === "Nekomata A" || demonsSel[1].value === "Nekomata A" || demonsSel[2].value === "Nekomata A" || demonsSel[3].value === "Nekomata A")
+                demonPhysEvasion += 20;
+
             //If we want to skill level stats
             if ($(enableSkillLevelsCheck).is(':checked')) {
                 //Mag
