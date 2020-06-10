@@ -781,9 +781,9 @@ function CalculateStats() {
             //If we want to Obey P3 rules then we get speed for some demons
             if ($(enableSkillLevelsCheck).is(':checked')) {
                 if (demon.Name === "Izanami" || demon.Name === "Seraph")
-                    demonMag += 20;
+                    demonMagStat += 20;
                 if (demon.Name === "Vishnu" || demon.Name === "Mot")
-                    demoMag += 10;
+                    demonMagStat += 10;
             }
 
             //Add Mitama Stats
