@@ -797,6 +797,8 @@ function CalculateStats() {
             //Acc
             if (demon.Name === "Shiva A")
                 demonPhysAccuracyStat += 25;
+            if (demon.Name === "Siegfried")
+                demonPhysAccuracyStat += 15;
             if (demonsSel[0].value === "Kartikeya" || demonsSel[1].value === "Kartikeya" || demonsSel[2].value === "Kartikeya" || demonsSel[3].value === "Kartikeya")
                 demonPhysAccuracyStat += 15;
 
