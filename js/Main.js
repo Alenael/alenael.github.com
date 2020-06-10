@@ -778,6 +778,16 @@ function CalculateStats() {
                     demonAgiStat += liberator.Ag;
             }
 
+            //If we want to Obey P3 rules then we get speed for some demons
+            if ($(enableSkillLevelsCheck).is(':checked')) {
+                if (demon.Name === "Izanami")
+                    demonMag += 20;
+                if (demon.Name === "Vishnu")
+                    demoMag += 10;
+                if (demon.Name === "Seraph")
+                    demoMag += 20;
+            }
+
             //Add Mitama Stats
             if (parseInt(demonVitMitama))
                 demonVitStat += parseInt(demonVitMitama);
@@ -1086,8 +1096,7 @@ function PruneArchetypes() {
                     case "Masakado A":
                     case "Asura Lord":
                     case "Cu Chulainn A":
-                    case "Quetzalcoatl A":           
-                    case "Hectate":
+                    case "Quetzalcoatl A":
                     case "Vairocana":
                     case "Atavaka":
                     case "Tokisada":
@@ -1095,6 +1104,7 @@ function PruneArchetypes() {
                     case "Schierke":
                     case "Skull Knight":
                     case "Mozgus":
+                    case "Hecate":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
