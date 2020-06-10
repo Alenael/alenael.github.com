@@ -833,7 +833,7 @@ function CalculateStats() {
                     demonAilmentResistanceStat += 10;
 
                 //Ailment Infliction
-                if (demon.Name === "Bayonetta☆")
+                if (demon.Name === "Bayonetta☆" || demon.Name === "Jeanne☆")
                     demonAilmentInfictionStat += 20;
                 if (demon.Name === "Ixtab" || demon.Name === "Man Eater")
                     demonAilmentInfictionStat += 10;
