@@ -12,7 +12,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -27,7 +34,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -42,7 +56,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -57,7 +78,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -72,7 +100,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -87,7 +122,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 200,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -102,7 +144,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -117,7 +166,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -132,7 +188,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -147,7 +210,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -162,7 +232,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -177,7 +254,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 115,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -192,7 +276,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 135,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -207,7 +298,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 155,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -222,7 +320,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 85,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -237,7 +342,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 105,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -252,7 +364,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 125,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -267,7 +386,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -282,7 +408,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -297,7 +430,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 65,
+    "BaseHits": "2-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -312,7 +452,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 65,
+    "BaseHits": "2-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -327,7 +474,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 75,
+    "BaseHits": "2-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -342,7 +496,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "2-5",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -357,7 +518,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 65,
+    "BaseHits": "2-5",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -372,7 +540,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -387,7 +562,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -402,7 +584,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -417,7 +606,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -432,7 +628,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -447,7 +650,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -462,7 +672,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -477,7 +694,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 170,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -492,7 +716,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -507,7 +738,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 145,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -522,7 +760,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "3-5",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -537,7 +782,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "4-6",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -552,7 +804,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 35,
+    "BaseHits": 8,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -567,7 +826,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -582,7 +848,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -597,7 +870,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -612,7 +892,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -627,7 +914,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -642,7 +936,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -657,7 +958,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -672,7 +980,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -687,7 +1002,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -702,7 +1024,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -717,7 +1046,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -732,7 +1068,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -747,7 +1090,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 215,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -762,7 +1112,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -777,7 +1134,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -792,7 +1156,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -807,7 +1178,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -822,7 +1200,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -837,7 +1222,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -852,7 +1244,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -867,7 +1266,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -882,7 +1288,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -897,7 +1310,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -912,7 +1332,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -927,7 +1354,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -942,7 +1376,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -957,7 +1398,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -972,7 +1420,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -987,7 +1442,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -1002,7 +1464,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -1017,7 +1486,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -1032,7 +1508,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -1047,7 +1530,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": "4-5",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1062,7 +1552,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1077,7 +1574,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1092,7 +1596,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1107,7 +1618,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1122,7 +1640,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1137,7 +1662,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1152,7 +1684,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1167,7 +1706,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1182,7 +1728,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -1197,7 +1750,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1212,7 +1772,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1227,7 +1794,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1242,7 +1816,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1257,7 +1838,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1272,7 +1860,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1287,7 +1882,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1302,7 +1904,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1317,7 +1926,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1332,7 +1948,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1347,7 +1970,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 200,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1362,7 +1992,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -1377,7 +2014,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 30,
+    "BaseHits": 7,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1392,7 +2036,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1407,7 +2058,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1422,7 +2080,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1437,7 +2102,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1452,7 +2124,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1467,7 +2146,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1482,7 +2168,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 110,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1497,7 +2190,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1512,7 +2212,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 55,
+    "BaseHits": "2-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1527,7 +2234,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1542,7 +2256,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 110,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1557,7 +2278,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -1572,7 +2300,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "dfm"
+    "Nickname": "dfm",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1587,7 +2322,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1602,7 +2344,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1617,7 +2366,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1632,7 +2388,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1647,7 +2410,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1662,7 +2432,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1677,7 +2454,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1692,7 +2476,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1707,7 +2498,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1722,7 +2520,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1737,7 +2542,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1752,7 +2564,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1767,7 +2586,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1782,7 +2608,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1797,7 +2630,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 190,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1812,7 +2652,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": 5,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1827,7 +2674,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1842,7 +2696,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1857,7 +2718,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": 3,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -1872,7 +2740,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1887,7 +2762,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1902,7 +2784,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1917,7 +2806,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1932,7 +2828,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1947,7 +2850,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1962,7 +2872,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1977,7 +2894,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -1992,7 +2916,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2007,7 +2938,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2022,7 +2960,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2037,7 +2982,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2052,7 +3004,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2067,7 +3026,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2082,7 +3048,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2097,7 +3070,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2112,7 +3092,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2127,7 +3114,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2142,7 +3136,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2157,7 +3158,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2172,7 +3180,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2187,7 +3202,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2202,7 +3224,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2217,7 +3246,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2232,7 +3268,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2247,7 +3290,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2262,7 +3312,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2277,7 +3334,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2292,7 +3356,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2307,7 +3378,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2322,7 +3400,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "3-4",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ailment",
@@ -2337,7 +3422,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2352,7 +3444,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2367,7 +3466,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 90,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2382,7 +3488,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 90,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2397,7 +3510,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2412,7 +3532,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 170,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2427,7 +3554,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 25,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2442,7 +3576,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2457,7 +3598,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 95,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2472,7 +3620,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2487,7 +3642,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 95,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2502,7 +3664,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2517,7 +3686,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2532,7 +3708,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2547,7 +3730,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2562,7 +3752,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2577,7 +3774,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2592,7 +3796,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2607,7 +3818,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2622,7 +3840,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2637,7 +3862,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2652,7 +3884,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2667,7 +3906,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2682,7 +3928,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2697,7 +3950,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2712,7 +3972,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2727,7 +3994,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2742,7 +4016,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2757,7 +4038,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2772,7 +4060,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2787,7 +4082,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -2802,7 +4104,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2817,7 +4126,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2832,7 +4148,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2847,7 +4170,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2862,7 +4192,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2877,7 +4214,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2892,7 +4236,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2907,7 +4258,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2922,7 +4280,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2937,7 +4302,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2952,7 +4324,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2967,7 +4346,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2982,7 +4368,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -2997,7 +4390,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3012,7 +4412,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3027,7 +4434,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3042,7 +4456,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3057,7 +4478,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3072,7 +4500,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3087,7 +4522,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3102,7 +4544,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3117,7 +4566,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3132,7 +4588,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3147,7 +4610,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3162,7 +4632,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3177,7 +4654,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3192,7 +4676,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3207,7 +4698,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3222,7 +4720,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3237,7 +4742,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3252,7 +4764,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3267,7 +4786,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3282,7 +4808,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3297,7 +4830,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 95,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3312,7 +4852,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -3327,7 +4874,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3342,7 +4896,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3357,7 +4918,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3372,7 +4940,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3387,7 +4962,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3402,7 +4984,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3417,7 +5006,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3432,7 +5028,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3447,7 +5050,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3462,7 +5072,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3477,7 +5094,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3492,7 +5116,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3507,7 +5138,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3522,7 +5160,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3537,7 +5182,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3552,7 +5204,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3567,7 +5226,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3582,7 +5248,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3597,7 +5270,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3612,7 +5292,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3627,7 +5314,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3642,7 +5336,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3657,7 +5358,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3672,7 +5380,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3687,7 +5402,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3702,7 +5424,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3717,7 +5446,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3732,7 +5468,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3747,7 +5490,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3762,7 +5512,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3777,7 +5534,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3792,7 +5556,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3807,7 +5578,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3822,7 +5600,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3837,7 +5622,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3852,7 +5644,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3867,7 +5666,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3882,7 +5688,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3897,7 +5710,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3912,7 +5732,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3927,7 +5754,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3942,7 +5776,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3957,7 +5798,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3972,7 +5820,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -3987,7 +5842,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4002,7 +5864,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4017,7 +5886,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4032,7 +5908,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4047,7 +5930,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4062,7 +5952,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4077,7 +5974,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4092,7 +5996,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4107,7 +6018,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4122,7 +6040,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4137,7 +6062,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4152,7 +6084,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4167,7 +6106,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4182,7 +6128,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4197,7 +6150,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4212,7 +6172,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4227,7 +6194,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4242,7 +6216,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4257,7 +6238,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4272,7 +6260,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4287,7 +6282,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4302,7 +6304,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4317,7 +6326,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4332,7 +6348,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4347,7 +6370,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4362,7 +6392,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4377,7 +6414,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4392,7 +6436,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4407,7 +6458,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4422,7 +6480,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4437,7 +6502,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4452,7 +6524,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4467,7 +6546,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4482,7 +6568,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4497,7 +6590,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4512,7 +6612,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4527,7 +6634,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4542,7 +6656,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4557,7 +6678,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4572,7 +6700,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4587,7 +6722,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4602,7 +6744,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4617,7 +6766,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4632,7 +6788,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4647,7 +6810,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4662,7 +6832,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4677,7 +6854,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4692,7 +6876,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4707,7 +6898,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4722,7 +6920,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4737,7 +6942,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4752,7 +6964,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4767,7 +6986,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4782,7 +7008,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4797,7 +7030,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4812,7 +7052,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4827,7 +7074,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4842,7 +7096,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4857,7 +7118,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4872,7 +7140,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4887,7 +7162,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "ma"
+    "Nickname": "ma",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4902,14 +7184,21 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
     "Name": "Butcher",
     "JP Name": "大虐殺者",
     "Cost": "Passive",
-    "Description": "+20% to multiple-target attack skill damage.",
+    "Description": "+20% damage to skills that target all or random enemies.",
     "Target": "Self",
     "Skill Points": 24,
     "Learned By": "",
@@ -4917,7 +7206,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4932,7 +7228,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4947,7 +7250,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4962,7 +7272,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4977,7 +7294,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -4992,7 +7316,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5007,7 +7338,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5022,7 +7360,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5037,7 +7382,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5052,7 +7404,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5067,7 +7426,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5082,7 +7448,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5097,7 +7470,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5112,7 +7492,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5127,7 +7514,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5142,7 +7536,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5157,7 +7558,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5172,7 +7580,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5187,7 +7602,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5202,7 +7624,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5217,7 +7646,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5232,7 +7668,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5247,7 +7690,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5262,7 +7712,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5277,7 +7734,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5292,7 +7756,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5307,7 +7778,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5322,7 +7800,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5337,7 +7822,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5352,7 +7844,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto taruka"
+    "Nickname": "auto taruka",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5367,7 +7866,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto rakuka"
+    "Nickname": "auto rakuka",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5382,7 +7888,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto sukuka"
+    "Nickname": "auto sukuka",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5397,7 +7910,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto tarunda"
+    "Nickname": "auto tarunda",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5412,7 +7932,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto rakunda"
+    "Nickname": "auto rakunda",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5427,7 +7954,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "auto sukunda"
+    "Nickname": "auto sukunda",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5442,7 +7976,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "is"
+    "Nickname": "is",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5457,7 +7998,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5472,7 +8020,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5487,7 +8042,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5502,7 +8064,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5517,7 +8086,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5532,7 +8108,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5547,7 +8130,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5562,7 +8152,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5577,7 +8174,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5592,7 +8196,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5607,7 +8218,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5622,7 +8240,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -5637,7 +8262,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5652,7 +8284,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5667,7 +8306,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -5682,7 +8328,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "pob"
+    "Nickname": "pob",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5697,7 +8350,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5712,7 +8372,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5727,7 +8394,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5742,7 +8416,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5757,7 +8438,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -5772,7 +8460,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -5787,7 +8482,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -5802,7 +8504,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -5817,7 +8526,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -5832,7 +8548,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -5847,7 +8570,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -5862,7 +8592,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -5877,7 +8614,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -5892,7 +8636,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": 1,
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -5907,7 +8658,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -5922,7 +8680,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -5937,7 +8702,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -5952,7 +8724,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": "dbc"
+    "Nickname": "dbc",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -5967,7 +8746,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -5982,7 +8768,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -5997,7 +8790,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6012,7 +8812,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6027,7 +8834,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6042,7 +8856,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6057,7 +8878,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 200,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6072,7 +8900,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6087,7 +8922,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -6102,7 +8944,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -6117,7 +8966,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": 1,
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -6132,7 +8988,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6147,7 +9010,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "gomorrah b"
+    "Nickname": "gomorrah b",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6162,7 +9032,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "gomorrah j"
+    "Nickname": "gomorrah j",
+    "BasePower": 180,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6177,7 +9054,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6192,7 +9076,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6207,7 +9098,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6222,7 +9120,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6237,7 +9142,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6252,7 +9164,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6267,7 +9186,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6282,7 +9208,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6297,7 +9230,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 30,
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6312,7 +9252,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 35,
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -6327,7 +9274,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6342,7 +9296,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "phys pierce weak,ppw"
+    "Nickname": "phys pierce weak,ppw",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6357,7 +9318,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "dark pierce weak,dpw"
+    "Nickname": "dark pierce weak,dpw",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -6372,7 +9340,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "light pierce weak,lpw"
+    "Nickname": "light pierce weak,lpw",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -6387,7 +9362,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "fire pierce weak"
+    "Nickname": "fire pierce weak",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -6402,7 +9384,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "elec pierce weak,epw"
+    "Nickname": "elec pierce weak,epw",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -6417,7 +9406,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "ice pierce weak,ipw"
+    "Nickname": "ice pierce weak,ipw",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -6432,7 +9428,14 @@
     "ExtractExclusive": 1,
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "force pierce weak"
+    "Nickname": "force pierce weak",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6447,7 +9450,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -6462,7 +9472,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6477,7 +9494,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6492,7 +9516,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6507,7 +9538,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6522,7 +9560,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -6537,7 +9582,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -6552,7 +9604,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -6567,7 +9626,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -6582,7 +9648,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -6597,7 +9670,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -6612,7 +9692,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6627,7 +9714,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6642,7 +9736,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": 80
   },
   {
     "Element": "passive",
@@ -6657,12 +9758,19 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
     "Name": "Epitome of Aggression",
-    "JP Name": "",
+    "JP Name": "鋭気の権化",
     "Cost": "Passive",
     "Description": "+15% to Phys hit rate, -45% chance of receiving status ailments.",
     "Target": "Self",
@@ -6672,12 +9780,19 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "eoa"
+    "Nickname": "eoa",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
     "Name": "Epitome of Madness",
-    "JP Name": "",
+    "JP Name": "狂乱の権化",
     "Cost": "Passive",
     "Description": "+15% chance to inflict status ailments, +15% to EV.",
     "Target": "Self",
@@ -6687,7 +9802,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "eom"
+    "Nickname": "eom",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6702,7 +9824,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6717,7 +9846,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6732,7 +9868,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 170,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6747,7 +9890,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6762,7 +9912,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6777,12 +9934,19 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
     "Name": "Epitome of Carnage",
-    "JP Name": "",
+    "JP Name": "破壊の権化",
     "Cost": "Passive",
     "Description": "+20% to Critical hit rate, +15% to Phys damage.",
     "Target": "Self",
@@ -6792,22 +9956,36 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "eoc"
+    "Nickname": "eoc",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
     "Name": "Epitome of Fortitude",
-    "JP Name": "",
+    "JP Name": "強靭の権化",
     "Cost": "Passive",
     "Description": "+20% to max HP, -50% to Critical hit rate of damage received.",
     "Target": "Self",
-    "Skill Points": 16,
+    "Skill Points": 14,
     "Learned By": "",
     "Transferable From": "",
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "eof"
+    "Nickname": "eof",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6822,7 +10000,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6837,7 +10022,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6852,7 +10044,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6867,7 +10066,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
@@ -6882,7 +10088,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": 5,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6897,7 +10110,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6912,7 +10132,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6927,7 +10154,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6942,7 +10176,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -6957,7 +10198,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6972,7 +10220,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -6987,7 +10242,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -7002,7 +10264,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": 3,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "Passive",
@@ -7017,7 +10286,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": 5,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7032,7 +10308,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7047,7 +10330,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7062,7 +10352,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7077,7 +10374,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7092,7 +10396,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": "1-3",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7107,7 +10418,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -7122,7 +10440,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7137,7 +10462,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -7152,7 +10484,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 65,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7167,7 +10506,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -7182,7 +10528,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 45,
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7197,7 +10550,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": 3,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -7212,7 +10572,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -7227,7 +10594,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": 5,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7242,7 +10616,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -7257,7 +10638,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7272,7 +10660,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7287,7 +10682,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7302,7 +10704,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "recovery",
@@ -7317,7 +10726,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -7332,7 +10748,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7347,7 +10770,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7362,7 +10792,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7377,7 +10814,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7392,7 +10836,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7407,7 +10858,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7422,7 +10880,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fractional",
@@ -7437,7 +10902,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7452,7 +10924,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "ice",
@@ -7467,7 +10946,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7482,7 +10968,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 85,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -7497,7 +10990,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": 180,
+    "Boost2Power": 220,
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7512,7 +11012,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -7527,7 +11034,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 40,
+    "BaseHits": 4,
+    "Boost1Power": 40,
+    "Boost2Power": 40,
+    "BoostHits1": 6,
+    "BoostHits2": 8,
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7542,7 +11056,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -7557,7 +11078,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 80,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7572,7 +11100,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7587,7 +11122,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "eos"
+    "Nickname": "eos",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7602,7 +11144,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -7617,7 +11166,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": "clap"
+    "Nickname": "clap",
+    "BasePower": 210,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7632,7 +11188,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "force",
@@ -7647,7 +11210,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 35,
+    "BaseHits": 3,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7662,7 +11232,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fire",
@@ -7677,7 +11254,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": 120,
+    "Boost2Power": 140,
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7692,7 +11276,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -7707,7 +11298,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7722,7 +11320,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -7737,7 +11342,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7752,7 +11364,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -7767,7 +11386,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": 70
   },
   {
     "Element": "passive",
@@ -7782,7 +11408,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 60,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7797,7 +11430,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 35,
+    "BaseHits": 3,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7812,7 +11452,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 120,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "Support",
@@ -7827,7 +11474,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7842,7 +11496,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "dark",
@@ -7857,7 +11518,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 150,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7872,7 +11540,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "light",
@@ -7887,7 +11562,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7902,7 +11584,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7917,7 +11606,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7932,14 +11628,21 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 25,
+    "BaseHits": 4,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "electricity",
     "Name": "Thunderstorm",
-    "JP Name": "",
+    "JP Name": "サンダーストーム",
     "Cost": "8 MP",
-    "Description": "Inflicts Elec (Magic) damage (Power: 130) with Elec Pierce effect on all enemies.\\n\\nLv2：+5% to damage dealt using this skill.\\nLv3：+10% to damage dealt using this skill.\\nLv4：+15% to damage dealt using this skill.\\nLv5：+20% to damage dealt using this skill.\\nLv6：+20% to damage dealt using this skill. MP cost of this skill -1.",
+    "Description": "Inflicts Elec (Magic) damage (Power: 130) with Elec Pierce effect on all enemies. Reduces ATK of all enemies by 20% if the attack is successful.(3 turns.)\\n\\nLv2：+5% to damage dealt using this skill.\\nLv3：+10% to damage dealt using this skill.\\nLv4：+15% to damage dealt using this skill.\\nLv5：+20% to damage dealt using this skill.\\nLv6：+20% to damage dealt using this skill. MP cost of this skill -1.",
     "Target": "All Enemies",
     "Skill Points": "",
     "Learned By": "",
@@ -7947,7 +11650,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 130,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7962,7 +11672,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "physical",
@@ -7977,7 +11694,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 115,
+    "BaseHits": "",
+    "Boost1Power": 135,
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -7992,7 +11716,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "almighty",
@@ -8007,7 +11738,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 160,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -8022,7 +11760,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -8037,7 +11782,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 20,
+    "BaseHits": 6,
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "multi",
@@ -8052,7 +11804,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 100,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "multi",
@@ -8067,7 +11826,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 140,
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -8082,7 +11848,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "support",
@@ -8097,7 +11870,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": 50,
+    "BaseHits": "",
+    "Boost1Power": 75,
+    "Boost2Power": 100,
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "passive",
@@ -8112,7 +11892,14 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   },
   {
     "Element": "fractional",
@@ -8127,6 +11914,189 @@
     "ExtractExclusive": "",
     "DuelExclusive": "",
     "ExtractTransfer": "",
-    "Nickname": ""
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Null Drk Zone/Dmg Panel",
+    "JP Name": "ダーク・毒床無効",
+    "Cost": "passive",
+    "Description": "Nullifies Dark zone effects and Damage Panels in the Aura Gate.",
+    "Target": "self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Give me Jewels",
+    "JP Name": "宝石ちょうだい",
+    "Cost": "passive",
+    "Description": "Activates the following Chain Effect at the start of enemy turn: Inflicts 10% fractional damage (300 max) on all enemies based on their current HP and drains 1 MP.\\n\\n*Fractional damage will not be affected by stat/damage increase or reduction effects.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "fractional",
+    "Name": "Do Me A Favor",
+    "JP Name": "お願いがあるの",
+    "Cost": "9 MP",
+    "Description": "Activates [Be My Friend] when there is a Cursed enemy, activates [Play With Me?] when there isn't.\\n\\nPlay With Me?: Inflicts 30% fractional damage (1500 max) on all enemies based on their current HP with 80% chance to inflict Curse.\\n\\nBe My Friend: Inflicts 30% fractional damage (1500 max) on all Cursed enemies based on their max HP with 100% chance to inflict Mortal. Nullifies all death prevention skills.\\n\\n*Fractional damage will not be affected by stat/damage increase or reduction effects.\\n\\nLv2：+10% chance to inflict status ailments when using this skill.\\nLv3：+20% chance to inflict status ailments when using this skill.\\nLv4：+30% chance to inflict status ailments when using this skill.\\nLv5：+40% chance to inflict status ailments when using this skill.\\nLv6：+40% chance to inflict status ailments when using this skill + MP cost of this skill -1.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Epitome of Endurance",
+    "JP Name": "不動の権化",
+    "Cost": "Passive",
+    "Description": "25% to this demon's affect on Battle Speed. +20% to max HP.",
+    "Target": "Self",
+    "Skill Points": 16,
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "eoe",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Sins of Sodom",
+    "JP Name": "ソドムの罪過",
+    "Cost": "passive",
+    "Description": "Gains Phys Pierce.\\nActivates the following Chain Effect at the start of own turn when there is a Cursed enemy:\\nRemoves Mortal nullifying effects gained by Barriers and Good Statuses from all enemies and reduces their ATK, DEF and EV/AC by 20%. (1 turn)",
+    "Target": "Self",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "fire",
+    "Name": "Flames of Gomorrah",
+    "JP Name": "ゴモラの獄炎",
+    "Cost": "6 MP",
+    "Description": "Inflicts Fire (Physical) damage (Power: 110) on all enemies with an 80% chance to inflict Curse on hit enemies. This skill will have Fire Pierce effect.\\n*The damage inflicted by this skill is dependent on Phys ATK.\\n*This skill has a chance of having a Critical effect or a Miss which are dependent on their respective rates.\\n\\nLv2：+5% to damage dealt using this skill.\\nLv3：+10% to damage dealt using this skill.\\nLv4：+15% to damage dealt using this skill.\\nLv5：+20% to damage dealt using this skill.\\nLv6：+20% to damage dealt using this skill. + MP cost of this skill -1.",
+    "Target": "All Enemies",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Call of the Dead",
+    "JP Name": "死霊の呼び声",
+    "Cost": "Passive",
+    "Description": "Activates the following Chain Effect at the end of enemy turn when there is a Cursed enemy:\\nRevives all party members with 10% HP.",
+    "Target": "All Party Members",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
+  },
+  {
+    "Element": "passive",
+    "Name": "Hand of Glory",
+    "JP Name": "栄光の手",
+    "Cost": "Passive",
+    "Description": "Activates the following Chain Effect when another party member is downed:\\n80% chance to inflict Curse on all enemies and increases ATK, DEF and EV/AC of all party members by 20%. (1 turn)\\n\\nLv2： +5% to Ailment Infliction.\\nLv3： +10% to Ailment Infliction.\\nLv4： +15% to Ailment Infliction.",
+    "Target": "All Enemies/Party Members",
+    "Skill Points": "",
+    "Learned By": "",
+    "Transferable From": "",
+    "ExtractExclusive": "",
+    "DuelExclusive": "",
+    "ExtractTransfer": "",
+    "Nickname": "",
+    "BasePower": "",
+    "BaseHits": "",
+    "Boost1Power": "",
+    "Boost2Power": "",
+    "BoostHits1": "",
+    "BoostHits2": "",
+    "SecondHitPower": ""
   }
 ]
