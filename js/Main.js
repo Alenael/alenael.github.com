@@ -1449,6 +1449,14 @@ function GetDemonSpeed(name, num) {
             demonCustomSkill1[num].value === "Epitome of Swiftness" ||
             demonCustomSkill2[num].value === "Epitome of Swiftness")
             extraPercent += .25;
+        
+        if (demon["Skill 1"] === "Epitome of Endurance" ||
+            demon["Skill 2"] === "Epitome of Endurance" ||
+            demon["Skill 3"] === "Epitome of Endurance" ||
+            GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Epitome of Endurance" ||
+            demonCustomSkill1[num].value === "Epitome of Endurance" ||
+            demonCustomSkill2[num].value === "Epitome of Endurance")
+            extraPercent -= .25;
 
         //If we want to Obey P3 rules then we get speed for some demons
         if ($(enableP3Check).is(':checked')) {
