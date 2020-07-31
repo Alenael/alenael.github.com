@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .46;
+var minorVer = .47;
 
 var demonData;
 var skillData;
@@ -1179,6 +1179,8 @@ function PruneArchetypes() {
                     case "Alice A":
                     case "Nebiros":
                     case "Belial":
+                    case "Kali":
+                    case "Xi Wangmu":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
