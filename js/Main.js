@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .48;
+var minorVer = .49;
 
 var demonData;
 var skillData;
@@ -1113,6 +1113,7 @@ function PruneArchetypes() {
                     case "Seraph":
                     case "Neko Shogun":
                     case "Lucifuge":
+                    case "Norn":
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
