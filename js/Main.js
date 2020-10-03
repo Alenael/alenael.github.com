@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .49;
+var minorVer = .50;
 
 var demonData;
 var skillData;
