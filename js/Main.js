@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .52;
+var minorVer = .53;
 
 var demonData;
 var skillData;
@@ -1191,6 +1191,7 @@ function PruneArchetypes() {
                     case "Azazel":
                     case "Black Maria":
                     case "Lilith A":
+                    case "Flauros":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
