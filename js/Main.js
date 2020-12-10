@@ -1171,7 +1171,6 @@ function PruneArchetypes() {
                     case "Vairocana":
                     case "Atavaka":
                     case "Tokisada":
-                    case "Anat":
                     case "Schierke":
                     case "Skull Knight":
                     case "Mozgus":
@@ -1191,7 +1190,6 @@ function PruneArchetypes() {
                     case "Azazel":
                     case "Black Maria":
                     case "Lilith A":
-                    case "Flauros":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
