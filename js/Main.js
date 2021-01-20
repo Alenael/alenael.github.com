@@ -1190,6 +1190,9 @@ function PruneArchetypes() {
                     case "Azazel":
                     case "Black Maria":
                     case "Lilith A":
+					case "Ardha":
+					case "Angra Mainyu":
+					case "Demiurge":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
