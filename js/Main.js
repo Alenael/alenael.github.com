@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .54;
+var minorVer = .55;
 
 var demonData;
 var skillData;
@@ -1192,7 +1192,9 @@ function PruneArchetypes() {
                     case "Lilith A":
 					case "Ardha":
 					case "Angra Mainyu":
-					case "Demiurge":
+                    case "Demiurge":
+                    case "Flauros Hallel":
+                    case "Ose Hallel":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
