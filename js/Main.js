@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .55;
+var minorVer = .56;
 
 var demonData;
 var skillData;
@@ -1195,6 +1195,9 @@ function PruneArchetypes() {
                     case "Demiurge":
                     case "Flauros Hallel":
                     case "Ose Hallel":
+                    case "Berserker Guts":
+                    case "Zodd":
+                    case "Griffith":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
