@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .56;
+var minorVer = .57;
 
 var demonData;
 var skillData;
@@ -1198,6 +1198,7 @@ function PruneArchetypes() {
                     case "Berserker Guts":
                     case "Zodd":
                     case "Griffith":
+                    case "Master Therion":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
