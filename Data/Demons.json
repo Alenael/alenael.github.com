@@ -21338,7 +21338,7 @@
     "L Witch": "",
     "S Soul": "",
     "L Soul": "",
-    "Alternate Name": "",
+    "Alternate Name": "Surt",
     "Panel 1": "-50% to Fire damage received.",
     "Panel 2": "Changes the standard attack to inflict Fire (magic) demage(Power: 120)on a single enemy. *Power is dependent on Mag ATK and will no longer have a change of having a Critical Effect or a Miss.",
     "Panel 3": "+25% to Fire Demage.",
@@ -21348,7 +21348,7 @@
     "Gacha": 1,
     "Event": "",
     "Multi-Fusion": "",
-    "Banner Required": "",
-    "Nickname": 1
+    "Banner Required": 1,
+    "Nickname": "surt a"
   }
 ]
