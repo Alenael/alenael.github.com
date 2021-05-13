@@ -1204,7 +1204,7 @@ function PruneArchetypes() {
                     case "Surt A":
                     case "Mahamayuri":
                     case "Pales":
-                    case "Cernunnus":
+                    case "Cernunnos":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
