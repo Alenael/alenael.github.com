@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .59;
+var minorVer = .60;
 
 var demonData;
 var skillData;
@@ -1202,6 +1202,9 @@ function PruneArchetypes() {
                     case "Sraosha":
                     case "Thor A":
                     case "Surt A":
+                    case "Mahamayuri":
+                    case "Pales":
+                    case "Cernunnus":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
