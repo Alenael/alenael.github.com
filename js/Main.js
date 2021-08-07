@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .60;
+var minorVer = .62;
 
 var demonData;
 var skillData;
@@ -1114,6 +1114,7 @@ function PruneArchetypes() {
                     case "Neko Shogun":
                     case "Lucifuge":
                     case "Norn":
+                    case "Vouivre":                        
                         if (options[x].value === "yellow" ||
                             options[x].value === "purple" ||
                             options[x].value === "teal" ||
@@ -1205,6 +1206,11 @@ function PruneArchetypes() {
                     case "Mahamayuri":
                     case "Pales":
                     case "Cernunnos":
+                    case "Murmur":
+                    case "Gemori":
+                    case "Beelzebub (Human)":
+                    case "Beelzebub☆":
+                    case "Sonic":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
