@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .62;
+var minorVer = .63;
 
 var demonData;
 var skillData;
@@ -1211,6 +1211,7 @@ function PruneArchetypes() {
                     case "Beelzebub (Human)":
                     case "Beelzebub☆":
                     case "Sonic":
+                    case "Koga Saburo":
                         if (demon.Name != "Nekomata" && demon.Name != "Abaddon") {
                             $(options[x]).prop('disabled', false);
                             if (options[x].value === "clear") {
