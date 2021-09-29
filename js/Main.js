@@ -1274,7 +1274,7 @@ function SetupDemonControls(control) {
             demonImgAI[i].src = "Images/AI/" + demon.Type + ".png";
             demonImgAI[i].style.visibility = 'visible';
 
-            demonImgStar[i].src = "Images/Stars/" + demon.Rarity + ".png";
+            demonImgStar[i].src = "Dx2DB/Images/Stars/" + demon.Rarity + ".png";
             demonImgStar[i].style.visibility = 'visible';
 
             demonRace[i].innerHTML = "Race: " + demon.Race;
