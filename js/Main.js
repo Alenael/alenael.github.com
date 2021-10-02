@@ -8,6 +8,8 @@ var demonInfoData;
 var nullText = "-----------";
 var baseUrl = window.location.origin;
 
+var baseDBUrl = "https://alenael.github.io/";
+
 var maxTotalMitama = 20;
 
 var max1Mitama = 100;
@@ -582,7 +584,7 @@ function CreateURL() {
 
 function JsonLoader1() {
     //Load Skills
-    return $.getJSON("Dx2DB/csv/Skills.json", function (skills) {
+    return $.getJSON(baseDBUrl + "Dx2DB/csv/Skills.json", function (skills) {
         skillData = skills;
 
         LoadSkillControls();
@@ -591,7 +593,7 @@ function JsonLoader1() {
 
 function JsonLoader2() {
     //Load Demons
-    return $.getJSON("Dx2DB/csv/Demons.json", function (demons) {
+    return $.getJSON(baseDBUrl + "Dx2DB/csv/Demons.json", function (demons) {
         demonData = demons;
 
         LoadDemonControls();
@@ -600,7 +602,7 @@ function JsonLoader2() {
 
 //Load Liberators
 function JsonLoader3() {
-    return $.getJSON("Dx2DB/csv/Liberators.json",
+    return $.getJSON(baseDBUrl + "Dx2DB/csv/Liberators.json",
         function(liberators) {
             liberatorData = liberators;
 
@@ -619,7 +621,7 @@ function JsonLoader3() {
 
 function JsonLoader4() {
     //Load Demons Info
-    return $.getJSON("Dx2DB/csv/DemonInfo.json", function (info) {
+    return $.getJSON(baseDBUrl + "Dx2DB/csv/DemonInfo.json", function (info) {
         demonInfoData = info;
     });
 }
@@ -1249,8 +1251,7 @@ function SetupDemonControls(control) {
         var demon = GetDemon(demonsSel[i].value);
 
         if (demon != null) {
-
-            demonImages[i].src = "Dx2DB/Images/Demons/" + demon.Name.replace("☆", "") + ".jpg";
+            demonImages[i].src = baseDBUrl + "Dx2DB/Images/Demons/" + demon.Name.replace("☆", "") + ".jpg";
             demonImages[i].style.visibility = 'visible';
 
             var di = GetDemonInfo(demon.Name);
@@ -1268,13 +1269,13 @@ function SetupDemonControls(control) {
                 $(demonImgArchtype[i]).attr('data-original-title', "");
             }
 
-            demonImgArchtype[i].src = "Dx2DB/Images/Archtypes/" + $(demonArchtype[i]).val() + ".png";
+            demonImgArchtype[i].src = baseDBUrl + "Dx2DB/Images/Archtypes/" + $(demonArchtype[i]).val() + ".png";
             demonImgArchtype[i].style.visibility = 'visible';
 
-            demonImgAI[i].src = "Dx2DB/Images/AI/" + demon.Type + ".png";
+            demonImgAI[i].src = baseDBUrl + "Dx2DB/Images/AI/" + demon.Type + ".png";
             demonImgAI[i].style.visibility = 'visible';
 
-            demonImgStar[i].src = "Dx2DB/Images/Stars/" + demon.Rarity + ".png";
+            demonImgStar[i].src = baseDBUrl + "Dx2DB/Images/Stars/" + demon.Rarity + ".png";
             demonImgStar[i].style.visibility = 'visible';
 
             demonRace[i].innerHTML = "Race: " + demon.Race;
@@ -1339,7 +1340,7 @@ function UpdateAether() {
             AddAether(demon, aether, aetherTypes, "Soul");
 
             if (aether[0] != null) {
-                aether1Img[i].src = "Dx2DB/Images/Awakening/" + aetherTypes[0] + ".jpg";
+                aether1Img[i].src = baseDBUrl + "Dx2DB/Images/Awakening/" + aetherTypes[0] + ".jpg";
                 aether1[i].innerHTML = demon[aetherTypes[0]];
                 aether1Img[i].setAttribute('data-original-title', aetherTypes[0]);
                 aether1[i].style.visibility = 'visible';
@@ -1348,7 +1349,7 @@ function UpdateAether() {
             }
 
             if (aether[1] != null) {
-                aether2Img[i].src = "Dx2DB/Images/Awakening/" + aetherTypes[1] + ".jpg";
+                aether2Img[i].src = baseDBUrl + "Dx2DB/Images/Awakening/" + aetherTypes[1] + ".jpg";
                 aether2[i].innerHTML = demon[aetherTypes[1]];
                 aether2Img[i].setAttribute('data-original-title', aetherTypes[1]);
                 aether2[i].style.visibility = 'visible';
@@ -1357,7 +1358,7 @@ function UpdateAether() {
             }
 
             if (aether[2] != null) {
-                aether3Img[i].src = "Dx2DB/Images/Awakening/" + aetherTypes[2] + ".jpg";
+                aether3Img[i].src = baseDBUrl + "Dx2DB/Images/Awakening/" + aetherTypes[2] + ".jpg";
                 aether3[i].innerHTML = demon[aetherTypes[2]];
                 aether3Img[i].setAttribute('data-original-title', aetherTypes[2]);
                 aether3[i].style.visibility = 'visible';
@@ -1366,7 +1367,7 @@ function UpdateAether() {
             }
 
             if (aether[3] != null) {
-                aether4Img[i].src = "Dx2DB/Images/Awakening/" + aetherTypes[3] + ".jpg";
+                aether4Img[i].src = baseDBUrl + "Dx2DB/Images/Awakening/" + aetherTypes[3] + ".jpg";
                 aether4[i].innerHTML = demon[aetherTypes[3]];
                 aether4Img[i].setAttribute('data-original-title', aetherTypes[3]);
                 aether4[i].style.visibility = 'visible';
@@ -1767,7 +1768,7 @@ function ChangeLiberator() {
 
         document.getElementById("liberatorimage").setAttribute('data-original-title', lib["Skills"]);
         document.getElementById("liberatorimage").style.visibility = 'visible';
-        document.getElementById("liberatorimage").src = "Dx2DB/Images/Liberators/" + liberator + ".png";
+        document.getElementById("liberatorimage").src = baseDBUrl + "Dx2DB/Images/Liberators2/" + liberator + ".png";
     }
 
     $('#liberators').blur();
