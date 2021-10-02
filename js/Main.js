@@ -1,5 +1,5 @@
 ﻿var majorVer = 1; 
-var minorVer = .63;
+var minorVer = .64;
 
 var demonData;
 var skillData;
@@ -738,15 +738,15 @@ function CalculateStats() {
         if (demon !== null) {
             //Get our demons base stat values at 50..
             var demonHPStat = 0;
-            var demonVitStat = demon["6★ Vitality"];
+            var demonVitStat = parseInt(demon["6★ Vitality"]);
             var demonVitMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[2].children[1].value;
-            var demonStrStat = demon["6★ Strength"];
+            var demonStrStat = parseInt(demon["6★ Strength"]);
             var demonStrMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[0].children[1].value;
-            var demonAgiStat = demon["6★ Agility"];
+            var demonAgiStat = parseInt(demon["6★ Agility"]);
             var demonAgiMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[3].children[1].value;
-            var demonMagStat = demon["6★ Magic"];
+            var demonMagStat = parseInt(demon["6★ Magic"]);
             var demonMagMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[1].children[1].value;
-            var demonLuStat = demon["6★ Luck"];
+            var demonLuStat = parseInt(demon["6★ Luck"]);
             var demonLuMitama = demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[4].children[1].value;
             var demonPhysAtkStat = 0;
             var demonMagAtkStat = 0;
@@ -767,17 +767,17 @@ function CalculateStats() {
             
             if (liberator != null && liberator !== nullText) {
                 if (liberator.HP != "")
-                    hpPercent += liberator.HP;                                                
+                    hpPercent += parseInt(liberator.HP);                                                
                 if (liberator.St != "")
-                    demonStrStat += liberator.St;
+                    demonStrStat += parseInt(liberator.St);
                 if (liberator.Ma != "")
-                    demonMagStat += liberator.Ma;
+                    demonMagStat += parseInt(liberator.Ma);
                 if (liberator.Vi != "")
-                    demonVitStat += liberator.Vi;
+                    demonVitStat += parseInt(liberator.Vi);
                 if (liberator.Lu != "")
-                    demonLuStat += liberator.Lu;                
+                    demonLuStat += parseInt(liberator.Lu);                
                 if (liberator.Ag != "")
-                    demonAgiStat += liberator.Ag;
+                    demonAgiStat += parseInt(liberator.Ag);
             }
 
             GetDemon()
