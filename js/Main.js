@@ -16,11 +16,11 @@ var max3TotalMitama = 40;
 var max4TotalMitama = 20;
 var max5TotalMitama = 20;
 
-var max1Mitama = 340;
-var max2Mitama = 340;
-var max3Mitama = 260;
-var max4Mitama = 130;
-var max5Mitama = 130;
+var max1Mitama = 240;
+var max2Mitama = 240;
+var max3Mitama = 160;
+var max4Mitama = 80;
+var max5Mitama = 80;
 
 //Our Controls
 var demonsSel;
