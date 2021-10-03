@@ -1445,7 +1445,7 @@ function GetDemonSpeed(name, num) {
 
         //Add Mitama Agi        
         if (demon.MitamaAgi != null)
-            extraAgi += demon.MitamaAgi;
+            extraAgi += parseInt(demon.MitamaAgi);
 
         //Calculate Extra Agi
         if (GetSkillByArchtype(demon, $(demonArchtype[num]).val()) === "Agility Amp I" ||
@@ -1465,7 +1465,7 @@ function GetDemonSpeed(name, num) {
 
         //Add Ag from Liberator
         if (liberator != null && liberator !== nullText && liberator.Ag != "")
-            extraAgi += liberator.Ag;
+            extraAgi += parseInt(liberator.Ag);
 
         //Calculate extra percent
         if (demon["Skill 1"] === "Speedster" ||
@@ -1536,7 +1536,7 @@ function GetDemonSpeed(name, num) {
         if (demonEdit6[num].value == "speed")
             extraPercent += demonEditPercent[num * 6 + 5].value / 100;        
 
-        speed = Math.floor((demon["6★ Agility"] + extraAgi) * extraPercent);
+        speed = Math.floor((parseInt(demon["6★ Agility"]) + extraAgi) * extraPercent);
     }
 
     return speed;
