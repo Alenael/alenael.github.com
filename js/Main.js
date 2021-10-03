@@ -10,17 +10,13 @@ var baseUrl = window.location.origin;
 
 var baseDBUrl = "https://alenael.github.io/";
 
-var max1TotalMitama = 80;
-var max2TotalMitama = 80;
-var max3TotalMitama = 40;
-var max4TotalMitama = 20;
-var max5TotalMitama = 20;
+var maxTotalMitama = 20;
 
-var max1Mitama = 240;
-var max2Mitama = 240;
-var max3Mitama = 160;
-var max4Mitama = 80;
-var max5Mitama = 80;
+var max1Mitama = 100;
+var max2Mitama = 100;
+var max3Mitama = 100;
+var max4Mitama = 50;
+var max5Mitama = 50;
 
 //Our Controls
 var demonsSel;
@@ -2241,8 +2237,8 @@ function Max(control) {
         var totalMitama = GetCurrentMitama(control);
         var maxMitama = GetMaxMitama(demon);
 
-        if (totalMitama + GetIndividualMaxMitama(demon) <= maxMitama)
-            control.parentNode.children[1].value = GetIndividualMaxMitama(demon);
+        if (totalMitama + 20 <= maxMitama)
+            control.parentNode.children[1].value = "20";
         else if (parseInt(control.parentNode.children[1].value))
             control.parentNode.children[1].value = parseInt(control.parentNode.children[1].value) + (maxMitama - GetCurrentMitama(control))
         else
@@ -2271,25 +2267,6 @@ function UpdateMitama() {
             demonsSel[i].parentNode.parentNode.parentNode.children[4].children[3].children[0].children[5].children[1].innerHTML = "0";            
         }
     }
-}
-
-function GetIndividualMaxMitama(demon) {
-    if (demon != null) {
-        switch (parseInt(demon.Rarity)) {
-            case 5:
-                return max5TotalMitama;
-            case 4:
-                return max4TotalMitama;
-            case 3:
-                return max3TotalMitama;
-            case 2:
-                return max2TotalMitama;
-            case 1:
-                return max1TotalMitama;
-        }
-    }
-
-    return 0;
 }
 
 //Get max mitama allowed for a demon
