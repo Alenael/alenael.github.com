@@ -2273,7 +2273,7 @@ function UpdateMitama() {
 function GetMaxMitama(demon) {
 
     if (demon != null) {
-        switch (demon.Rarity) {
+        switch (parseInt(demon.Rarity)) {
             case 5:
                 return max5Mitama;
             case 4:
